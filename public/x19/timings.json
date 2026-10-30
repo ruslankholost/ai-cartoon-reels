@@ -1,0 +1,680 @@
+{
+ "model": "eleven_v4",
+ "target_lufs": -19.0,
+ "cast": {
+  "ROSS": {
+   "cast": {
+    "voice": "jack-tyler",
+    "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+    "account_name": "jack-tyler"
+   }
+  },
+  "MOM": {
+   "cast": {
+    "voice": "Sarah",
+    "voiceId": "EXAVITQu4vr4xnSDxMaL",
+    "account_name": "Sarah - Mature, Reassuring, Confident"
+   }
+  }
+ },
+ "takes": [
+  {
+   "id": "l01",
+   "n": 1,
+   "file": "x19/01-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Could you turn it down a bit?",
+   "say": "[polite] [raising his voice over loud music] Could you turn it down a bit?",
+   "source": "ross-1-jack-tyler/L01-t1",
+   "tempo": 1.1,
+   "dur": 1.604,
+   "end": 1.455,
+   "words": [
+    {
+     "w": "could",
+     "d": "Could",
+     "t": 0.03,
+     "e": 0.223
+    },
+    {
+     "w": "you",
+     "d": "you",
+     "t": 0.223,
+     "e": 0.34
+    },
+    {
+     "w": "turn",
+     "d": "turn",
+     "t": 0.442,
+     "e": 0.588
+    },
+    {
+     "w": "it",
+     "d": "it",
+     "t": 0.588,
+     "e": 0.71
+    },
+    {
+     "w": "down",
+     "d": "down",
+     "t": 0.843,
+     "e": 1.026
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 1.026,
+     "e": 1.098
+    },
+    {
+     "w": "bit",
+     "d": "bit?",
+     "t": 1.098,
+     "e": 1.455
+    }
+   ],
+   "voiced": [
+    [
+     0.03,
+     0.34
+    ],
+    [
+     0.38,
+     0.71
+    ],
+    [
+     0.75,
+     1.455
+    ]
+   ]
+  },
+  {
+   "id": "l02",
+   "n": 2,
+   "file": "x19/02-mom.mp3",
+   "character": "MOM",
+   "voice": "Sarah",
+   "voiceId": "EXAVITQu4vr4xnSDxMaL",
+   "text": "He needs it to eat.",
+   "say": "[dismissive] [distracted] He needs it to eat.",
+   "source": "mom-3-sarah/L02-t1",
+   "tempo": 1.1,
+   "dur": 1.528,
+   "end": 1.455,
+   "words": [
+    {
+     "w": "he",
+     "d": "He",
+     "t": 0.17,
+     "e": 0.466
+    },
+    {
+     "w": "needs",
+     "d": "needs",
+     "t": 0.466,
+     "e": 0.612
+    },
+    {
+     "w": "it",
+     "d": "it",
+     "t": 0.612,
+     "e": 0.722
+    },
+    {
+     "w": "to",
+     "d": "to",
+     "t": 0.722,
+     "e": 0.942
+    },
+    {
+     "w": "eat",
+     "d": "eat.",
+     "t": 0.942,
+     "e": 1.455
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.455
+    ]
+   ]
+  },
+  {
+   "id": "l03",
+   "n": 3,
+   "file": "x19/03-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "He's not eating.",
+   "say": "[flat] He's not eating.",
+   "source": "ross-1-jack-tyler/L03-t1",
+   "tempo": 1.0,
+   "dur": 1.365,
+   "end": 1.175,
+   "words": [
+    {
+     "w": "he's",
+     "d": "He's",
+     "t": 0.15,
+     "e": 0.405
+    },
+    {
+     "w": "not",
+     "d": "not",
+     "t": 0.405,
+     "e": 0.645
+    },
+    {
+     "w": "eating",
+     "d": "eating.",
+     "t": 0.645,
+     "e": 1.175
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.175
+    ]
+   ]
+  },
+  {
+   "id": "l04",
+   "n": 4,
+   "file": "x19/04-mom.mp3",
+   "character": "MOM",
+   "voice": "Sarah",
+   "voiceId": "EXAVITQu4vr4xnSDxMaL",
+   "text": "Do you have—",
+   "say": "[patronizing] [fast] Do you have—",
+   "source": "mom-3-sarah/L04-t3",
+   "tempo": 1.0,
+   "dur": 1.345,
+   "end": 1.095,
+   "words": [
+    {
+     "w": "do",
+     "d": "Do",
+     "t": 0.17,
+     "e": 0.4
+    },
+    {
+     "w": "you",
+     "d": "you",
+     "t": 0.4,
+     "e": 0.56
+    },
+    {
+     "w": "have",
+     "d": "have—",
+     "t": 0.56,
+     "e": 1.095
+    }
+   ],
+   "voiced": [
+    [
+     0.05,
+     1.095
+    ]
+   ]
+  },
+  {
+   "id": "l05",
+   "n": 5,
+   "file": "x19/05-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "...No.",
+   "say": "[deadpan] [quick] ...No.",
+   "source": "ross-1-jack-tyler/L05-t2",
+   "tempo": 1.0,
+   "dur": 0.8,
+   "end": 0.62,
+   "words": [
+    {
+     "w": "no",
+     "d": "...No.",
+     "t": 0.08,
+     "e": 0.62
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.62
+    ]
+   ]
+  },
+  {
+   "id": "l06",
+   "n": 6,
+   "file": "x19/06-mom.mp3",
+   "character": "MOM",
+   "voice": "Sarah",
+   "voiceId": "EXAVITQu4vr4xnSDxMaL",
+   "text": "Then you wouldn't understand.",
+   "say": "[dismissive] [knowing] Then you wouldn't understand.",
+   "source": "mom-3-sarah/L06-t3",
+   "tempo": 1.1,
+   "dur": 1.891,
+   "end": 1.675,
+   "words": [
+    {
+     "w": "then",
+     "d": "Then",
+     "t": 0.01,
+     "e": 0.425
+    },
+    {
+     "w": "you",
+     "d": "you",
+     "t": 0.425,
+     "e": 0.645
+    },
+    {
+     "w": "wouldn't",
+     "d": "wouldn't",
+     "t": 0.645,
+     "e": 0.865
+    },
+    {
+     "w": "understand",
+     "d": "understand.",
+     "t": 0.865,
+     "e": 1.675
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.675
+    ]
+   ]
+  },
+  {
+   "id": "l07",
+   "n": 7,
+   "file": "x19/07-mom.mp3",
+   "character": "MOM",
+   "voice": "Sarah",
+   "voiceId": "EXAVITQu4vr4xnSDxMaL",
+   "text": "No no no no NO!",
+   "say": "[frantic] No no no no NO!",
+   "source": "mom-3-sarah/L07-t3",
+   "tempo": 1.1,
+   "dur": 1.532,
+   "end": 1.43,
+   "words": [
+    {
+     "w": "no",
+     "d": "No",
+     "t": 0.0,
+     "e": 0.365
+    },
+    {
+     "w": "no",
+     "d": "no",
+     "t": 0.365,
+     "e": 0.511
+    },
+    {
+     "w": "no",
+     "d": "no",
+     "t": 0.511,
+     "e": 0.657
+    },
+    {
+     "w": "no",
+     "d": "no",
+     "t": 0.657,
+     "e": 0.876
+    },
+    {
+     "w": "no",
+     "d": "NO!",
+     "t": 0.876,
+     "e": 1.43
+    }
+   ],
+   "voiced": [
+    [
+     0.025,
+     1.43
+    ]
+   ]
+  },
+  {
+   "id": "l08",
+   "n": 8,
+   "file": "x19/08-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Headphones?",
+   "say": "[polite] [offering] Headphones?",
+   "source": "ross-1-jack-tyler/L08-t2",
+   "tempo": 1.0,
+   "dur": 0.975,
+   "end": 0.73,
+   "words": [
+    {
+     "w": "headphones",
+     "d": "Headphones?",
+     "t": 0.255,
+     "e": 0.73
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.73
+    ]
+   ]
+  },
+  {
+   "id": "l09",
+   "n": 9,
+   "file": "x19/09-mom.mp3",
+   "character": "MOM",
+   "voice": "Sarah",
+   "voiceId": "EXAVITQu4vr4xnSDxMaL",
+   "text": "He HATES headphones!",
+   "say": "[outraged] [loud] He HATES headphones!",
+   "source": "mom-3-sarah/L09-t2",
+   "tempo": 1.1,
+   "dur": 1.673,
+   "end": 1.525,
+   "words": [
+    {
+     "w": "he",
+     "d": "He",
+     "t": 0.03,
+     "e": 0.364
+    },
+    {
+     "w": "hates",
+     "d": "HATES",
+     "t": 0.364,
+     "e": 0.727
+    },
+    {
+     "w": "headphones",
+     "d": "headphones!",
+     "t": 0.727,
+     "e": 1.525
+    }
+   ],
+   "voiced": [
+    [
+     0.015,
+     1.525
+    ]
+   ]
+  },
+  {
+   "id": "l10",
+   "n": 10,
+   "file": "x19/10-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "...Popcorn?",
+   "say": "[cheerful] [businesslike] ...Popcorn?",
+   "source": "ross-1-jack-tyler/L10-t2",
+   "tempo": 1.0,
+   "dur": 0.875,
+   "end": 0.625,
+   "words": [
+    {
+     "w": "popcorn",
+     "d": "...Popcorn?",
+     "t": 0.068,
+     "e": 0.625
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.625
+    ]
+   ]
+  },
+  {
+   "id": "l11",
+   "n": 11,
+   "file": "x19/11-mom.mp3",
+   "character": "MOM",
+   "voice": "Sarah",
+   "voiceId": "EXAVITQu4vr4xnSDxMaL",
+   "text": "See? He's eating!",
+   "say": "[thrilled] [vindicated] See? He's eating!",
+   "source": "mom-3-sarah/L11-t3",
+   "tempo": 1.1,
+   "dur": 2.034,
+   "end": 1.79,
+   "words": [
+    {
+     "w": "see",
+     "d": "See?",
+     "t": 0.22,
+     "e": 0.67
+    },
+    {
+     "w": "he's",
+     "d": "He's",
+     "t": 0.903,
+     "e": 1.231
+    },
+    {
+     "w": "eating",
+     "d": "eating!",
+     "t": 1.231,
+     "e": 1.79
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.67
+    ],
+    [
+     0.715,
+     1.79
+    ]
+   ]
+  },
+  {
+   "id": "l12",
+   "n": 12,
+   "file": "x19/12-mom.mp3",
+   "character": "MOM",
+   "voice": "Sarah",
+   "voiceId": "EXAVITQu4vr4xnSDxMaL",
+   "text": "...Charger?",
+   "say": "[whispers] [panicked] ...Charger?",
+   "source": "mom-3-sarah/L12-t2",
+   "tempo": 1.0,
+   "dur": 1.215,
+   "end": 1.045,
+   "words": [
+    {
+     "w": "charger",
+     "d": "...Charger?",
+     "t": 0.015,
+     "e": 1.045
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.045
+    ]
+   ]
+  },
+  {
+   "id": "l13",
+   "n": 13,
+   "file": "x19/13-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Six fifty.",
+   "say": "[deadpan] [matter-of-fact] Six fifty.",
+   "source": "ross-1-jack-tyler/L13-t2",
+   "tempo": 1.0,
+   "dur": 1.32,
+   "end": 1.115,
+   "words": [
+    {
+     "w": "six",
+     "d": "Six",
+     "t": 0.2,
+     "e": 0.52
+    },
+    {
+     "w": "fifty",
+     "d": "fifty.",
+     "t": 0.52,
+     "e": 1.115
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.115
+    ]
+   ]
+  }
+ ],
+ "tableRead": {
+  "file": "out/x19-table-read.mp3",
+  "dur": 28.675,
+  "lufs": -16.0,
+  "gaps": {
+   "1": 0.3,
+   "2": 0.45,
+   "3": 0.25,
+   "4": 0.0,
+   "5": 0.3,
+   "6": 1.8,
+   "7": 0.8,
+   "8": 0.2,
+   "9": 3.0,
+   "10": 1.1,
+   "11": 3.0,
+   "12": 0.6
+  },
+  "cues": [
+   {
+    "n": 1,
+    "at": 1.47,
+    "speech": [
+     1.5,
+     2.925
+    ]
+   },
+   {
+    "n": 2,
+    "at": 3.165,
+    "speech": [
+     3.225,
+     4.62
+    ]
+   },
+   {
+    "n": 3,
+    "at": 5.01,
+    "speech": [
+     5.07,
+     6.185
+    ]
+   },
+   {
+    "n": 4,
+    "at": 6.385,
+    "speech": [
+     6.435,
+     7.48
+    ]
+   },
+   {
+    "n": 5,
+    "at": 7.42,
+    "speech": [
+     7.48,
+     8.04
+    ]
+   },
+   {
+    "n": 6,
+    "at": 8.28,
+    "speech": [
+     8.34,
+     9.955
+    ]
+   },
+   {
+    "n": 7,
+    "at": 11.73,
+    "speech": [
+     11.755,
+     13.16
+    ]
+   },
+   {
+    "n": 8,
+    "at": 13.9,
+    "speech": [
+     13.96,
+     14.63
+    ]
+   },
+   {
+    "n": 9,
+    "at": 14.815,
+    "speech": [
+     14.83,
+     16.34
+    ]
+   },
+   {
+    "n": 10,
+    "at": 19.28,
+    "speech": [
+     19.34,
+     19.905
+    ]
+   },
+   {
+    "n": 11,
+    "at": 20.945,
+    "speech": [
+     21.005,
+     22.735
+    ]
+   },
+   {
+    "n": 12,
+    "at": 25.675,
+    "speech": [
+     25.735,
+     26.72
+    ]
+   },
+   {
+    "n": 13,
+    "at": 27.26,
+    "speech": [
+     27.32,
+     28.375
+    ]
+   }
+  ],
+  "sfx": []
+ }
+}

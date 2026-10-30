@@ -1,0 +1,942 @@
+// Draft from the writers' room (scripts/writers-room.mjs, 2026-10-19); steps in scratch/room/free-estimate/. Not approved yet.
+{
+ "title": "Free Estimate",
+ "cast": {
+  "dave": 1,
+  "barb": 1,
+  "chad": 3,
+  "donna": 1
+ },
+ "refs": {
+  "dave": "cast/dave.png",
+  "barb": "cast/barb.png",
+  "chad": "cast/chad.png",
+  "donna": "cast/donna.png"
+ },
+ "lines": [
+  {
+   "n": 1,
+   "char": "dave",
+   "text": "Sorry I took the boat.",
+   "dirs": [
+    {
+     "t": "[flat] [sincere]",
+     "st": 0.5,
+     "sy": 0.2
+    },
+    {
+     "t": "[strained] [sincere]",
+     "st": 0.45,
+     "sy": 0.25
+    },
+    {
+     "t": "[through gritted teeth] [flat]",
+     "st": 0.5,
+     "sy": 0.2
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "char": "dave",
+   "text": "Marketing doesn't work.",
+   "dirs": [
+    {
+     "t": "[proud] [stubborn]",
+     "st": 0.4,
+     "sy": 0.45
+    },
+    {
+     "t": "[smug] [firm]",
+     "st": 0.4,
+     "sy": 0.4
+    },
+    {
+     "t": "[proud] [matter-of-fact]",
+     "st": 0.45,
+     "sy": 0.35
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "char": "barb",
+   "text": "Free for who?",
+   "dirs": [
+    {
+     "t": "[flat] [deadpan]",
+     "st": 0.5,
+     "sy": 0.15
+    },
+    {
+     "t": "[dry]",
+     "st": 0.5,
+     "sy": 0.1
+    },
+    {
+     "t": "[deadpan] [unimpressed]",
+     "st": 0.45,
+     "sy": 0.2
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "char": "donna",
+   "text": "Free even forty minutes out?",
+   "dirs": [
+    {
+     "t": "[chatty] [hopeful]",
+     "st": 0.35,
+     "sy": 0.5,
+     "text": "FREE even forty minutes out?"
+    },
+    {
+     "t": "[friendly] [curious]",
+     "st": 0.4,
+     "sy": 0.45,
+     "text": "FREE even forty minutes out?"
+    },
+    {
+     "t": "[chatty]",
+     "st": 0.35,
+     "sy": 0.5
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "char": "dave",
+   "text": "I'm coming.",
+   "dirs": [
+    {
+     "t": "[eager] [quick]",
+     "st": 0.35,
+     "sy": 0.5
+    },
+    {
+     "t": "[bright] [eager]",
+     "st": 0.4,
+     "sy": 0.45
+    },
+    {
+     "t": "[cheerful] [hurried]",
+     "st": 0.35,
+     "sy": 0.45
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "char": "donna",
+   "text": "Gary took the boat.",
+   "dirs": [
+    {
+     "t": "[bitter] [cheerful]",
+     "st": 0.4,
+     "sy": 0.45
+    },
+    {
+     "t": "[sarcastic] [sweet]",
+     "st": 0.4,
+     "sy": 0.45
+    },
+    {
+     "t": "[cheerful] [resentful]",
+     "st": 0.35,
+     "sy": 0.5
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "char": "donna",
+   "text": "I got the leak.",
+   "dirs": [
+    {
+     "t": "[nonchalant] [cheerful]",
+     "st": 0.4,
+     "sy": 0.45
+    },
+    {
+     "t": "[bright] [casual]",
+     "st": 0.4,
+     "sy": 0.4
+    },
+    {
+     "t": "[cheerful] [shrugging]",
+     "st": 0.35,
+     "sy": 0.45
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "char": "dave",
+   "text": "It's a washer. Ninety bucks.",
+   "dirs": [
+    {
+     "t": "[flat] [fast]",
+     "st": 0.5,
+     "sy": 0.2,
+     "text": "It's a washer, ninety bucks."
+    },
+    {
+     "t": "[bored] [matter-of-fact]",
+     "st": 0.5,
+     "sy": 0.2,
+     "text": "It's a washer, ninety bucks."
+    },
+    {
+     "t": "[tired] [quick]",
+     "st": 0.45,
+     "sy": 0.25
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "char": "donna",
+   "text": "I'll think about it!",
+   "dirs": [
+    {
+     "t": "[sweet] [bright]",
+     "st": 0.35,
+     "sy": 0.5
+    },
+    {
+     "t": "[cheerful] [sincere]",
+     "st": 0.4,
+     "sy": 0.45
+    },
+    {
+     "t": "[friendly]",
+     "st": 0.4,
+     "sy": 0.4
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "char": "dave",
+   "text": "What'll it take?",
+   "dirs": [
+    {
+     "t": "[tired] [persuasive]",
+     "st": 0.45,
+     "sy": 0.3
+    },
+    {
+     "t": "[weary] [matter-of-fact]",
+     "st": 0.5,
+     "sy": 0.2
+    },
+    {
+     "t": "[tired] [flat]",
+     "st": 0.5,
+     "sy": 0.2
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "char": "donna",
+   "text": "Say sorry in Gary's shirt.",
+   "dirs": [
+    {
+     "t": "[hopeful] [businesslike]",
+     "st": 0.4,
+     "sy": 0.4
+    },
+    {
+     "t": "[earnest] [quick]",
+     "st": 0.4,
+     "sy": 0.45
+    },
+    {
+     "t": "[hopeful] [matter-of-fact]",
+     "st": 0.45,
+     "sy": 0.35
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "char": "dave",
+   "text": "Sorry I took the boat.",
+   "dirs": [
+    {
+     "t": "[flat] [sincere]",
+     "st": 0.5,
+     "sy": 0.2
+    },
+    {
+     "t": "[strained] [sincere]",
+     "st": 0.45,
+     "sy": 0.25
+    },
+    {
+     "t": "[through gritted teeth] [flat]",
+     "st": 0.5,
+     "sy": 0.2
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "char": "donna",
+   "text": "I'll still think about it.",
+   "dirs": [
+    {
+     "t": "[teary] [sweet]",
+     "st": 0.35,
+     "sy": 0.5,
+     "text": "I'll STILL think about it."
+    },
+    {
+     "t": "[touched] [emotional]",
+     "st": 0.35,
+     "sy": 0.5,
+     "text": "I'll STILL think about it."
+    },
+    {
+     "t": "[tearful] [soft]",
+     "st": 0.4,
+     "sy": 0.45
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "char": "dave",
+   "text": "My fucking wrench.",
+   "bleep": [
+    1
+   ],
+   "dirs": [
+    {
+     "t": "[realizing] [groaning]",
+     "st": 0.4,
+     "sy": 0.4
+    },
+    {
+     "t": "[exasperated] [muttering]",
+     "st": 0.45,
+     "sy": 0.35
+    },
+    {
+     "t": "[frustrated]",
+     "st": 0.4,
+     "sy": 0.45
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "char": "chad",
+   "text": "This yours? Worked great.",
+   "dirs": [
+    {
+     "t": "[warm] [grateful]",
+     "st": 0.4,
+     "sy": 0.4
+    },
+    {
+     "t": "[friendly] [sincere]",
+     "st": 0.4,
+     "sy": 0.4
+    },
+    {
+     "t": "[cheerful] [thankful]",
+     "st": 0.4,
+     "sy": 0.45
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "char": "donna",
+   "text": "I thought about it.",
+   "dirs": [
+    {
+     "t": "[pleased] [kind]",
+     "st": 0.4,
+     "sy": 0.45
+    },
+    {
+     "t": "[cheerful] [sweet]",
+     "st": 0.35,
+     "sy": 0.5
+    },
+    {
+     "t": "[happy] [friendly]",
+     "st": 0.4,
+     "sy": 0.4
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "char": "barb",
+   "text": "New shirt?",
+   "dirs": [
+    {
+     "t": "[flat] [deadpan]",
+     "st": 0.5,
+     "sy": 0.15
+    },
+    {
+     "t": "[dry]",
+     "st": 0.5,
+     "sy": 0.1
+    },
+    {
+     "t": "[unimpressed]",
+     "st": 0.5,
+     "sy": 0.15
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "char": "dave",
+   "text": "It was free.",
+   "dirs": [
+    {
+     "t": "[defeated] [dry]",
+     "st": 0.5,
+     "sy": 0.2
+    },
+    {
+     "t": "[flat] [resigned]",
+     "st": 0.55,
+     "sy": 0.15
+    },
+    {
+     "t": "[deflated] [matter-of-fact]",
+     "st": 0.5,
+     "sy": 0.2
+    }
+   ]
+  }
+ ],
+ "tableSfx": [
+  {
+   "line": 2,
+   "from": "start",
+   "off": -0.25,
+   "sfx": "whoosh",
+   "gain": -6
+  },
+  {
+   "line": 3,
+   "from": "end",
+   "off": 0.15,
+   "sfx": "tape"
+  },
+  {
+   "line": 4,
+   "from": "start",
+   "off": -0.5,
+   "sfx": "ring",
+   "gain": -3
+  },
+  {
+   "line": 5,
+   "from": "end",
+   "off": 0.1,
+   "sfx": "engine",
+   "gain": -8
+  },
+  {
+   "line": 7,
+   "from": "end",
+   "off": 0.4,
+   "sfx": "drip"
+  },
+  {
+   "line": 7,
+   "from": "end",
+   "off": 2.25,
+   "sfx": "flip"
+  },
+  {
+   "line": 7,
+   "from": "end",
+   "off": 2.45,
+   "sfx": "snore",
+   "gain": -4
+  },
+  {
+   "line": 8,
+   "from": "end",
+   "off": 0.25,
+   "sfx": "clank",
+   "gain": -3
+  },
+  {
+   "line": 14,
+   "from": "start",
+   "off": -0.1,
+   "sfx": "engine",
+   "gain": -8
+  },
+  {
+   "line": 15,
+   "from": "start",
+   "off": -1.2,
+   "sfx": "brake",
+   "gain": -2
+  }
+ ],
+ "newSfx": [
+  {
+   "name": "drip",
+   "secs": 0.6,
+   "prompt": "a single slow drop of water plinking into an almost empty ceramic cereal bowl under a kitchen sink, quiet, close, no stream"
+  },
+  {
+   "name": "brake",
+   "secs": 1,
+   "prompt": "an old work van's worn brakes squeaking briefly as it rolls to a stop at a curb at night, engine idling, close"
+  }
+ ],
+ "stamps": [
+  {
+   "text": "THAT MORNING",
+   "cue": {
+    "line": 2,
+    "word": 0
+   },
+   "off": 0,
+   "dur": 0.8
+  },
+  {
+   "text": "40 MIN BACK",
+   "cue": {
+    "line": 15,
+    "word": 0
+   },
+   "off": -1.2,
+   "dur": 0.9
+  }
+ ],
+ "shots": [
+  {
+   "id": "s01",
+   "kind": "talk",
+   "who": "dave",
+   "cue": {
+    "line": 1,
+    "word": 0
+   },
+   "refs": [
+    "dave"
+   ],
+   "key": "Night, a living room lit warm from frame left by a table lamp with a cream shade. Medium close-up of the fat bald plumber with the little tuft of brown hair and the thick brown mustache, facing the camera. He wears a too-tight orange short-sleeve bowling shirt with a black collar and no writing, buttoned up over his blue overalls and white t-shirt, the blue overall bib and one strap showing through the gap between two straining buttons. The collar squeezes his double chin. One small grey smear of pipe grime is on his left cheek, the cheek at frame right. One bead of sweat sits at the top of his bald head. His chin is raised and his eyes are squeezed shut in a wince. His hands are out of frame. Behind his shoulder, soft and out of focus on a beige wall, hangs one big framed photo of a man in the same orange bowling shirt standing next to a white boat, no text. No other people are visible.",
+   "move": "slow push-in already moving from the first frame, he says it wincing with his eyes shut, flat and sincere, the bead of sweat stays where it is"
+  },
+  {
+   "id": "s02",
+   "kind": "talk",
+   "who": "dave",
+   "cue": {
+    "line": 1,
+    "word": 2
+   },
+   "refs": [
+    "dave"
+   ],
+   "key": "Night in the same living room. Keep the bowling shirt exactly as in the s01 keyframe. Close-up from a low three-quarter angle from his left side, warm lamp light falling on his face, the lamp itself out of frame. The fat bald plumber with the little tuft of brown hair and the thick brown mustache. He wears a too-tight orange short-sleeve bowling shirt with a black collar and no writing, buttoned up over his blue overalls and white t-shirt; the black collar squeezes his double chin, and at the bottom edge of the frame the blue overall bib shows through the gap between two straining buttons. One small grey smear of pipe grime is on his left cheek, the cheek nearer the camera. One bead of sweat sits at the top of his bald head. His eyes are squeezed shut in a wince and his chin is up. His hands are out of frame. Behind him is a soft beige wall.",
+   "move": "he finishes the apology with his eyes shut, wincing, his chin up"
+  },
+  {
+   "id": "s03",
+   "kind": "talk",
+   "who": "dave",
+   "cue": {
+    "line": 2,
+    "word": 0
+   },
+   "refs": [
+    "dave"
+   ],
+   "key": "Morning, a small suburban kitchen with yellow walls, white cabinets and a white fridge with fruit magnets, sun coming through plaid curtains. Medium shot of the fat bald plumber with the thick brown mustache in blue overalls over a white t-shirt, no other shirt. Both of his hands hold one big brown cardboard sign still at chest height; it fills the lower half of the frame. The sign reads FREE ESTIMATES, handwritten in thick black marker, with no other words. His chin is up, he looks proud, and his eyes look toward frame left. Keep the top third of the frame clear yellow wall.",
+   "move": "he says it proudly, looking to frame left, and lifts only his chin; the sign stays still at chest height in both hands so the letters stay readable"
+  },
+  {
+   "id": "s04",
+   "kind": "talk",
+   "who": "barb",
+   "cue": {
+    "line": 3,
+    "word": 0
+   },
+   "refs": [
+    "barb"
+   ],
+   "key": "Morning, a kitchen with yellow walls and plaid curtains, sunlight from the window. Medium close-up of the heavyset woman with brown hair in a bun and gold wire glasses, in a light blue turtleneck, a beige cardigan and a gold chain, sitting at a wooden table. An open ledger lies in front of her and both her hands rest flat on it. Next to the ledger one black smartphone lies face-up with a dark screen. She looks up over her glasses toward frame right, flat and unimpressed.",
+   "move": "she looks up over her glasses to the right and says it flatly, both hands still on the ledger"
+  },
+  {
+   "id": "s05",
+   "kind": "still",
+   "dur": 0.6,
+   "refs": [],
+   "key": "Morning sun at a small gas station. A wide shot of the side of a dented, faded blue work van parked beside one plain grey gas pump with no logos, no brand colors and no text. One brown cardboard sign is stuck on crooked under the van's door handle with four strips of silver duct tape. It is handwritten in big thick black marker: FREE ESTIMATES. The sign is cardboard, not vinyl or printed lettering, and has no other words. The van is blue, not white. No people."
+  },
+  {
+   "id": "s06",
+   "kind": "talk",
+   "who": "donna",
+   "cue": {
+    "line": 4,
+    "word": 0
+   },
+   "refs": [
+    "donna"
+   ],
+   "key": "Day, a beige kitchen with one sunny window at frame right. Medium close-up of the middle-aged woman with curly red hair in pink foam curlers and big gold hoop earrings, in a mint-green terrycloth bathrobe. Her left hand holds a black smartphone to her left ear. Her right hand is out of frame. She is chatty and hopeful, eyebrows up.",
+   "move": "she talks into the phone, chatty, leaning on the first word"
+  },
+  {
+   "id": "s07",
+   "kind": "talk",
+   "who": "donna",
+   "cue": {
+    "line": 4,
+    "word": 2
+   },
+   "refs": [
+    "donna"
+   ],
+   "key": "Day, a beige kitchen, one sunny window at frame right. Close-up from a slightly low three-quarter angle of the middle-aged woman with curly red hair in pink foam curlers and big gold hoop earrings, in a mint-green terrycloth bathrobe. Her left hand holds a black smartphone to her left ear. Her right hand is out of frame. She tilts her head, sweet and doubtful.",
+   "move": "she keeps talking into the phone, tilting her head"
+  },
+  {
+   "id": "s08",
+   "kind": "talk",
+   "who": "dave",
+   "cue": {
+    "line": 5,
+    "word": 0
+   },
+   "refs": [
+    "dave"
+   ],
+   "key": "Morning sun at a small gas station. Close-up of the fat bald plumber with the thick brown mustache in blue overalls over a white t-shirt, no other shirt, standing beside a dented, faded blue work van. His right hand holds a black smartphone to his right ear. Soft behind him are one plain grey gas pump with no logos or text and the brown cardboard FREE ESTIMATES sign taped under the van's door handle. He looks bright and eager, facing the camera.",
+   "move": "he answers quickly and eagerly into the phone, leaning forward, his head facing the camera"
+  },
+  {
+   "id": "s09",
+   "kind": "talk",
+   "who": "donna",
+   "cue": {
+    "line": 6,
+    "word": 0
+   },
+   "refs": [
+    "donna"
+   ],
+   "key": "Day, a sunny backyard with tall weeds, soft behind her. Close-up of the middle-aged woman with curly red hair in pink foam curlers and big gold hoop earrings, in a mint-green terrycloth bathrobe. Her right hand holds a white mug with a red lipstick mark at waist height. Her left hand is out of frame. She looks just past the lens toward frame left. Her smile is bitter-cheerful.",
+   "move": "she says the name with a tight, bitter smile"
+  },
+  {
+   "id": "s10",
+   "kind": "still",
+   "cue": {
+    "line": 6,
+    "word": 3
+   },
+   "dur": 0.9,
+   "refs": [],
+   "key": "Day, a sunny backyard. A wide insert of one empty metal boat trailer standing in tall weeds, next to a long oval bare patch of flattened dirt where the weeds do not grow. The trailer is empty, no boat anywhere in the frame. Far behind the weeds, past a low wooden fence, a dented, faded blue work van is parked at the curb. No people."
+  },
+  {
+   "id": "s11",
+   "kind": "talk",
+   "who": "donna",
+   "cue": {
+    "line": 7,
+    "word": 0
+   },
+   "refs": [
+    "donna"
+   ],
+   "key": "Day, a sunny backyard, weeds soft behind. Close-up from her right side of the middle-aged woman with curly red hair in pink foam curlers and big gold hoop earrings, in a mint-green terrycloth bathrobe. Her right hand holds a white mug with a red lipstick mark at chest height. Her left hand is out of frame. She is bright and casual.",
+   "move": "she shrugs and says it brightly, the mug held still at chest height in her right hand"
+  },
+  {
+   "id": "s12",
+   "kind": "still",
+   "dur": 0.9,
+   "refs": [],
+   "key": "Close-up insert inside an open white kitchen sink cabinet, lit by daylight from the kitchen. One single water drop hangs from one chrome pipe joint. Directly below it sits one white cereal bowl whose bottom has only a thin film of water, almost dry. Only one drop, no stream, no puddle, and the bowl is not full."
+  },
+  {
+   "id": "s13",
+   "kind": "still",
+   "dur": 1.4,
+   "refs": [
+    "dave",
+    "donna"
+   ],
+   "key": "Mid-afternoon in a living room, a window at frame left behind the couch letting in daylight with long warm shadows. A static medium-wide shot. The single focal point is one fat white photo album lying open on the plumber's lap, its pages bright in the window light, with one photo under the woman's fingertip. The fat bald plumber with the thick brown mustache, in blue overalls over a white t-shirt, sits on a floral couch, staring down at the album with heavy-lidded, almost-closed eyes, mouth closed. His hands rest on his thighs beside the album, away from the pages. On his left sits the middle-aged woman with curly red hair in pink foam curlers and big gold hoop earrings, in a mint-green terrycloth bathrobe, her face in profile looking down, mouth closed, her right index finger pressing on one photo in the album on his lap. On the wall behind them hangs one big framed photo of a man in an orange bowling shirt with a black collar standing next to a white boat, his face small and simple, no text. Beside the couch stands an empty side table with a table lamp with a cream shade, switched off. Nothing else on the side table. No clocks."
+  },
+  {
+   "id": "s14",
+   "kind": "still",
+   "dur": 1.2,
+   "refs": [
+    "dave",
+    "donna"
+   ],
+   "key": "Make this as an edit of the s13 keyframe, same framing, same couch, same window at frame left behind the couch, same wall photo. His face may drift here because it is turned away. Sunset in the same living room, deep orange light through that window. The table lamp with a cream shade beside the couch is now switched on. The fat bald plumber, in blue overalls over a white t-shirt and no orange shirt, is slumped sideways against the arm of the floral couch, asleep, his face turned away from camera, the fat white photo album open near its end on his lap. Beside him the middle-aged woman with curly red hair in pink foam curlers and big gold hoop earrings, in a mint-green terrycloth bathrobe, sits in profile looking down, her right index finger still on a photo. On the wall behind them hangs the same big framed photo of a man in an orange bowling shirt next to a white boat, no text. The side table that was empty now holds four fat white albums stacked next to three empty plain white mugs. No clocks."
+  },
+  {
+   "id": "s15",
+   "kind": "talk",
+   "who": "dave",
+   "cue": {
+    "line": 8,
+    "word": 0
+   },
+   "refs": [
+    "dave"
+   ],
+   "key": "Dusk, the ceiling light on in a beige kitchen. The camera sits inside an open white sink cabinet near the pipes, looking out. The fat bald plumber with the thick brown mustache, in blue overalls over a white t-shirt, kneels on the kitchen floor and leans his head and shoulders into the cabinet, his face upright, the cabinet's open doorway framing him. His chin is low in the frame, eyes open looking up at a chrome pipe joint. One small grey smear of pipe grime is on his left cheek, the cheek at frame right. His left hand holds a small black flashlight low at the bottom-left edge of the frame, away from his mouth, pointed up at the chrome pipe, and the light bouncing off the chrome lights his face. In the foreground at frame right, large and clear, one red-handled pipe wrench lies on the white cabinet floor; it is a red-handled pipe wrench, not pliers, a hammer or a phone. His right hand is out of frame.",
+   "move": "he says the quote flat and fast, eyes on the pipe, the flashlight steady, the wrench stays on the cabinet floor"
+  },
+  {
+   "id": "s16",
+   "kind": "talk",
+   "who": "dave",
+   "cue": {
+    "line": 8,
+    "word": 3
+   },
+   "refs": [
+    "dave"
+   ],
+   "key": "Dusk, the ceiling light on, inside an open white sink cabinet in a beige kitchen, the same inside position. A tight close-up of the whole face of the fat bald plumber with the thick brown mustache, eyebrows to chin, upright in the frame, the white t-shirt collar at the bottom edge. One small grey smear of pipe grime is on his left cheek, the cheek at frame right. One chrome pipe joint is soft in the foreground at frame top. Light bouncing off the pipe from his flashlight lights his face. His expression is bored and businesslike. His hands are out of frame.",
+   "move": "he finishes the quote, bored, the mustache moving with the words"
+  },
+  {
+   "id": "s18",
+   "kind": "talk",
+   "who": "donna",
+   "cue": {
+    "line": 9,
+    "word": 0
+   },
+   "refs": [
+    "donna"
+   ],
+   "key": "Dusk in a beige kitchen, the ceiling light on. Close-up of the middle-aged woman with curly red hair in pink foam curlers and big gold hoop earrings, in a mint-green terrycloth bathrobe, leaning on the kitchen counter. Her right hand holds a white mug with a red lipstick mark at chest height. Her left hand is out of frame. She smiles, sweet and sincere, looking down past the lens toward the open sink cabinet.",
+   "move": "she says the whole line sweetly with a bright smile, the mug held still at chest height"
+  },
+  {
+   "id": "s20",
+   "kind": "talk",
+   "who": "dave",
+   "cue": {
+    "line": 10,
+    "word": 0
+   },
+   "refs": [
+    "dave"
+   ],
+   "key": "Dusk at the open front door of a small house with beige siding, lit by a yellow porch light above the door. Medium shot of the fat bald plumber with the thick brown mustache in blue overalls over a white t-shirt, no other shirt, standing in the open doorway on his way out, the dusky street soft behind him. One small grey smear of pipe grime is on his left cheek, the cheek at frame right. His right hand holds one closed red toolbox by its handle, hanging down at his hip. His left hand is out of frame. He looks toward frame left at someone at his eye level inside the house, tired.",
+   "move": "he asks it, tired, no pleading, the toolbox hanging still at his hip"
+  },
+  {
+   "id": "s21",
+   "kind": "talk",
+   "who": "donna",
+   "cue": {
+    "line": 11,
+    "word": 0
+   },
+   "refs": [
+    "donna"
+   ],
+   "key": "Dusk in the front hallway of a small house, lit by a ceiling light, a beige wall behind her. Medium close-up at eye level of the middle-aged woman with curly red hair in pink foam curlers and big gold hoop earrings, in a mint-green terrycloth bathrobe, looking toward frame right at the open front door. One folded orange bowling shirt with a black collar and no writing lies flat on her open left palm at waist height, collar on top, facing camera, like a contract. Her right hand is out of frame. She is hopeful and businesslike.",
+   "move": "slow push toward the folded shirt while she talks, hopeful, the shirt stays flat and folded on her palm"
+  },
+  {
+   "id": "s22",
+   "kind": "talk",
+   "who": "donna",
+   "cue": {
+    "line": 11,
+    "word": 2
+   },
+   "refs": [
+    "donna"
+   ],
+   "key": "Dusk in the same front hallway under the ceiling light. A tighter close-up from slightly below of the middle-aged woman with curly red hair in pink foam curlers and big gold hoop earrings, in a mint-green terrycloth bathrobe, looking toward frame right. One folded orange bowling shirt with a black collar and no writing, lying flat on her left palm, fills the bottom of the frame in the foreground, collar on top. Her right hand is out of frame. She is earnest.",
+   "move": "she finishes the line, earnest, the shirt held steady and folded"
+  },
+  {
+   "id": "s23",
+   "kind": "still",
+   "dur": 0.6,
+   "refs": [
+    "dave",
+    "donna"
+   ],
+   "key": "Night in a living room, a table lamp with a cream shade at frame left lighting him warm. An over-the-shoulder shot from behind the middle-aged woman: in the soft bottom-left foreground is the back of her head with curly red hair in pink foam curlers and the shoulder of a mint-green terrycloth bathrobe. She faces him, away from the camera, no ear or cheek turned toward the lens; her face is not visible. Across from her, in focus, a medium shot of the fat bald plumber with the little tuft of brown hair and the thick brown mustache. He wears a too-tight orange short-sleeve bowling shirt with a black collar and no writing, buttoned up over his blue overalls and white t-shirt, the blue overall bib and one strap showing through the gap between two straining buttons. One small grey smear of pipe grime is on his left cheek, the cheek at frame right. One bead of sweat sits at the top of his bald head. His eyes are shut in a wince, his mouth pressed closed, his chin up. His hands are out of frame. Behind him on the beige wall hangs one big framed photo of a man in the same orange bowling shirt next to a white boat, no text. At frame right, soft, a side table holds four fat white albums stacked next to three empty plain white mugs."
+  },
+  {
+   "id": "s24",
+   "kind": "talk",
+   "who": "dave",
+   "cue": {
+    "line": 12,
+    "word": 0
+   },
+   "refs": [
+    "dave"
+   ],
+   "key": "Night in a living room. Keep the bowling shirt exactly as in the s01 keyframe. Close-up from a low three-quarter angle from his right side, warm lamp light falling on his face from frame left, the lamp itself out of frame. The fat bald plumber with the little tuft of brown hair and the thick brown mustache. He wears a too-tight orange short-sleeve bowling shirt with a black collar and no writing, buttoned up over his blue overalls and white t-shirt; the black collar squeezes his double chin, and at the bottom edge the blue overall bib shows through the gap between two straining buttons. The grime smear is on his far cheek, not visible from this side. One bead of sweat sits at the top of his bald head. His eyes are squeezed shut in a wince, his chin up like a man closing a sale. His hands are out of frame. Behind him is a soft beige wall with picture frames.",
+   "move": "he says the whole apology wincing with his eyes shut, flat and sincere, he does not cry"
+  },
+  {
+   "id": "s25",
+   "kind": "talk",
+   "who": "donna",
+   "cue": {
+    "line": 13,
+    "word": 0
+   },
+   "refs": [
+    "donna"
+   ],
+   "key": "Night in a living room lit by a table lamp with a cream shade. A tight close-up from a low three-quarter angle of the middle-aged woman with curly red hair in pink foam curlers and big gold hoop earrings, in a mint-green terrycloth bathrobe. Her eyes are wet and shiny, no tear on her cheek, and she looks touched. Her hands are out of frame.",
+   "move": "she talks, teary and sweet, eyes shiny, no tear runs"
+  },
+  {
+   "id": "s26",
+   "kind": "talk",
+   "who": "donna",
+   "cue": {
+    "line": 13,
+    "word": 2
+   },
+   "refs": [
+    "donna"
+   ],
+   "key": "Night in a living room. Close-up from her other side of the middle-aged woman with curly red hair in pink foam curlers and big gold hoop earrings, in a mint-green terrycloth bathrobe, with a table lamp with a cream shade soft behind her. Her eyes are wet and shiny, with no single tear. She smiles kindly, touched. Her hands are out of frame.",
+   "move": "she finishes the line, teary and kind, eyes shiny"
+  },
+  {
+   "id": "s27",
+   "kind": "talk",
+   "who": "dave",
+   "cue": {
+    "line": 14,
+    "word": 0
+   },
+   "refs": [
+    "dave"
+   ],
+   "key": "Night inside the dented, faded blue work van, a medium shot from the passenger side, blue paint visible on the driver's door frame behind him. Keep the bowling shirt exactly as in the s01 keyframe. Through the windshield, the headlights light a dark two-lane road, with one lit mailbox and a house porch light ahead at frame right. The dashboard lights light his face from below. The fat bald plumber with the thick brown mustache drives, wearing a too-tight orange short-sleeve bowling shirt with a black collar and no writing, buttoned up over his blue overalls and white t-shirt, the blue overall bib and one strap showing through the gap between two straining buttons. One small grey smear of pipe grime is on his left cheek. His left hand is on the steering wheel and his right hand is out of frame. His eyes look down toward the passenger seat, which is below the frame.",
+   "move": "his eyes drop to the passenger seat and he says it through his teeth, his left hand stays on the wheel"
+  },
+  {
+   "id": "s27b",
+   "kind": "still",
+   "cue": {
+    "line": 14,
+    "word": 2
+   },
+   "dur": 0.8,
+   "refs": [],
+   "key": "Night, a top-down close-up of one open red toolbox sitting on the grey passenger seat of a work van, lit by the dashboard light from the side. Inside it is a grey foam insert over a bright red base. Three yellow-handled screwdrivers lie side by side in their slots. Next to them is one empty wrench-shaped hole cut through the grey foam, showing the bright red base, with nothing inside the hole. No hands, no wrench anywhere in the frame."
+  },
+  {
+   "id": "s28",
+   "kind": "still",
+   "dur": 1.3,
+   "refs": [],
+   "key": "Night, a static wide shot of a small house with beige siding under a yellow porch light, a small porch, the front door open, and through it a lamp-lit beige wall with picture frames inside. One spotless white van with no writing is parked squarely at the door, headlights off, clean and bright in the porch light. At the curb behind it, one dented, faded blue work van has just pulled up, its two headlights on and shining forward along the curb, away from the camera. One crooked plain brown cardboard rectangle is taped under its door handle with silver duct tape, no letters visible at this distance. One dark figure in an orange shirt stands beside the blue van, seen from behind, small in frame, facing the porch. Exactly two vans, one white and one blue, not two white vans."
+  },
+  {
+   "id": "s29",
+   "kind": "talk",
+   "who": "chad",
+   "cue": {
+    "line": 15,
+    "word": 0
+   },
+   "refs": [
+    "chad"
+   ],
+   "key": "Night on a small porch under a yellow porch light, beige siding behind him. Medium close-up of the tanned muscular man with swept blond hair and a big white smile, in a cream polo shirt with a navy collar and a small anchor logo. His right hand holds one red-handled pipe wrench at chest height, clear of his chin, turned sideways so the whole wrench shows in profile. It is a red-handled pipe wrench, not a hammer or pliers. His left hand is out of frame. He looks down past the lens toward frame left, down the porch steps toward the street.",
+   "move": "he holds the wrench still at chest height and talks, warm and grateful, looking down toward the street"
+  },
+  {
+   "id": "s30",
+   "kind": "talk",
+   "who": "chad",
+   "cue": {
+    "line": 15,
+    "word": 2
+   },
+   "refs": [
+    "chad"
+   ],
+   "key": "Night on a porch under a yellow porch light. Close-up of the tanned muscular man with swept blond hair, in a cream polo shirt with a navy collar and a small anchor logo, smiling a big white sincere smile. He looks down past the lens toward frame left, toward the street. His hands are out of frame. Beige siding behind him.",
+   "move": "he says it with a warm, sincere smile, looking down toward the street"
+  },
+  {
+   "id": "s31",
+   "kind": "talk",
+   "who": "donna",
+   "cue": {
+    "line": 16,
+    "word": 0
+   },
+   "refs": [
+    "donna"
+   ],
+   "key": "Night, a lit front doorway under a yellow porch light. Close-up of the middle-aged woman with curly red hair in pink foam curlers and big gold hoop earrings, in a mint-green terrycloth bathrobe, her left shoulder leaning on the door frame. Her right hand holds a white mug with a red lipstick mark still at chest height, below her chin. Warm lamp light from inside the house behind her. She looks past the lens toward frame left, toward the street, cheerful and pleased.",
+   "move": "she tilts her head a little toward frame left and says it kindly, the mug stays still below her chin"
+  },
+  {
+   "id": "s32",
+   "kind": "talk",
+   "who": "barb",
+   "cue": {
+    "line": 17,
+    "word": 0
+   },
+   "refs": [
+    "barb"
+   ],
+   "key": "Night, a kitchen with yellow walls under the ceiling light, the window behind the plaid curtains dark. Close-up of the heavyset woman with brown hair in a bun and gold wire glasses, in a light blue turtleneck, a beige cardigan and a gold chain, sitting at a wooden table with a closed ledger in front of her. Her hands rest flat on the ledger. She looks over her glasses toward frame right, flat.",
+   "move": "she looks over her glasses to the right and says it flatly, hands still"
+  },
+  {
+   "id": "s33",
+   "kind": "talk",
+   "who": "dave",
+   "cue": {
+    "line": 18,
+    "word": 0
+   },
+   "refs": [
+    "dave"
+   ],
+   "key": "Night, a kitchen with yellow walls and a white fridge with fruit magnets under the ceiling light, the window behind the plaid curtains dark. Keep the bowling shirt as in the s01 keyframe, except for the open collar. Waist-up medium shot of the fat bald plumber with the thick brown mustache, standing turned toward frame left. A too-tight orange short-sleeve bowling shirt with a black collar and no writing is buttoned over his blue overalls and white t-shirt, with the top two buttons undone and the white t-shirt showing in a V under the black collar. One small grey smear of pipe grime is on his left cheek. His shoulders slump, his head is tipped down and his eyes are on the open collar. His right hand holds one red-handled pipe wrench hanging down at his hip, low in frame, not a hammer or pliers. His left hand is out of frame.",
+   "move": "he says it dry and defeated, head tipped down, eyes on the open collar; the clip ends on the last word and the edit holds that last frame as a 0.5 s freeze before the cut to black"
+  }
+ ],
+ "endcard": {
+  "dur": 3.5,
+  "lines": [
+   "Send this to the guy who drove 40 min",
+   "for \"I'll think about it.\""
+  ]
+ }
+}

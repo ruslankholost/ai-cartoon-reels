@@ -1,0 +1,100 @@
+// "Cold Lips" v3 (id "lips3"; script v3, 2026-10-23, docs/x06-cold-lips.md "Script v3"): she throws her coffee on Denise and threatens a bad review, wants her money and a tip she never left back, Todd hands her Denise's tips, the kiss cuts her off at "kiss my...", one star, the usual at 6 AM.
+// Format: see scripts/voice-gen.mjs (lines, directions) and scripts/voice-build.py (cast, plan, gaps, lead, tableSfx). The order of "lines" is the story's order; the numbers are the story's order too.
+// Take k of a line uses direction k. Ross 10-23: "more expression", so the new lines go lower on stability and higher on style than v2.
+// Lines 10-13 are v2's lines with v2's numbers: their takes t1-t3 are copied from scratch/voice-raw/lips; lines 10 and 11 get new takes t4-t6 with more expression.
+{
+ "title": "Cold Lips v3",
+ "cast": {"denise": 1, "customer": 2, "todd": 2},
+ "runnerUp": {},
+ "lines": [
+// frame one: the coffee hits Denise; the customer screams over the splash, phone aimed like a gun
+  {"n": 1, "char": "customer", "text": "Too hot! I'm leaving a bad review!", "dirs": [
+   {"t": "[screaming] [furious]", "st": 0.25, "sy": 0.7},
+   {"t": "[shrieking] [enraged]", "st": 0.2, "sy": 0.75},
+   {"t": "[yelling] [outraged] [shrill]", "st": 0.25, "sy": 0.7},
+   {"t": "[screaming] [livid]", "st": 0.3, "sy": 0.65, "text": "TOO HOT! I'm leaving a BAD review!"},
+   {"t": "[furious] [shouting]", "st": 0.3, "sy": 0.6},
+   {"t": "[hysterical] [screaming]", "st": 0.2, "sy": 0.75}
+  ]},
+// Todd lands on his knees in the puddle and dabs the one drop on her shoe
+  {"n": 2, "char": "todd", "text": "Ma'am! Did any get on you?", "dirs": [
+   {"t": "[panicked] [high-pitched] [breathless]", "st": 0.25, "sy": 0.6},
+   {"t": "[frantic] [fussing] [terrified]", "st": 0.25, "sy": 0.6},
+   {"t": "[horrified] [overeager] [voice cracking]", "st": 0.3, "sy": 0.55}
+  ]},
+// calm and slow again
+  {"n": 3, "char": "customer", "text": "I want my money back.", "dirs": [
+   {"t": "[cold] [slow] [menacing]", "st": 0.35, "sy": 0.5},
+   {"t": "[icy] [entitled] [slow]", "st": 0.35, "sy": 0.55},
+   {"t": "[calm] [cruel]", "st": 0.4, "sy": 0.5}
+  ]},
+  {"n": 4, "char": "customer", "text": "And my tip.", "dirs": [
+   {"t": "[cold] [pointed]", "st": 0.35, "sy": 0.5},
+   {"t": "[entitled] [icy]", "st": 0.35, "sy": 0.55},
+   {"t": "[smug] [slow]", "st": 0.4, "sy": 0.5}
+  ]},
+  {"n": 5, "char": "denise", "text": "You didn't tip.", "dirs": [
+   {"t": "[deadpan] [through gritted teeth]", "st": 0.4, "sy": 0.35},
+   {"t": "[flat] [restrained anger]", "st": 0.4, "sy": 0.4},
+   {"t": "[dry] [weary] [incredulous]", "st": 0.45, "sy": 0.35}
+  ]},
+  {"n": 6, "char": "customer", "text": "I tipped in my head.", "dirs": [
+   {"t": "[matter-of-fact] [smug]", "st": 0.35, "sy": 0.55},
+   {"t": "[condescending] [slow]", "st": 0.35, "sy": 0.55},
+   {"t": "[self-satisfied] [cold]", "st": 0.4, "sy": 0.5}
+  ]},
+// Todd pours the DENISE / TIPS jar into her purse; the dog ends up in coins to its eyes
+  {"n": 7, "char": "todd", "text": "Take Denise's!", "dirs": [
+   {"t": "[frantic] [eager]", "st": 0.25, "sy": 0.6},
+   {"t": "[panicked] [overeager] [loud]", "st": 0.25, "sy": 0.65},
+   {"t": "[desperate] [bright] [breathless]", "st": 0.3, "sy": 0.55}
+  ]},
+  {"n": 8, "char": "customer", "text": "I make better coffee at home.", "dirs": [
+   {"t": "[condescending] [disdainful]", "st": 0.35, "sy": 0.55},
+   {"t": "[haughty] [slow] [sneering]", "st": 0.35, "sy": 0.6},
+   {"t": "[bored] [superior]", "st": 0.4, "sy": 0.5}
+  ]},
+  {"n": 9, "char": "denise", "text": "Then why are you here?", "dirs": [
+   {"t": "[deadpan] [snapping]", "st": 0.4, "sy": 0.4},
+   {"t": "[flat] [exasperated]", "st": 0.4, "sy": 0.4},
+   {"t": "[dry] [genuinely asking]", "st": 0.45, "sy": 0.35}
+  ]},
+// Todd clamps a hand over Denise's mouth (v2 line 10; t1-t3 from v2, t4-t6 new)
+  {"n": 10, "char": "todd", "text": "Ma'am, anything!", "dirs": [
+   {"t": "[desperate] [pleading]", "st": 0.3, "sy": 0.5},
+   {"t": "[begging] [panicked]", "st": 0.3, "sy": 0.5},
+   {"t": "[frantic] [whimpering]", "st": 0.35, "sy": 0.45},
+   {"t": "[begging] [voice cracking] [desperate]", "st": 0.2, "sy": 0.7},
+   {"t": "[shrieking] [pleading]", "st": 0.2, "sy": 0.75},
+   {"t": "[sobbing] [desperate]", "st": 0.25, "sy": 0.7}
+  ]},
+// the kiss cuts her off: the take is cut before "ass" with "to" (v2 line 11; t1-t3 from v2, t4-t6 new)
+  {"n": 11, "char": "customer", "text": "Anything? What, you gonna kiss my ass?", "dirs": [
+   {"t": "[sarcastic] [mocking]", "st": 0.35, "sy": 0.45},
+   {"t": "[condescending] [sneering]", "st": 0.4, "sy": 0.4},
+   {"t": "[amused] [cold] [mocking]", "st": 0.4, "sy": 0.4},
+   {"t": "[scoffing] [mocking] [slow]", "st": 0.3, "sy": 0.6},
+   {"t": "[cruel] [amused] [sneering]", "st": 0.3, "sy": 0.65},
+   {"t": "[laughs] [sarcastic]", "st": 0.3, "sy": 0.6}
+  ]},
+// after the kiss, and the next morning (v2 lines 12 and 13, v2 takes)
+  {"n": 12, "char": "customer", "text": "Cold lips.", "dirs": [
+   {"t": "[flat] [unimpressed]", "st": 0.5, "sy": 0.25},
+   {"t": "[deadpan] [disappointed]", "st": 0.5, "sy": 0.25},
+   {"t": "[bored] [matter-of-fact]", "st": 0.45, "sy": 0.3}
+  ]},
+  {"n": 13, "char": "customer", "text": "The usual.", "dirs": [
+   {"t": "[curt] [brisk]", "st": 0.45, "sy": 0.3},
+   {"t": "[cold] [clipped]", "st": 0.45, "sy": 0.35},
+   {"t": "[imperious] [flat]", "st": 0.5, "sy": 0.25}
+  ]}
+ ],
+// the plan is set after voice-analyze and voice-check (docs/x06-cold-lips.md, Script v3 build notes)
+ "plan": {},
+// lead: the scream starts over the splash in frame one
+ "lead": 0.15,
+// gaps (after the line named, s): 1: Todd flies over the counter and lands in the puddle; 6: he grabs the jar; 7: the pour and the dog in coins; 9: the glare and the hand over Denise's mouth;
+// 11: the knee drop, the kiss, the frozen shop and the dog's gasp (as v2); 12: the review held readable, then the next morning's door (as v2); 13: the turn and the hair dryer under the share line (as v2). The rest are tight.
+ "gaps": {"1": 0.6, "2": 0.15, "3": 0.15, "4": 0.1, "5": 0.15, "6": 0.25, "7": 0.7, "8": 0.1, "9": 0.6, "10": 0.1, "11": 1.8, "12": 3.2, "13": 2.5},
+ "tableSfx": []
+}

@@ -1,0 +1,103 @@
+// x17 "Seat Swap" (script v2, 2026-10-27, docs/x17-seat-swap.md). Ross 10-27: "now make the next cartoon ... just see it through to the end and send me the finished reel, from a viral script"; pitch 2 of docs/ideas-viral-2026-10.md (the plane seat swap, the biggest fight in our TikTok search).
+// Ross paid for window seat 12A; a honeymoon couple asks him to swap, a support peacock takes his middle seat, the attendant sucks him out onto the wing and charges him for the legroom; he blows, the pilot takes the wing and hands him the plane, and the couple pops up again.
+// Ross is jack-tyler (as in x08-x16), the bride Jessica, the groom Will, the flight attendant Bella, the pilot Brian. No swearing in this one.
+// The couple's "Hiii!" is two lines said together (2 and 3, 13 and 14): a negative gap puts the groom's take on the bride's.
+// Format: see scripts/voice-gen.mjs (lines, directions) and scripts/voice-build.py (cast, plan, gaps, lead, tableSfx). Take k of a line uses direction k.
+{
+ "title": "Seat Swap",
+ "cast": {"ross": 1, "bride": 1, "groom": 1, "fa": 1, "pilot": 1},
+ "runnerUp": {},
+ "lines": [
+// cheek on the window, blissful, the boarding pass on his tray
+  {"n": 1, "char": "ross", "text": "Window seat.", "dirs": [
+   {"t": "[blissful] [content sigh]", "st": 0.45, "sy": 0.5},
+   {"t": "[happy] [relaxed]", "st": 0.45, "sy": 0.45},
+   {"t": "[dreamy] [satisfied]", "st": 0.4, "sy": 0.55}
+  ]},
+// two heads pop over the seat in front, too close, creepy-wide smiles
+  {"n": 2, "char": "bride", "text": "Hiii!", "dirs": [
+   {"t": "[sing-song] [overly sweet]", "st": 0.4, "sy": 0.6},
+   {"t": "[excited] [bubbly]", "st": 0.35, "sy": 0.65},
+   {"t": "[cheerful] [high-pitched]", "st": 0.4, "sy": 0.6}
+  ]},
+  {"n": 3, "char": "groom", "text": "Hiii!", "dirs": [
+   {"t": "[sing-song] [overly friendly]", "st": 0.4, "sy": 0.6},
+   {"t": "[excited] [goofy]", "st": 0.35, "sy": 0.65},
+   {"t": "[cheerful] [eager]", "st": 0.4, "sy": 0.6}
+  ]},
+// sweet, the honeymoon card played
+  {"n": 4, "char": "bride", "text": "Would you swap with us? It's our honeymoon.", "dirs": [
+   {"t": "[sweet] [pleading]", "st": 0.45, "sy": 0.5},
+   {"t": "[cute] [begging]", "st": 0.4, "sy": 0.55},
+   {"t": "[bubbly] [entitled]", "st": 0.45, "sy": 0.5}
+  ]},
+// the eye twitches; he hates it and says yes
+  {"n": 5, "char": "ross", "text": "...Sure.", "dirs": [
+   {"t": "[forced] [strained]", "st": 0.5, "sy": 0.4},
+   {"t": "[reluctant] [through gritted teeth]", "st": 0.5, "sy": 0.4},
+   {"t": "[defeated] [quiet]", "st": 0.55, "sy": 0.35}
+  ]},
+// row 47, the frozen airline smile, the peacock behind her
+  {"n": 6, "char": "fa", "text": "Sir? His support peacock needs a seat.", "dirs": [
+   {"t": "[cheerful] [customer service]", "st": 0.45, "sy": 0.5},
+   {"t": "[polite] [overly bright]", "st": 0.45, "sy": 0.5},
+   {"t": "[professional] [sweet]", "st": 0.5, "sy": 0.45}
+  ]},
+// flat, a vein on his forehead, the tail in his face
+  {"n": 7, "char": "ross", "text": "It's a bird.", "dirs": [
+   {"t": "[flat] [deadpan]", "st": 0.55, "sy": 0.3},
+   {"t": "[exasperated] [dry]", "st": 0.5, "sy": 0.4},
+   {"t": "[through gritted teeth] [flat]", "st": 0.55, "sy": 0.35}
+  ]},
+// she pulls the emergency exit's handle and gestures out like a waiter
+  {"n": 8, "char": "fa", "text": "We found you something with a view!", "dirs": [
+   {"t": "[cheerful] [overly helpful]", "st": 0.4, "sy": 0.55},
+   {"t": "[bright] [proud]", "st": 0.4, "sy": 0.55},
+   {"t": "[sweet] [sales pitch]", "st": 0.45, "sy": 0.5}
+  ]},
+// leaning out of the exit into the wind, smile frozen
+  {"n": 9, "char": "fa", "text": "Legroom's thirty-nine ninety-nine!", "dirs": [
+   {"t": "[cheerful] [shouting over wind]", "st": 0.4, "sy": 0.55},
+   {"t": "[chipper] [loud]", "st": 0.4, "sy": 0.55},
+   {"t": "[bright] [projecting]", "st": 0.45, "sy": 0.5}
+  ]},
+// on the wing, pointing at window 12A, the couple kissing behind it
+  {"n": 10, "char": "ross", "text": "I PAID FOR THAT WINDOW!", "dirs": [
+   {"t": "[furious] [shouting]", "st": 0.35, "sy": 0.7},
+   {"t": "[enraged] [screaming]", "st": 0.3, "sy": 0.75},
+   {"t": "[livid] [yelling at the top of his lungs]", "st": 0.3, "sy": 0.75}
+  ]},
+// the pilot sits down on the wing with a drink and stretches his legs
+  {"n": 11, "char": "pilot", "text": "Ahh. Legroom.", "dirs": [
+   {"t": "[relaxed] [content sigh]", "st": 0.5, "sy": 0.4},
+   {"t": "[satisfied] [lazy]", "st": 0.5, "sy": 0.4},
+   {"t": "[blissful] [deep sigh]", "st": 0.45, "sy": 0.45}
+  ]},
+// in the captain's seat, the hat on, cheek on the windshield, steam curling out of his ears
+  {"n": 12, "char": "ross", "text": "Window seat.", "dirs": [
+   {"t": "[deadpan] [flat]", "st": 0.55, "sy": 0.3},
+   {"t": "[dead inside] [monotone]", "st": 0.6, "sy": 0.25},
+   {"t": "[numb] [quiet]", "st": 0.55, "sy": 0.3}
+  ]},
+// the couple pops over his headrest; it loops
+  {"n": 13, "char": "bride", "text": "Hiii!", "dirs": [
+   {"t": "[sing-song] [overly sweet]", "st": 0.4, "sy": 0.6},
+   {"t": "[excited] [bubbly]", "st": 0.35, "sy": 0.65},
+   {"t": "[cheerful] [high-pitched]", "st": 0.4, "sy": 0.6}
+  ]},
+  {"n": 14, "char": "groom", "text": "Hiii!", "dirs": [
+   {"t": "[sing-song] [overly friendly]", "st": 0.4, "sy": 0.6},
+   {"t": "[excited] [goofy]", "st": 0.35, "sy": 0.65},
+   {"t": "[cheerful] [eager]", "st": 0.4, "sy": 0.6}
+  ]}
+ ],
+// takes picked from voice-analyze and Whisper (all 42 heard; the DIFFs are spellings: "Hi" for "Hiii", "Leg rooms" for "Legroom's"): the quickest "Window seat." for the hook, the groom's low goofy "Hiii!",
+// "...Sure." through gritted teeth, the flattest "It's a bird.", the screamed "THAT WINDOW!" with the widest range, the pilot's lazy sigh without the double "Ah"
+ "plan": {"1": {"t": 2, "rate": 1.1}, "2": {"t": 2}, "3": {"t": 3}, "4": {"t": 1, "rate": 1.15}, "5": {"t": 2, "rate": 1.1}, "6": {"t": 2, "rate": 1.15}, "7": {"t": 1, "rate": 1.1}, "8": {"t": 1, "rate": 1.05}, "9": {"t": 2, "rate": 1.1}, "10": {"t": 2}, "11": {"t": 2}, "12": {"t": 1}, "13": {"t": 2}, "14": {"t": 3}},
+// lead and gaps place the speech on the reel's clock: the label, the drop and the seatbelt click before line 1; the couple pops right on "it"; the groom's "Hiii!" on the bride's (negative gap);
+// the 47E pass and the twitch after 4; the cut to row 47 and the FLUSH after 5; the tail and the vein after 6; the handle and the door after 7; the WHOOSH and the wing after 8;
+// the purple, the corks, the kettle and the pilot stepping out after 10; the hat and the cockpit after 11; the pop after 12
+ "lead": 0.35,
+ "gaps": {"1": 0.05, "2": -0.75, "3": 0.25, "4": 0.7, "5": 0.9, "6": 0.6, "7": 0.55, "8": 1.0, "9": 0.2, "10": 1.6, "11": 1.0, "12": 0.35, "13": -0.9},
+ "tableSfx": []
+}

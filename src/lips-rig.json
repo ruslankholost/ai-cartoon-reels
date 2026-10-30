@@ -1,0 +1,1300 @@
+{
+ "src": [
+  768,
+  1344
+ ],
+ "customer": {
+  "pivot": [
+   378.0,
+   467.0
+  ],
+  "disc": [
+   377.6,
+   329.4,
+   131.7
+  ],
+  "layers": {
+   "head": {
+    "file": "sp/lips-customer-head.png",
+    "x": 187,
+    "y": 56,
+    "w": 384,
+    "h": 433
+   },
+   "body": {
+    "file": "sp/lips-customer-body-stand.png",
+    "x": 186,
+    "y": 405,
+    "w": 377,
+    "h": 885
+   }
+  },
+  "eyes": [
+   {
+    "cx": 330.5,
+    "cy": 316.0,
+    "rx": 50.0,
+    "ry": 54.5,
+    "lid": [
+     [
+      321,
+      258
+     ],
+     [
+      311,
+      261
+     ],
+     [
+      303,
+      265
+     ],
+     [
+      291,
+      276
+     ],
+     [
+      286,
+      283
+     ],
+     [
+      279,
+      299
+     ],
+     [
+      279,
+      304
+     ],
+     [
+      277,
+      311
+     ],
+     [
+      278,
+      335
+     ],
+     [
+      281,
+      345
+     ],
+     [
+      287,
+      356
+     ],
+     [
+      298,
+      366
+     ],
+     [
+      305,
+      370
+     ],
+     [
+      316,
+      373
+     ],
+     [
+      341,
+      373
+     ],
+     [
+      346,
+      372
+     ],
+     [
+      359,
+      366
+     ],
+     [
+      371,
+      355
+     ],
+     [
+      376,
+      347
+     ],
+     [
+      382,
+      331
+     ],
+     [
+      382,
+      326
+     ],
+     [
+      383,
+      325
+     ],
+     [
+      383,
+      299
+     ],
+     [
+      381,
+      290
+     ],
+     [
+      376,
+      278
+     ],
+     [
+      362,
+      264
+     ],
+     [
+      354,
+      260
+     ],
+     [
+      346,
+      258
+     ]
+    ]
+   },
+   {
+    "cx": 430.0,
+    "cy": 316.0,
+    "rx": 49.5,
+    "ry": 54.5,
+    "lid": [
+     [
+      403,
+      261
+     ],
+     [
+      390,
+      270
+     ],
+     [
+      384,
+      278
+     ],
+     [
+      378,
+      293
+     ],
+     [
+      377,
+      298
+     ],
+     [
+      377,
+      325
+     ],
+     [
+      382,
+      342
+     ],
+     [
+      390,
+      355
+     ],
+     [
+      399,
+      364
+     ],
+     [
+      412,
+      371
+     ],
+     [
+      419,
+      373
+     ],
+     [
+      446,
+      373
+     ],
+     [
+      453,
+      371
+     ],
+     [
+      461,
+      367
+     ],
+     [
+      473,
+      356
+     ],
+     [
+      479,
+      344
+     ],
+     [
+      482,
+      330
+     ],
+     [
+      482,
+      310
+     ],
+     [
+      477,
+      290
+     ],
+     [
+      470,
+      278
+     ],
+     [
+      464,
+      271
+     ],
+     [
+      456,
+      265
+     ],
+     [
+      446,
+      260
+     ],
+     [
+      438,
+      258
+     ],
+     [
+      413,
+      258
+     ]
+    ]
+   }
+  ],
+  "pupils": [
+   [
+    351.9,
+    315.0,
+    6.4
+   ],
+   [
+    406.9,
+    315.0,
+    6.5
+   ]
+  ],
+  "mouth": {
+   "cx": 378.5,
+   "cy": 423.5,
+   "w": 51.0
+  },
+  "mouthW": 58,
+  "face": "#ffd598",
+  "white": "#fdfdfb",
+  "pupilInk": "#000000",
+  "outline": "#c2ac88",
+  "ink": "#0b0b05",
+  "bodies": {
+   "stand": {
+    "file": "sp/lips-customer-body-stand.png",
+    "x": 186,
+    "y": 405,
+    "w": 377,
+    "h": 885
+   },
+   "rat": {
+    "file": "sp/lips-customer-body-rat.png",
+    "x": 5,
+    "y": 416,
+    "w": 526,
+    "h": 796
+   },
+   "phone": {
+    "file": "sp/lips-customer-body-phone.png",
+    "x": 145,
+    "y": 413,
+    "w": 411,
+    "h": 886
+   }
+  },
+  "brows": [
+   [
+    [
+     282,
+     264.5,
+     2
+    ],
+    [
+     286,
+     263.0,
+     5
+    ],
+    [
+     290,
+     261.5,
+     6
+    ],
+    [
+     294,
+     259.5,
+     6
+    ],
+    [
+     298,
+     258.5,
+     6
+    ],
+    [
+     302,
+     256.5,
+     6
+    ],
+    [
+     306,
+     255.5,
+     6
+    ],
+    [
+     310,
+     254.5,
+     6
+    ],
+    [
+     314,
+     253.5,
+     6
+    ],
+    [
+     318,
+     253.0,
+     7
+    ],
+    [
+     322,
+     253.0,
+     6
+    ],
+    [
+     326,
+     252.7,
+     7
+    ],
+    [
+     330,
+     252.7,
+     7
+    ],
+    [
+     334,
+     252.0,
+     6
+    ],
+    [
+     338,
+     251.5,
+     6
+    ],
+    [
+     342,
+     251.5,
+     8
+    ],
+    [
+     346,
+     251.8,
+     8
+    ],
+    [
+     350,
+     252.8,
+     7
+    ],
+    [
+     354,
+     252.5,
+     8
+    ],
+    [
+     358,
+     254.0,
+     5
+    ]
+   ],
+   [
+    [
+     399,
+     255.5,
+     2
+    ],
+    [
+     403,
+     253.0,
+     7
+    ],
+    [
+     407,
+     252.3,
+     7
+    ],
+    [
+     411,
+     251.8,
+     8
+    ],
+    [
+     415,
+     251.5,
+     8
+    ],
+    [
+     419,
+     251.2,
+     7
+    ],
+    [
+     423,
+     251.0,
+     7
+    ],
+    [
+     427,
+     251.0,
+     7
+    ],
+    [
+     431,
+     252.0,
+     6
+    ],
+    [
+     435,
+     252.2,
+     7
+    ],
+    [
+     439,
+     252.0,
+     7
+    ],
+    [
+     443,
+     252.6,
+     6
+    ],
+    [
+     447,
+     253.5,
+     6
+    ],
+    [
+     451,
+     254.5,
+     6
+    ],
+    [
+     455,
+     255.5,
+     6
+    ],
+    [
+     459,
+     256.5,
+     6
+    ],
+    [
+     463,
+     258.5,
+     6
+    ],
+    [
+     467,
+     259.5,
+     6
+    ],
+    [
+     471,
+     261.5,
+     6
+    ],
+    [
+     475,
+     263.0,
+     5
+    ]
+   ]
+  ],
+  "browColour": "#2f1400",
+  "purse": {
+   "stand": {
+    "x": 459.5,
+    "y": 835,
+    "w": 110,
+    "inner": [
+     411,
+     802,
+     508,
+     835
+    ]
+   },
+   "rat": {
+    "x": 439.5,
+    "y": 842,
+    "w": 113,
+    "inner": [
+     395,
+     819,
+     484,
+     842
+    ]
+   },
+   "phone": {
+    "x": 445.0,
+    "y": 830,
+    "w": 106,
+    "inner": [
+     405,
+     802,
+     485,
+     830
+    ]
+   }
+  }
+ },
+ "todd": {
+  "pivot": [
+   392.0,
+   592.0
+  ],
+  "disc": [
+   391.5,
+   404.6,
+   181.4
+  ],
+  "layers": {
+   "head": {
+    "file": "sp/lips-todd-head.png",
+    "x": 193,
+    "y": 165,
+    "w": 400,
+    "h": 428
+   },
+   "body": {
+    "file": "sp/lips-todd-body-point.png",
+    "x": 37,
+    "y": 530,
+    "w": 564,
+    "h": 482
+   }
+  },
+  "eyes": [
+   {
+    "cx": 342.0,
+    "cy": 409.5,
+    "rx": 51.5,
+    "ry": 57.0,
+    "lid": [
+     [
+      370,
+      352
+     ],
+     [
+      359,
+      349
+     ],
+     [
+      339,
+      349
+     ],
+     [
+      324,
+      353
+     ],
+     [
+      322,
+      355
+     ],
+     [
+      320,
+      355
+     ],
+     [
+      318,
+      358
+     ],
+     [
+      311,
+      361
+     ],
+     [
+      302,
+      370
+     ],
+     [
+      292,
+      386
+     ],
+     [
+      289,
+      395
+     ],
+     [
+      287,
+      405
+     ],
+     [
+      287,
+      426
+     ],
+     [
+      288,
+      427
+     ],
+     [
+      288,
+      433
+     ],
+     [
+      294,
+      448
+     ],
+     [
+      298,
+      454
+     ],
+     [
+      307,
+      462
+     ],
+     [
+      317,
+      467
+     ],
+     [
+      327,
+      469
+     ],
+     [
+      351,
+      468
+     ],
+     [
+      364,
+      463
+     ],
+     [
+      372,
+      458
+     ],
+     [
+      385,
+      444
+     ],
+     [
+      386,
+      440
+     ],
+     [
+      391,
+      433
+     ],
+     [
+      396,
+      415
+     ],
+     [
+      396,
+      390
+     ],
+     [
+      393,
+      377
+     ],
+     [
+      391,
+      375
+     ],
+     [
+      390,
+      370
+     ],
+     [
+      380,
+      358
+     ]
+    ]
+   },
+   {
+    "cx": 444.5,
+    "cy": 409.5,
+    "rx": 52.0,
+    "ry": 57.0,
+    "lid": [
+     [
+      419,
+      351
+     ],
+     [
+      411,
+      355
+     ],
+     [
+      401,
+      363
+     ],
+     [
+      395,
+      372
+     ],
+     [
+      390,
+      387
+     ],
+     [
+      389,
+      414
+     ],
+     [
+      392,
+      428
+     ],
+     [
+      396,
+      435
+     ],
+     [
+      396,
+      437
+     ],
+     [
+      408,
+      454
+     ],
+     [
+      417,
+      461
+     ],
+     [
+      427,
+      466
+     ],
+     [
+      437,
+      469
+     ],
+     [
+      463,
+      469
+     ],
+     [
+      474,
+      465
+     ],
+     [
+      481,
+      461
+     ],
+     [
+      489,
+      453
+     ],
+     [
+      495,
+      443
+     ],
+     [
+      497,
+      433
+     ],
+     [
+      499,
+      430
+     ],
+     [
+      499,
+      400
+     ],
+     [
+      493,
+      382
+     ],
+     [
+      486,
+      371
+     ],
+     [
+      475,
+      360
+     ],
+     [
+      460,
+      352
+     ],
+     [
+      447,
+      349
+     ],
+     [
+      429,
+      349
+     ]
+    ]
+   }
+  ],
+  "pupils": [
+   [
+    371.3,
+    411.9,
+    6.5
+   ],
+   [
+    414.5,
+    412.1,
+    6.4
+   ]
+  ],
+  "mouth": {
+   "cx": 394.5,
+   "cy": 536.0,
+   "w": 45.0
+  },
+  "mouthW": 64,
+  "face": "#fedca3",
+  "white": "#fcfdf8",
+  "pupilInk": "#000000",
+  "outline": "#c2b89f",
+  "ink": "#503e23",
+  "bodies": {
+   "point": {
+    "file": "sp/lips-todd-body-point.png",
+    "x": 37,
+    "y": 530,
+    "w": 564,
+    "h": 482
+   },
+   "beg": {
+    "file": "sp/lips-todd-body-beg.png",
+    "x": 16,
+    "y": 512,
+    "w": 746,
+    "h": 630
+   },
+   "kneel": {
+    "file": "sp/lips-todd-body-kneel.png",
+    "x": 127,
+    "y": 513,
+    "w": 525,
+    "h": 662
+   },
+   "jump": {
+    "file": "sp/lips-todd-body-jump.png",
+    "x": 4,
+    "y": 508,
+    "w": 699,
+    "h": 644
+   },
+   "dryer": {
+    "file": "sp/lips-todd-body-dryer.png",
+    "x": 48,
+    "y": 470,
+    "w": 594,
+    "h": 464
+   }
+  },
+  "brows": [
+   [
+    [
+     293,
+     363.0,
+     1
+    ],
+    [
+     297,
+     361.0,
+     3
+    ],
+    [
+     301,
+     359.0,
+     3
+    ],
+    [
+     305,
+     357.5,
+     4
+    ],
+    [
+     309,
+     355.5,
+     4
+    ],
+    [
+     313,
+     354.0,
+     5
+    ],
+    [
+     317,
+     353.0,
+     5
+    ],
+    [
+     321,
+     351.0,
+     5
+    ],
+    [
+     325,
+     349.5,
+     4
+    ],
+    [
+     329,
+     348.5,
+     4
+    ],
+    [
+     333,
+     347.0,
+     5
+    ],
+    [
+     337,
+     346.0,
+     5
+    ],
+    [
+     341,
+     345.5,
+     6
+    ],
+    [
+     345,
+     345.0,
+     7
+    ],
+    [
+     349,
+     344.0,
+     7
+    ],
+    [
+     353,
+     342.0,
+     7
+    ],
+    [
+     357,
+     341.0,
+     7
+    ],
+    [
+     361,
+     339.5,
+     6
+    ],
+    [
+     365,
+     338.0,
+     7
+    ],
+    [
+     369,
+     336.0,
+     7
+    ],
+    [
+     373,
+     333.5,
+     6
+    ],
+    [
+     377,
+     329.0,
+     1
+    ]
+   ],
+   [
+    [
+     407,
+     329.5,
+     2
+    ],
+    [
+     411,
+     332.5,
+     6
+    ],
+    [
+     415,
+     335.5,
+     6
+    ],
+    [
+     419,
+     337.0,
+     7
+    ],
+    [
+     423,
+     339.0,
+     7
+    ],
+    [
+     427,
+     340.5,
+     8
+    ],
+    [
+     431,
+     342.0,
+     7
+    ],
+    [
+     435,
+     343.0,
+     7
+    ],
+    [
+     439,
+     344.0,
+     7
+    ],
+    [
+     443,
+     345.0,
+     7
+    ],
+    [
+     447,
+     346.0,
+     5
+    ],
+    [
+     451,
+     346.5,
+     4
+    ],
+    [
+     455,
+     347.5,
+     4
+    ],
+    [
+     459,
+     348.5,
+     4
+    ],
+    [
+     463,
+     350.0,
+     3
+    ],
+    [
+     467,
+     351.5,
+     4
+    ],
+    [
+     471,
+     353.5,
+     4
+    ],
+    [
+     475,
+     355.0,
+     5
+    ],
+    [
+     479,
+     356.5,
+     4
+    ],
+    [
+     483,
+     357.5,
+     4
+    ],
+    [
+     487,
+     359.5,
+     4
+    ],
+    [
+     491,
+     361.5,
+     2
+    ]
+   ]
+  ],
+  "browColour": "#482e0c",
+  "badge": {
+   "point": [
+    461.5,
+    675.5,
+    67.0,
+    41.0,
+    0.0
+   ],
+   "beg": [
+    484.5,
+    673.0,
+    75.0,
+    56.0,
+    0.0
+   ],
+   "kneel": [
+    490.0,
+    700.0,
+    86.0,
+    54.0,
+    0.0
+   ],
+   "jump": [
+    484.0,
+    668.0,
+    60.0,
+    28.0,
+    0.0
+   ],
+   "dryer": [
+    475.5,
+    692.0,
+    83.0,
+    50.0,
+    0.0
+   ]
+  },
+  "dryer": {
+   "tip": [
+    284.0,
+    518.2
+   ],
+   "box": [
+    54,
+    470,
+    284,
+    617
+   ],
+   "waist": 934
+  }
+ },
+ "side": {
+  "customer": {
+   "file": "sp/lips-customer-side.png",
+   "w": 424,
+   "h": 1233,
+   "feet": 1229,
+   "height": 1225,
+   "src": "customer-side-71",
+   "head": {
+    "face": 294,
+    "faceFront": 290,
+    "ratio": 1.014
+   },
+   "seat": [
+    367.0,
+    871.0
+   ],
+   "purse": {
+    "x": 155.5,
+    "y": 843,
+    "w": 117,
+    "inner": [
+     113,
+     818,
+     198,
+     843
+    ]
+   }
+  },
+  "todd": {
+   "file": "sp/lips-todd-side.png",
+   "w": 794,
+   "h": 805,
+   "feet": 802,
+   "height": 798,
+   "src": "todd-side-73",
+   "head": {
+    "face": 378,
+    "faceFront": 377,
+    "ratio": 1.003,
+    "circle": [
+     239.0,
+     247.7,
+     189.2
+    ],
+    "rFront": 181.4,
+    "ratioCircle": 1.043
+   },
+   "lips": [
+    6.0,
+    299.5
+   ]
+  },
+  "kneel": {
+   "E": 1.05,
+   "tE": 0.85,
+   "herFeet": 1342.2,
+   "herSeatUp": 375.9,
+   "hisLipsUp": 427.1,
+   "floorDelta": 51.2,
+   "tEOneFloor": 0.748
+  }
+ },
+ "props": {
+  "doc": "Pieces of \"Cold Lips\" (scripts/lips-art-gen.py, scripts/lips-prep.py); this text is props.doc. Puppets (customer, todd) are cut like tip-rig.json's: ONE head (the master's) and a body picture per pose, all in px of the 768x1344 master picture, y down; pivot = the neck. customer.purse[pose] = where the dog goes, in the same px: x, y = the middle of the front edge of the purse's opening (the dog's paws rest on it), w = the purse's outer width just under that edge, inner = [x0, back, x1, front] of the dark inside. todd.badge[pose] = [cx, cy, w, h, angle] of the plain black badge (angle in degrees, 0 = level, clockwise positive; the code writes TODD / MANAGER on it); todd.dryer = box and tip = the nozzle's furthest visible pink pixel in the 'dryer' body (the dryer points at his mouth from the side, so toward +x), waist = the row where that body ends: it is cut off under his belt, 'from the waist up'. props.dog = three pictures of one size and one place (files.neutral, sour, gasp; w, h = their size; anchor = [x, y] in their px: the middle of the paws' span and the bottom edge of the paws, which goes on purse.x, purse.y; paws = [x0, x1] the paws' span at the bottom; fit = how sour and gasp were registered on neutral). props.stripBack = the counter of the plate as a foreground strip (from y0). side = the two profile pieces of the kiss (shot 13), both facing the LEFT of the picture, each one whole-body cut-out in px of its own png (y down), as big as its front master's pictures, so draw it at the scale of the front puppet of the shot: side.customer, side.todd = file, w, h, feet = the y of the feet / floor line, height = the silhouette's, src = the picture it was cut from, head = {face, faceFront, ratio}: the height of the face's skin against the front master's (1 = the same; draw the piece at scale / ratio to match the heads), todd.head also circle [cx, cy, r] through the front outline and rFront, ratioCircle against the master's disc; customer.seat = [x, y] the rearmost point of her coat, where the lips land; customer.purse = {x, y, w, inner} like customer.purse[pose] (the dog goes there: props.dog.anchor on x, y); todd.lips = [x, y] the front tip of his pucker; side.kneel = what that makes at the kneeling shot's scales (src/lips-layout.ts KNEEL, read when this was made), in frame px: herFeet, herSeatUp, hisLipsUp = the heights above the feet of her seat and of his lips, floorDelta = his floor minus hers with his lips on her seat, tEOneFloor = the Todd scale that puts them on one floor. scenes.cafeBack = the plate lips-bg-cafeBack.jpg: frame and door = the doorway's outer frame and its empty opening [x0, y0, x1, y1] (the glass door is drawn in code, as in src/tip-scenes.tsx CafeDoor), window, floor = where the floor meets the wall panelling, counterTop = the counter's far edge (the foreground strip starts there), lip = its front edge.",
+  "dog": {
+   "files": {
+    "neutral": "sp/lips-dog-neutral.png",
+    "sour": "sp/lips-dog-sour.png",
+    "gasp": "sp/lips-dog-gasp.png"
+   },
+   "w": 529,
+   "h": 522,
+   "anchor": [
+    268.0,
+    516.0
+   ],
+   "paws": [
+    137,
+    399
+   ],
+   "fit": {
+    "sour": {
+     "iou": 0.924,
+     "scale": 0.955,
+     "shift": [
+      14.9,
+      12.6
+     ]
+    },
+    "gasp": {
+     "iou": 0.964,
+     "scale": 1.0,
+     "shift": [
+      0.6,
+      0.3
+     ]
+    }
+   }
+  },
+  "stripBack": {
+   "file": "sp/lips-fg-cafeBack.png",
+   "y0": 1024
+  }
+ },
+ "scenes": {
+  "cafeBack": {
+   "frame": [
+    267,
+    375,
+    512,
+    931
+   ],
+   "door": [
+    293,
+    403,
+    485,
+    925
+   ],
+   "window": [
+    0,
+    299,
+    162,
+    741
+   ],
+   "floor": 930,
+   "counterTop": 1024,
+   "lip": 1095,
+   "file": "sp/lips-bg-cafeBack.jpg"
+  }
+ }
+}

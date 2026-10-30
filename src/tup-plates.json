@@ -1,0 +1,84 @@
+{
+ "doc": "Cut from existing pictures by scripts/tup-plates.py. bowlFront: the front lip of public/sp/tup-bowl.png (same size, same place). stacks: the seven stacks of the 1949 store, plate px (x0, y0 = the top left of the picture, top/bottom = the stack's own rows).",
+ "bowlFront": {
+  "file": "sp/tup-bowl-front.png",
+  "opening": [
+   488.5,
+   131.5,
+   443.0,
+   107.5
+  ]
+ },
+ "stacks": [
+  {
+   "file": "sp/tup-stack-1.png",
+   "x0": 100,
+   "y0": 522,
+   "w": 97,
+   "h": 206,
+   "top": 526,
+   "bottom": 725
+  },
+  {
+   "file": "sp/tup-stack-2.png",
+   "x0": 197,
+   "y0": 522,
+   "w": 94,
+   "h": 206,
+   "top": 530,
+   "bottom": 725
+  },
+  {
+   "file": "sp/tup-stack-3.png",
+   "x0": 291,
+   "y0": 522,
+   "w": 91,
+   "h": 206,
+   "top": 551,
+   "bottom": 725
+  },
+  {
+   "file": "sp/tup-stack-4.png",
+   "x0": 382,
+   "y0": 522,
+   "w": 86,
+   "h": 206,
+   "top": 556,
+   "bottom": 725
+  },
+  {
+   "file": "sp/tup-stack-5.png",
+   "x0": 468,
+   "y0": 522,
+   "w": 89,
+   "h": 206,
+   "top": 530,
+   "bottom": 725
+  },
+  {
+   "file": "sp/tup-stack-6.png",
+   "x0": 557,
+   "y0": 522,
+   "w": 91,
+   "h": 206,
+   "top": 524,
+   "bottom": 725
+  },
+  {
+   "file": "sp/tup-stack-7.png",
+   "x0": 648,
+   "y0": 522,
+   "w": 97,
+   "h": 206,
+   "top": 530,
+   "bottom": 725
+  }
+ ],
+ "emptyPlate": "sp/tup-bg-storeEmpty.jpg",
+ "counter": 713,
+ "carry": {
+  "file": "sp/tup-stack-carry.png",
+  "w": 91,
+  "h": 52
+ }
+}

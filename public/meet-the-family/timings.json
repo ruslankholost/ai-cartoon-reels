@@ -1,0 +1,1607 @@
+{
+ "model": "eleven_v4",
+ "target_lufs": -19.0,
+ "cast": {
+  "PHANTOM": {
+   "cast": {
+    "voice": "Brian",
+    "voiceId": "nPczCjzI2devNBz1zQrb",
+    "account_name": "Brian - Deep, Resonant and Comforting"
+   }
+  },
+  "SARAH": {
+   "cast": {
+    "voice": "Matilda",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "account_name": "Matilda - Knowledgable, Professional"
+   }
+  },
+  "DAVE": {
+   "cast": {
+    "voice": "Callum",
+    "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+    "account_name": "Callum - Husky Trickster"
+   }
+  },
+  "LISA": {
+   "cast": {
+    "voice": "Jessica",
+    "voiceId": "cgSgspJ2msm6clMCkdW9",
+    "account_name": "Jessica - Playful, Bright, Warm"
+   }
+  },
+  "CHAD": {
+   "cast": {
+    "voice": "Eric",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "account_name": "Eric - Smooth, Trustworthy"
+   }
+  }
+ },
+ "takes": [
+  {
+   "id": "l01",
+   "n": 1,
+   "file": "meet-the-family/01-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "I'm Phantom.",
+   "say": "[deadpan] [dry] I'm Phantom.",
+   "source": "phantom-1-brian/L01-t1",
+   "tempo": 1.0,
+   "dur": 1.12,
+   "end": 0.87,
+   "words": [
+    {
+     "w": "i'm",
+     "d": "I'm",
+     "t": 0.114,
+     "e": 0.29
+    },
+    {
+     "w": "phantom",
+     "d": "Phantom.",
+     "t": 0.29,
+     "e": 0.87
+    }
+   ],
+   "voiced": [
+    [
+     0.055,
+     0.87
+    ]
+   ]
+  },
+  {
+   "id": "l02",
+   "n": 2,
+   "file": "meet-the-family/02-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "The only one in this house with a brain.",
+   "say": "[deadpan] [dry] The only one in this house... with a brain.",
+   "source": "phantom-1-brian/L02-t1",
+   "tempo": 1.0,
+   "dur": 2.915,
+   "end": 2.79,
+   "words": [
+    {
+     "w": "the",
+     "d": "The",
+     "t": 0.115,
+     "e": 0.275
+    },
+    {
+     "w": "only",
+     "d": "only",
+     "t": 0.275,
+     "e": 0.595
+    },
+    {
+     "w": "one",
+     "d": "one",
+     "t": 0.595,
+     "e": 0.755
+    },
+    {
+     "w": "in",
+     "d": "in",
+     "t": 0.755,
+     "e": 0.915
+    },
+    {
+     "w": "this",
+     "d": "this",
+     "t": 0.915,
+     "e": 1.075
+    },
+    {
+     "w": "house",
+     "d": "house...",
+     "t": 1.075,
+     "e": 1.77
+    },
+    {
+     "w": "with",
+     "d": "with",
+     "t": 1.955,
+     "e": 2.155
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 2.155,
+     "e": 2.275
+    },
+    {
+     "w": "brain",
+     "d": "brain.",
+     "t": 2.275,
+     "e": 2.79
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.77
+    ],
+    [
+     1.955,
+     2.79
+    ]
+   ]
+  },
+  {
+   "id": "l03",
+   "n": 3,
+   "file": "meet-the-family/03-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "This is my family.",
+   "say": "[resigned] [dry] This is my family.",
+   "source": "phantom-1-brian/L03-t1",
+   "tempo": 1.0,
+   "dur": 1.97,
+   "end": 1.72,
+   "words": [
+    {
+     "w": "this",
+     "d": "This",
+     "t": 0.693,
+     "e": 0.8
+    },
+    {
+     "w": "is",
+     "d": "is",
+     "t": 0.8,
+     "e": 0.96
+    },
+    {
+     "w": "my",
+     "d": "my",
+     "t": 0.96,
+     "e": 1.36
+    },
+    {
+     "w": "family",
+     "d": "family.",
+     "t": 1.36,
+     "e": 1.72
+    }
+   ],
+   "voiced": [
+    [
+     0.025,
+     1.72
+    ]
+   ]
+  },
+  {
+   "id": "l04",
+   "n": 4,
+   "file": "meet-the-family/04-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "Grandpa built the business.",
+   "say": "[deadpan] Grandpa built the business.",
+   "source": "phantom-1-brian/L04-t2",
+   "tempo": 1.0,
+   "dur": 1.775,
+   "end": 1.53,
+   "words": [
+    {
+     "w": "grandpa",
+     "d": "Grandpa",
+     "t": 0.12,
+     "e": 0.6
+    },
+    {
+     "w": "built",
+     "d": "built",
+     "t": 0.6,
+     "e": 0.8
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 0.8,
+     "e": 0.92
+    },
+    {
+     "w": "business",
+     "d": "business.",
+     "t": 0.92,
+     "e": 1.53
+    }
+   ],
+   "voiced": [
+    [
+     0.065,
+     1.53
+    ]
+   ]
+  },
+  {
+   "id": "l05",
+   "n": 5,
+   "file": "meet-the-family/05-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "Dad's running it into the ground.",
+   "say": "[deadpan] [dry] Dad's running it into the ground.",
+   "source": "phantom-1-brian/L05-t1",
+   "tempo": 1.0,
+   "dur": 2.26,
+   "end": 2.01,
+   "words": [
+    {
+     "w": "dad's",
+     "d": "Dad's",
+     "t": 0.224,
+     "e": 0.64
+    },
+    {
+     "w": "running",
+     "d": "running",
+     "t": 0.64,
+     "e": 0.92
+    },
+    {
+     "w": "it",
+     "d": "it",
+     "t": 0.92,
+     "e": 1.04
+    },
+    {
+     "w": "into",
+     "d": "into",
+     "t": 1.04,
+     "e": 1.28
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 1.28,
+     "e": 1.6
+    },
+    {
+     "w": "ground",
+     "d": "ground.",
+     "t": 1.6,
+     "e": 2.01
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     2.01
+    ]
+   ]
+  },
+  {
+   "id": "l06",
+   "n": 6,
+   "file": "meet-the-family/06-sarah.mp3",
+   "character": "SARAH",
+   "voice": "Matilda",
+   "voiceId": "XrExE9yKIg1WjnnlVkGX",
+   "text": "Dishwasher's dead, Dave.",
+   "say": "[exhausted] [sharp] Dishwasher's dead, Dave.",
+   "source": "sarah-1-matilda/L06-t2",
+   "tempo": 1.0,
+   "dur": 2.115,
+   "end": 1.89,
+   "words": [
+    {
+     "w": "dishwasher's",
+     "d": "Dishwasher's",
+     "t": 0.035,
+     "e": 0.77
+    },
+    {
+     "w": "dead",
+     "d": "dead,",
+     "t": 0.915,
+     "e": 1.265
+    },
+    {
+     "w": "dave",
+     "d": "Dave.",
+     "t": 1.315,
+     "e": 1.89
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.77
+    ],
+    [
+     0.925,
+     1.265
+    ],
+    [
+     1.31,
+     1.89
+    ]
+   ]
+  },
+  {
+   "id": "l07",
+   "n": 7,
+   "file": "meet-the-family/07-sarah.mp3",
+   "character": "SARAH",
+   "voice": "Matilda",
+   "voiceId": "XrExE9yKIg1WjnnlVkGX",
+   "text": "We need a new one.",
+   "say": "[exhausted] [firm] We need a new one.",
+   "source": "sarah-1-matilda/L07-t2",
+   "tempo": 1.0,
+   "dur": 1.71,
+   "end": 1.5,
+   "words": [
+    {
+     "w": "we",
+     "d": "We",
+     "t": 0.15,
+     "e": 0.43
+    },
+    {
+     "w": "need",
+     "d": "need",
+     "t": 0.43,
+     "e": 0.59
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 0.59,
+     "e": 0.75
+    },
+    {
+     "w": "new",
+     "d": "new",
+     "t": 0.75,
+     "e": 0.99
+    },
+    {
+     "w": "one",
+     "d": "one.",
+     "t": 0.99,
+     "e": 1.5
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.5
+    ]
+   ]
+  },
+  {
+   "id": "l08",
+   "n": 8,
+   "file": "meet-the-family/08-dave.mp3",
+   "character": "DAVE",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "With what fucking money?!",
+   "say": "[angry] [shouting] With what fucking money?!",
+   "source": "dave-1-callum/L08-t1",
+   "tempo": 1.0,
+   "dur": 1.98,
+   "end": 1.73,
+   "words": [
+    {
+     "w": "with",
+     "d": "With",
+     "t": 0.03,
+     "e": 0.33
+    },
+    {
+     "w": "what",
+     "d": "what",
+     "t": 0.33,
+     "e": 0.62
+    },
+    {
+     "w": "fucking",
+     "d": "fucking",
+     "t": 0.81,
+     "e": 0.985,
+     "bleep": true
+    },
+    {
+     "w": "money",
+     "d": "money?!",
+     "t": 1.29,
+     "e": 1.73
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.62
+    ],
+    [
+     0.685,
+     0.985
+    ],
+    [
+     1.015,
+     1.73
+    ]
+   ]
+  },
+  {
+   "id": "l09",
+   "n": 9,
+   "file": "meet-the-family/09-dave.mp3",
+   "character": "DAVE",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "Spam.",
+   "say": "[bored] [flat] Spam.",
+   "source": "dave-1-callum/L09-t2",
+   "tempo": 1.0,
+   "dur": 1.51,
+   "end": 1.3,
+   "words": [
+    {
+     "w": "spam",
+     "d": "Spam.",
+     "t": 0.33,
+     "e": 1.3
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.32
+    ],
+    [
+     0.365,
+     1.3
+    ]
+   ]
+  },
+  {
+   "id": "l10",
+   "n": 10,
+   "file": "meet-the-family/10-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "Yep. You guessed it.",
+   "say": "[deadpan] [dry] Yep. You guessed it.",
+   "source": "phantom-1-brian/L10-t1",
+   "tempo": 1.0,
+   "dur": 1.915,
+   "end": 1.775,
+   "words": [
+    {
+     "w": "yep",
+     "d": "Yep.",
+     "t": 0.155,
+     "e": 0.68
+    },
+    {
+     "w": "you",
+     "d": "You",
+     "t": 1.035,
+     "e": 1.195
+    },
+    {
+     "w": "guessed",
+     "d": "guessed",
+     "t": 1.195,
+     "e": 1.515
+    },
+    {
+     "w": "it",
+     "d": "it.",
+     "t": 1.515,
+     "e": 1.675
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.68
+    ],
+    [
+     0.975,
+     1.675
+    ],
+    [
+     1.71,
+     1.775
+    ]
+   ]
+  },
+  {
+   "id": "l11",
+   "n": 11,
+   "file": "meet-the-family/11-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "My dad's a loser.",
+   "say": "[deadpan] [dry] My dad's a loser.",
+   "source": "phantom-1-brian/L11-t1",
+   "tempo": 1.0,
+   "dur": 1.585,
+   "end": 1.335,
+   "words": [
+    {
+     "w": "my",
+     "d": "My",
+     "t": 0.095,
+     "e": 0.335
+    },
+    {
+     "w": "dad's",
+     "d": "dad's",
+     "t": 0.335,
+     "e": 0.615
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 0.615,
+     "e": 0.735
+    },
+    {
+     "w": "loser",
+     "d": "loser.",
+     "t": 0.735,
+     "e": 1.335
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.335
+    ]
+   ]
+  },
+  {
+   "id": "l12",
+   "n": 12,
+   "file": "meet-the-family/12-sarah.mp3",
+   "character": "SARAH",
+   "voice": "Matilda",
+   "voiceId": "XrExE9yKIg1WjnnlVkGX",
+   "text": "Everything's on me. Again.",
+   "say": "[resentful] [under her breath] Everything's on me. Again.",
+   "source": "sarah-1-matilda/L12-t3",
+   "tempo": 1.0,
+   "dur": 2.64,
+   "end": 2.565,
+   "words": [
+    {
+     "w": "everything's",
+     "d": "Everything's",
+     "t": 0.24,
+     "e": 0.8
+    },
+    {
+     "w": "on",
+     "d": "on",
+     "t": 0.8,
+     "e": 1.12
+    },
+    {
+     "w": "me",
+     "d": "me.",
+     "t": 1.12,
+     "e": 1.67
+    },
+    {
+     "w": "again",
+     "d": "Again.",
+     "t": 1.84,
+     "e": 1.975
+    }
+   ],
+   "voiced": [
+    [
+     0.01,
+     1.67
+    ],
+    [
+     1.81,
+     1.975
+    ],
+    [
+     2.095,
+     2.565
+    ]
+   ]
+  },
+  {
+   "id": "l13",
+   "n": 13,
+   "file": "meet-the-family/13-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "That's Pearl.",
+   "say": "[dreamy] [soft] That's Pearl.",
+   "source": "phantom-1-brian/L13-t1",
+   "tempo": 1.0,
+   "dur": 1.6,
+   "end": 1.355,
+   "words": [
+    {
+     "w": "that's",
+     "d": "That's",
+     "t": 0.24,
+     "e": 0.64
+    },
+    {
+     "w": "pearl",
+     "d": "Pearl.",
+     "t": 0.64,
+     "e": 1.355
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.355
+    ]
+   ]
+  },
+  {
+   "id": "l14",
+   "n": 14,
+   "file": "meet-the-family/14-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "The love of my life.",
+   "say": "[lovestruck] [soft] The love of my life.",
+   "source": "phantom-1-brian/L14-t2",
+   "tempo": 1.0,
+   "dur": 1.96,
+   "end": 1.71,
+   "words": [
+    {
+     "w": "the",
+     "d": "The",
+     "t": 0.368,
+     "e": 0.48
+    },
+    {
+     "w": "love",
+     "d": "love",
+     "t": 0.48,
+     "e": 0.8
+    },
+    {
+     "w": "of",
+     "d": "of",
+     "t": 0.8,
+     "e": 0.96
+    },
+    {
+     "w": "my",
+     "d": "my",
+     "t": 0.96,
+     "e": 1.36
+    },
+    {
+     "w": "life",
+     "d": "life.",
+     "t": 1.36,
+     "e": 1.71
+    }
+   ],
+   "voiced": [
+    [
+     0.02,
+     0.06
+    ],
+    [
+     0.16,
+     1.71
+    ]
+   ]
+  },
+  {
+   "id": "l15",
+   "n": 15,
+   "file": "meet-the-family/15-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "She eats salmon.",
+   "say": "[deadpan] She eats salmon.",
+   "source": "phantom-1-brian/L15-t3",
+   "tempo": 1.0,
+   "dur": 1.605,
+   "end": 1.355,
+   "words": [
+    {
+     "w": "she",
+     "d": "She",
+     "t": 0.26,
+     "e": 0.44
+    },
+    {
+     "w": "eats",
+     "d": "eats",
+     "t": 0.44,
+     "e": 0.76
+    },
+    {
+     "w": "salmon",
+     "d": "salmon.",
+     "t": 0.76,
+     "e": 1.355
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.355
+    ]
+   ]
+  },
+  {
+   "id": "l16",
+   "n": 16,
+   "file": "meet-the-family/16-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "I eat from the dead dog's bowl.",
+   "say": "[flat] [dry] I eat from the dead dog's bowl.",
+   "source": "phantom-1-brian/L16-t2",
+   "tempo": 1.0,
+   "dur": 2.065,
+   "end": 1.815,
+   "words": [
+    {
+     "w": "i",
+     "d": "I",
+     "t": 0.07,
+     "e": 0.27
+    },
+    {
+     "w": "eat",
+     "d": "eat",
+     "t": 0.27,
+     "e": 0.51
+    },
+    {
+     "w": "from",
+     "d": "from",
+     "t": 0.51,
+     "e": 0.67
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 0.67,
+     "e": 0.83
+    },
+    {
+     "w": "dead",
+     "d": "dead",
+     "t": 0.83,
+     "e": 1.07
+    },
+    {
+     "w": "dog's",
+     "d": "dog's",
+     "t": 1.07,
+     "e": 1.47
+    },
+    {
+     "w": "bowl",
+     "d": "bowl.",
+     "t": 1.47,
+     "e": 1.815
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.815
+    ]
+   ]
+  },
+  {
+   "id": "l17",
+   "n": 17,
+   "file": "meet-the-family/17-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "God, she's gorgeous.",
+   "say": "[lovestruck] [breathless] God, she's gorgeous.",
+   "source": "phantom-1-brian/L17-t2",
+   "tempo": 1.0,
+   "dur": 2.395,
+   "end": 2.265,
+   "words": [
+    {
+     "w": "god",
+     "d": "God,",
+     "t": 0.075,
+     "e": 0.955
+    },
+    {
+     "w": "she's",
+     "d": "she's",
+     "t": 0.955,
+     "e": 1.24
+    },
+    {
+     "w": "gorgeous",
+     "d": "gorgeous.",
+     "t": 1.435,
+     "e": 2.265
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.24
+    ],
+    [
+     1.295,
+     1.385
+    ],
+    [
+     1.43,
+     2.265
+    ]
+   ]
+  },
+  {
+   "id": "l18",
+   "n": 18,
+   "file": "meet-the-family/18-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "But girls like her don't date cats from broke families.",
+   "say": "[sober] [deadpan] But girls like her... don't date cats from broke families.",
+   "source": "phantom-1-brian/L18-t1",
+   "tempo": 1.0,
+   "dur": 3.855,
+   "end": 3.685,
+   "words": [
+    {
+     "w": "but",
+     "d": "But",
+     "t": 0.095,
+     "e": 0.415
+    },
+    {
+     "w": "girls",
+     "d": "girls",
+     "t": 0.415,
+     "e": 0.655
+    },
+    {
+     "w": "like",
+     "d": "like",
+     "t": 0.655,
+     "e": 0.815
+    },
+    {
+     "w": "her",
+     "d": "her...",
+     "t": 0.815,
+     "e": 1.34
+    },
+    {
+     "w": "don't",
+     "d": "don't",
+     "t": 1.855,
+     "e": 2.215
+    },
+    {
+     "w": "date",
+     "d": "date",
+     "t": 2.215,
+     "e": 2.495
+    },
+    {
+     "w": "cats",
+     "d": "cats",
+     "t": 2.495,
+     "e": 2.735
+    },
+    {
+     "w": "from",
+     "d": "from",
+     "t": 2.735,
+     "e": 2.855
+    },
+    {
+     "w": "broke",
+     "d": "broke",
+     "t": 2.855,
+     "e": 3.135
+    },
+    {
+     "w": "families",
+     "d": "families.",
+     "t": 3.135,
+     "e": 3.685
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.34
+    ],
+    [
+     1.855,
+     3.685
+    ]
+   ]
+  },
+  {
+   "id": "l19",
+   "n": 19,
+   "file": "meet-the-family/19-lisa.mp3",
+   "character": "LISA",
+   "voice": "Jessica",
+   "voiceId": "cgSgspJ2msm6clMCkdW9",
+   "text": "Good morning, Sarah!",
+   "say": "[bright] [singsong] Good morning, Sarah!",
+   "source": "lisa-1-jessica/L19-t2",
+   "tempo": 1.0,
+   "dur": 1.725,
+   "end": 1.475,
+   "words": [
+    {
+     "w": "good",
+     "d": "Good",
+     "t": 0.03,
+     "e": 0.39
+    },
+    {
+     "w": "morning",
+     "d": "morning,",
+     "t": 0.39,
+     "e": 0.87
+    },
+    {
+     "w": "sarah",
+     "d": "Sarah!",
+     "t": 0.87,
+     "e": 1.475
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.475
+    ]
+   ]
+  },
+  {
+   "id": "l20",
+   "n": 20,
+   "file": "meet-the-family/20-sarah.mp3",
+   "character": "SARAH",
+   "voice": "Matilda",
+   "voiceId": "XrExE9yKIg1WjnnlVkGX",
+   "text": "Good morning, Sarah.",
+   "say": "[mocking] [nasal whiny voice] Good morning, Sarah.",
+   "source": "sarah-1-matilda/L20-t1",
+   "tempo": 1.0,
+   "dur": 2.205,
+   "end": 2.085,
+   "words": [
+    {
+     "w": "good",
+     "d": "Good",
+     "t": 0.03,
+     "e": 0.525
+    },
+    {
+     "w": "morning",
+     "d": "morning,",
+     "t": 0.525,
+     "e": 1.245
+    },
+    {
+     "w": "sarah",
+     "d": "Sarah.",
+     "t": 1.245,
+     "e": 2.085
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     2.085
+    ]
+   ]
+  },
+  {
+   "id": "l21",
+   "n": 21,
+   "file": "meet-the-family/21-chad.mp3",
+   "character": "CHAD",
+   "voice": "Eric",
+   "voiceId": "cjVigY5qzO86Huf0OWal",
+   "text": "Morning, Dave!",
+   "say": "[bright] [loud] Morning, Dave!",
+   "source": "chad-3-eric/L21-t3",
+   "tempo": 1.0,
+   "dur": 1.205,
+   "end": 0.955,
+   "words": [
+    {
+     "w": "morning",
+     "d": "Morning,",
+     "t": 0.01,
+     "e": 0.5
+    },
+    {
+     "w": "dave",
+     "d": "Dave!",
+     "t": 0.5,
+     "e": 0.955
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.955
+    ]
+   ]
+  },
+  {
+   "id": "l22",
+   "n": 22,
+   "file": "meet-the-family/22-chad.mp3",
+   "character": "CHAD",
+   "voice": "Eric",
+   "voiceId": "cjVigY5qzO86Huf0OWal",
+   "text": "Chad's Garage Doors!",
+   "say": "[cheerful] [professional] Chad's Garage Doors!",
+   "source": "chad-3-eric/L22-t1",
+   "tempo": 1.0,
+   "dur": 1.6,
+   "end": 1.395,
+   "words": [
+    {
+     "w": "chad's",
+     "d": "Chad's",
+     "t": 0.084,
+     "e": 0.524
+    },
+    {
+     "w": "garage",
+     "d": "Garage",
+     "t": 0.524,
+     "e": 0.884
+    },
+    {
+     "w": "doors",
+     "d": "Doors!",
+     "t": 0.884,
+     "e": 1.395
+    }
+   ],
+   "voiced": [
+    [
+     0.015,
+     1.395
+    ]
+   ]
+  },
+  {
+   "id": "l23",
+   "n": 23,
+   "file": "meet-the-family/23-dave.mp3",
+   "character": "DAVE",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "Spam.",
+   "say": "[bitter] [flat] Spam.",
+   "source": "dave-1-callum/L23-t2",
+   "tempo": 1.0,
+   "dur": 1.5,
+   "end": 1.25,
+   "words": [
+    {
+     "w": "spam",
+     "d": "Spam.",
+     "t": 0.47,
+     "e": 1.25
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.425
+    ],
+    [
+     0.505,
+     1.25
+    ]
+   ]
+  },
+  {
+   "id": "l24",
+   "n": 24,
+   "file": "meet-the-family/24-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "Fine. I'll do it myself.",
+   "say": "[dry] [determined] Fine. I'll do it myself.",
+   "source": "phantom-1-brian/L24-t2",
+   "tempo": 1.0,
+   "dur": 2.26,
+   "end": 2.14,
+   "words": [
+    {
+     "w": "fine",
+     "d": "Fine.",
+     "t": 0.42,
+     "e": 0.67
+    },
+    {
+     "w": "i'll",
+     "d": "I'll",
+     "t": 1.02,
+     "e": 1.26
+    },
+    {
+     "w": "do",
+     "d": "do",
+     "t": 1.26,
+     "e": 1.38
+    },
+    {
+     "w": "it",
+     "d": "it",
+     "t": 1.38,
+     "e": 1.58
+    },
+    {
+     "w": "myself",
+     "d": "myself.",
+     "t": 1.58,
+     "e": 2.14
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.67
+    ],
+    [
+     0.98,
+     2.14
+    ]
+   ]
+  },
+  {
+   "id": "l25",
+   "n": 25,
+   "file": "meet-the-family/25-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "Follow, so you don't miss the next episode.",
+   "say": "[dry] [deadpan] Follow... so you don't miss the next episode.",
+   "source": "phantom-1-brian/L25-t1",
+   "tempo": 1.0,
+   "dur": 3.355,
+   "end": 3.105,
+   "words": [
+    {
+     "w": "follow",
+     "d": "Follow...",
+     "t": 0.205,
+     "e": 0.845
+    },
+    {
+     "w": "so",
+     "d": "so",
+     "t": 1.405,
+     "e": 1.565
+    },
+    {
+     "w": "you",
+     "d": "you",
+     "t": 1.565,
+     "e": 1.685
+    },
+    {
+     "w": "don't",
+     "d": "don't",
+     "t": 1.685,
+     "e": 2.005
+    },
+    {
+     "w": "miss",
+     "d": "miss",
+     "t": 2.005,
+     "e": 2.165
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 2.165,
+     "e": 2.285
+    },
+    {
+     "w": "next",
+     "d": "next",
+     "t": 2.285,
+     "e": 2.525
+    },
+    {
+     "w": "episode",
+     "d": "episode.",
+     "t": 2.525,
+     "e": 3.105
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.845
+    ],
+    [
+     1.295,
+     3.105
+    ]
+   ]
+  }
+ ],
+ "tableRead": {
+  "file": "out/meet-the-family-table-read.mp3",
+  "dur": 65.375,
+  "lufs": -16.0,
+  "gaps": {
+   "1": 1.1,
+   "2": 0.3,
+   "3": 0.3,
+   "4": 0.25,
+   "5": 0.4,
+   "6": 0.45,
+   "7": 0.3,
+   "8": 1.3,
+   "9": 0.45,
+   "10": 0.3,
+   "11": 0.7,
+   "12": 2.3,
+   "13": 0.35,
+   "14": 0.4,
+   "15": 0.2,
+   "16": 0.6,
+   "17": 0.6,
+   "18": 1.7,
+   "19": 2.0,
+   "20": 2.4,
+   "21": 0.6,
+   "22": 0.7,
+   "23": 2.2,
+   "24": 0.6
+  },
+  "cues": [
+   {
+    "n": 1,
+    "at": 0.245,
+    "speech": [
+     0.3,
+     1.115
+    ]
+   },
+   {
+    "n": 2,
+    "at": 2.155,
+    "speech": [
+     2.215,
+     4.945
+    ]
+   },
+   {
+    "n": 3,
+    "at": 5.22,
+    "speech": [
+     5.245,
+     6.94
+    ]
+   },
+   {
+    "n": 4,
+    "at": 7.175,
+    "speech": [
+     7.24,
+     8.705
+    ]
+   },
+   {
+    "n": 5,
+    "at": 8.895,
+    "speech": [
+     8.955,
+     10.905
+    ]
+   },
+   {
+    "n": 6,
+    "at": 11.245,
+    "speech": [
+     11.305,
+     13.135
+    ]
+   },
+   {
+    "n": 7,
+    "at": 13.525,
+    "speech": [
+     13.585,
+     15.025
+    ]
+   },
+   {
+    "n": 8,
+    "at": 15.265,
+    "speech": [
+     15.325,
+     16.995
+    ]
+   },
+   {
+    "n": 9,
+    "at": 18.235,
+    "speech": [
+     18.295,
+     19.535
+    ]
+   },
+   {
+    "n": 10,
+    "at": 19.925,
+    "speech": [
+     19.985,
+     21.7
+    ]
+   },
+   {
+    "n": 11,
+    "at": 21.94,
+    "speech": [
+     22.0,
+     23.275
+    ]
+   },
+   {
+    "n": 12,
+    "at": 23.965,
+    "speech": [
+     23.975,
+     26.53
+    ]
+   },
+   {
+    "n": 13,
+    "at": 28.77,
+    "speech": [
+     28.83,
+     30.125
+    ]
+   },
+   {
+    "n": 14,
+    "at": 30.455,
+    "speech": [
+     30.475,
+     32.165
+    ]
+   },
+   {
+    "n": 15,
+    "at": 32.505,
+    "speech": [
+     32.565,
+     33.86
+    ]
+   },
+   {
+    "n": 16,
+    "at": 34.0,
+    "speech": [
+     34.06,
+     35.815
+    ]
+   },
+   {
+    "n": 17,
+    "at": 36.355,
+    "speech": [
+     36.415,
+     38.62
+    ]
+   },
+   {
+    "n": 18,
+    "at": 39.16,
+    "speech": [
+     39.22,
+     42.845
+    ]
+   },
+   {
+    "n": 19,
+    "at": 44.485,
+    "speech": [
+     44.545,
+     45.96
+    ]
+   },
+   {
+    "n": 20,
+    "at": 47.9,
+    "speech": [
+     47.96,
+     49.985
+    ]
+   },
+   {
+    "n": 21,
+    "at": 52.325,
+    "speech": [
+     52.385,
+     53.28
+    ]
+   },
+   {
+    "n": 22,
+    "at": 53.865,
+    "speech": [
+     53.88,
+     55.26
+    ]
+   },
+   {
+    "n": 23,
+    "at": 55.9,
+    "speech": [
+     55.96,
+     57.15
+    ]
+   },
+   {
+    "n": 24,
+    "at": 59.29,
+    "speech": [
+     59.35,
+     61.43
+    ]
+   },
+   {
+    "n": 25,
+    "at": 61.97,
+    "speech": [
+     62.03,
+     65.075
+    ]
+   }
+  ],
+  "sfx": [
+   {
+    "sfx": "whoosh",
+    "at": 1.165
+   },
+   {
+    "sfx": "burp",
+    "at": 1.215
+   },
+   {
+    "sfx": "tv",
+    "at": 1.115
+   },
+   {
+    "sfx": "crunch",
+    "at": 9.555
+   },
+   {
+    "sfx": "kick",
+    "at": 10.955
+   },
+   {
+    "sfx": "tv",
+    "at": 13.585
+   },
+   {
+    "sfx": "buzz",
+    "at": 17.245
+   },
+   {
+    "sfx": "buzz",
+    "at": 17.845
+   },
+   {
+    "sfx": "sax",
+    "at": 26.73
+   },
+   {
+    "sfx": "kibble",
+    "at": 33.96
+   },
+   {
+    "sfx": "saxsqueak",
+    "at": 38.67
+   },
+   {
+    "sfx": "pop",
+    "at": 38.87
+   },
+   {
+    "sfx": "birds",
+    "at": 42.845
+   },
+   {
+    "sfx": "sprinkler",
+    "at": 42.845
+   },
+   {
+    "sfx": "creak",
+    "at": 51.385
+   },
+   {
+    "sfx": "ring",
+    "at": 53.18
+   },
+   {
+    "sfx": "pickup",
+    "at": 53.73
+   },
+   {
+    "sfx": "buzz",
+    "at": 55.26
+   },
+   {
+    "sfx": "truck",
+    "at": 57.35
+   },
+   {
+    "sfx": "slide",
+    "at": 58.75
+   }
+  ]
+ }
+}

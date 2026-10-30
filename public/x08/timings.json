@@ -1,0 +1,542 @@
+{
+ "model": "eleven_v4",
+ "target_lufs": -19.0,
+ "cast": {
+  "ROSS": {
+   "cast": {
+    "voice": "jack-tyler",
+    "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+    "account_name": "jack-tyler"
+   }
+  }
+ },
+ "takes": [
+  {
+   "id": "l01",
+   "n": 1,
+   "file": "x08/01-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Aaand... checkout.",
+   "say": "[cheerful] [smug] Aaand... checkout.",
+   "source": "ross-1-jack-tyler/L01-t3",
+   "tempo": 1.15,
+   "dur": 1.778,
+   "end": 1.665,
+   "words": [
+    {
+     "w": "aaand",
+     "d": "Aaand...",
+     "t": 0.104,
+     "e": 0.93
+    },
+    {
+     "w": "checkout",
+     "d": "checkout.",
+     "t": 1.29,
+     "e": 1.505
+    }
+   ],
+   "voiced": [
+    [
+     0.065,
+     0.93
+    ],
+    [
+     0.995,
+     1.505
+    ],
+    [
+     1.55,
+     1.665
+    ]
+   ]
+  },
+  {
+   "id": "l02",
+   "n": 2,
+   "file": "x08/02-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Just let me pay!",
+   "say": "[desperate] [loud] Just let me pay!",
+   "source": "ross-1-jack-tyler/L02-t3",
+   "tempo": 1.0,
+   "dur": 1.8,
+   "end": 1.555,
+   "words": [
+    {
+     "w": "just",
+     "d": "Just",
+     "t": 0.12,
+     "e": 0.44
+    },
+    {
+     "w": "let",
+     "d": "let",
+     "t": 0.44,
+     "e": 0.68
+    },
+    {
+     "w": "me",
+     "d": "me",
+     "t": 0.68,
+     "e": 0.92
+    },
+    {
+     "w": "pay",
+     "d": "pay!",
+     "t": 0.92,
+     "e": 1.555
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.555
+    ]
+   ]
+  },
+  {
+   "id": "l03",
+   "n": 3,
+   "file": "x08/03-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "My grandma's blood type?!",
+   "say": "[outraged] [disbelief] My grandma's blood type?!",
+   "source": "ross-1-jack-tyler/L03-t3",
+   "tempo": 1.0,
+   "dur": 2.18,
+   "end": 1.93,
+   "words": [
+    {
+     "w": "my",
+     "d": "My",
+     "t": 0.185,
+     "e": 0.625
+    },
+    {
+     "w": "grandma's",
+     "d": "grandma's",
+     "t": 0.625,
+     "e": 1.105
+    },
+    {
+     "w": "blood",
+     "d": "blood",
+     "t": 1.305,
+     "e": 1.545
+    },
+    {
+     "w": "type",
+     "d": "type?!",
+     "t": 1.545,
+     "e": 1.845
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.105
+    ],
+    [
+     1.165,
+     1.845
+    ],
+    [
+     1.895,
+     1.93
+    ]
+   ]
+  },
+  {
+   "id": "l04",
+   "n": 4,
+   "file": "x08/04-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "It's just socks.",
+   "say": "[quietly furious] [deadpan] It's just socks.",
+   "source": "ross-1-jack-tyler/L04-t5",
+   "tempo": 1.0,
+   "dur": 1.92,
+   "end": 1.68,
+   "words": [
+    {
+     "w": "it's",
+     "d": "It's",
+     "t": 0.08,
+     "e": 0.4
+    },
+    {
+     "w": "just",
+     "d": "just",
+     "t": 0.4,
+     "e": 0.88
+    },
+    {
+     "w": "socks",
+     "d": "socks.",
+     "t": 0.88,
+     "e": 1.68
+    }
+   ],
+   "voiced": [
+    [
+     0.005,
+     1.68
+    ]
+   ]
+  },
+  {
+   "id": "l05",
+   "n": 5,
+   "file": "x08/05-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "They're all me.",
+   "say": "[baffled] [quiet] They're all me.",
+   "source": "ross-1-jack-tyler/L05-t2",
+   "tempo": 1.0,
+   "dur": 1.615,
+   "end": 1.5,
+   "words": [
+    {
+     "w": "they're",
+     "d": "They're",
+     "t": 0.255,
+     "e": 0.575
+    },
+    {
+     "w": "all",
+     "d": "all",
+     "t": 0.575,
+     "e": 0.975
+    },
+    {
+     "w": "me",
+     "d": "me.",
+     "t": 0.975,
+     "e": 1.5
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.5
+    ]
+   ]
+  },
+  {
+   "id": "l06",
+   "n": 6,
+   "file": "x08/06-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Aaah! I'm human! I'm a fucking human!",
+   "say": "[enraged] [shouting] [desperate] AAAAH! I'M HUMAN! I'M A FUCKING HUMAN!",
+   "source": "ross-1-jack-tyler/L06-t2",
+   "tempo": 1.0,
+   "dur": 3.725,
+   "end": 3.615,
+   "words": [
+    {
+     "w": "aaaah",
+     "d": "AAAAH!",
+     "t": 0.13,
+     "e": 0.665
+    },
+    {
+     "w": "i'm",
+     "d": "I'M",
+     "t": 1.005,
+     "e": 1.325
+    },
+    {
+     "w": "human",
+     "d": "HUMAN!",
+     "t": 1.325,
+     "e": 1.835
+    },
+    {
+     "w": "i'm",
+     "d": "I'M",
+     "t": 2.125,
+     "e": 2.285
+    },
+    {
+     "w": "a",
+     "d": "A",
+     "t": 2.285,
+     "e": 2.355
+    },
+    {
+     "w": "fucking",
+     "d": "FUCKING",
+     "t": 2.525,
+     "e": 3.005,
+     "bleep": true
+    },
+    {
+     "w": "human",
+     "d": "HUMAN!",
+     "t": 3.005,
+     "e": 3.615
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.665
+    ],
+    [
+     0.755,
+     1.835
+    ],
+    [
+     2.03,
+     2.355
+    ],
+    [
+     2.55,
+     3.615
+    ]
+   ]
+  },
+  {
+   "id": "l07",
+   "n": 7,
+   "file": "x08/07-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "He's not even alive!",
+   "say": "[indignant] [shouting] He's not even alive!",
+   "source": "ross-1-jack-tyler/L07-t2",
+   "tempo": 1.0,
+   "dur": 1.815,
+   "end": 1.565,
+   "words": [
+    {
+     "w": "he's",
+     "d": "He's",
+     "t": 0.06,
+     "e": 0.465
+    },
+    {
+     "w": "not",
+     "d": "not",
+     "t": 0.465,
+     "e": 0.705
+    },
+    {
+     "w": "even",
+     "d": "even",
+     "t": 0.705,
+     "e": 1.185
+    },
+    {
+     "w": "alive",
+     "d": "alive!",
+     "t": 1.185,
+     "e": 1.565
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.565
+    ]
+   ]
+  },
+  {
+   "id": "l08",
+   "n": 8,
+   "file": "x08/08-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Of course it is.",
+   "say": "[deadpan] [dead calm] Of course it is.",
+   "source": "ross-1-jack-tyler/L08-t1",
+   "tempo": 1.0,
+   "dur": 1.525,
+   "end": 1.32,
+   "words": [
+    {
+     "w": "of",
+     "d": "Of",
+     "t": 0.33,
+     "e": 0.485
+    },
+    {
+     "w": "course",
+     "d": "course",
+     "t": 0.485,
+     "e": 0.685
+    },
+    {
+     "w": "it",
+     "d": "it",
+     "t": 0.685,
+     "e": 0.805
+    },
+    {
+     "w": "is",
+     "d": "is.",
+     "t": 0.805,
+     "e": 1.32
+    }
+   ],
+   "voiced": [
+    [
+     0.0,
+     0.03
+    ],
+    [
+     0.06,
+     1.32
+    ]
+   ]
+  },
+  {
+   "id": "l09",
+   "n": 9,
+   "file": "x08/09-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Aaand... checkout.",
+   "say": "[whispering] [obsessed] Aaand... checkout.",
+   "source": "ross-1-jack-tyler/L09-t2",
+   "tempo": 1.0,
+   "dur": 2.35,
+   "end": 2.11,
+   "words": [
+    {
+     "w": "aaand",
+     "d": "Aaand...",
+     "t": 0.19,
+     "e": 1.24
+    },
+    {
+     "w": "checkout",
+     "d": "checkout.",
+     "t": 1.47,
+     "e": 1.905
+    }
+   ],
+   "voiced": [
+    [
+     0.065,
+     1.24
+    ],
+    [
+     1.44,
+     1.905
+    ],
+    [
+     1.97,
+     2.11
+    ]
+   ]
+  }
+ ],
+ "tableRead": {
+  "file": "out/x08-table-read.mp3",
+  "dur": 31.095,
+  "lufs": -16.0,
+  "gaps": {
+   "1": 1.6,
+   "2": 1.105,
+   "3": 0.43,
+   "4": 0.475,
+   "5": 2.91,
+   "6": 2.445,
+   "7": 1.445,
+   "8": 3.78
+  },
+  "cues": [
+   {
+    "n": 1,
+    "at": 0.035,
+    "speech": [
+     0.1,
+     1.7
+    ]
+   },
+   {
+    "n": 2,
+    "at": 3.24,
+    "speech": [
+     3.3,
+     4.795
+    ]
+   },
+   {
+    "n": 3,
+    "at": 5.84,
+    "speech": [
+     5.9,
+     7.77
+    ]
+   },
+   {
+    "n": 4,
+    "at": 8.195,
+    "speech": [
+     8.2,
+     9.875
+    ]
+   },
+   {
+    "n": 5,
+    "at": 10.29,
+    "speech": [
+     10.35,
+     11.79
+    ]
+   },
+   {
+    "n": 6,
+    "at": 14.64,
+    "speech": [
+     14.7,
+     18.255
+    ]
+   },
+   {
+    "n": 7,
+    "at": 20.64,
+    "speech": [
+     20.7,
+     22.205
+    ]
+   },
+   {
+    "n": 8,
+    "at": 23.65,
+    "speech": [
+     23.65,
+     24.97
+    ]
+   },
+   {
+    "n": 9,
+    "at": 28.685,
+    "speech": [
+     28.75,
+     30.795
+    ]
+   }
+  ],
+  "sfx": []
+ }
+}

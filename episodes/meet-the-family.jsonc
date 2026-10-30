@@ -1,0 +1,223 @@
+// Season 1, episode 1 "Meet the Family" (script approved by Ross 2026-10-19, docs/s1e01-meet-the-family.md v3). Phantom narrates; his
+// lines are thoughts (his mouth never moves). Adult tone: the swearing is bleeped in the line files.
+// Format: see scripts/voice-gen.mjs (lines, directions) and scripts/voice-build.py (cast, plan, gaps, lead, tableSfx); the picture: scripts/shots.py.
+{
+ "title": "Meet the Family",
+ "cast": {"phantom": 1, "dave": 1, "sarah": 1, "lisa": 1, "chad": 3},
+ "lines": [
+// evening: the hook, the family, the business
+  {"n": 1, "char": "phantom", "text": "I'm Phantom.", "dirs": [
+   {"t": "[deadpan] [dry]", "st": 0.5, "sy": 0.25},
+   {"t": "[unimpressed] [low]", "st": 0.5, "sy": 0.2},
+   {"t": "[bored] [matter-of-fact]", "st": 0.55, "sy": 0.15}
+  ]},
+  {"n": 2, "char": "phantom", "text": "The only one in this house with a brain.", "dirs": [
+   {"t": "[deadpan] [dry]", "st": 0.5, "sy": 0.25, "text": "The only one in this house... with a brain."},
+   {"t": "[sarcastic] [unimpressed]", "st": 0.45, "sy": 0.35, "text": "The only one in this house... with a brain."},
+   {"t": "[bored] [matter-of-fact]", "st": 0.55, "sy": 0.15, "text": "The only one in this house... with a brain."}
+  ]},
+  {"n": 3, "char": "phantom", "text": "This is my family.", "dirs": [
+   {"t": "[resigned] [dry]", "st": 0.5, "sy": 0.25},
+   {"t": "[sighs] [deadpan]", "st": 0.5, "sy": 0.2},
+   {"t": "[unimpressed]", "st": 0.5, "sy": 0.25}
+  ]},
+  {"n": 4, "char": "phantom", "text": "Grandpa built the business.", "dirs": [
+   {"t": "[matter-of-fact] [dry]", "st": 0.5, "sy": 0.2},
+   {"t": "[deadpan]", "st": 0.5, "sy": 0.2},
+   {"t": "[respectful] [dry]", "st": 0.5, "sy": 0.25}
+  ]},
+  {"n": 5, "char": "phantom", "text": "Dad's running it into the ground.", "dirs": [
+   {"t": "[deadpan] [dry]", "st": 0.5, "sy": 0.3},
+   {"t": "[sarcastic]", "st": 0.45, "sy": 0.35},
+   {"t": "[unimpressed] [flat]", "st": 0.55, "sy": 0.2}
+  ]},
+  {"n": 6, "char": "sarah", "text": "Dishwasher's dead, Dave.", "dirs": [
+   {"t": "[tired] [annoyed]", "st": 0.45, "sy": 0.35},
+   {"t": "[exhausted] [sharp]", "st": 0.45, "sy": 0.35},
+   {"t": "[fed up]", "st": 0.45, "sy": 0.3}
+  ]},
+  {"n": 7, "char": "sarah", "text": "We need a new one.", "dirs": [
+   {"t": "[tired] [annoyed]", "st": 0.45, "sy": 0.35},
+   {"t": "[exhausted] [firm]", "st": 0.45, "sy": 0.3},
+   {"t": "[fed up]", "st": 0.45, "sy": 0.3}
+  ]},
+  {"n": 8, "char": "dave", "text": "With what fucking money?!", "dirs": [
+   {"t": "[angry] [shouting]", "st": 0.35, "sy": 0.5},
+   {"t": "[irritated] [yelling]", "st": 0.35, "sy": 0.5},
+   {"t": "[annoyed] [loud]", "st": 0.4, "sy": 0.45}
+  ]},
+  {"n": 9, "char": "dave", "text": "Spam.", "dirs": [
+   {"t": "[dismissive] [muttering]", "st": 0.5, "sy": 0.2},
+   {"t": "[bored] [flat]", "st": 0.55, "sy": 0.15},
+   {"t": "[grumbling]", "st": 0.5, "sy": 0.2}
+  ]},
+  {"n": 10, "char": "phantom", "text": "Yep. You guessed it.", "dirs": [
+   {"t": "[deadpan] [dry]", "st": 0.5, "sy": 0.25},
+   {"t": "[sarcastic]", "st": 0.45, "sy": 0.35},
+   {"t": "[bored] [matter-of-fact]", "st": 0.55, "sy": 0.15}
+  ]},
+  {"n": 11, "char": "phantom", "text": "My dad's a loser.", "dirs": [
+   {"t": "[deadpan] [dry]", "st": 0.5, "sy": 0.25},
+   {"t": "[flat] [matter-of-fact]", "st": 0.55, "sy": 0.15},
+   {"t": "[sarcastic]", "st": 0.45, "sy": 0.35}
+  ]},
+  {"n": 12, "char": "sarah", "text": "Everything's on me. Again.", "dirs": [
+   {"t": "[exhausted] [bitter] [muttering]", "st": 0.45, "sy": 0.35},
+   {"t": "[tired] [sighs]", "st": 0.45, "sy": 0.3, "text": "[sighs] Everything's on me. Again."},
+   {"t": "[resentful] [under her breath]", "st": 0.45, "sy": 0.3}
+  ]},
+// night: Pearl, the want
+  {"n": 13, "char": "phantom", "text": "That's Pearl.", "dirs": [
+   {"t": "[dreamy] [soft]", "st": 0.4, "sy": 0.45},
+   {"t": "[lovestruck] [whispering]", "st": 0.4, "sy": 0.45},
+   {"t": "[in awe] [quiet]", "st": 0.45, "sy": 0.4}
+  ]},
+  {"n": 14, "char": "phantom", "text": "The love of my life.", "dirs": [
+   {"t": "[dreamy] [sighing]", "st": 0.4, "sy": 0.45},
+   {"t": "[lovestruck] [soft]", "st": 0.4, "sy": 0.45},
+   {"t": "[in awe] [quiet]", "st": 0.45, "sy": 0.4}
+  ]},
+  {"n": 15, "char": "phantom", "text": "She eats salmon.", "dirs": [
+   {"t": "[matter-of-fact] [dry]", "st": 0.5, "sy": 0.2},
+   {"t": "[envious] [flat]", "st": 0.5, "sy": 0.25},
+   {"t": "[deadpan]", "st": 0.5, "sy": 0.2}
+  ]},
+  {"n": 16, "char": "phantom", "text": "I eat from the dead dog's bowl.", "dirs": [
+   {"t": "[deadpan] [bitter]", "st": 0.5, "sy": 0.25},
+   {"t": "[flat] [dry]", "st": 0.55, "sy": 0.15},
+   {"t": "[resigned]", "st": 0.5, "sy": 0.25}
+  ]},
+  {"n": 17, "char": "phantom", "text": "God, she's gorgeous.", "dirs": [
+   {"t": "[dreamy] [sighing]", "st": 0.4, "sy": 0.5},
+   {"t": "[lovestruck] [breathless]", "st": 0.4, "sy": 0.5},
+   {"t": "[in awe] [whispering]", "st": 0.4, "sy": 0.45}
+  ]},
+  {"n": 18, "char": "phantom", "text": "But girls like her don't date cats from broke families.", "dirs": [
+   {"t": "[sober] [deadpan]", "st": 0.5, "sy": 0.25, "text": "But girls like her... don't date cats from broke families."},
+   {"t": "[disappointed] [flat]", "st": 0.5, "sy": 0.2, "text": "But girls like her... don't date cats from broke families."},
+   {"t": "[bitter] [dry]", "st": 0.5, "sy": 0.3, "text": "But girls like her... don't date cats from broke families."}
+  ]},
+// morning: the fence, the driveways
+  {"n": 19, "char": "lisa", "text": "Good morning, Sarah!", "dirs": [
+   {"t": "[cheerful] [sweet]", "st": 0.4, "sy": 0.45},
+   {"t": "[bright] [singsong]", "st": 0.4, "sy": 0.5},
+   {"t": "[warm] [delighted]", "st": 0.4, "sy": 0.45}
+  ]},
+  {"n": 20, "char": "sarah", "text": "Good morning, Sarah.", "dirs": [
+   {"t": "[mocking] [nasal whiny voice]", "st": 0.35, "sy": 0.55},
+   {"t": "[sarcastic] [mimicking]", "st": 0.35, "sy": 0.55},
+   {"t": "[mocking] [singsong] [bitter]", "st": 0.35, "sy": 0.5}
+  ]},
+  {"n": 21, "char": "chad", "text": "Morning, Dave!", "dirs": [
+   {"t": "[cheerful] [friendly] [calling out]", "st": 0.4, "sy": 0.45},
+   {"t": "[upbeat] [warm]", "st": 0.4, "sy": 0.45},
+   {"t": "[bright] [loud]", "st": 0.4, "sy": 0.4}
+  ]},
+  {"n": 22, "char": "chad", "text": "Chad's Garage Doors!", "dirs": [
+   {"t": "[cheerful] [professional]", "st": 0.4, "sy": 0.45},
+   {"t": "[upbeat] [confident]", "st": 0.4, "sy": 0.45},
+   {"t": "[friendly] [bright]", "st": 0.4, "sy": 0.4}
+  ]},
+  {"n": 23, "char": "dave", "text": "Spam.", "dirs": [
+   {"t": "[dismissive] [muttering]", "st": 0.5, "sy": 0.2},
+   {"t": "[bitter] [flat]", "st": 0.55, "sy": 0.15},
+   {"t": "[grumbling]", "st": 0.5, "sy": 0.2}
+  ]},
+// the decision and the fixed outro
+  {"n": 24, "char": "phantom", "text": "Fine. I'll do it myself.", "dirs": [
+   {"t": "[sighs] [resigned] [determined]", "st": 0.45, "sy": 0.3, "text": "[sighs] Fine. I'll do it myself."},
+   {"t": "[dry] [determined]", "st": 0.5, "sy": 0.25},
+   {"t": "[unimpressed] [decisive]", "st": 0.5, "sy": 0.25}
+  ]},
+  {"n": 25, "char": "phantom", "text": "Follow, so you don't miss the next episode.", "dirs": [
+   {"t": "[dry] [deadpan]", "st": 0.5, "sy": 0.25, "text": "Follow... so you don't miss the next episode."},
+   {"t": "[sly] [confident]", "st": 0.45, "sy": 0.35, "text": "Follow... so you don't miss the next episode."},
+   {"t": "[matter-of-fact]", "st": 0.5, "sy": 0.2, "text": "Follow... so you don't miss the next episode."}
+  ]}
+ ],
+// voices (2026-10-19, by the numbers of scripts/voice-analyze.py; every pick passed Whisper): Phantom = Brian (the lowest, flattest of the three
+// auditioned: Brian, Adam Stone, jack-nubee), Sarah = Matilda, Lisa = Jessica (the brightest), Dave = Callum, Chad = Eric
+ "plan": {
+  "1": {"t": 1}, "2": {"t": 1}, "3": {"t": 1}, "4": {"t": 2}, "5": {"t": 1}, "6": {"t": 2}, "7": {"t": 2}, "8": {"t": 1, "bleep": [2]}, "9": {"t": 2},
+  "10": {"t": 1}, "11": {"t": 1}, "12": {"t": 3}, "13": {"t": 1}, "14": {"t": 2}, "15": {"t": 3}, "16": {"t": 2}, "17": {"t": 2}, "18": {"t": 1},
+  "19": {"t": 2}, "20": {"t": 1}, "21": {"t": 3}, "22": {"t": 1}, "23": {"t": 2}, "24": {"t": 2}, "25": {"t": 1}
+ },
+ "lead": 0.3,
+// the gaps carry the silent shots: 1 -> 2 the whip and the burp, 8 -> 9 the phone buzzing, 12 -> 13 the night window and the sax, 16 -> 17 Pearl
+// lifts her leg, 17 -> 18 the sax squeaks and the hearts pop, 18 -> 19 the morning yard, 19 -> 20 Sarah's smile and its drop, 20 -> 21 the
+// driveways and the creaking door, 23 -> 24 the red truck rolls out in silence
+ "gaps": {"1": 1.1, "2": 0.3, "3": 0.3, "4": 0.25, "5": 0.4, "6": 0.45, "7": 0.3, "8": 1.3, "9": 0.45, "10": 0.3, "11": 0.7, "12": 2.3,
+          "13": 0.35, "14": 0.4, "15": 0.2, "16": 0.6, "17": 0.6, "18": 1.7, "19": 2.0, "20": 2.4, "21": 0.6, "22": 0.7, "23": 2.2, "24": 0.6},
+ "tableSfx": [
+  {"line": 1, "from": "end", "off": 0.05, "sfx": "whoosh"},
+  {"line": 2, "from": "start", "off": -1.0, "sfx": "burp"},
+  {"line": 2, "from": "start", "off": -1.1, "sfx": "tv"},
+  {"line": 5, "from": "start", "off": 0.6, "sfx": "crunch"},
+  {"line": 6, "from": "start", "off": -0.35, "sfx": "kick"},
+  {"line": 7, "from": "start", "off": 0.0, "sfx": "tv"},
+  {"line": 8, "from": "end", "off": 0.25, "sfx": "buzz"},
+  {"line": 8, "from": "end", "off": 0.85, "sfx": "buzz"},
+  {"line": 13, "from": "start", "off": -2.1, "sfx": "sax", "gain": -2},
+  {"line": 16, "from": "start", "off": -0.1, "sfx": "kibble"},
+  {"line": 17, "from": "end", "off": 0.05, "sfx": "saxsqueak", "gain": -3},
+  {"line": 18, "from": "start", "off": -0.35, "sfx": "pop"},
+  {"line": 19, "from": "start", "off": -1.7, "sfx": "birds"},
+  {"line": 19, "from": "start", "off": -1.7, "sfx": "sprinkler"},
+  {"line": 21, "from": "start", "off": -1.0, "sfx": "creak"},
+  {"line": 22, "from": "start", "off": -0.7, "sfx": "ring"},
+  {"line": 22, "from": "start", "off": -0.15, "sfx": "pickup"},
+  {"line": 23, "from": "start", "off": -0.7, "sfx": "buzz"},
+  {"line": 23, "from": "end", "off": 0.2, "sfx": "truck"},
+  {"line": 24, "from": "start", "off": -0.6, "sfx": "slide"}
+ ],
+// the picture (scripts/shots.py, docs/production.md): kind "talk" = InfiniteTalk on the speaker's lines; "hold" = InfiniteTalk on silence (a face
+// that must not talk: every Phantom shot, the silent reactions); "move" = moveModel i2v (no faces close up); "still" = the keyframe with a push-in
+// ("fx": "buzz" shakes it). Every shot runs from "at" to the next; the cuts sit just before the word they belong to (timings.json).
+ "style": "Keep each character's exact face, hair, body shape and clothes from the reference images, in the same flat 2D adult animated sitcom style as the references: bold clean black outlines, flat bright colors, simple shading, simple cartoon backgrounds. Vertical frame.",
+ "style0": "A frame from a 2D adult animated sitcom: bold clean black outlines, flat bright colors, simple shading, simple cartoon backgrounds. Vertical frame.",
+ "moveModel": "i2v_2_2_Enhanced_Lightning_v2",
+ "refs": {"phantom": "cast/s1/phantom.png", "dave": "cast/s1/dave.png", "sarah": "cast/s1/sarah.png", "tyler": "cast/s1/tyler.png", "pearl": "cast/s1/pearl.png", "lisa": "cast/s1/lisa.png", "chad": "cast/s1/chad.png"},
+ "end": 65.4,
+ "endcard": {"dur": 2.5, "size": 96, "lines": ["Next: the cat starts texting.", "Follow.", "Send it to your Dave."]},
+ "stamps": [{"text": "NIGHT", "t0": 26.85, "t1": 28.4}, {"text": "NEXT MORNING", "t0": 42.95, "t1": 44.4}],
+ "shots": [
+  {"id": "s01", "at": 0.0, "kind": "hold", "refs": ["phantom"], "key": "Close-up: the slim ginger tabby cartoon cat with a big round head and a black t-shirt sits on the arm of a saggy brown couch in a cluttered living room in the evening, mustard yellow walls, warm lamp light. He looks straight into the camera with half-closed green eyes and a smug, unimpressed little smile, his mouth closed.", "move": "he looks into the camera, blinks slowly, his ear twitches, his mouth stays closed"},
+  {"id": "s02", "at": 1.12, "kind": "move", "refs": ["dave"], "key": "Wide shot of a cluttered suburban living room in the evening, mustard yellow walls, lamp light. The fat bald man with a brown mustache, in an old olive bomber jacket, a white t-shirt and ripped jeans, sprawls on a saggy brown couch covered in crumbs and candy wrappers, a beer can resting on his big belly, crushed beer cans on the floor, the blue glow of a TV on his face. He burps, cheeks puffed.", "move": "he lets out a big burp, his cheeks puff and his belly jiggles, the beer can wobbles on his belly"},
+  {"id": "s03", "at": 4.07, "kind": "hold", "refs": ["dave"], "key": "Close-up: the fat bald man with a brown mustache, in an old olive bomber jacket over a white t-shirt, slumped on a couch, scratches his belly with a TV remote, staring at the TV with dull half-closed eyes, the blue TV glow on his face, a mustard wall behind.", "move": "he stares at the TV and scratches his belly with the remote, his mouth stays closed"},
+  {"id": "s04", "at": 5.21, "kind": "hold", "refs": ["sarah"], "key": "Medium close-up in a small kitchen with mustard walls in the evening: the tired woman with a messy brown bun and dark circles under her eyes, in light blue nurse scrubs with a hospital badge, leans on the counter holding a coffee mug, staring into nothing with dead, exhausted eyes.", "move": "she stares blankly and blinks slowly, her mouth stays closed"},
+  {"id": "s05", "at": 6.14, "kind": "hold", "refs": ["tyler"], "key": "Medium close-up on a staircase in a shabby house in the evening: the skinny teenage boy with messy brown hair, in a grey hoodie with the hood up, looks down at his smartphone and rolls his eyes with contempt.", "move": "he rolls his eyes and keeps scrolling his phone, his mouth stays closed"},
+  {"id": "s06", "at": 7.2, "kind": "still", "key": "Close-up of an old refrigerator door: a faded paper wall calendar from a garage door company with the big words DAVE & SON at the top, open on the year 2009, a small photo of a smiling old man with a gray mustache in an olive bomber jacket giving a thumbs up, fridge magnets."},
+  {"id": "s07", "at": 8.92, "kind": "move", "key": "Extreme close-up of a fat hairy hand crushing an empty beer can, the sleeve of an old olive bomber jacket, the blue glow of a TV, a saggy brown couch cushion.", "move": "the hand slowly crushes the empty beer can"},
+  {"id": "s08", "at": 10.92, "kind": "talk", "who": "sarah", "refs": ["sarah"], "key": "A small messy kitchen with mustard walls in the evening: the tired woman with a messy brown bun and dark circles under her eyes, in light blue nurse scrubs with a hospital badge, kicks the door of an old dishwasher shut, annoyed, looking off toward the living room.", "move": "she says something sharp and tired, annoyed"},
+  {"id": "s09", "at": 13.55, "kind": "move", "key": "Close-up inside an open old dishwasher: dirty plates in the rack, murky grey water standing at the bottom with a fork floating in it.", "move": "the grey water ripples slightly and the fork bobs"},
+  {"id": "s10", "at": 15.28, "kind": "talk", "who": "dave", "refs": ["dave"], "key": "Close-up: the fat bald man with a brown mustache, in an old olive bomber jacket, on the couch, eyes glued to the TV, angry and red-faced, shouting without looking away, the blue TV glow on his face.", "move": "he shouts angrily without taking his eyes off the TV"},
+  {"id": "s11", "at": 17.15, "kind": "still", "key": "Close-up of a black smartphone lying on a saggy brown couch cushion among crumbs, the screen lit up with an incoming call that says UNKNOWN NUMBER, with a green and a red button.", "fx": "buzz"},
+  {"id": "s12", "at": 18.26, "kind": "talk", "who": "dave", "refs": ["dave"], "key": "Close-up: the fat bald man with a brown mustache, in an old olive bomber jacket, on the couch, glances down at a smartphone in his hand with a bored, dismissive face and taps the red decline button with his thumb, the blue TV glow on his face.", "move": "he glances at the phone, mutters one word and taps decline"},
+  {"id": "s13", "at": 19.94, "kind": "hold", "refs": ["phantom"], "key": "Close-up: the slim ginger tabby cartoon cat with a big round head, in a black t-shirt, sits on the arm of a couch in an evening living room with mustard walls, looking straight into the camera with a deadpan, unimpressed face, half-closed green eyes, mouth closed.", "move": "he looks into the camera deadpan and blinks once, his mouth stays closed"},
+  {"id": "s14", "at": 21.96, "kind": "hold", "refs": ["phantom"], "key": "Extreme close-up of the face of the slim ginger tabby cartoon cat with a big round head, filling the frame, in a cluttered evening living room with mustard yellow walls and warm lamp light behind him: half-closed green eyes, a flat deadpan expression, looking straight into the camera, mouth closed.", "seed": 8, "move": "he stares into the camera without moving, one slow blink, his mouth stays closed"},
+  {"id": "s15", "at": 23.94, "kind": "talk", "who": "sarah", "refs": ["sarah"], "key": "A small kitchen with mustard walls in the evening: the tired woman with a messy brown bun and dark circles under her eyes, in light blue nurse scrubs, wearing blue hospital gloves, washes a pile of dirty dishes by hand at the sink, soap foam up to her elbows, a strand of hair stuck to her cheek, bitter and exhausted.", "move": "she scrubs a plate and mutters bitterly"},
+  {"id": "s16", "at": 26.75, "kind": "move", "refs": ["phantom", "pearl"], "key": "Night. View from behind the slim ginger tabby cartoon cat with a big round head, sitting on a dark windowsill inside a dark room, the back of his head in the foreground, a book with the word MARKETING lying under his paw. Through the window, across a dark yard and a chest-high wooden fence, the neighbor's window glows warm gold, and in it the fluffy white Persian cat with blue eyes, long eyelashes and a pink collar with a gold heart sits on a pink velvet cushion.", "move": "the cat's tail sways slowly, the gold window glows, the white cat in it sits still"},
+  {"id": "s17", "at": 28.79, "kind": "hold", "refs": ["pearl"], "key": "Close-up: the fluffy white Persian cat with blue eyes, long eyelashes and a pink collar with a gold heart sits on a pink velvet cushion in a warm gold-lit room, elegant, eyes half-closed in a slow blink.", "move": "she blinks slowly and elegantly, her mouth stays closed"},
+  {"id": "s18", "at": 30.44, "kind": "hold", "refs": ["phantom"], "key": "Night, close-up: the slim ginger tabby cartoon cat with a big round head, in a black t-shirt, on a dark windowsill, lovestruck, with big pink hearts in his eyes and a dreamy smile, the warm gold light from the neighbor's window on his face.", "move": "he sighs dreamily, the hearts in his eyes pulse, his mouth stays closed"},
+  {"id": "s19", "at": 32.52, "kind": "still", "key": "Close-up of an elegant crystal dish with a fresh piece of pink salmon, on a pink velvet surface in warm gold light."},
+  {"id": "s20", "at": 33.92, "kind": "still", "key": "Close-up of a dented old metal dog bowl on a dirty kitchen floor with the name BUDDY painted on the side, three dry kibbles at the bottom, dim night light."},
+  {"id": "s21", "at": 36.0, "kind": "move", "refs": ["pearl"], "key": "Close-up in a warm gold-lit room: the fluffy white Persian cat with a pink collar with a gold heart sits on a pink velvet cushion in the classic cat grooming pose: one hind leg stretched straight up in the air above her head, her head bent down between her legs, her pink tongue out, licking herself.", "seed": 9, "move": "she licks her backside with her hind leg in the air"},
+  {"id": "s22", "at": 38.65, "kind": "hold", "refs": ["phantom"], "key": "Night, close-up: the slim ginger tabby cartoon cat with a big round head, in a black t-shirt, on a dark windowsill, the dreamy look fading from his face, sobering up, half-closed green eyes, warm gold light on his face.", "move": "his dreamy look fades and he blinks, his mouth stays closed"},
+  {"id": "s23", "at": 40.95, "kind": "hold", "refs": ["phantom"], "key": "Extreme close-up of the face of the slim ginger tabby cartoon cat with a big round head at night: flat, disappointed, deadpan half-closed green eyes looking into the camera, gold light on one side of his face, mouth closed.", "move": "he stares flatly into the camera and his ears droop, his mouth stays closed"},
+  {"id": "s24", "at": 42.9, "kind": "move", "refs": ["sarah"], "key": "Sunny morning, a wide shot of two back yards split down the middle by a chest-high wooden fence that runs from the bottom of the frame to the back. LEFT of the fence: the shabby back yard of an old house, dead brown patchy grass, a cracked porch, and the tired woman with a messy brown bun and dark circles under her eyes, in light blue nurse scrubs, standing on the porch holding a coffee mug. RIGHT of the fence: the neighbor's perfect yard, a bright green lawn with sprinklers spraying, colorful flower beds and a blue swimming pool. The pool is only on the neighbor's side, right of the fence.", "move": "the sprinklers spray on the neighbor's lawn, the woman on the porch sips her coffee", "seed": 8},
+  {"id": "s25", "at": 44.51, "kind": "talk", "who": "lisa", "refs": ["lisa"], "key": "Sunny morning in a beautiful garden full of flowers: the pretty woman with long wavy brown hair in a yellow sundress stands in her flower bed by a chest-high wooden fence, a little bluebird on her finger, a white rabbit at her feet, waving happily with a big sweet smile.", "move": "she waves happily and calls out a cheerful greeting"},
+  {"id": "s26", "at": 46.15, "kind": "hold", "refs": ["sarah"], "key": "Close-up, sunny morning, on the back porch of a shabby house, a wooden fence and the neighbor's bright green garden behind her: the tired woman with a messy brown bun and dark circles under her eyes, in light blue nurse scrubs, holding a coffee mug, gives a big fake sweet closed-mouth smile and lifts her mug in greeting.", "move": "she smiles sweetly, her mouth stays closed in the smile", "seed": 8},
+  {"id": "s27", "at": 47.0, "kind": "hold", "refs": ["sarah"], "key": "Extreme close-up, sunny morning, on the back porch of a shabby house, a wooden fence and green trees behind her: the tired woman with a messy brown bun and dark circles under her eyes, in light blue nurse scrubs, her smile gone, her face twisted with pure envy, narrowed eyes, a sour scowl, mouth closed.", "move": "she glares with envy, her mouth stays closed", "seed": 8},
+  {"id": "s28", "at": 47.88, "kind": "talk", "who": "sarah", "refs": ["sarah"], "key": "Morning, inside a small kitchen with mustard yellow walls, at the back door: the tired woman with a messy brown bun and dark circles under her eyes, in light blue nurse scrubs, holding a coffee mug, stomps in through the back door, mocking with a sour face and rolled eyes.", "move": "she stomps in and mimics a greeting in a whiny mocking voice", "seed": 8},
+  {"id": "s29", "at": 50.3, "kind": "move", "key": "Sunny morning, wide shot of two driveways side by side. On the left, in front of a shabby house with a dented garage door, a rusty old pickup truck with the words & SON faded on its door. On the right, in front of a perfect house with a spotless garage, a shiny brand new red pickup truck with CHAD'S GARAGE DOORS on its side.", "move": "a light breeze, the red truck gleams in the sun"},
+  {"id": "s30", "at": 51.3, "kind": "move", "refs": ["dave"], "key": "Sunny morning in a driveway, medium shot from behind: the fat bald man in an old olive bomber jacket and ripped jeans pulls open the driver's door of a rusty old brown pickup truck, the door's hinges rusty; a shabby house with a dented garage door behind.", "move": "he yanks the rusty door open", "seed": 8},
+  {"id": "s31", "at": 52.34, "kind": "talk", "who": "chad", "refs": ["chad"], "key": "Sunny morning in front of a perfect house: the tanned muscular man with swept blond hair, in a white polo shirt with a navy collar and khaki pants, holding a green smoothie, stands by a shiny new red pickup truck and waves with a huge bright smile.", "move": "he waves and calls out a cheerful good morning"},
+  {"id": "s32", "at": 53.32, "kind": "talk", "who": "chad", "refs": ["chad"], "key": "Close-up, sunny morning, by a shiny red pickup truck: the tanned muscular man with swept blond hair, in a white polo shirt with a navy collar, answers his smartphone with a big professional smile, holding it to his ear.", "move": "he answers the phone cheerfully with a big smile"},
+  {"id": "s33", "at": 55.22, "kind": "move", "key": "Inside the cab of an old rusty pickup truck: a black smartphone in a fat hairy hand lights up with an incoming call that says UNKNOWN NUMBER, and the thumb presses the red decline button. A cracked dashboard, the sleeve of an old olive bomber jacket.", "move": "the phone buzzes and the thumb taps decline"},
+  {"id": "s34", "at": 57.25, "kind": "move", "refs": ["dave"], "key": "Inside the cab of an old rusty pickup truck, view from behind the fat bald man in an old olive bomber jacket sitting at the wheel, the back of his bald head in the foreground. Through his side window, a shiny new red pickup truck drives away down the sunny street.", "move": "the red truck drives away past the window, the man sits still"},
+  {"id": "s35", "at": 58.7, "kind": "move", "key": "Close-up: an orange striped cat paw slides a black smartphone out from under a saggy brown couch cushion, the screen lighting up.", "move": "the paw slides the phone out and the screen lights up"},
+  {"id": "s36", "at": 60.27, "kind": "hold", "refs": ["phantom"], "key": "Close-up, sunny morning: the slim ginger tabby cartoon cat with a big round head, in a black t-shirt, sitting on the windowsill of a cluttered living room with mustard yellow walls, the sunny street outside the window behind him, holding a black smartphone in his paws, the bright screen lighting his face from below, determined, half-closed green eyes, a sly smile, mouth closed.", "move": "he looks at the phone screen with a sly determined look, his mouth stays closed", "seed": 8},
+  {"id": "s37", "at": 61.95, "kind": "hold", "refs": ["phantom"], "key": "Close-up: the slim ginger tabby cartoon cat with a big round head, in a black t-shirt, holding a black smartphone in one paw, looks straight into the camera with a smug, confident little smile, half-closed green eyes, mouth closed, a cozy living room behind.", "move": "he looks into the camera smugly and raises an eyebrow, his mouth stays closed"},
+  {"id": "s38", "at": 63.34, "kind": "hold", "refs": ["phantom"], "key": "Extreme close-up of the face of the slim ginger tabby cartoon cat with a big round head, filling the frame, in a cluttered living room with mustard yellow walls and a window behind him, looking straight into the camera with a smug, knowing look, one eyebrow raised, half-closed green eyes, mouth closed.", "move": "he holds the look into the camera and winks, his mouth stays closed", "seed": 8}
+ ]
+}

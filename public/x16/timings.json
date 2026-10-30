@@ -1,0 +1,893 @@
+{
+ "model": "eleven_v4",
+ "target_lufs": -19.0,
+ "cast": {
+  "KENZIE": {
+   "cast": {
+    "voice": "Laura",
+    "voiceId": "FGY2WhTYpPnrIDTdsKH5",
+    "account_name": "Laura - Enthusiast, Quirky Attitude"
+   }
+  },
+  "ROSS": {
+   "cast": {
+    "voice": "jack-tyler",
+    "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+    "account_name": "jack-tyler"
+   }
+  },
+  "MOM": {
+   "cast": {
+    "voice": "Jessica",
+    "voiceId": "flHkNRp1BlvT73UL6gyz",
+    "account_name": "Jessica Anne Bogart - Character and Animation"
+   }
+  }
+ },
+ "takes": [
+  {
+   "id": "l01",
+   "n": 1,
+   "file": "x16/01-kenzie.mp3",
+   "character": "KENZIE",
+   "voice": "Laura",
+   "voiceId": "FGY2WhTYpPnrIDTdsKH5",
+   "text": "Hi chat.",
+   "say": "[deadpan] [vocal fry] Hi chat.",
+   "source": "kenzie-1-laura/L01-t2",
+   "tempo": 1.085,
+   "dur": 1.453,
+   "end": 1.24,
+   "words": [
+    {
+     "w": "hi",
+     "d": "Hi",
+     "t": 0.2,
+     "e": 0.482
+    },
+    {
+     "w": "chat",
+     "d": "chat.",
+     "t": 0.482,
+     "e": 1.24
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.24
+    ]
+   ]
+  },
+  {
+   "id": "l02",
+   "n": 2,
+   "file": "x16/02-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "So, we're like a family here.",
+   "say": "[cheerful] [proud] So, we're like a family here.",
+   "source": "ross-1-jack-tyler/L02-t2",
+   "tempo": 1.2,
+   "dur": 1.947,
+   "end": 1.755,
+   "words": [
+    {
+     "w": "so",
+     "d": "So,",
+     "t": 0.134,
+     "e": 0.53
+    },
+    {
+     "w": "we're",
+     "d": "we're",
+     "t": 0.671,
+     "e": 0.873
+    },
+    {
+     "w": "like",
+     "d": "like",
+     "t": 0.873,
+     "e": 1.007
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 1.007,
+     "e": 1.141
+    },
+    {
+     "w": "family",
+     "d": "family",
+     "t": 1.141,
+     "e": 1.477
+    },
+    {
+     "w": "here",
+     "d": "here.",
+     "t": 1.477,
+     "e": 1.755
+    }
+   ],
+   "voiced": [
+    [
+     0.015,
+     0.53
+    ],
+    [
+     0.61,
+     1.755
+    ]
+   ]
+  },
+  {
+   "id": "l03",
+   "n": 3,
+   "file": "x16/03-kenzie.mp3",
+   "character": "KENZIE",
+   "voice": "Laura",
+   "voiceId": "FGY2WhTYpPnrIDTdsKH5",
+   "text": "Red flag.",
+   "say": "[unimpressed] [matter-of-fact] Red flag.",
+   "source": "kenzie-1-laura/L03-t2",
+   "tempo": 1.15,
+   "dur": 1.309,
+   "end": 1.07,
+   "words": [
+    {
+     "w": "red",
+     "d": "Red",
+     "t": 0.12,
+     "e": 0.473
+    },
+    {
+     "w": "flag",
+     "d": "flag.",
+     "t": 0.473,
+     "e": 1.07
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.07
+    ]
+   ]
+  },
+  {
+   "id": "l04",
+   "n": 4,
+   "file": "x16/04-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "First shift's a free trial.",
+   "say": "[cheerful] [offhand] First shift's a free trial.",
+   "source": "ross-1-jack-tyler/L04-t3",
+   "tempo": 1.15,
+   "dur": 1.435,
+   "end": 1.185,
+   "words": [
+    {
+     "w": "first",
+     "d": "First",
+     "t": 0.06,
+     "e": 0.341
+    },
+    {
+     "w": "shift's",
+     "d": "shift's",
+     "t": 0.341,
+     "e": 0.552
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 0.552,
+     "e": 0.622
+    },
+    {
+     "w": "free",
+     "d": "free",
+     "t": 0.622,
+     "e": 0.833
+    },
+    {
+     "w": "trial",
+     "d": "trial.",
+     "t": 0.833,
+     "e": 1.185
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.185
+    ]
+   ]
+  },
+  {
+   "id": "l05",
+   "n": 5,
+   "file": "x16/05-kenzie.mp3",
+   "character": "KENZIE",
+   "voice": "Laura",
+   "voiceId": "FGY2WhTYpPnrIDTdsKH5",
+   "text": "Unpaid?",
+   "say": "[skeptical] [unimpressed] Unpaid?",
+   "source": "kenzie-1-laura/L05-t2",
+   "tempo": 1.0,
+   "dur": 1.28,
+   "end": 1.025,
+   "words": [
+    {
+     "w": "unpaid",
+     "d": "Unpaid?",
+     "t": 0.07,
+     "e": 1.025
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.025
+    ]
+   ]
+  },
+  {
+   "id": "l06",
+   "n": 6,
+   "file": "x16/06-kenzie.mp3",
+   "character": "KENZIE",
+   "voice": "Laura",
+   "voiceId": "FGY2WhTYpPnrIDTdsKH5",
+   "text": "Can I do it remote?",
+   "say": "[casual] [unbothered] Can I do it remote?",
+   "source": "kenzie-1-laura/L06-t1",
+   "tempo": 1.15,
+   "dur": 1.388,
+   "end": 1.225,
+   "words": [
+    {
+     "w": "can",
+     "d": "Can",
+     "t": 0.12,
+     "e": 0.27
+    },
+    {
+     "w": "i",
+     "d": "I",
+     "t": 0.27,
+     "e": 0.479
+    },
+    {
+     "w": "do",
+     "d": "do",
+     "t": 0.479,
+     "e": 0.584
+    },
+    {
+     "w": "it",
+     "d": "it",
+     "t": 0.584,
+     "e": 0.689
+    },
+    {
+     "w": "remote",
+     "d": "remote?",
+     "t": 0.689,
+     "e": 1.225
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.225
+    ]
+   ]
+  },
+  {
+   "id": "l07",
+   "n": 7,
+   "file": "x16/07-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "It's a coffee shop.",
+   "say": "[stunned] [monotone] It's a coffee shop.",
+   "source": "ross-1-jack-tyler/L07-t2",
+   "tempo": 1.15,
+   "dur": 1.571,
+   "end": 1.43,
+   "words": [
+    {
+     "w": "it's",
+     "d": "It's",
+     "t": 0.035,
+     "e": 0.279
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 0.279,
+     "e": 0.37
+    },
+    {
+     "w": "coffee",
+     "d": "coffee",
+     "t": 0.523,
+     "e": 0.942
+    },
+    {
+     "w": "shop",
+     "d": "shop.",
+     "t": 0.942,
+     "e": 1.43
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.37
+    ],
+    [
+     0.455,
+     1.43
+    ]
+   ]
+  },
+  {
+   "id": "l08",
+   "n": 8,
+   "file": "x16/08-kenzie.mp3",
+   "character": "KENZIE",
+   "voice": "Laura",
+   "voiceId": "FGY2WhTYpPnrIDTdsKH5",
+   "text": "My mom handles the money.",
+   "say": "[flat] [unbothered] My mom handles the money.",
+   "source": "kenzie-1-laura/L08-t2",
+   "tempo": 1.2,
+   "dur": 1.457,
+   "end": 1.315,
+   "words": [
+    {
+     "w": "my",
+     "d": "My",
+     "t": 0.03,
+     "e": 0.354
+    },
+    {
+     "w": "mom",
+     "d": "mom",
+     "t": 0.354,
+     "e": 0.521
+    },
+    {
+     "w": "handles",
+     "d": "handles",
+     "t": 0.521,
+     "e": 0.822
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 0.822,
+     "e": 0.922
+    },
+    {
+     "w": "money",
+     "d": "money.",
+     "t": 0.922,
+     "e": 1.315
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.315
+    ]
+   ]
+  },
+  {
+   "id": "l09",
+   "n": 9,
+   "file": "x16/09-mom.mp3",
+   "character": "MOM",
+   "voice": "Jessica",
+   "voiceId": "flHkNRp1BlvT73UL6gyz",
+   "text": "She needs thirty an hour. And she doesn't do mornings.",
+   "say": "[cold] [firm] She needs thirty an hour. And she doesn't do mornings.",
+   "source": "mom-1-jessica/L09-t2",
+   "tempo": 1.25,
+   "dur": 3.204,
+   "end": 3.025,
+   "words": [
+    {
+     "w": "she",
+     "d": "She",
+     "t": 0.26,
+     "e": 0.384
+    },
+    {
+     "w": "needs",
+     "d": "needs",
+     "t": 0.384,
+     "e": 0.705
+    },
+    {
+     "w": "thirty",
+     "d": "thirty",
+     "t": 0.705,
+     "e": 0.961
+    },
+    {
+     "w": "an",
+     "d": "an",
+     "t": 0.961,
+     "e": 1.089
+    },
+    {
+     "w": "hour",
+     "d": "hour.",
+     "t": 1.089,
+     "e": 1.545
+    },
+    {
+     "w": "and",
+     "d": "And",
+     "t": 1.666,
+     "e": 1.89
+    },
+    {
+     "w": "she",
+     "d": "she",
+     "t": 1.89,
+     "e": 2.082
+    },
+    {
+     "w": "doesn't",
+     "d": "doesn't",
+     "t": 2.082,
+     "e": 2.371
+    },
+    {
+     "w": "do",
+     "d": "do",
+     "t": 2.371,
+     "e": 2.499
+    },
+    {
+     "w": "mornings",
+     "d": "mornings.",
+     "t": 2.499,
+     "e": 3.025
+    }
+   ],
+   "voiced": [
+    [
+     0.0,
+     1.545
+    ],
+    [
+     1.705,
+     3.025
+    ]
+   ]
+  },
+  {
+   "id": "l10",
+   "n": 10,
+   "file": "x16/10-mom.mp3",
+   "character": "MOM",
+   "voice": "Jessica",
+   "voiceId": "flHkNRp1BlvT73UL6gyz",
+   "text": "Or customers.",
+   "say": "[matter-of-fact] [dismissive] Or customers.",
+   "source": "mom-1-jessica/L10-t2",
+   "tempo": 1.1,
+   "dur": 1.22,
+   "end": 1.155,
+   "words": [
+    {
+     "w": "or",
+     "d": "Or",
+     "t": 0.03,
+     "e": 0.345
+    },
+    {
+     "w": "customers",
+     "d": "customers.",
+     "t": 0.345,
+     "e": 1.155
+    }
+   ],
+   "voiced": [
+    [
+     0.065,
+     1.155
+    ]
+   ]
+  },
+  {
+   "id": "l11",
+   "n": 11,
+   "file": "x16/11-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "IT'S A COFFEE SHOP!",
+   "say": "[enraged] [yelling] IT'S A COFFEE SHOP!",
+   "source": "ross-1-jack-tyler/L11-t3",
+   "tempo": 1.0,
+   "dur": 1.795,
+   "end": 1.545,
+   "words": [
+    {
+     "w": "it's",
+     "d": "IT'S",
+     "t": 0.16,
+     "e": 0.21
+    },
+    {
+     "w": "a",
+     "d": "A",
+     "t": 0.32,
+     "e": 0.44
+    },
+    {
+     "w": "coffee",
+     "d": "COFFEE",
+     "t": 0.56,
+     "e": 1.12
+    },
+    {
+     "w": "shop",
+     "d": "SHOP!",
+     "t": 1.12,
+     "e": 1.41
+    }
+   ],
+   "voiced": [
+    [
+     0.045,
+     0.21
+    ],
+    [
+     0.25,
+     0.44
+    ],
+    [
+     0.535,
+     1.41
+    ],
+    [
+     1.505,
+     1.545
+    ]
+   ]
+  },
+  {
+   "id": "l12",
+   "n": 12,
+   "file": "x16/12-mom.mp3",
+   "character": "MOM",
+   "voice": "Jessica",
+   "voiceId": "flHkNRp1BlvT73UL6gyz",
+   "text": "No, honey. YOU'RE the red flag.",
+   "say": "[cold] [sweetly cruel] No, honey. YOU'RE the red flag.",
+   "source": "mom-1-jessica/L12-t2",
+   "tempo": 1.2,
+   "dur": 2.534,
+   "end": 2.48,
+   "words": [
+    {
+     "w": "no",
+     "d": "No,",
+     "t": 0.05,
+     "e": 0.468
+    },
+    {
+     "w": "honey",
+     "d": "honey.",
+     "t": 0.468,
+     "e": 1.335
+    },
+    {
+     "w": "you're",
+     "d": "YOU'RE",
+     "t": 1.335,
+     "e": 1.668
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 1.668,
+     "e": 1.801
+    },
+    {
+     "w": "red",
+     "d": "red",
+     "t": 1.801,
+     "e": 2.001
+    },
+    {
+     "w": "flag",
+     "d": "flag.",
+     "t": 2.001,
+     "e": 2.48
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     2.48
+    ]
+   ]
+  },
+  {
+   "id": "l13",
+   "n": 13,
+   "file": "x16/13-kenzie.mp3",
+   "character": "KENZIE",
+   "voice": "Laura",
+   "voiceId": "FGY2WhTYpPnrIDTdsKH5",
+   "text": "So... when do I start?",
+   "say": "[bored] [hopeful] So... when do I start?",
+   "source": "kenzie-1-laura/L13-t3",
+   "tempo": 1.2,
+   "dur": 2.272,
+   "end": 2.1,
+   "words": [
+    {
+     "w": "so",
+     "d": "So...",
+     "t": 0.904,
+     "e": 1.132
+    },
+    {
+     "w": "when",
+     "d": "when",
+     "t": 1.132,
+     "e": 1.299
+    },
+    {
+     "w": "do",
+     "d": "do",
+     "t": 1.299,
+     "e": 1.534
+    },
+    {
+     "w": "i",
+     "d": "I",
+     "t": 1.534,
+     "e": 1.601
+    },
+    {
+     "w": "start",
+     "d": "start?",
+     "t": 1.601,
+     "e": 2.1
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     2.1
+    ]
+   ]
+  },
+  {
+   "id": "l14",
+   "n": 14,
+   "file": "x16/14-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "You're hired.",
+   "say": "[through gritted teeth] [strained] You're hired.",
+   "source": "ross-1-jack-tyler/L14-t1",
+   "tempo": 1.0,
+   "dur": 1.58,
+   "end": 1.38,
+   "words": [
+    {
+     "w": "you're",
+     "d": "You're",
+     "t": 0.14,
+     "e": 0.62
+    },
+    {
+     "w": "hired",
+     "d": "hired.",
+     "t": 0.62,
+     "e": 1.38
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.38
+    ]
+   ]
+  },
+  {
+   "id": "l15",
+   "n": 15,
+   "file": "x16/15-kenzie.mp3",
+   "character": "KENZIE",
+   "voice": "Laura",
+   "voiceId": "FGY2WhTYpPnrIDTdsKH5",
+   "text": "...Red flag.",
+   "say": "[deadpan] [flat] ...Red flag.",
+   "source": "kenzie-1-laura/L15-t1",
+   "tempo": 1.0,
+   "dur": 1.32,
+   "end": 1.1,
+   "words": [
+    {
+     "w": "red",
+     "d": "...Red",
+     "t": 0.01,
+     "e": 0.36
+    },
+    {
+     "w": "flag",
+     "d": "flag.",
+     "t": 0.36,
+     "e": 1.1
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.1
+    ]
+   ]
+  }
+ ],
+ "tableRead": {
+  "file": "out/x16-table-read.mp3",
+  "dur": 28.745,
+  "lufs": -15.9,
+  "gaps": {
+   "1": 0.2,
+   "2": 0.3,
+   "3": 0.3,
+   "4": 0.1,
+   "5": 0.35,
+   "6": 0.25,
+   "7": 0.45,
+   "8": 0.4,
+   "9": 0.25,
+   "10": 0.25,
+   "11": 0.5,
+   "12": 1.3,
+   "13": 0.55,
+   "14": 0.5
+  },
+  "cues": [
+   {
+    "n": 1,
+    "at": 0.44,
+    "speech": [
+     0.5,
+     1.68
+    ]
+   },
+   {
+    "n": 2,
+    "at": 1.865,
+    "speech": [
+     1.88,
+     3.62
+    ]
+   },
+   {
+    "n": 3,
+    "at": 3.86,
+    "speech": [
+     3.92,
+     4.93
+    ]
+   },
+   {
+    "n": 4,
+    "at": 5.17,
+    "speech": [
+     5.23,
+     6.355
+    ]
+   },
+   {
+    "n": 5,
+    "at": 6.395,
+    "speech": [
+     6.455,
+     7.42
+    ]
+   },
+   {
+    "n": 6,
+    "at": 7.71,
+    "speech": [
+     7.77,
+     8.935
+    ]
+   },
+   {
+    "n": 7,
+    "at": 9.125,
+    "speech": [
+     9.185,
+     10.555
+    ]
+   },
+   {
+    "n": 8,
+    "at": 10.945,
+    "speech": [
+     11.005,
+     12.26
+    ]
+   },
+   {
+    "n": 9,
+    "at": 12.66,
+    "speech": [
+     12.66,
+     15.685
+    ]
+   },
+   {
+    "n": 10,
+    "at": 15.87,
+    "speech": [
+     15.935,
+     17.025
+    ]
+   },
+   {
+    "n": 11,
+    "at": 17.23,
+    "speech": [
+     17.275,
+     18.775
+    ]
+   },
+   {
+    "n": 12,
+    "at": 19.215,
+    "speech": [
+     19.275,
+     21.695
+    ]
+   },
+   {
+    "n": 13,
+    "at": 22.935,
+    "speech": [
+     22.995,
+     25.035
+    ]
+   },
+   {
+    "n": 14,
+    "at": 25.525,
+    "speech": [
+     25.585,
+     26.905
+    ]
+   },
+   {
+    "n": 15,
+    "at": 27.345,
+    "speech": [
+     27.405,
+     28.445
+    ]
+   }
+  ],
+  "sfx": []
+ }
+}

@@ -1,0 +1,834 @@
+{
+ "model": "eleven_v4",
+ "target_lufs": -19.0,
+ "cast": {
+  "KYLE": {
+   "cast": {
+    "voice": "jack-james",
+    "voiceId": "Myb1gsDenT3mlMlj7vib",
+    "account_name": "jack-james"
+   }
+  },
+  "DENISE": {
+   "cast": {
+    "voice": "Bella",
+    "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+    "account_name": "Bella - Professional, Bright, Warm"
+   }
+  },
+  "MACHINE": {
+   "cast": {
+    "voice": "Laura",
+    "voiceId": "FGY2WhTYpPnrIDTdsKH5",
+    "account_name": "Laura - Enthusiast, Quirky Attitude"
+   }
+  },
+  "ATTENDANT": {
+   "cast": {
+    "voice": "Bill",
+    "voiceId": "pqHfZKP75CvOlQylNhV4",
+    "account_name": "Bill - Wise, Mature, Balanced"
+   }
+  }
+ },
+ "takes": [
+  {
+   "id": "l01",
+   "n": 1,
+   "file": "tip/01-kyle.mp3",
+   "character": "KYLE",
+   "voice": "jack-james",
+   "voiceId": "Myb1gsDenT3mlMlj7vib",
+   "text": "It's gonna ask you a quick question.",
+   "say": "[bored] [monotone] It's gonna ask you a quick question.",
+   "source": "kyle-1-jack-james/L01-t1",
+   "tempo": 1.0,
+   "dur": 2.205,
+   "end": 2.08,
+   "words": [
+    {
+     "w": "it's",
+     "d": "It's",
+     "t": 0.045,
+     "e": 0.245
+    },
+    {
+     "w": "gonna",
+     "d": "gonna",
+     "t": 0.245,
+     "e": 0.525
+    },
+    {
+     "w": "ask",
+     "d": "ask",
+     "t": 0.525,
+     "e": 0.765
+    },
+    {
+     "w": "you",
+     "d": "you",
+     "t": 0.765,
+     "e": 0.885
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 0.885,
+     "e": 1.005
+    },
+    {
+     "w": "quick",
+     "d": "quick",
+     "t": 1.005,
+     "e": 1.525
+    },
+    {
+     "w": "question",
+     "d": "question.",
+     "t": 1.525,
+     "e": 2.08
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     2.08
+    ]
+   ]
+  },
+  {
+   "id": "l02",
+   "n": 2,
+   "file": "tip/02-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "I got it out of the fridge myself.",
+   "say": "[annoyed] [incredulous] I got it out of the fridge myself.",
+   "source": "denise-1-bella/L02-t1",
+   "tempo": 1.0,
+   "dur": 2.24,
+   "end": 2.115,
+   "words": [
+    {
+     "w": "i",
+     "d": "I",
+     "t": 0.08,
+     "e": 0.225
+    },
+    {
+     "w": "got",
+     "d": "got",
+     "t": 0.32,
+     "e": 0.48
+    },
+    {
+     "w": "it",
+     "d": "it",
+     "t": 0.48,
+     "e": 0.6
+    },
+    {
+     "w": "out",
+     "d": "out",
+     "t": 0.6,
+     "e": 0.72
+    },
+    {
+     "w": "of",
+     "d": "of",
+     "t": 0.72,
+     "e": 0.8
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 0.8,
+     "e": 1.0
+    },
+    {
+     "w": "fridge",
+     "d": "fridge",
+     "t": 1.0,
+     "e": 1.28
+    },
+    {
+     "w": "myself",
+     "d": "myself.",
+     "t": 1.28,
+     "e": 2.115
+    }
+   ],
+   "voiced": [
+    [
+     0.025,
+     0.225
+    ],
+    [
+     0.265,
+     2.115
+    ]
+   ]
+  },
+  {
+   "id": "l03",
+   "n": 3,
+   "file": "tip/03-kyle.mp3",
+   "character": "KYLE",
+   "voice": "jack-james",
+   "voiceId": "Myb1gsDenT3mlMlj7vib",
+   "text": "Mm-hm.",
+   "say": "[flat] [disinterested] Mm-hm.",
+   "source": "kyle-1-jack-james/L03-t2",
+   "tempo": 1.0,
+   "dur": 0.93,
+   "end": 0.74,
+   "words": [
+    {
+     "w": "mmhm",
+     "d": "Mm-hm.",
+     "t": 0.08,
+     "e": 0.74
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.74
+    ]
+   ]
+  },
+  {
+   "id": "l05",
+   "n": 5,
+   "file": "tip/05-kyle.mp3",
+   "character": "KYLE",
+   "voice": "jack-james",
+   "voiceId": "Myb1gsDenT3mlMlj7vib",
+   "text": "Have a good one.",
+   "say": "[monotone] [bored] Have a good one.",
+   "source": "kyle-1-jack-james/L05-t1",
+   "tempo": 1.0,
+   "dur": 1.405,
+   "end": 1.17,
+   "words": [
+    {
+     "w": "have",
+     "d": "Have",
+     "t": 0.09,
+     "e": 0.365
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 0.365,
+     "e": 0.445
+    },
+    {
+     "w": "good",
+     "d": "good",
+     "t": 0.445,
+     "e": 0.685
+    },
+    {
+     "w": "one",
+     "d": "one.",
+     "t": 0.685,
+     "e": 1.17
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.17
+    ]
+   ]
+  },
+  {
+   "id": "l16",
+   "n": 16,
+   "file": "tip/16-machine.mp3",
+   "character": "MACHINE",
+   "voice": "Laura",
+   "voiceId": "FGY2WhTYpPnrIDTdsKH5",
+   "text": "No tip selected. Help is on the way.",
+   "say": "[cheerful] [robotic] No tip selected. Help is on the way.",
+   "source": "machine-1-laura/L16-t3",
+   "tempo": 1.0,
+   "dur": 3.095,
+   "end": 2.845,
+   "words": [
+    {
+     "w": "no",
+     "d": "No",
+     "t": 0.01,
+     "e": 0.435
+    },
+    {
+     "w": "tip",
+     "d": "tip",
+     "t": 0.435,
+     "e": 0.675
+    },
+    {
+     "w": "selected",
+     "d": "selected.",
+     "t": 0.675,
+     "e": 0.93
+    },
+    {
+     "w": "help",
+     "d": "Help",
+     "t": 1.715,
+     "e": 1.82
+    },
+    {
+     "w": "is",
+     "d": "is",
+     "t": 1.955,
+     "e": 2.195
+    },
+    {
+     "w": "on",
+     "d": "on",
+     "t": 2.195,
+     "e": 2.395
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 2.395,
+     "e": 2.515
+    },
+    {
+     "w": "way",
+     "d": "way.",
+     "t": 2.515,
+     "e": 2.845
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.93
+    ],
+    [
+     0.98,
+     1.275
+    ],
+    [
+     1.57,
+     1.82
+    ],
+    [
+     1.87,
+     2.845
+    ]
+   ]
+  },
+  {
+   "id": "l17",
+   "n": 17,
+   "file": "tip/17-attendant.mp3",
+   "character": "ATTENDANT",
+   "voice": "Bill",
+   "voiceId": "pqHfZKP75CvOlQylNhV4",
+   "text": "It wants a tip.",
+   "say": "[tired] [sighing] ...It wants a tip.",
+   "source": "attendant-1-bill/L17-t1",
+   "tempo": 1.0,
+   "dur": 2.395,
+   "end": 2.15,
+   "words": [
+    {
+     "w": "it",
+     "d": "...It",
+     "t": 0.8,
+     "e": 1.12
+    },
+    {
+     "w": "wants",
+     "d": "wants",
+     "t": 1.12,
+     "e": 1.44
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 1.44,
+     "e": 1.52
+    },
+    {
+     "w": "tip",
+     "d": "tip.",
+     "t": 1.6,
+     "e": 1.94
+    }
+   ],
+   "voiced": [
+    [
+     0.035,
+     1.52
+    ],
+    [
+     1.57,
+     1.94
+    ],
+    [
+     1.97,
+     2.15
+    ]
+   ]
+  },
+  {
+   "id": "l09",
+   "n": 9,
+   "file": "tip/09-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "For who?",
+   "say": "[confused] For who?",
+   "source": "denise-1-bella/L09-t3",
+   "tempo": 1.0,
+   "dur": 1.2,
+   "end": 1.05,
+   "words": [
+    {
+     "w": "for",
+     "d": "For",
+     "t": 0.24,
+     "e": 0.56
+    },
+    {
+     "w": "who",
+     "d": "who?",
+     "t": 0.56,
+     "e": 1.05
+    }
+   ],
+   "voiced": [
+    [
+     0.05,
+     1.05
+    ]
+   ]
+  },
+  {
+   "id": "l10",
+   "n": 10,
+   "file": "tip/10-attendant.mp3",
+   "character": "ATTENDANT",
+   "voice": "Bill",
+   "voiceId": "pqHfZKP75CvOlQylNhV4",
+   "text": "Me, I guess.",
+   "say": "[embarrassed] [mumbling] ...Me, I guess.",
+   "source": "attendant-1-bill/L10-t1",
+   "tempo": 1.0,
+   "dur": 2.395,
+   "end": 2.145,
+   "words": [
+    {
+     "w": "me",
+     "d": "...Me,",
+     "t": 0.74,
+     "e": 1.495
+    },
+    {
+     "w": "i",
+     "d": "I",
+     "t": 1.495,
+     "e": 1.655
+    },
+    {
+     "w": "guess",
+     "d": "guess.",
+     "t": 1.655,
+     "e": 2.145
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     2.145
+    ]
+   ]
+  },
+  {
+   "id": "l18",
+   "n": 18,
+   "file": "tip/18-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "It's gonna ask you a quick question.",
+   "say": "[flat] [tired] It's gonna ask you a quick question.",
+   "source": "denise-1-bella/L18-t2",
+   "tempo": 1.0,
+   "dur": 2.28,
+   "end": 2.03,
+   "words": [
+    {
+     "w": "it's",
+     "d": "It's",
+     "t": 0.21,
+     "e": 0.49
+    },
+    {
+     "w": "gonna",
+     "d": "gonna",
+     "t": 0.49,
+     "e": 0.77
+    },
+    {
+     "w": "ask",
+     "d": "ask",
+     "t": 0.77,
+     "e": 0.97
+    },
+    {
+     "w": "you",
+     "d": "you",
+     "t": 0.97,
+     "e": 1.09
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 1.09,
+     "e": 1.125
+    },
+    {
+     "w": "quick",
+     "d": "quick",
+     "t": 1.17,
+     "e": 1.31
+    },
+    {
+     "w": "question",
+     "d": "question.",
+     "t": 1.41,
+     "e": 2.03
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.125
+    ],
+    [
+     1.16,
+     1.31
+    ],
+    [
+     1.385,
+     2.03
+    ]
+   ]
+  },
+  {
+   "id": "l19",
+   "n": 19,
+   "file": "tip/19-kyle.mp3",
+   "character": "KYLE",
+   "voice": "jack-james",
+   "voiceId": "Myb1gsDenT3mlMlj7vib",
+   "text": "I got it out of the fridge myself.",
+   "say": "[monotone] I got it out of the fridge myself.",
+   "source": "kyle-1-jack-james/L19-t2",
+   "tempo": 1.0,
+   "dur": 2.03,
+   "end": 1.92,
+   "words": [
+    {
+     "w": "i",
+     "d": "I",
+     "t": 0.03,
+     "e": 0.27
+    },
+    {
+     "w": "got",
+     "d": "got",
+     "t": 0.27,
+     "e": 0.43
+    },
+    {
+     "w": "it",
+     "d": "it",
+     "t": 0.43,
+     "e": 0.55
+    },
+    {
+     "w": "out",
+     "d": "out",
+     "t": 0.55,
+     "e": 0.63
+    },
+    {
+     "w": "of",
+     "d": "of",
+     "t": 0.63,
+     "e": 0.75
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 0.75,
+     "e": 0.91
+    },
+    {
+     "w": "fridge",
+     "d": "fridge",
+     "t": 0.91,
+     "e": 1.23
+    },
+    {
+     "w": "myself",
+     "d": "myself.",
+     "t": 1.23,
+     "e": 1.92
+    }
+   ],
+   "voiced": [
+    [
+     0.065,
+     1.92
+    ]
+   ]
+  },
+  {
+   "id": "l20",
+   "n": 20,
+   "file": "tip/20-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Have a good one.",
+   "say": "[forced politeness] Have a good one.",
+   "source": "denise-1-bella/L20-t1",
+   "tempo": 1.0,
+   "dur": 1.33,
+   "end": 1.165,
+   "words": [
+    {
+     "w": "have",
+     "d": "Have",
+     "t": 0.2,
+     "e": 0.45
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 0.45,
+     "e": 0.53
+    },
+    {
+     "w": "good",
+     "d": "good",
+     "t": 0.53,
+     "e": 0.77
+    },
+    {
+     "w": "one",
+     "d": "one.",
+     "t": 0.77,
+     "e": 1.165
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.165
+    ]
+   ]
+  },
+  {
+   "id": "l21",
+   "n": 21,
+   "file": "tip/21-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "What kind of asshole doesn't tip?",
+   "say": "[disbelief] [angry] What kind of asshole doesn't tip?",
+   "source": "denise-1-bella/L21-t3",
+   "tempo": 1.0,
+   "dur": 2.355,
+   "end": 2.105,
+   "words": [
+    {
+     "w": "what",
+     "d": "What",
+     "t": 0.135,
+     "e": 0.375
+    },
+    {
+     "w": "kind",
+     "d": "kind",
+     "t": 0.375,
+     "e": 0.535
+    },
+    {
+     "w": "of",
+     "d": "of",
+     "t": 0.535,
+     "e": 0.66
+    },
+    {
+     "w": "asshole",
+     "d": "asshole",
+     "t": 0.775,
+     "e": 1.335,
+     "bleep": true
+    },
+    {
+     "w": "doesn't",
+     "d": "doesn't",
+     "t": 1.335,
+     "e": 1.56
+    },
+    {
+     "w": "tip",
+     "d": "tip?",
+     "t": 1.855,
+     "e": 1.955
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.66
+    ],
+    [
+     0.755,
+     1.56
+    ],
+    [
+     1.64,
+     1.955
+    ],
+    [
+     2.04,
+     2.105
+    ]
+   ]
+  }
+ ],
+ "tableRead": {
+  "file": "out/tip-table-read.mp3",
+  "dur": 34.31,
+  "lufs": -16.0,
+  "gaps": {
+   "1": 0.3,
+   "2": 0.15,
+   "3": 2.1,
+   "5": 2.55,
+   "16": 0.7,
+   "17": 0.25,
+   "9": 0.8,
+   "10": 2.3,
+   "18": 0.3,
+   "19": 1.3,
+   "20": 1.9
+  },
+  "cues": [
+   {
+    "n": 1,
+    "at": 0.44,
+    "speech": [
+     0.5,
+     2.52
+    ]
+   },
+   {
+    "n": 2,
+    "at": 2.795,
+    "speech": [
+     2.82,
+     4.91
+    ]
+   },
+   {
+    "n": 3,
+    "at": 5.0,
+    "speech": [
+     5.06,
+     5.74
+    ]
+   },
+   {
+    "n": 5,
+    "at": 7.78,
+    "speech": [
+     7.84,
+     8.95
+    ]
+   },
+   {
+    "n": 16,
+    "at": 11.44,
+    "speech": [
+     11.5,
+     14.285
+    ]
+   },
+   {
+    "n": 17,
+    "at": 14.95,
+    "speech": [
+     14.985,
+     17.1
+    ]
+   },
+   {
+    "n": 9,
+    "at": 17.3,
+    "speech": [
+     17.35,
+     18.35
+    ]
+   },
+   {
+    "n": 10,
+    "at": 19.09,
+    "speech": [
+     19.15,
+     21.235
+    ]
+   },
+   {
+    "n": 18,
+    "at": 23.475,
+    "speech": [
+     23.535,
+     25.505
+    ]
+   },
+   {
+    "n": 19,
+    "at": 25.74,
+    "speech": [
+     25.805,
+     27.66
+    ]
+   },
+   {
+    "n": 20,
+    "at": 28.9,
+    "speech": [
+     28.96,
+     30.065
+    ]
+   },
+   {
+    "n": 21,
+    "at": 31.905,
+    "speech": [
+     31.965,
+     34.01
+    ]
+   }
+  ],
+  "sfx": []
+ }
+}

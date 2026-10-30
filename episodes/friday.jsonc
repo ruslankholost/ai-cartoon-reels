@@ -1,0 +1,151 @@
+// Friday Night Lead, the pilot (posted 2026-10-19). Its raw takes lived in %TEMP% and are gone, so this file is the record of how
+// the voices were made; the final lines are in public/friday. Format: see scripts/voice-gen.mjs and scripts/voice-build.py.
+{
+ "title": "Friday Night Lead",
+// who plays each part and who was runner-up: the candidate number in voice-gen.mjs (Will, the other tested Chad, is left out)
+ "cast": {"dave": 1, "barb": 1, "linda": 1, "chad": 3, "phone": 2},
+ "runnerUp": {"dave": 2, "barb": 2, "linda": 2, "chad": 1, "phone": 1},
+ "lines": [
+  {"n": 1, "char": "linda", "text": "Plumber... plumber near me... Dave's Plumbing!", "dirs": [
+   {"t":"[panicked]","st":0.35,"sy":0.4},
+   {"t":"[frantic] [breathless]","st":0.3,"sy":0.5},
+   {"t":"[panicked] [whispering]","st":0.35,"sy":0.4},
+   {"t":"[panicked] [out of breath]","st":0.3,"sy":0.5},
+   {"t":"[frantic]","st":0.35,"sy":0.45}
+  ]},
+  {"n": 2, "char": "linda", "text": "My basement is flooding! How soon can you come?", "dirs": [
+   {"t":"[panicked]","st":0.35,"sy":0.4},
+   {"t":"[frantic] [breathless]","st":0.3,"sy":0.5},
+   {"t":"[panicked] [shaky]","st":0.35,"sy":0.45},
+   {"t":"[frantic]","st":0.3,"sy":0.5},
+   {"t":"[panicked] [rushed]","st":0.35,"sy":0.45}
+  ]},
+  {"n": 3, "char": "barb", "text": "Dave. Your phone.", "dirs": [
+   {"t":"[flat] [deadpan]","st":0.5,"sy":0.15},
+   {"t":"[dry] [unimpressed]","st":0.45,"sy":0.25},
+   {"t":"[bored] [deadpan]","st":0.5,"sy":0.2},
+   {"t":"[deadpan]","st":0.5,"sy":0.1},
+   {"t":"[flat] [monotone]","st":0.5,"sy":0.1}
+  ]},
+  {"n": 4, "char": "dave", "text": "It's Friday, Barb.", "dirs": [
+   {"t":"[sleepy] [mumbling]","st":0.5,"sy":0.2},
+   {"t":"[groggy] [deadpan]","st":0.4,"sy":0.3},
+   {"t":"[exhausted] [mumbling]","st":0.5,"sy":0.15},
+   {"t":"[mumbling] [sleepy] [slurred]","st":0.5,"sy":0.15},
+   {"t":"[mumbles]","st":0.5,"sy":0.2}
+  ]},
+  {"n": 5, "char": "barb", "text": "It says 'flooding'.", "dirs": [
+   {"t":"[flat] [deadpan]","st":0.5,"sy":0.15},
+   {"t":"[dry] [unimpressed]","st":0.45,"sy":0.25},
+   {"t":"[bored] [deadpan]","st":0.5,"sy":0.2},
+   {"t":"[deadpan]","st":0.5,"sy":0.1},
+   {"t":"[flat] [monotone]","st":0.5,"sy":0.1}
+  ]},
+  {"n": 6, "char": "dave", "text": "Everything's flooding on a Friday.", "dirs": [
+   {"t":"[sleepy] [deadpan]","st":0.5,"sy":0.2},
+   {"t":"[groggy] [mumbling]","st":0.4,"sy":0.3,"text":"Everything's flooding... on a Friday."},
+   {"t":"[tired] [flat]","st":0.5,"sy":0.15},
+   {"t":"[sleepy] [mumbling] [flat]","st":0.5,"sy":0.15},
+   {"t":"[tired] [deadpan]","st":0.5,"sy":0.1},
+   {"t":"[half asleep] [flat]","st":0.5,"sy":0.15}
+  ]},
+  {"n": 7, "char": "phone", "text": "Hi Linda! We can be there in forty minutes. Want to book?", "dirs": [
+   {"t":"[cheerful]","st":0.4,"sy":0.4},
+   {"t":"[upbeat] [excited]","st":0.35,"sy":0.5},
+   {"t":"[cheerful] [bright]","st":0.4,"sy":0.45},
+   {"t":"[cheerful] [clearly]","st":0.4,"sy":0.4},
+   {"t":"[bright] [enunciating]","st":0.4,"sy":0.4},
+   {"t":"[cheerful]","st":0.4,"sy":0.4,"text":"Hi Linda! We can be there in forty minutes. Want... to book?"},
+   {"t":"[cheerful] [slowly]","st":0.4,"sy":0.4},
+   {"t":"[cheerful]","st":0.8,"sy":0.3},
+   {"t":"[cheerful] [bright]","st":1,"sy":0.2},
+   {"t":"[cheerful]","st":0.4,"sy":0.4,"text":"Hi Linda! We can be there in forty minutes. Want to... book?"},
+   {"t":"[upbeat]","st":0.7,"sy":0.3,"text":"Hi Linda! We can be there in forty minutes. Want to book?"},
+   {"t":"[cheerful]","st":0.5,"sy":0.35,"text":"Hi Linda! We can be there in forty minutes. Want to, book?"},
+   {"t":"[cheerful] [robotic]","st":0.5,"sy":0.3},
+   {"t":"[formal] [cheerful]","st":0.5,"sy":0.3},
+   {"t":"[cheerful] [precise]","st":0.5,"sy":0.3},
+   {"t":"[customer service voice] [cheerful]","st":0.5,"sy":0.3}
+  ]},
+  {"n": 8, "char": "chad", "text": "Book it, buddy.", "dirs": [
+   {"t":"[sleepy] [smiling]","st":0.4,"sy":0.35},
+   {"t":"[mumbling] [relaxed] [smiling]","st":0.4,"sy":0.4},
+   {"t":"[drowsy] [smooth]","st":0.5,"sy":0.3,"text":"Book it, buddy..."},
+   {"t":"[sleepy] [smiling]","st":0.4,"sy":0.35,"text":"Book it, buddy..."},
+   {"t":"[sleep-talking] [smiling]","st":0.4,"sy":0.4},
+   {"t":"[smiling] [sleepy] [softly]","st":0.4,"sy":0.35},
+   {"t":"[smiling] [relaxed]","st":0.4,"sy":0.35,"text":"Book it, buddy..."},
+   {"t":"[mumbling] [smiling]","st":0.4,"sy":0.35},
+   {"t":"[relaxed] [smiling]","st":0.45,"sy":0.3,"text":"Book it... buddy."},
+   {"t":"[smooth] [smiling] [softly]","st":0.4,"sy":0.35},
+   {"t":"[drowsy] [smiling]","st":0.4,"sy":0.35,"text":"Book it, buddy..."},
+   {"t":"[sleepy] [smiling]","st":0.5,"sy":0.2},
+   {"t":"[smiling] [smooth]","st":0.45,"sy":0.3,"text":"Book it, buddy..."},
+   {"t":"[relaxed] [smiling] [drowsy]","st":0.5,"sy":0.25,"text":"Book it, buddy..."},
+   {"t":"[smooth]","st":0.5,"sy":0.25,"text":"Book it, buddy..."},
+   {"t":"[drowsy] [smooth]","st":0.5,"sy":0.3,"text":"Book it, buddy..."},
+   {"t":"[drowsy] [smooth] [smiling]","st":0.5,"sy":0.3,"text":"Book it, buddy..."}
+  ]},
+  {"n": 9, "char": "linda", "text": "Oh, thank God.", "dirs": [
+   {"t":"[relieved] [exhales]","st":0.4,"sy":0.4},
+   {"t":"[sighs with relief]","st":0.35,"sy":0.45},
+   {"t":"[relieved]","st":0.4,"sy":0.35},
+   {"t":"[relieved] [tearful]","st":0.35,"sy":0.45}
+  ]},
+  {"n": 10, "char": "linda", "text": "My hero.", "dirs": [
+   {"t":"[dreamy] [softly]","st":0.4,"sy":0.4},
+   {"t":"[sighs] [dreamy]","st":0.35,"sy":0.45},
+   {"t":"[dreamy]","st":0.4,"sy":0.35}
+  ]},
+  {"n": 11, "char": "dave", "text": "Hi Linda! Still need help?", "dirs": [
+   {"t":"[forced cheerful]","st":0.35,"sy":0.5},
+   {"t":"[fake cheerful] [upbeat]","st":0.3,"sy":0.5},
+   {"t":"[cheerful] [strained]","st":0.35,"sy":0.45},
+   {"t":"[forced cheerful] [tired]","st":0.35,"sy":0.45},
+   {"t":"[fake enthusiasm]","st":0.3,"sy":0.5}
+  ]},
+  {"n": 12, "char": "linda", "text": "Who is this?", "dirs": [
+   {"t":"[flat] [puzzled]","st":0.5,"sy":0.2},
+   {"t":"[confused] [deadpan]","st":0.45,"sy":0.25},
+   {"t":"[puzzled]","st":0.5,"sy":0.15},
+   {"t":"[puzzled] [flat]","st":0.5,"sy":0.2},
+   {"t":"[deadpan] [confused]","st":0.5,"sy":0.15}
+  ]},
+  {"n": 13, "char": "dave", "text": "Marketing doesn't work.", "dirs": [
+   {"t":"[deadpan] [serious]","st":0.5,"sy":0.2},
+   {"t":"[dead serious] [quiet]","st":0.45,"sy":0.25},
+   {"t":"[flat] [tired] [serious]","st":0.5,"sy":0.15},
+   {"t":"[serious] [slowly]","st":0.5,"sy":0.2},
+   {"t":"[deadpan]","st":0.5,"sy":0.2,"text":"Marketing... doesn't work."},
+   {"t":"[serious] [slowly] [flat]","st":0.5,"sy":0.15},
+   {"t":"[dead serious] [slowly]","st":0.45,"sy":0.2}
+  ]},
+  {"n": 14, "char": "barb", "text": "Mm-hm.", "dirs": [
+   {"t":"[flat] [deadpan]","st":0.5,"sy":0.15},
+   {"t":"[dry] [unimpressed]","st":0.45,"sy":0.2,"text":"Mm-hmm."},
+   {"t":"[bored]","st":0.5,"sy":0.15},
+   {"t":"[flat]","st":0.5,"sy":0.1},
+   {"t":"[deadpan] [monotone]","st":0.5,"sy":0.1},
+   {"t":"[unimpressed]","st":0.5,"sy":0.15,"text":"Mhm."}
+  ]}
+ ],
+ "plan": {
+  "1": {"t":2},
+  "2": {"t":2},
+  "3": {"t":2},
+  "4": {"t":3},
+  "5": {"t":4},
+  "6": {"t":5,"pauses":[[1,0.2]]},
+  "7": {"t":15,"alt":12},
+  "8": {"t":15,"rate":0.9},
+  "9": {"t":3},
+  "10": {"t":1},
+  "11": {"t":1},
+  "12": {"t":2},
+  "13": {"t":7},
+  "14": {"t":6}
+ },
+// the long gaps leave room for a visual gag: 6 -> 7 phone into the dip, 8 -> 9 after "Book it, buddy", 9 -> 10 van arrives,
+// 12 -> 13 before "Marketing doesn't work".
+ "gaps": {"1":0.25, "2":0.45, "3":0.65, "4":0.25, "5":0.6, "6":1, "7":0.35, "8":0.95, "9":1.15, "10":0.45, "11":0.35, "12":0.9, "13":0.55}
+}

@@ -1,0 +1,111 @@
+// x20 "One Coffee" (script v2, 2026-10-29, docs/x20-one-coffee.md). Ross 10-29 picked the laptop camper ("1, we take it") after x19 went up.
+// A guy buys one small drip at eight and is still on his laptop at three; Ross's polite hints get answers ("I bought a coffee.", "Who?"), the "someone"
+// who might want the table is three more of him, they sell their company for forty million at Ross's tables, and he asks whether refills are free.
+// Ross is jack-tyler (as in x08-x19) and never shouts. The camper is auditioned on two voices (Adam, Will); the three guys from his startup get one line each.
+// Format: see scripts/voice-gen.mjs (lines, directions) and scripts/voice-build.py (cast, plan, gaps, lead, tableSfx). Take k of a line uses direction k.
+{
+ "title": "One Coffee",
+ "cast": {"ross": 1, "camper": 1, "dev1": 1, "dev2": 1, "dev3": 1},
+ "runnerUp": {"camper": 2},
+ "lines": [
+// at the counter, paying in coins
+  {"n": 1, "char": "camper", "text": "One small drip.", "dirs": [
+   {"t": "[casual] [cheerful]", "st": 0.45, "sy": 0.45},
+   {"t": "[breezy]", "st": 0.5, "sy": 0.4},
+   {"t": "[friendly] [quick]", "st": 0.45, "sy": 0.45}
+  ]},
+// behind the counter, seven hours later
+  {"n": 2, "char": "ross", "text": "Can I get you anything else?", "dirs": [
+   {"t": "[polite] [friendly]", "st": 0.5, "sy": 0.35},
+   {"t": "[polite] [hinting]", "st": 0.5, "sy": 0.35},
+   {"t": "[warm] [patient]", "st": 0.55, "sy": 0.3}
+  ]},
+// eyes on the laptop
+  {"n": 3, "char": "camper", "text": "I bought a coffee.", "dirs": [
+   {"t": "[unbothered] [flat]", "st": 0.55, "sy": 0.35},
+   {"t": "[matter-of-fact] [not looking up]", "st": 0.5, "sy": 0.4},
+   {"t": "[casual] [dismissive]", "st": 0.45, "sy": 0.45}
+  ]},
+  {"n": 4, "char": "ross", "text": "...At eight.", "dirs": [
+   {"t": "[flat] [dry]", "st": 0.6, "sy": 0.25},
+   {"t": "[deadpan] [quiet]", "st": 0.6, "sy": 0.25},
+   {"t": "[dry] [matter-of-fact]", "st": 0.55, "sy": 0.3}
+  ]},
+// a long sip of nothing from the cobwebbed cup
+  {"n": 5, "char": "camper", "text": "Still drinking it.", "dirs": [
+   {"t": "[deadpan]", "st": 0.55, "sy": 0.35},
+   {"t": "[casual] [unbothered]", "st": 0.5, "sy": 0.4},
+   {"t": "[smug] [matter-of-fact]", "st": 0.45, "sy": 0.45}
+  ]},
+  {"n": 6, "char": "ross", "text": "Someone else might want that table.", "dirs": [
+   {"t": "[polite] [hinting]", "st": 0.5, "sy": 0.35},
+   {"t": "[gentle] [patient]", "st": 0.55, "sy": 0.3},
+   {"t": "[polite] [strained]", "st": 0.5, "sy": 0.4}
+  ]},
+// waving at the empty café
+  {"n": 7, "char": "camper", "text": "Who?", "dirs": [
+   {"t": "[smug] [amused]", "st": 0.45, "sy": 0.5},
+   {"t": "[genuinely asking] [casual]", "st": 0.5, "sy": 0.4},
+   {"t": "[dry] [smug]", "st": 0.5, "sy": 0.45}
+  ]},
+// the three guys from his startup, one after another at the counter
+  {"n": 8, "char": "dev1", "text": "One small drip.", "dirs": [
+   {"t": "[casual] [cheerful]", "st": 0.45, "sy": 0.45},
+   {"t": "[breezy]", "st": 0.5, "sy": 0.4},
+   {"t": "[friendly]", "st": 0.5, "sy": 0.4}
+  ]},
+  {"n": 9, "char": "dev2", "text": "Small drip.", "dirs": [
+   {"t": "[casual]", "st": 0.5, "sy": 0.4},
+   {"t": "[quick] [casual]", "st": 0.5, "sy": 0.4},
+   {"t": "[bored]", "st": 0.55, "sy": 0.35}
+  ]},
+  {"n": 10, "char": "dev3", "text": "...Just water.", "dirs": [
+   {"t": "[shy] [quiet]", "st": 0.5, "sy": 0.4},
+   {"t": "[hesitant]", "st": 0.5, "sy": 0.4},
+   {"t": "[casual] [cheap]", "st": 0.45, "sy": 0.45}
+  ]},
+// holding the espresso machine's pulled plug
+  {"n": 11, "char": "ross", "text": "...When are you leaving?", "dirs": [
+   {"t": "[calm] [flat]", "st": 0.6, "sy": 0.25},
+   {"t": "[polite] [tired]", "st": 0.55, "sy": 0.3},
+   {"t": "[dry] [patient]", "st": 0.55, "sy": 0.3}
+  ]},
+// headset on, mid-call
+  {"n": 12, "char": "camper", "text": "When we sell the company.", "dirs": [
+   {"t": "[casual] [distracted]", "st": 0.5, "sy": 0.4},
+   {"t": "[confident] [breezy]", "st": 0.45, "sy": 0.45},
+   {"t": "[matter-of-fact]", "st": 0.55, "sy": 0.35}
+  ]},
+// he bangs the gong
+  {"n": 13, "char": "camper", "text": "SOLD! FORTY MILLION!", "dirs": [
+   {"t": "[ecstatic] [shouting]", "st": 0.3, "sy": 0.7},
+   {"t": "[triumphant] [yelling]", "st": 0.3, "sy": 0.7},
+   {"t": "[overjoyed] [loud]", "st": 0.35, "sy": 0.65}
+  ]},
+// at the counter, beaming, the tiny cup held out
+  {"n": 14, "char": "camper", "text": "Refills are free, right?", "dirs": [
+   {"t": "[cheerful] [casual]", "st": 0.45, "sy": 0.45},
+   {"t": "[hopeful] [friendly]", "st": 0.45, "sy": 0.45},
+   {"t": "[breezy] [smug]", "st": 0.45, "sy": 0.5}
+  ]},
+// dripping champagne
+  {"n": 15, "char": "ross", "text": "...Forty million.", "dirs": [
+   {"t": "[flat] [dry]", "st": 0.6, "sy": 0.25},
+   {"t": "[deadpan] [matter-of-fact]", "st": 0.6, "sy": 0.25},
+   {"t": "[calm] [businesslike]", "st": 0.55, "sy": 0.3}
+  ]}
+ ],
+// takes picked from voice-analyze and Whisper: the camper is Adam (louder and wider than Will in every line, and his "SOLD!" is the loudest take, -14 LUFS);
+// his quickest flat order (t3), the flattest "I bought a coffee." (t2), the smug flat "Still drinking it." (t3), the dry smug "Who?" (t3; t1 swoops so far that Whisper heard it at 0.23), the distracted
+// "company" (t1), the "SOLD!" with a break before "FORTY" (t2), the rising "right?" (t1); Ross's hinting ask (t2), his flattest "At eight." and "Forty million." (t1),
+// the polite hint (t1), the flat "leaving?" (t1); the guys' breezy order (t2), the quick "Small drip." (t2) and the shy "Just water." (t1).
+// Six lines run 1.1 times faster so the reel stays near 29.5 s.
+ "plan": {"1": {"t": 3, "rate": 1.1}, "2": {"t": 2, "rate": 1.1}, "3": {"t": 2}, "4": {"t": 1}, "5": {"t": 3, "rate": 1.1}, "6": {"t": 1, "rate": 1.1}, "7": {"t": 3},
+  "8": {"t": 2}, "9": {"t": 2}, "10": {"t": 1}, "11": {"t": 1}, "12": {"t": 1, "rate": 1.1}, "13": {"t": 2}, "14": {"t": 1, "rate": 1.1}, "15": {"t": 1}},
+// lead and gaps place the speech on the reel's clock: the coins and the order first; the clock and the cobwebs before Ross's ask; the cup lift before "Still drinking it.";
+// the tumbleweed, the cricket and the door bell after "Who?"; the three orders back to back; the tables, the pulled plug, the dead espresso machine and the gong after "Just water.";
+// OFFER ACCEPTED and the gong after "company"; the champagne over Ross and the walk to the counter after "SOLD!"
+ "lead": 0.15,
+ "gaps": {"1": 0.5, "2": 0.15, "3": 0.25, "4": 0.4, "5": 0.3, "6": 0.25, "7": 1.5, "8": 0.1, "9": 0.15, "10": 2.1, "11": 0.2, "12": 1.3, "13": 1.3, "14": 0.35},
+ "tableSfx": []
+}

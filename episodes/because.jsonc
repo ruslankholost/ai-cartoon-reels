@@ -1,0 +1,110 @@
+// "Because" (script v5, 2026-10-21, docs/x03-because.md): Denise goes in for a cheeseburger, a cashier upsells her up to the franchise, and Rhonda asks why she bought a burger place.
+// Format: see scripts/voice-gen.mjs (lines, directions) and scripts/voice-build.py (cast, plan, gaps, lead, tableSfx). The order of "lines" is the story's order; the numbers are the story's order too.
+// The cashier asks faster every time (a flat teenager who never looks up), until the franchise line, where he slows down and looks up. Denise's "Sure." gets quicker every time; the first and the last are "...Sure.".
+{
+ "title": "Because",
+ "cast": {"denise": 1, "cashier": 1, "rhonda": 1},
+ "runnerUp": {},
+ "lines": [
+// the counter: the ladder of asks
+  {"n": 1, "char": "denise", "text": "Just a cheeseburger.", "dirs": [
+   {"t": "[tired] [flat]", "st": 0.5, "sy": 0.2},
+   {"t": "[deadpan] [tired]", "st": 0.5, "sy": 0.2},
+   {"t": "[bored] [matter-of-fact]", "st": 0.45, "sy": 0.25}
+  ]},
+  {"n": 2, "char": "cashier", "text": "Make it a meal? It's only three bucks more.", "dirs": [
+   {"t": "[bored] [monotone] [fast]", "st": 0.6, "sy": 0.1},
+   {"t": "[flat] [rushed] [not looking up]", "st": 0.55, "sy": 0.15},
+   {"t": "[monotone] [quick] [tired]", "st": 0.6, "sy": 0.1}
+  ]},
+  {"n": 3, "char": "denise", "text": "Sure.", "dirs": [
+   {"t": "[resigned] [flat]", "st": 0.45, "sy": 0.3, "text": "...Sure."},
+   {"t": "[reluctant] [tired]", "st": 0.45, "sy": 0.3, "text": "...Sure."},
+   {"t": "[deadpan] [sighing]", "st": 0.4, "sy": 0.35, "text": "...Sure."}
+  ]},
+  {"n": 4, "char": "cashier", "text": "Large is only eighty cents.", "dirs": [
+   {"t": "[fast] [monotone] [bored]", "st": 0.6, "sy": 0.1},
+   {"t": "[rushed] [flat]", "st": 0.55, "sy": 0.15},
+   {"t": "[quick] [monotone] [tired]", "st": 0.6, "sy": 0.1}
+  ]},
+  {"n": 5, "char": "denise", "text": "Sure.", "dirs": [
+   {"t": "[flat] [tired]", "st": 0.5, "sy": 0.2},
+   {"t": "[deadpan] [quick]", "st": 0.5, "sy": 0.2},
+   {"t": "[monotone] [resigned]", "st": 0.55, "sy": 0.15}
+  ]},
+  {"n": 6, "char": "cashier", "text": "Pies are two for two.", "dirs": [
+   {"t": "[faster] [monotone] [bored]", "st": 0.6, "sy": 0.1},
+   {"t": "[rushed] [flat] [quick]", "st": 0.55, "sy": 0.15},
+   {"t": "[rapid] [monotone]", "st": 0.6, "sy": 0.1}
+  ]},
+  {"n": 7, "char": "denise", "text": "Sure.", "dirs": [
+   {"t": "[flat] [quick]", "st": 0.5, "sy": 0.2},
+   {"t": "[deadpan] [fast]", "st": 0.5, "sy": 0.2},
+   {"t": "[tired] [clipped]", "st": 0.55, "sy": 0.15}
+  ]},
+  {"n": 8, "char": "cashier", "text": "Round up for the kids?", "dirs": [
+   {"t": "[very fast] [monotone] [bored]", "st": 0.6, "sy": 0.1},
+   {"t": "[rushed] [flat] [rapid]", "st": 0.55, "sy": 0.15},
+   {"t": "[rapid-fire] [monotone]", "st": 0.6, "sy": 0.1}
+  ]},
+  {"n": 9, "char": "denise", "text": "Sure.", "dirs": [
+   {"t": "[flat] [fast]", "st": 0.5, "sy": 0.2},
+   {"t": "[deadpan] [clipped]", "st": 0.5, "sy": 0.2},
+   {"t": "[tired] [quick]", "st": 0.55, "sy": 0.15}
+  ]},
+  {"n": 10, "char": "cashier", "text": "Extended warranty on the burger? Four ninety-nine.", "dirs": [
+   {"t": "[very fast] [rapid-fire] [monotone]", "st": 0.6, "sy": 0.1},
+   {"t": "[rushed] [flat] [reciting]", "st": 0.55, "sy": 0.15},
+   {"t": "[rapid] [monotone] [bored]", "st": 0.6, "sy": 0.1}
+  ]},
+  {"n": 11, "char": "denise", "text": "Sure.", "dirs": [
+   {"t": "[flat] [clipped]", "st": 0.5, "sy": 0.2},
+   {"t": "[deadpan] [very quick]", "st": 0.5, "sy": 0.2},
+   {"t": "[tired] [fast]", "st": 0.55, "sy": 0.15}
+  ]},
+  {"n": 12, "char": "cashier", "text": "Burger Plus? First month's free.", "dirs": [
+   {"t": "[extremely fast] [rapid-fire] [monotone]", "st": 0.6, "sy": 0.1},
+   {"t": "[rushed] [robotic] [bored]", "st": 0.55, "sy": 0.15},
+   {"t": "[rapid] [flat] [reciting]", "st": 0.6, "sy": 0.1}
+  ]},
+  {"n": 13, "char": "denise", "text": "Sure.", "dirs": [
+   {"t": "[flat] [very quick]", "st": 0.5, "sy": 0.2},
+   {"t": "[deadpan] [clipped] [fast]", "st": 0.5, "sy": 0.2},
+   {"t": "[tired] [abrupt]", "st": 0.55, "sy": 0.15}
+  ]},
+// the cashier looks up for the first time: slower, a normal person talking
+  {"n": 14, "char": "cashier", "text": "Wanna buy the franchise? It's only two million more.", "dirs": [
+   {"t": "[slowing down] [casual] [matter-of-fact]", "st": 0.5, "sy": 0.2},
+   {"t": "[calm] [flat] [looking up]", "st": 0.5, "sy": 0.2},
+   {"t": "[normal pace] [deadpan] [casual]", "st": 0.55, "sy": 0.15}
+  ]},
+  {"n": 15, "char": "denise", "text": "Sure.", "dirs": [
+   {"t": "[resigned] [flat]", "st": 0.45, "sy": 0.3, "text": "...Sure."},
+   {"t": "[dazed] [quiet]", "st": 0.45, "sy": 0.3, "text": "...Sure."},
+   {"t": "[deadpan] [sighing]", "st": 0.4, "sy": 0.35, "text": "...Sure."}
+  ]},
+// the same counter from behind: Denise has the hat and the headset, Rhonda walks up
+  {"n": 16, "char": "rhonda", "text": "Why'd you buy a burger place?", "dirs": [
+   {"t": "[dry] [deadpan]", "st": 0.5, "sy": 0.2},
+   {"t": "[curious] [dry]", "st": 0.45, "sy": 0.25},
+   {"t": "[flat] [mildly amused]", "st": 0.5, "sy": 0.2}
+  ]},
+  {"n": 17, "char": "denise", "text": "It was only two million more.", "dirs": [
+   {"t": "[sincere] [matter-of-fact]", "st": 0.45, "sy": 0.3, "text": "...It was only two million more."},
+   {"t": "[earnest] [quiet]", "st": 0.45, "sy": 0.3, "text": "...It was only two million more."},
+   {"t": "[honest] [flat]", "st": 0.5, "sy": 0.25, "text": "...It was only two million more."}
+  ]},
+  {"n": 18, "char": "denise", "text": "Fucking marketing.", "dirs": [
+   {"t": "[realization] [flat] [low]", "st": 0.5, "sy": 0.25},
+   {"t": "[muttering] [low] [deadpan]", "st": 0.45, "sy": 0.3},
+   {"t": "[quietly] [flat] [disgusted]", "st": 0.5, "sy": 0.25}
+  ]}
+ ],
+ "plan": {"1": {"t": 1, "rate": 1.2, "from": 0.36}, "2": {"t": 2, "rate": 1.2}, "3": {"t": 1, "rate": 1.25}, "4": {"t": 2, "rate": 1.2}, "5": {"t": 2}, "6": {"t": 2, "rate": 1.2}, "7": {"t": 2, "rate": 1.25}, "8": {"t": 3, "rate": 1.2}, "9": {"t": 2, "rate": 1.35}, "10": {"t": 1, "rate": 1.3}, "11": {"t": 2, "rate": 1.4}, "12": {"t": 1, "rate": 1.2}, "13": {"t": 2, "rate": 1.5}, "14": {"t": 3, "rate": 1.22}, "15": {"t": 1, "rate": 1.25}, "16": {"t": 1, "rate": 1.15}, "17": {"t": 2, "rate": 1.14}, "18": {"t": 2, "rate": 1.15, "from": 0.62, "bleep": [0]}},
+ "lead": 0.08,
+ // the gaps (after the line named, s) carry the silent beats of the shot list (docs/x03-because.md): the asks come back at once, faster each time; 4: the cup slams onto the tray before her "Sure.";
+ // 13: the cashier looks up; 14: a beat before her last "Sure."; 15: the screen rolls (KA-CHING), the cashier gives her the hat and the headset and walks out the door, Rhonda walks up; 17: the beat in which
+ // her eyes widen, silence
+ "gaps": {"1": 0.1, "2": 0.1, "3": 0.1, "4": 0.45, "5": 0.1, "6": 0.1, "7": 0.1, "8": 0.1, "9": 0.1, "10": 0.1, "11": 0.1, "12": 0.1, "13": 0.45, "14": 0.3, "15": 3.85, "16": 0.2, "17": 0.95},
+ "tableSfx": []
+}

@@ -1,0 +1,114 @@
+// x11 "Are You Open?" (script v2, 2026-10-25, docs/x11-are-you-open.md). Ross picked idea 1 of docs/ideas-small-business-owners.md: "yes, let's do the first one".
+// Ross flips his shop's sign to CLOSED and Chuck's face smacks onto the glass; the face finds him in his car, at his bedroom window and in his bath until he opens at 4 AM, and Chuck is just looking.
+// Ross is jack-tyler (as in x08-x10), Chuck jack-chris-boston (as in x10). Lines 4, 6, 7 and 9 come through glass: muffled in the render, not here.
+// Format: see scripts/voice-gen.mjs (lines, directions) and scripts/voice-build.py (cast, plan, gaps, lead, tableSfx). Take k of a line uses direction k.
+{
+ "title": "Are You Open?",
+ "cast": {"ross": 1, "chuck": 1},
+ "runnerUp": {},
+ "lines": [
+// 4:59 pm, behind the glass door, he flips the sign to CLOSED
+  {"n": 1, "char": "ross", "text": "Aaand... closed!", "dirs": [
+   {"t": "[happy] [relieved]", "st": 0.35, "sy": 0.6},
+   {"t": "[cheerful] [sing-song]", "st": 0.35, "sy": 0.6},
+   {"t": "[satisfied] [content]", "st": 0.4, "sy": 0.55}
+  ]},
+// his face squashed on the glass
+  {"n": 2, "char": "chuck", "text": "ARE YOU OPEN?!", "dirs": [
+   {"t": "[shouting] [demanding]", "st": 0.3, "sy": 0.7},
+   {"t": "[loud] [impatient]", "st": 0.3, "sy": 0.65},
+   {"t": "[yelling] [entitled]", "st": 0.25, "sy": 0.75}
+  ]},
+// eye twitch, he jabs at the sign
+  {"n": 3, "char": "ross", "text": "We're CLOSED!", "dirs": [
+   {"t": "[annoyed] [firm]", "st": 0.3, "sy": 0.7},
+   {"t": "[irritated] [shouting]", "st": 0.25, "sy": 0.75},
+   {"t": "[exasperated] [loud]", "st": 0.3, "sy": 0.7}
+  ]},
+// 11:48 pm, his face on the car's rear window (muffled)
+  {"n": 4, "char": "chuck", "text": "Are you open?", "dirs": [
+   {"t": "[casual] [matter-of-fact]", "st": 0.45, "sy": 0.45},
+   {"t": "[polite] [curious]", "st": 0.45, "sy": 0.4},
+   {"t": "[calm] [friendly]", "st": 0.5, "sy": 0.4}
+  ]},
+// the vein; he doesn't turn around
+  {"n": 5, "char": "ross", "text": "I'm in my CAR!", "dirs": [
+   {"t": "[furious] [incredulous]", "st": 0.25, "sy": 0.8},
+   {"t": "[screaming] [outraged]", "st": 0.2, "sy": 0.85},
+   {"t": "[yelling] [disbelieving]", "st": 0.25, "sy": 0.8}
+  ]},
+// still on the rear window (muffled); then Ross floors it
+  {"n": 6, "char": "chuck", "text": "I'll wait.", "dirs": [
+   {"t": "[calm] [patient]", "st": 0.5, "sy": 0.35},
+   {"t": "[casual] [unbothered]", "st": 0.5, "sy": 0.35},
+   {"t": "[polite] [friendly]", "st": 0.45, "sy": 0.4}
+  ]},
+// 3:07 am, his face on the bedroom window (muffled)
+  {"n": 7, "char": "chuck", "text": "Are you open?", "dirs": [
+   {"t": "[casual] [matter-of-fact]", "st": 0.45, "sy": 0.45},
+   {"t": "[polite] [curious]", "st": 0.45, "sy": 0.4},
+   {"t": "[calm] [friendly]", "st": 0.5, "sy": 0.4}
+  ]},
+// his eyes bulge; he doesn't turn around
+  {"n": 8, "char": "ross", "text": "This is the second FLOOR!", "dirs": [
+   {"t": "[horrified] [shouting]", "st": 0.25, "sy": 0.8},
+   {"t": "[freaked out] [screaming]", "st": 0.2, "sy": 0.85},
+   {"t": "[panicked] [yelling]", "st": 0.25, "sy": 0.8}
+  ]},
+// (muffled) then he slides down the glass
+  {"n": 9, "char": "chuck", "text": "...So, no?", "dirs": [
+   {"t": "[flat] [disappointed]", "st": 0.5, "sy": 0.35},
+   {"t": "[deadpan] [confused]", "st": 0.5, "sy": 0.3},
+   {"t": "[mildly surprised] [flat]", "st": 0.45, "sy": 0.4}
+  ]},
+// sunk in the bubbles, cucumbers on his eyes
+  {"n": 10, "char": "ross", "text": "Finally. Nobody.", "dirs": [
+   {"t": "[relaxed] [sighing] [content]", "st": 0.45, "sy": 0.4},
+   {"t": "[blissful] [quiet]", "st": 0.5, "sy": 0.35},
+   {"t": "[dreamy] [whispering]", "st": 0.5, "sy": 0.3}
+  ]},
+// the curtain torn aside, his wallet out
+  {"n": 11, "char": "chuck", "text": "...How about now?", "dirs": [
+   {"t": "[polite] [casual]", "st": 0.5, "sy": 0.35},
+   {"t": "[hopeful] [friendly]", "st": 0.45, "sy": 0.4},
+   {"t": "[matter-of-fact] [calm]", "st": 0.5, "sy": 0.35}
+  ]},
+// steaming, after the corks
+  {"n": 12, "char": "ross", "text": "FINE!!", "dirs": [
+   {"t": "[screaming] [furious]", "st": 0.2, "sy": 0.85},
+   {"t": "[enraged] [yelling]", "st": 0.2, "sy": 0.85},
+   {"t": "[snapping] [shouting]", "st": 0.25, "sy": 0.8}
+  ]},
+// 4:12 am, pajamas and apron, flips the sign to OPEN
+  {"n": 13, "char": "ross", "text": "WE'RE OPEN!! What can I get you?!", "dirs": [
+   {"t": "[manic] [forced cheer] [shouting]", "st": 0.25, "sy": 0.8},
+   {"t": "[unhinged] [cheerful]", "st": 0.25, "sy": 0.8},
+   {"t": "[hysterical] [customer service voice]", "st": 0.2, "sy": 0.85}
+  ]},
+// one glance at the case, the wallet back in his pocket
+  {"n": 14, "char": "chuck", "text": "...Just looking.", "dirs": [
+   {"t": "[bored] [casual]", "st": 0.5, "sy": 0.3},
+   {"t": "[flat] [uninterested]", "st": 0.55, "sy": 0.25},
+   {"t": "[mumbling] [casual]", "st": 0.5, "sy": 0.3}
+  ]},
+// at the door, turning back
+  {"n": 15, "char": "chuck", "text": "What time you close?", "dirs": [
+   {"t": "[casual] [friendly]", "st": 0.45, "sy": 0.4},
+   {"t": "[matter-of-fact]", "st": 0.5, "sy": 0.35},
+   {"t": "[curious] [casual]", "st": 0.45, "sy": 0.4}
+  ]},
+// dead-eyed, a wisp of steam out of one ear
+  {"n": 16, "char": "ross", "text": "...Five.", "dirs": [
+   {"t": "[hollow] [dead inside]", "st": 0.55, "sy": 0.25},
+   {"t": "[quiet] [defeated]", "st": 0.5, "sy": 0.3},
+   {"t": "[flat] [exhausted]", "st": 0.55, "sy": 0.25}
+  ]}
+ ],
+ "plan": {"1": {"t": 2, "rate": 1.3}, "2": {"t": 3}, "3": {"t": 2}, "4": {"t": 3}, "5": {"t": 1}, "6": {"t": 2}, "7": {"t": 2}, "8": {"t": 3},
+          "9": {"t": 1, "rate": 1.1}, "10": {"t": 3, "rate": 1.2}, "11": {"t": 1}, "12": {"t": 2}, "13": {"t": 2, "rate": 1.1}, "14": {"t": 2}, "15": {"t": 2}, "16": {"t": 3, "rate": 1.1}},
+// lead and gaps place the speech on the reel's clock (docs/x11-are-you-open.md, shot list); the silent beats are the blind, the car's red light, the floor-it,
+// the snore, the slide and the thud, the curtain, the corks and the boil, the lights at 4 AM, the bell; after line 16 the bell and the next day (about 1.3 s)
+ "lead": 0.25,
+ "gaps": {"1": 0.08, "2": 0.12, "3": 1.4, "4": 0.12, "5": 0.15, "6": 1.55, "7": 0.15, "8": 0.2, "9": 0.85, "10": 0.6, "11": 0.95, "12": 0.8, "13": 0.4, "14": 0.3, "15": 0.35},
+ "tableSfx": []
+}

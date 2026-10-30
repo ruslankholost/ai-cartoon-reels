@@ -1,0 +1,1035 @@
+{
+ "model": "eleven_v4",
+ "target_lufs": -19.0,
+ "cast": {
+  "DENISE": {
+   "cast": {
+    "voice": "Bella",
+    "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+    "account_name": "Bella - Professional, Bright, Warm"
+   }
+  },
+  "CASHIER": {
+   "cast": {
+    "voice": "jack-tyler",
+    "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+    "account_name": "jack-tyler"
+   }
+  },
+  "RHONDA": {
+   "cast": {
+    "voice": "Matilda",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "account_name": "Matilda - Knowledgable, Professional"
+   }
+  }
+ },
+ "takes": [
+  {
+   "id": "l01",
+   "n": 1,
+   "file": "because/01-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Just a cheeseburger.",
+   "say": "[tired] [flat] Just a cheeseburger.",
+   "source": "denise-1-bella/L01-t1",
+   "tempo": 1.2,
+   "dur": 1.497,
+   "end": 1.33,
+   "words": [
+    {
+     "w": "just",
+     "d": "Just",
+     "t": 0.093,
+     "e": 0.361
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 0.361,
+     "e": 0.494
+    },
+    {
+     "w": "cheeseburger",
+     "d": "cheeseburger.",
+     "t": 0.494,
+     "e": 1.33
+    }
+   ],
+   "voiced": [
+    [
+     0.0,
+     1.33
+    ]
+   ]
+  },
+  {
+   "id": "l02",
+   "n": 2,
+   "file": "because/02-cashier.mp3",
+   "character": "CASHIER",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Make it a meal? It's only three bucks more.",
+   "say": "[flat] [rushed] [not looking up] Make it a meal? It's only three bucks more.",
+   "source": "cashier-1-jack-tyler/L02-t2",
+   "tempo": 1.2,
+   "dur": 2.034,
+   "end": 1.965,
+   "words": [
+    {
+     "w": "make",
+     "d": "Make",
+     "t": 0.07,
+     "e": 0.265
+    },
+    {
+     "w": "it",
+     "d": "it",
+     "t": 0.265,
+     "e": 0.332
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 0.332,
+     "e": 0.432
+    },
+    {
+     "w": "meal",
+     "d": "meal?",
+     "t": 0.432,
+     "e": 0.79
+    },
+    {
+     "w": "it's",
+     "d": "It's",
+     "t": 0.966,
+     "e": 1.099
+    },
+    {
+     "w": "only",
+     "d": "only",
+     "t": 1.099,
+     "e": 1.3
+    },
+    {
+     "w": "three",
+     "d": "three",
+     "t": 1.3,
+     "e": 1.433
+    },
+    {
+     "w": "bucks",
+     "d": "bucks",
+     "t": 1.433,
+     "e": 1.767
+    },
+    {
+     "w": "more",
+     "d": "more.",
+     "t": 1.767,
+     "e": 1.965
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.79
+    ],
+    [
+     0.92,
+     1.965
+    ]
+   ]
+  },
+  {
+   "id": "l03",
+   "n": 3,
+   "file": "because/03-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Sure.",
+   "say": "[resigned] [flat] ...Sure.",
+   "source": "denise-1-bella/L03-t1",
+   "tempo": 1.25,
+   "dur": 1.005,
+   "end": 0.845,
+   "words": [
+    {
+     "w": "sure",
+     "d": "...Sure.",
+     "t": 0.28,
+     "e": 0.845
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.845
+    ]
+   ]
+  },
+  {
+   "id": "l04",
+   "n": 4,
+   "file": "because/04-cashier.mp3",
+   "character": "CASHIER",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Large is only eighty cents.",
+   "say": "[rushed] [flat] Large is only eighty cents.",
+   "source": "cashier-1-jack-tyler/L04-t2",
+   "tempo": 1.2,
+   "dur": 1.528,
+   "end": 1.31,
+   "words": [
+    {
+     "w": "large",
+     "d": "Large",
+     "t": 0.119,
+     "e": 0.354
+    },
+    {
+     "w": "is",
+     "d": "is",
+     "t": 0.354,
+     "e": 0.455
+    },
+    {
+     "w": "only",
+     "d": "only",
+     "t": 0.455,
+     "e": 0.656
+    },
+    {
+     "w": "eighty",
+     "d": "eighty",
+     "t": 0.656,
+     "e": 0.857
+    },
+    {
+     "w": "cents",
+     "d": "cents.",
+     "t": 0.857,
+     "e": 1.31
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.31
+    ]
+   ]
+  },
+  {
+   "id": "l05",
+   "n": 5,
+   "file": "because/05-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Sure.",
+   "say": "[deadpan] [quick] Sure.",
+   "source": "denise-1-bella/L05-t2",
+   "tempo": 1.0,
+   "dur": 0.92,
+   "end": 0.68,
+   "words": [
+    {
+     "w": "sure",
+     "d": "Sure.",
+     "t": 0.2,
+     "e": 0.68
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.68
+    ]
+   ]
+  },
+  {
+   "id": "l06",
+   "n": 6,
+   "file": "because/06-cashier.mp3",
+   "character": "CASHIER",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Pies are two for two.",
+   "say": "[rushed] [flat] [quick] Pies are two for two.",
+   "source": "cashier-1-jack-tyler/L06-t2",
+   "tempo": 1.2,
+   "dur": 1.083,
+   "end": 0.905,
+   "words": [
+    {
+     "w": "pies",
+     "d": "Pies",
+     "t": 0.14,
+     "e": 0.271
+    },
+    {
+     "w": "are",
+     "d": "are",
+     "t": 0.271,
+     "e": 0.372
+    },
+    {
+     "w": "two",
+     "d": "two",
+     "t": 0.372,
+     "e": 0.474
+    },
+    {
+     "w": "for",
+     "d": "for",
+     "t": 0.474,
+     "e": 0.71
+    },
+    {
+     "w": "two",
+     "d": "two.",
+     "t": 0.71,
+     "e": 0.905
+    }
+   ],
+   "voiced": [
+    [
+     0.035,
+     0.905
+    ]
+   ]
+  },
+  {
+   "id": "l07",
+   "n": 7,
+   "file": "because/07-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Sure.",
+   "say": "[deadpan] [fast] Sure.",
+   "source": "denise-1-bella/L07-t2",
+   "tempo": 1.25,
+   "dur": 0.836,
+   "end": 0.64,
+   "words": [
+    {
+     "w": "sure",
+     "d": "Sure.",
+     "t": 0.2,
+     "e": 0.64
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.64
+    ]
+   ]
+  },
+  {
+   "id": "l08",
+   "n": 8,
+   "file": "because/08-cashier.mp3",
+   "character": "CASHIER",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Round up for the kids?",
+   "say": "[rapid-fire] [monotone] Round up for the kids?",
+   "source": "cashier-1-jack-tyler/L08-t3",
+   "tempo": 1.2,
+   "dur": 1.061,
+   "end": 0.87,
+   "words": [
+    {
+     "w": "round",
+     "d": "Round",
+     "t": 0.052,
+     "e": 0.254
+    },
+    {
+     "w": "up",
+     "d": "up",
+     "t": 0.254,
+     "e": 0.388
+    },
+    {
+     "w": "for",
+     "d": "for",
+     "t": 0.388,
+     "e": 0.456
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 0.456,
+     "e": 0.523
+    },
+    {
+     "w": "kids",
+     "d": "kids?",
+     "t": 0.523,
+     "e": 0.87
+    }
+   ],
+   "voiced": [
+    [
+     0.065,
+     0.87
+    ]
+   ]
+  },
+  {
+   "id": "l09",
+   "n": 9,
+   "file": "because/09-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Sure.",
+   "say": "[deadpan] [clipped] Sure.",
+   "source": "denise-1-bella/L09-t2",
+   "tempo": 1.35,
+   "dur": 0.759,
+   "end": 0.555,
+   "words": [
+    {
+     "w": "sure",
+     "d": "Sure.",
+     "t": 0.16,
+     "e": 0.555
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.555
+    ]
+   ]
+  },
+  {
+   "id": "l10",
+   "n": 10,
+   "file": "because/10-cashier.mp3",
+   "character": "CASHIER",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Extended warranty on the burger? Four ninety-nine.",
+   "say": "[very fast] [rapid-fire] [monotone] Extended warranty on the burger? Four ninety-nine.",
+   "source": "cashier-1-jack-tyler/L10-t1",
+   "tempo": 1.3,
+   "dur": 1.856,
+   "end": 1.72,
+   "words": [
+    {
+     "w": "extended",
+     "d": "Extended",
+     "t": 0.11,
+     "e": 0.34
+    },
+    {
+     "w": "warranty",
+     "d": "warranty",
+     "t": 0.34,
+     "e": 0.65
+    },
+    {
+     "w": "on",
+     "d": "on",
+     "t": 0.65,
+     "e": 0.712
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 0.712,
+     "e": 0.866
+    },
+    {
+     "w": "burger",
+     "d": "burger?",
+     "t": 0.866,
+     "e": 1.0
+    },
+    {
+     "w": "four",
+     "d": "Four",
+     "t": 1.237,
+     "e": 1.361
+    },
+    {
+     "w": "ninetynine",
+     "d": "ninety-nine.",
+     "t": 1.361,
+     "e": 1.72
+    }
+   ],
+   "voiced": [
+    [
+     0.025,
+     1.0
+    ],
+    [
+     1.24,
+     1.72
+    ]
+   ]
+  },
+  {
+   "id": "l11",
+   "n": 11,
+   "file": "because/11-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Sure.",
+   "say": "[deadpan] [very quick] Sure.",
+   "source": "denise-1-bella/L11-t2",
+   "tempo": 1.4,
+   "dur": 0.637,
+   "end": 0.5,
+   "words": [
+    {
+     "w": "sure",
+     "d": "Sure.",
+     "t": 0.313,
+     "e": 0.5
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.5
+    ]
+   ]
+  },
+  {
+   "id": "l12",
+   "n": 12,
+   "file": "because/12-cashier.mp3",
+   "character": "CASHIER",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Burger Plus? First month's free.",
+   "say": "[extremely fast] [rapid-fire] [monotone] Burger Plus? First month's free.",
+   "source": "cashier-1-jack-tyler/L12-t1",
+   "tempo": 1.2,
+   "dur": 1.565,
+   "end": 1.32,
+   "words": [
+    {
+     "w": "burger",
+     "d": "Burger",
+     "t": 0.03,
+     "e": 0.404
+    },
+    {
+     "w": "plus",
+     "d": "Plus?",
+     "t": 0.404,
+     "e": 0.605
+    },
+    {
+     "w": "first",
+     "d": "First",
+     "t": 0.738,
+     "e": 0.939
+    },
+    {
+     "w": "month's",
+     "d": "month's",
+     "t": 0.939,
+     "e": 1.173
+    },
+    {
+     "w": "free",
+     "d": "free.",
+     "t": 1.173,
+     "e": 1.32
+    }
+   ],
+   "voiced": [
+    [
+     0.055,
+     0.605
+    ],
+    [
+     0.75,
+     1.32
+    ]
+   ]
+  },
+  {
+   "id": "l13",
+   "n": 13,
+   "file": "because/13-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Sure.",
+   "say": "[deadpan] [clipped] [fast] Sure.",
+   "source": "denise-1-bella/L13-t2",
+   "tempo": 1.5,
+   "dur": 0.607,
+   "end": 0.465,
+   "words": [
+    {
+     "w": "sure",
+     "d": "Sure.",
+     "t": 0.314,
+     "e": 0.465
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.465
+    ]
+   ]
+  },
+  {
+   "id": "l14",
+   "n": 14,
+   "file": "because/14-cashier.mp3",
+   "character": "CASHIER",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Wanna buy the franchise? It's only two million more.",
+   "say": "[normal pace] [deadpan] [casual] Wanna buy the franchise? It's only two million more.",
+   "source": "cashier-1-jack-tyler/L14-t3",
+   "tempo": 1.22,
+   "dur": 2.556,
+   "end": 2.345,
+   "words": [
+    {
+     "w": "wanna",
+     "d": "Wanna",
+     "t": 0.06,
+     "e": 0.32
+    },
+    {
+     "w": "buy",
+     "d": "buy",
+     "t": 0.32,
+     "e": 0.418
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 0.418,
+     "e": 0.517
+    },
+    {
+     "w": "franchise",
+     "d": "franchise?",
+     "t": 0.517,
+     "e": 1.135
+    },
+    {
+     "w": "it's",
+     "d": "It's",
+     "t": 1.306,
+     "e": 1.438
+    },
+    {
+     "w": "only",
+     "d": "only",
+     "t": 1.438,
+     "e": 1.668
+    },
+    {
+     "w": "two",
+     "d": "two",
+     "t": 1.668,
+     "e": 1.767
+    },
+    {
+     "w": "million",
+     "d": "million",
+     "t": 1.767,
+     "e": 2.161
+    },
+    {
+     "w": "more",
+     "d": "more.",
+     "t": 2.161,
+     "e": 2.345
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.135
+    ],
+    [
+     1.285,
+     2.345
+    ]
+   ]
+  },
+  {
+   "id": "l15",
+   "n": 15,
+   "file": "because/15-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Sure.",
+   "say": "[resigned] [flat] ...Sure.",
+   "source": "denise-1-bella/L15-t1",
+   "tempo": 1.25,
+   "dur": 1.091,
+   "end": 0.87,
+   "words": [
+    {
+     "w": "sure",
+     "d": "...Sure.",
+     "t": 0.39,
+     "e": 0.87
+    }
+   ],
+   "voiced": [
+    [
+     0.045,
+     0.87
+    ]
+   ]
+  },
+  {
+   "id": "l16",
+   "n": 16,
+   "file": "because/16-rhonda.mp3",
+   "character": "RHONDA",
+   "voice": "Matilda",
+   "voiceId": "XrExE9yKIg1WjnnlVkGX",
+   "text": "Why'd you buy a burger place?",
+   "say": "[dry] [deadpan] Why'd you buy a burger place?",
+   "source": "rhonda-1-matilda/L16-t1",
+   "tempo": 1.15,
+   "dur": 1.852,
+   "end": 1.645,
+   "words": [
+    {
+     "w": "why'd",
+     "d": "Why'd",
+     "t": 0.12,
+     "e": 0.388
+    },
+    {
+     "w": "you",
+     "d": "you",
+     "t": 0.388,
+     "e": 0.527
+    },
+    {
+     "w": "buy",
+     "d": "buy",
+     "t": 0.527,
+     "e": 0.667
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 0.667,
+     "e": 0.735
+    },
+    {
+     "w": "burger",
+     "d": "burger",
+     "t": 0.876,
+     "e": 1.085
+    },
+    {
+     "w": "place",
+     "d": "place?",
+     "t": 1.085,
+     "e": 1.645
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.735
+    ],
+    [
+     0.79,
+     1.645
+    ]
+   ]
+  },
+  {
+   "id": "l17",
+   "n": 17,
+   "file": "because/17-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "It was only two million more.",
+   "say": "[earnest] [quiet] ...It was only two million more.",
+   "source": "denise-1-bella/L17-t2",
+   "tempo": 1.14,
+   "dur": 1.782,
+   "end": 1.755,
+   "words": [
+    {
+     "w": "it",
+     "d": "...It",
+     "t": 0.019,
+     "e": 0.236
+    },
+    {
+     "w": "was",
+     "d": "was",
+     "t": 0.236,
+     "e": 0.377
+    },
+    {
+     "w": "only",
+     "d": "only",
+     "t": 0.377,
+     "e": 0.635
+    },
+    {
+     "w": "two",
+     "d": "two",
+     "t": 0.798,
+     "e": 1.009
+    },
+    {
+     "w": "million",
+     "d": "million",
+     "t": 1.009,
+     "e": 1.361
+    },
+    {
+     "w": "more",
+     "d": "more.",
+     "t": 1.361,
+     "e": 1.755
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.635
+    ],
+    [
+     0.675,
+     1.755
+    ]
+   ]
+  },
+  {
+   "id": "l18",
+   "n": 18,
+   "file": "because/18-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Fucking marketing.",
+   "say": "[muttering] [low] [deadpan] Fucking marketing.",
+   "source": "denise-1-bella/L18-t2",
+   "tempo": 1.15,
+   "dur": 1.609,
+   "end": 1.415,
+   "words": [
+    {
+     "w": "fucking",
+     "d": "Fucking",
+     "t": 0.349,
+     "e": 0.773,
+     "bleep": true
+    },
+    {
+     "w": "marketing",
+     "d": "marketing.",
+     "t": 0.773,
+     "e": 1.415
+    }
+   ],
+   "voiced": [
+    [
+     0.0,
+     1.415
+    ]
+   ]
+  }
+ ],
+ "tableRead": {
+  "file": "out/because-table-read.mp3",
+  "dur": 27.93,
+  "lufs": -16.0,
+  "gaps": {
+   "1": 0.1,
+   "2": 0.1,
+   "3": 0.1,
+   "4": 0.45,
+   "5": 0.1,
+   "6": 0.1,
+   "7": 0.1,
+   "8": 0.1,
+   "9": 0.1,
+   "10": 0.1,
+   "11": 0.1,
+   "12": 0.1,
+   "13": 0.45,
+   "14": 0.3,
+   "15": 3.85,
+   "16": 0.2,
+   "17": 0.95
+  },
+  "cues": [
+   {
+    "n": 1,
+    "at": 0.08,
+    "speech": [
+     0.08,
+     1.41
+    ]
+   },
+   {
+    "n": 2,
+    "at": 1.45,
+    "speech": [
+     1.51,
+     3.415
+    ]
+   },
+   {
+    "n": 3,
+    "at": 3.455,
+    "speech": [
+     3.515,
+     4.3
+    ]
+   },
+   {
+    "n": 4,
+    "at": 4.34,
+    "speech": [
+     4.4,
+     5.65
+    ]
+   },
+   {
+    "n": 5,
+    "at": 6.04,
+    "speech": [
+     6.1,
+     6.72
+    ]
+   },
+   {
+    "n": 6,
+    "at": 6.785,
+    "speech": [
+     6.82,
+     7.69
+    ]
+   },
+   {
+    "n": 7,
+    "at": 7.73,
+    "speech": [
+     7.79,
+     8.37
+    ]
+   },
+   {
+    "n": 8,
+    "at": 8.405,
+    "speech": [
+     8.47,
+     9.275
+    ]
+   },
+   {
+    "n": 9,
+    "at": 9.315,
+    "speech": [
+     9.375,
+     9.87
+    ]
+   },
+   {
+    "n": 10,
+    "at": 9.945,
+    "speech": [
+     9.97,
+     11.665
+    ]
+   },
+   {
+    "n": 11,
+    "at": 11.705,
+    "speech": [
+     11.765,
+     12.205
+    ]
+   },
+   {
+    "n": 12,
+    "at": 12.25,
+    "speech": [
+     12.305,
+     13.57
+    ]
+   },
+   {
+    "n": 13,
+    "at": 13.61,
+    "speech": [
+     13.67,
+     14.075
+    ]
+   },
+   {
+    "n": 14,
+    "at": 14.465,
+    "speech": [
+     14.525,
+     16.81
+    ]
+   },
+   {
+    "n": 15,
+    "at": 17.065,
+    "speech": [
+     17.11,
+     17.935
+    ]
+   },
+   {
+    "n": 16,
+    "at": 21.725,
+    "speech": [
+     21.785,
+     23.37
+    ]
+   },
+   {
+    "n": 17,
+    "at": 23.51,
+    "speech": [
+     23.57,
+     25.265
+    ]
+   },
+   {
+    "n": 18,
+    "at": 26.215,
+    "speech": [
+     26.215,
+     27.63
+    ]
+   }
+  ],
+  "sfx": []
+ }
+}

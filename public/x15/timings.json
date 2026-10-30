@@ -1,0 +1,719 @@
+{
+ "model": "eleven_v4",
+ "target_lufs": -19.0,
+ "cast": {
+  "MACHINE": {
+   "cast": {
+    "voice": "Laura",
+    "voiceId": "FGY2WhTYpPnrIDTdsKH5",
+    "account_name": "Laura - Enthusiast, Quirky Attitude"
+   }
+  },
+  "ROSS": {
+   "cast": {
+    "voice": "jack-tyler",
+    "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+    "account_name": "jack-tyler"
+   }
+  },
+  "CHUCK": {
+   "cast": {
+    "voice": "jack-chris-boston",
+    "voiceId": "2vubyVoGjNJ5HPga4SkV",
+    "account_name": "jack-chris-boston"
+   }
+  }
+ },
+ "takes": [
+  {
+   "id": "l01",
+   "n": 1,
+   "file": "x15/01-machine.mp3",
+   "character": "MACHINE",
+   "voice": "Laura",
+   "voiceId": "FGY2WhTYpPnrIDTdsKH5",
+   "text": "Your business listing will be suspended.",
+   "say": "[cheerful] [automated] Your business listing will be suspended.",
+   "source": "machine-1-laura/L01-t1",
+   "tempo": 1.25,
+   "dur": 1.428,
+   "end": 1.415,
+   "words": [
+    {
+     "w": "your",
+     "d": "Your",
+     "t": 0.01,
+     "e": 0.306
+    },
+    {
+     "w": "business",
+     "d": "business",
+     "t": 0.306,
+     "e": 0.626
+    },
+    {
+     "w": "listing",
+     "d": "listing",
+     "t": 0.626,
+     "e": 0.947
+    },
+    {
+     "w": "will",
+     "d": "will",
+     "t": 0.947,
+     "e": 1.075
+    },
+    {
+     "w": "be",
+     "d": "be",
+     "t": 1.075,
+     "e": 1.204
+    },
+    {
+     "w": "suspended",
+     "d": "suspended.",
+     "t": 1.204,
+     "e": 1.415
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.415
+    ]
+   ]
+  },
+  {
+   "id": "l02",
+   "n": 2,
+   "file": "x15/02-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "FUCK OFF!",
+   "say": "[enraged] [yelling] FUCK OFF!",
+   "source": "ross-1-jack-tyler/L02-t2",
+   "tempo": 1.0,
+   "dur": 1.11,
+   "end": 0.86,
+   "words": [
+    {
+     "w": "fuck",
+     "d": "FUCK",
+     "t": 0.02,
+     "e": 0.355,
+     "bleep": true
+    },
+    {
+     "w": "off",
+     "d": "OFF!",
+     "t": 0.355,
+     "e": 0.73
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.73
+    ],
+    [
+     0.815,
+     0.86
+    ]
+   ]
+  },
+  {
+   "id": "l03",
+   "n": 3,
+   "file": "x15/03-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Everybody's trying to FUCK me!",
+   "say": "[furious] [ranting] Everybody's trying to FUCK me!",
+   "source": "ross-1-jack-tyler/L03-t1",
+   "tempo": 1.15,
+   "dur": 1.685,
+   "end": 1.435,
+   "words": [
+    {
+     "w": "everybody's",
+     "d": "Everybody's",
+     "t": 0.06,
+     "e": 0.592
+    },
+    {
+     "w": "trying",
+     "d": "trying",
+     "t": 0.592,
+     "e": 0.785
+    },
+    {
+     "w": "to",
+     "d": "to",
+     "t": 1.0,
+     "e": 1.0
+    },
+    {
+     "w": "fuck",
+     "d": "FUCK",
+     "t": 1.0,
+     "e": 1.16,
+     "bleep": true
+    },
+    {
+     "w": "me",
+     "d": "me!",
+     "t": 1.254,
+     "e": 1.435
+    }
+   ],
+   "voiced": [
+    [
+     0.01,
+     0.785
+    ],
+    [
+     1.0,
+     1.16
+    ],
+    [
+     1.2,
+     1.435
+    ]
+   ]
+  },
+  {
+   "id": "l04",
+   "n": 4,
+   "file": "x15/04-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "I get invoices for SHIT I never ordered!",
+   "say": "[ranting] [furious] I get invoices for SHIT I never ordered!",
+   "source": "ross-1-jack-tyler/L04-t1",
+   "tempo": 1.15,
+   "dur": 2.47,
+   "end": 2.22,
+   "words": [
+    {
+     "w": "i",
+     "d": "I",
+     "t": 0.08,
+     "e": 0.209
+    },
+    {
+     "w": "get",
+     "d": "get",
+     "t": 0.209,
+     "e": 0.36
+    },
+    {
+     "w": "invoices",
+     "d": "invoices",
+     "t": 0.419,
+     "e": 0.907
+    },
+    {
+     "w": "for",
+     "d": "for",
+     "t": 0.907,
+     "e": 1.186
+    },
+    {
+     "w": "shit",
+     "d": "SHIT",
+     "t": 1.186,
+     "e": 1.465,
+     "bleep": true
+    },
+    {
+     "w": "i",
+     "d": "I",
+     "t": 1.465,
+     "e": 1.605
+    },
+    {
+     "w": "never",
+     "d": "never",
+     "t": 1.605,
+     "e": 1.954
+    },
+    {
+     "w": "ordered",
+     "d": "ordered!",
+     "t": 1.954,
+     "e": 2.22
+    }
+   ],
+   "voiced": [
+    [
+     0.035,
+     0.36
+    ],
+    [
+     0.395,
+     2.22
+    ]
+   ]
+  },
+  {
+   "id": "l05",
+   "n": 5,
+   "file": "x15/05-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "This guy eats the whole thing...",
+   "say": "[tense] [sarcastic] This guy eats the whole thing...",
+   "source": "ross-1-jack-tyler/L05-t3",
+   "tempo": 1.05,
+   "dur": 2.204,
+   "end": 1.99,
+   "words": [
+    {
+     "w": "this",
+     "d": "This",
+     "t": 0.052,
+     "e": 0.359
+    },
+    {
+     "w": "guy",
+     "d": "guy",
+     "t": 0.359,
+     "e": 0.59
+    },
+    {
+     "w": "eats",
+     "d": "eats",
+     "t": 0.59,
+     "e": 0.936
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 0.936,
+     "e": 1.128
+    },
+    {
+     "w": "whole",
+     "d": "whole",
+     "t": 1.128,
+     "e": 1.512
+    },
+    {
+     "w": "thing",
+     "d": "thing...",
+     "t": 1.512,
+     "e": 1.99
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.99
+    ]
+   ]
+  },
+  {
+   "id": "l06",
+   "n": 6,
+   "file": "x15/06-chuck.mp3",
+   "character": "CHUCK",
+   "voice": "jack-chris-boston",
+   "voiceId": "2vubyVoGjNJ5HPga4SkV",
+   "text": "Found a hair. I want my money back.",
+   "say": "[smug] [matter-of-fact] Found a hair. I want my money back.",
+   "source": "chuck-1-jack-chris-boston/L06-t1",
+   "tempo": 1.1,
+   "dur": 2.336,
+   "end": 2.25,
+   "words": [
+    {
+     "w": "found",
+     "d": "Found",
+     "t": 0.2,
+     "e": 0.372
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 0.372,
+     "e": 0.444
+    },
+    {
+     "w": "hair",
+     "d": "hair.",
+     "t": 0.444,
+     "e": 0.9
+    },
+    {
+     "w": "i",
+     "d": "I",
+     "t": 1.172,
+     "e": 1.318
+    },
+    {
+     "w": "want",
+     "d": "want",
+     "t": 1.318,
+     "e": 1.463
+    },
+    {
+     "w": "my",
+     "d": "my",
+     "t": 1.463,
+     "e": 1.718
+    },
+    {
+     "w": "money",
+     "d": "money",
+     "t": 1.718,
+     "e": 1.9
+    },
+    {
+     "w": "back",
+     "d": "back.",
+     "t": 1.9,
+     "e": 2.25
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.9
+    ],
+    [
+     1.2,
+     2.25
+    ]
+   ]
+  },
+  {
+   "id": "l07",
+   "n": 7,
+   "file": "x15/07-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "His OWN fucking HAIR!",
+   "say": "[outraged] [shrieking] His OWN fucking HAIR!",
+   "source": "ross-1-jack-tyler/L07-t3",
+   "tempo": 1.0,
+   "dur": 2.12,
+   "end": 1.975,
+   "words": [
+    {
+     "w": "his",
+     "d": "His",
+     "t": 0.04,
+     "e": 0.36
+    },
+    {
+     "w": "own",
+     "d": "OWN",
+     "t": 0.36,
+     "e": 0.675
+    },
+    {
+     "w": "fucking",
+     "d": "fucking",
+     "t": 0.84,
+     "e": 1.055,
+     "bleep": true
+    },
+    {
+     "w": "hair",
+     "d": "HAIR!",
+     "t": 1.4,
+     "e": 1.975
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.675
+    ],
+    [
+     0.9,
+     1.055
+    ],
+    [
+     1.095,
+     1.975
+    ]
+   ]
+  },
+  {
+   "id": "l08",
+   "n": 8,
+   "file": "x15/08-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Fuck the robots, fuck the envelopes, and fuck that bald motherfucker!",
+   "say": "[completely losing it] [screaming] Fuck the robots, fuck the envelopes, and fuck that bald motherfucker!",
+   "source": "ross-1-jack-tyler/L08-t1",
+   "tempo": 1.2,
+   "dur": 3.688,
+   "end": 3.505,
+   "words": [
+    {
+     "w": "fuck",
+     "d": "Fuck",
+     "t": 0.084,
+     "e": 0.285,
+     "bleep": true
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 0.351,
+     "e": 0.618
+    },
+    {
+     "w": "robots",
+     "d": "robots,",
+     "t": 0.618,
+     "e": 0.86
+    },
+    {
+     "w": "fuck",
+     "d": "fuck",
+     "t": 1.085,
+     "e": 1.225,
+     "bleep": true
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 1.285,
+     "e": 1.419
+    },
+    {
+     "w": "envelopes",
+     "d": "envelopes,",
+     "t": 1.419,
+     "e": 1.805
+    },
+    {
+     "w": "and",
+     "d": "and",
+     "t": 1.986,
+     "e": 2.03
+    },
+    {
+     "w": "fuck",
+     "d": "fuck",
+     "t": 2.153,
+     "e": 2.345,
+     "bleep": true
+    },
+    {
+     "w": "that",
+     "d": "that",
+     "t": 2.453,
+     "e": 2.565
+    },
+    {
+     "w": "bald",
+     "d": "bald",
+     "t": 2.62,
+     "e": 2.987
+    },
+    {
+     "w": "motherfucker",
+     "d": "motherfucker!",
+     "t": 2.987,
+     "e": 3.065,
+     "bleep": true
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.285
+    ],
+    [
+     0.34,
+     0.86
+    ],
+    [
+     1.095,
+     1.225
+    ],
+    [
+     1.265,
+     1.805
+    ],
+    [
+     1.87,
+     2.03
+    ],
+    [
+     2.185,
+     2.345
+    ],
+    [
+     2.39,
+     2.565
+    ],
+    [
+     2.625,
+     3.065
+    ],
+    [
+     3.185,
+     3.505
+    ]
+   ]
+  },
+  {
+   "id": "l09",
+   "n": 9,
+   "file": "x15/09-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "I never ORDERED any bleeps!",
+   "say": "[outraged] [voice cracking] I never ORDERED any bleeps!",
+   "source": "ross-1-jack-tyler/L09-t2",
+   "tempo": 1.1,
+   "dur": 2.106,
+   "end": 1.975,
+   "words": [
+    {
+     "w": "i",
+     "d": "I",
+     "t": 0.13,
+     "e": 0.424
+    },
+    {
+     "w": "never",
+     "d": "never",
+     "t": 0.424,
+     "e": 0.79
+    },
+    {
+     "w": "ordered",
+     "d": "ORDERED",
+     "t": 0.79,
+     "e": 1.082
+    },
+    {
+     "w": "any",
+     "d": "any",
+     "t": 1.082,
+     "e": 1.3
+    },
+    {
+     "w": "bleeps",
+     "d": "bleeps!",
+     "t": 1.448,
+     "e": 1.975
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.3
+    ],
+    [
+     1.45,
+     1.975
+    ]
+   ]
+  }
+ ],
+ "tableRead": {
+  "file": "out/x15-table-read.mp3",
+  "dur": 23.61,
+  "lufs": -16.0,
+  "gaps": {
+   "1": -0.15,
+   "2": 0.55,
+   "3": 0.35,
+   "4": 1.8,
+   "5": 0.9,
+   "6": 0.4,
+   "7": 0.35,
+   "8": 1.6
+  },
+  "cues": [
+   {
+    "n": 1,
+    "at": 0.29,
+    "speech": [
+     0.35,
+     1.705
+    ]
+   },
+   {
+    "n": 2,
+    "at": 1.495,
+    "speech": [
+     1.555,
+     2.355
+    ]
+   },
+   {
+    "n": 3,
+    "at": 2.895,
+    "speech": [
+     2.905,
+     4.33
+    ]
+   },
+   {
+    "n": 4,
+    "at": 4.645,
+    "speech": [
+     4.68,
+     6.865
+    ]
+   },
+   {
+    "n": 5,
+    "at": 8.605,
+    "speech": [
+     8.665,
+     10.595
+    ]
+   },
+   {
+    "n": 6,
+    "at": 11.435,
+    "speech": [
+     11.495,
+     13.685
+    ]
+   },
+   {
+    "n": 7,
+    "at": 14.025,
+    "speech": [
+     14.085,
+     16.0
+    ]
+   },
+   {
+    "n": 8,
+    "at": 16.29,
+    "speech": [
+     16.35,
+     19.795
+    ]
+   },
+   {
+    "n": 9,
+    "at": 21.335,
+    "speech": [
+     21.395,
+     23.31
+    ]
+   }
+  ],
+  "sfx": []
+ }
+}

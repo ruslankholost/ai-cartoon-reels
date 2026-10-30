@@ -1,0 +1,126 @@
+// "Cold Lips" v8 (id "lips8"; script v8, 2026-10-23, docs/x06-cold-lips.md "Script v8"): she throws her coffee at Denise and threatens a bad review, wants her money and a tip she never left back, Todd hands her Denise's tips,
+// Denise explodes, "Anything? Then rub my feet.", she melts and still posts one star: "Cold hands."; the usual at 6 AM loops into the throw.
+// Format: see scripts/voice-gen.mjs (lines, directions) and scripts/voice-build.py (cast, plan, gaps, lead, tableSfx). The order of "lines" is the story's order; the numbers are the story's order too.
+// Take k of a line uses direction k. Lines 1-10 are lips3's lines with lips3's numbers: their takes t1-t3 (t1-t6 for 1 and 10) are copied from scratch/voice-raw/lips3;
+// line 14 is lips3's line 13 (v2's takes). New directions go at the end of a list: lines 2, 6, 9 get t4-t6 and line 10 gets t7-t9 (v6: hysterical, a whisper, exploding, a falsetto shriek).
+{
+ "title": "Cold Lips v8",
+ "cast": {"denise": 1, "customer": 2, "todd": 2},
+ "runnerUp": {},
+ "lines": [
+// shot 3: purple, the phone jabbed at Denise
+  {"n": 1, "char": "customer", "text": "Too hot! I'm leaving a bad review!", "dirs": [
+   {"t": "[screaming] [furious]", "st": 0.25, "sy": 0.7},
+   {"t": "[shrieking] [enraged]", "st": 0.2, "sy": 0.75},
+   {"t": "[yelling] [outraged] [shrill]", "st": 0.25, "sy": 0.7},
+   {"t": "[screaming] [livid]", "st": 0.3, "sy": 0.65, "text": "TOO HOT! I'm leaving a BAD review!"},
+   {"t": "[furious] [shouting]", "st": 0.3, "sy": 0.6},
+   {"t": "[hysterical] [screaming]", "st": 0.2, "sy": 0.75}
+  ]},
+// Todd on the floor after the belly-flop, scrubbing the one drop on her shoe
+  {"n": 2, "char": "todd", "text": "Ma'am! Did any get on you?", "dirs": [
+   {"t": "[panicked] [high-pitched] [breathless]", "st": 0.25, "sy": 0.6},
+   {"t": "[frantic] [fussing] [terrified]", "st": 0.25, "sy": 0.6},
+   {"t": "[horrified] [overeager] [voice cracking]", "st": 0.3, "sy": 0.55},
+   {"t": "[hysterical] [screaming] [panicked]", "st": 0.2, "sy": 0.75, "text": "MA'AM! Did any get on YOU?!"},
+   {"t": "[shrieking] [horrified] [voice cracking]", "st": 0.2, "sy": 0.8, "text": "MA'AM! Did any get on YOU?!"},
+   {"t": "[hysterical] [frantic] [high-pitched]", "st": 0.15, "sy": 0.8, "text": "MA'AM! Did any get on YOU?!"}
+  ]},
+  {"n": 3, "char": "customer", "text": "I want my money back.", "dirs": [
+   {"t": "[cold] [slow] [menacing]", "st": 0.35, "sy": 0.5},
+   {"t": "[icy] [entitled] [slow]", "st": 0.35, "sy": 0.55},
+   {"t": "[calm] [cruel]", "st": 0.4, "sy": 0.5}
+  ]},
+  {"n": 4, "char": "customer", "text": "And my tip.", "dirs": [
+   {"t": "[cold] [pointed]", "st": 0.35, "sy": 0.5},
+   {"t": "[entitled] [icy]", "st": 0.35, "sy": 0.55},
+   {"t": "[smug] [slow]", "st": 0.4, "sy": 0.5}
+  ]},
+  {"n": 5, "char": "denise", "text": "You didn't tip.", "dirs": [
+   {"t": "[deadpan] [through gritted teeth]", "st": 0.4, "sy": 0.35},
+   {"t": "[flat] [restrained anger]", "st": 0.4, "sy": 0.4},
+   {"t": "[dry] [weary] [incredulous]", "st": 0.45, "sy": 0.35}
+  ]},
+// she leans over the counter into Denise's face
+  {"n": 6, "char": "customer", "text": "I tipped in my head.", "dirs": [
+   {"t": "[matter-of-fact] [smug]", "st": 0.35, "sy": 0.55},
+   {"t": "[condescending] [slow]", "st": 0.35, "sy": 0.55},
+   {"t": "[self-satisfied] [cold]", "st": 0.4, "sy": 0.5},
+   {"t": "[whispering] [smug] [slow]", "st": 0.35, "sy": 0.55, "text": "I tipped... in my head."},
+   {"t": "[whispers] [condescending]", "st": 0.35, "sy": 0.6, "text": "I tipped... in my head."},
+   {"t": "[softly] [whispering] [cold]", "st": 0.4, "sy": 0.5, "text": "I tipped... in my head."}
+  ]},
+// Todd shoves the DENISE / TIPS jar into her arms
+  {"n": 7, "char": "todd", "text": "Take Denise's!", "dirs": [
+   {"t": "[frantic] [eager]", "st": 0.25, "sy": 0.6},
+   {"t": "[panicked] [overeager] [loud]", "st": 0.25, "sy": 0.65},
+   {"t": "[desperate] [bright] [breathless]", "st": 0.3, "sy": 0.55}
+  ]},
+  {"n": 8, "char": "customer", "text": "I make better coffee at home.", "dirs": [
+   {"t": "[condescending] [disdainful]", "st": 0.35, "sy": 0.55},
+   {"t": "[haughty] [slow] [sneering]", "st": 0.35, "sy": 0.6},
+   {"t": "[bored] [superior]", "st": 0.4, "sy": 0.5}
+  ]},
+// the vein, the rattle, and Denise explodes; the cup shoots off her head
+  {"n": 9, "char": "denise", "text": "Then why are you here?", "dirs": [
+   {"t": "[deadpan] [snapping]", "st": 0.4, "sy": 0.4},
+   {"t": "[flat] [exasperated]", "st": 0.4, "sy": 0.4},
+   {"t": "[dry] [genuinely asking]", "st": 0.45, "sy": 0.35},
+   {"t": "[exploding] [screaming] [furious]", "st": 0.2, "sy": 0.75, "text": "THEN WHY ARE YOU HERE?!"},
+   {"t": "[yelling] [snapping] [enraged]", "st": 0.2, "sy": 0.8, "text": "THEN WHY ARE YOU HERE?!"},
+   {"t": "[screaming] [losing it]", "st": 0.15, "sy": 0.8, "text": "THEN WHY ARE YOU HERE?!"}
+  ]},
+// Todd's hands over Denise's mouth
+  {"n": 10, "char": "todd", "text": "Ma'am, anything!", "dirs": [
+   {"t": "[desperate] [pleading]", "st": 0.3, "sy": 0.5},
+   {"t": "[begging] [panicked]", "st": 0.3, "sy": 0.5},
+   {"t": "[frantic] [whimpering]", "st": 0.35, "sy": 0.45},
+   {"t": "[begging] [voice cracking] [desperate]", "st": 0.2, "sy": 0.7},
+   {"t": "[shrieking] [pleading]", "st": 0.2, "sy": 0.75},
+   {"t": "[sobbing] [desperate]", "st": 0.25, "sy": 0.7},
+   {"t": "[falsetto] [shrieking] [panicked]", "st": 0.2, "sy": 0.8, "text": "MA'AM! ANYTHING!"},
+   {"t": "[high-pitched] [screaming] [desperate]", "st": 0.2, "sy": 0.8, "text": "MA'AM! ANYTHING!"},
+   {"t": "[shrieking] [voice cracking] [begging]", "st": 0.15, "sy": 0.8, "text": "MA'AM! ANYTHING!"}
+  ]},
+// a thin smile; her bare foot comes up onto the counter after it
+  {"n": 11, "char": "customer", "text": "Anything? Then rub my feet.", "dirs": [
+   {"t": "[amused] [sly] [slow]", "st": 0.35, "sy": 0.5},
+   {"t": "[smug] [commanding]", "st": 0.35, "sy": 0.55},
+   {"t": "[cold] [teasing]", "st": 0.4, "sy": 0.45},
+   {"t": "[purring] [condescending]", "st": 0.3, "sy": 0.6, "text": "Anything? ...Then rub my feet."},
+   {"t": "[sly] [amused] [cruel]", "st": 0.3, "sy": 0.6, "text": "Anything? ...Then rub my feet."},
+   {"t": "[slow] [smug] [imperious]", "st": 0.4, "sy": 0.5, "text": "Anything? ...Then rub my feet."}
+  ]},
+// Todd rubs her foot until it smokes; she melts
+  {"n": 12, "char": "customer", "text": "Ohhh.", "dirs": [
+   {"t": "[long blissful groan]", "st": 0.3, "sy": 0.6, "text": "Ohhhhh..."},
+   {"t": "[groaning with relief] [blissful]", "st": 0.3, "sy": 0.6, "text": "Ohhhh..."},
+   {"t": "[blissful sigh] [melting]", "st": 0.35, "sy": 0.55, "text": "Ohhhhhh..."},
+   {"t": "[deep satisfied groan]", "st": 0.3, "sy": 0.65, "text": "Ohhh..."}
+  ]},
+// her face snaps flat again; the smoke still curls up
+  {"n": 13, "char": "customer", "text": "Cold hands.", "dirs": [
+   {"t": "[flat] [unimpressed]", "st": 0.5, "sy": 0.25},
+   {"t": "[deadpan] [disappointed]", "st": 0.5, "sy": 0.25},
+   {"t": "[bored] [matter-of-fact]", "st": 0.45, "sy": 0.3},
+   {"t": "[cold] [dismissive]", "st": 0.5, "sy": 0.3}
+  ]},
+// the next morning (v2 line 13, v2 takes)
+  {"n": 14, "char": "customer", "text": "The usual.", "dirs": [
+   {"t": "[curt] [brisk]", "st": 0.45, "sy": 0.3},
+   {"t": "[cold] [clipped]", "st": 0.45, "sy": 0.35},
+   {"t": "[imperious] [flat]", "st": 0.5, "sy": 0.25}
+  ]}
+ ],
+// the plan: picked on voice-analyze.py and voice-check.py numbers, nobody has listened (docs/x06-cold-lips.md, "Build notes v8").
+// The frantic lines are sped up (1.1-1.25) to keep the reel near 30 s; her cold lines stay at her own pace.
+ "plan": {"1": {"t": 2, "rate": 1.2}, "2": {"t": 6, "rate": 1.25}, "3": {"t": 2}, "4": {"t": 2}, "5": {"t": 2}, "6": {"t": 4}, "7": {"t": 1, "rate": 1.1},
+          "8": {"t": 3, "rate": 1.1}, "9": {"t": 6, "rate": 1.1}, "10": {"t": 7, "rate": 1.2}, "11": {"t": 3, "rate": 1.1}, "12": {"t": 1}, "13": {"t": 3}, "14": {"t": 3}},
+// lead: shot 1 (the throw and the splash) and shot 2 (Denise soaked, the cup landing on her head) come before her scream
+ "lead": 1.0,
+// gaps (after the line named, s): 1: Todd vaults, belly-flops at her feet, the shoe and its drop; 3: the bill slapped into her hand; 5: she leans in; 6: the jar;
+// 8: the vein throbs, the cup rattles; 9: the cup pops off, she and the dog turn, her thumb drops toward POST, Todd's hands over Denise's mouth;
+// 11: her foot slaps onto the counter, Todd rubs it till it smokes; 12: Denise's twitch, her face snaps flat; 13: the review held readable, then the next morning's door. The rest are tight.
+ "gaps": {"1": 1.0, "2": 0.15, "3": 0.5, "4": 0.12, "5": 0.25, "6": 0.25, "7": 0.12, "8": 0.6, "9": 0.8, "10": 0.12, "11": 1.1, "12": 0.6, "13": 2.6},
+ "tableSfx": []
+}

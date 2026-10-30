@@ -1,0 +1,108 @@
+// "I'm Just Not a Sales Person" (id "pen", working name "Sell Me This Pen"; v2, the satire cut, 2026-10-22, docs/x04-sell-me-this-pen.md): Denise says she is not a sales person, then says yes to "be your own boss" (which is sales in disguise), and the same trick takes her from one pen to nine thousand of them. v1 (commit 381cfe8) also had Rhonda's Tupperware story (lines 2-17); it is a separate episode now (Ross 10-22: "let's make two"). The line numbers of v1 are kept, so the lines are 1 and 18-33, and every plan entry, gap and raw take file (scratch/voice-raw/pen) stays where it was.
+// Format: see scripts/voice-gen.mjs (lines, directions) and scripts/voice-build.py (cast, plan, gaps, lead, tableSfx). The order of "lines" is the film's order; a gap is keyed by the line before it, so the numbers need not run 1, 2, 3 ...
+// Brandon (new) has two candidates: 1 jack-ed (smooth, cheesy), 2 Adam (brash, confident); 1 is cast. Line 27 must stop on the cut-off "gr"; line 32 is bleeped (word 0).
+{
+ "title": "I'm Just Not a Sales Person",
+ "cast": {"denise": 1, "rhonda": 1, "brandon": 1},
+ "runnerUp": {},
+ "lines": [
+// the garage: the belief
+  {"n": 1, "char": "denise", "text": "I'm just not a sales person.", "dirs": [
+   {"t": "[tired] [matter-of-fact]", "st": 0.5, "sy": 0.2},
+   {"t": "[weary] [defensive] [flat]", "st": 0.45, "sy": 0.25},
+   {"t": "[sighing] [matter-of-fact]", "st": 0.5, "sy": 0.25}
+  ]},
+// the group chat's text, then the glass office: the pen, the contract, the starter kit, Diamond
+  {"n": 18, "char": "denise", "text": "I could be my own boss.", "dirs": [
+   {"t": "[hopeful] [dreamy]", "st": 0.45, "sy": 0.3, "text": "...I could be my own boss."},
+   {"t": "[wistful] [soft]", "st": 0.45, "sy": 0.3, "text": "...I could be my own boss."},
+   {"t": "[dreamy] [earnest] [quiet]", "st": 0.4, "sy": 0.35, "text": "...I could be my own boss."}
+  ]},
+  {"n": 19, "char": "brandon", "text": "Sell me this pen.", "dirs": [
+   {"t": "[confident] [smug] [smooth]", "st": 0.5, "sy": 0.3},
+   {"t": "[slick] [cocky] [charming]", "st": 0.45, "sy": 0.35},
+   {"t": "[smooth] [smirking] [self-assured]", "st": 0.5, "sy": 0.3}
+  ]},
+  {"n": 20, "char": "denise", "text": "It writes?", "dirs": [
+   {"t": "[unsure] [hesitant]", "st": 0.45, "sy": 0.3, "text": "...It writes?"},
+   {"t": "[uncertain] [tentative] [quiet]", "st": 0.45, "sy": 0.3, "text": "...It writes?"},
+   {"t": "[puzzled] [quiet]", "st": 0.4, "sy": 0.35, "text": "...It writes?"}
+  ]},
+  {"n": 21, "char": "brandon", "text": "Sign here.", "dirs": [
+   {"t": "[smooth] [quick] [casual]", "st": 0.5, "sy": 0.25},
+   {"t": "[slick] [brisk]", "st": 0.5, "sy": 0.25},
+   {"t": "[confident] [breezy] [fast]", "st": 0.5, "sy": 0.25}
+  ]},
+  {"n": 22, "char": "denise", "text": "You got a pen?", "dirs": [
+   {"t": "[sheepish] [quiet]", "st": 0.45, "sy": 0.3, "text": "...You got a pen?"},
+   {"t": "[hesitant] [awkward]", "st": 0.45, "sy": 0.3, "text": "...You got a pen?"},
+   {"t": "[timid] [apologetic]", "st": 0.4, "sy": 0.35, "text": "...You got a pen?"}
+  ]},
+  {"n": 23, "char": "brandon", "text": "Twenty bucks.", "dirs": [
+   {"t": "[cheerful] [bright]", "st": 0.5, "sy": 0.3},
+   {"t": "[upbeat] [friendly] [smiling]", "st": 0.5, "sy": 0.3},
+   {"t": "[chipper] [easygoing]", "st": 0.45, "sy": 0.35}
+  ]},
+  {"n": 24, "char": "brandon", "text": "Starter kit's three hundred.", "dirs": [
+   {"t": "[fast] [upbeat]", "st": 0.5, "sy": 0.3},
+   {"t": "[rapid] [cheerful] [brisk]", "st": 0.5, "sy": 0.3},
+   {"t": "[quick] [chipper] [casual]", "st": 0.5, "sy": 0.3}
+  ]},
+  {"n": 25, "char": "denise", "text": "Sure.", "dirs": [
+   {"t": "[flat] [quick] [agreeable]", "st": 0.5, "sy": 0.2},
+   {"t": "[dazed] [agreeable]", "st": 0.45, "sy": 0.3},
+   {"t": "[deadpan] [clipped]", "st": 0.5, "sy": 0.2}
+  ]},
+  {"n": 26, "char": "brandon", "text": "Diamond's twenty grand.", "dirs": [
+   {"t": "[proud] [booming]", "st": 0.45, "sy": 0.35},
+   {"t": "[boastful] [expansive]", "st": 0.45, "sy": 0.35},
+   {"t": "[triumphant] [showman]", "st": 0.45, "sy": 0.4}
+  ]},
+// she starts to count and is cut off on "gr": the take must end there
+  {"n": 27, "char": "denise", "text": "Twenty gr", "dirs": [
+   {"t": "[hesitant] [counting]", "st": 0.45, "sy": 0.3, "text": "...Twenty gr—"},
+   {"t": "[dazed] [calculating]", "st": 0.45, "sy": 0.3, "text": "...Twenty gr—"},
+   {"t": "[uncertain] [slowly]", "st": 0.4, "sy": 0.35, "text": "...Twenty gr-"}
+  ]},
+  {"n": 28, "char": "brandon", "text": "Don't do the math. Comes with the yacht.", "dirs": [
+   {"t": "[smooth] [quick] [reassuring]", "st": 0.5, "sy": 0.25},
+   {"t": "[slick] [cutting in] [breezy]", "st": 0.5, "sy": 0.25},
+   {"t": "[confident] [casual] [fast]", "st": 0.5, "sy": 0.25}
+  ]},
+  {"n": 29, "char": "denise", "text": "Sure.", "dirs": [
+   {"t": "[glazed] [vacant]", "st": 0.45, "sy": 0.3, "text": "...Sure."},
+   {"t": "[dazed] [flat] [quiet]", "st": 0.45, "sy": 0.3, "text": "...Sure."},
+   {"t": "[dreamy] [defeated]", "st": 0.4, "sy": 0.35, "text": "...Sure."}
+  ]},
+// the garage again: nine thousand pens, the realization, the outro
+  {"n": 30, "char": "rhonda", "text": "Why do you have nine thousand pens?", "dirs": [
+   {"t": "[dry] [deadpan]", "st": 0.5, "sy": 0.2},
+   {"t": "[flat] [incredulous]", "st": 0.5, "sy": 0.2},
+   {"t": "[dry] [curious] [unimpressed]", "st": 0.45, "sy": 0.25}
+  ]},
+  {"n": 31, "char": "denise", "text": "I'm in sales now.", "dirs": [
+   {"t": "[sincere] [quietly proud]", "st": 0.45, "sy": 0.3, "text": "...I'm in sales now."},
+   {"t": "[earnest] [matter-of-fact] [proud]", "st": 0.45, "sy": 0.3, "text": "...I'm in sales now."},
+   {"t": "[earnest] [proud]", "st": 0.4, "sy": 0.3, "text": "...I'm in sales now."}
+  ]},
+  {"n": 32, "char": "denise", "text": "Fucking marketing.", "dirs": [
+   {"t": "[realization] [flat] [low]", "st": 0.5, "sy": 0.25},
+   {"t": "[muttering] [low] [deadpan]", "st": 0.45, "sy": 0.3},
+   {"t": "[quietly] [flat] [disgusted]", "st": 0.5, "sy": 0.25}
+  ]},
+  {"n": 33, "char": "rhonda", "text": "Either you're selling, or you're buying.", "dirs": [
+   {"t": "[dry] [deadpan]", "st": 0.5, "sy": 0.2},
+   {"t": "[flat] [matter-of-fact] [knowing]", "st": 0.5, "sy": 0.2},
+   {"t": "[dry] [wry] [unhurried]", "st": 0.45, "sy": 0.25}
+  ]}
+ ],
+// the plan: take t and tempo rate per line (rate only where the take is slow). 27: "to" 1.13 cuts the raw take on the r of "gr" (the take ends in a 0.4 s breath that would read as a trailing off);
+// 32: "from" 0.95 drops the 0.9 s mumble in front of the word, as in "Because"
+ "plan": {"1": {"t": 2, "rate": 1.1}, "18": {"t": 1, "rate": 1.1}, "19": {"t": 1}, "20": {"t": 2, "rate": 1.1}, "21": {"t": 1}, "22": {"t": 1}, "23": {"t": 1}, "24": {"t": 1}, "25": {"t": 3}, "26": {"t": 1}, "27": {"t": 1, "to": 1.13}, "28": {"t": 1}, "29": {"t": 2}, "30": {"t": 1, "rate": 1.1}, "31": {"t": 1}, "32": {"t": 2, "rate": 1.15, "from": 0.95, "bleep": [0]}, "33": {"t": 1}},
+ "lead": 0.1,
+// the gaps (after the line named, s) carry the silent beats of the shot list (docs/x04-sell-me-this-pen.md): 1: the phone, SALES REP readable for a full second, the swipe, then the group chat's buzz and its text readable for 1.6 s (v2: 3.35 s; in v1 it was 0.9 s and Rhonda's story came before the text);
+// 23: the beep and the signature inserts; 25: the box lands; 27: Brandon cuts her off; 29: beep, the pallet slams, the poster is ripped, then the garage wide (the boxes, Rhonda in the door);
+// 31: Rhonda looks at the wall (0.6 s), the fine print comes in (0.5 s) and is held, legible, for 1.8 s, Denise's eyes, the pen drops (v2, 10-22: Ross could not read it in 0.3 s, so the gap went from 2.6 to 3.85 s); 32: Rhonda cracks a second beer before the outro
+ "gaps": {"1": 3.35, "18": 0.2, "19": 0.15, "20": 0.15, "21": 0.15, "22": 0.15, "23": 1.2, "24": 0.12, "25": 0.35, "26": 0.15, "27": 0.1, "28": 0.2, "29": 3, "30": 0.2, "31": 3.85, "32": 0.45},
+ "tableSfx": []
+}

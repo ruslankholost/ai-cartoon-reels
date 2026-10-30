@@ -1,0 +1,1304 @@
+{
+ "model": "eleven_v4",
+ "target_lufs": -19.0,
+ "cast": {
+  "DAVE": {
+   "cast": {
+    "voice": "Callum",
+    "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+    "account_name": "Callum - Husky Trickster"
+   }
+  },
+  "BARB": {
+   "cast": {
+    "voice": "Matilda",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "account_name": "Matilda - Knowledgable, Professional"
+   }
+  },
+  "LINDA": {
+   "cast": {
+    "voice": "Bella",
+    "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+    "account_name": "Bella - Professional, Bright, Warm"
+   }
+  },
+  "CHAD": {
+   "cast": {
+    "voice": "Eric",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "account_name": "Eric - Smooth, Trustworthy"
+   }
+  }
+ },
+ "takes": [
+  {
+   "id": "l01",
+   "n": 1,
+   "file": "be-chad/01-dave.mp3",
+   "character": "DAVE",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "Dave's Plumbing, how fast can I come?",
+   "say": "[out of breath] [professional] Dave's Plumbing, how fast can I come?",
+   "source": "dave-1-callum/L01-t2",
+   "tempo": 1.0,
+   "dur": 3.26,
+   "end": 3.01,
+   "words": [
+    {
+     "w": "dave's",
+     "d": "Dave's",
+     "t": 0.85,
+     "e": 1.18
+    },
+    {
+     "w": "plumbing",
+     "d": "Plumbing,",
+     "t": 1.2,
+     "e": 1.68
+    },
+    {
+     "w": "how",
+     "d": "how",
+     "t": 2.0,
+     "e": 2.16
+    },
+    {
+     "w": "fast",
+     "d": "fast",
+     "t": 2.16,
+     "e": 2.4
+    },
+    {
+     "w": "can",
+     "d": "can",
+     "t": 2.4,
+     "e": 2.52
+    },
+    {
+     "w": "i",
+     "d": "I",
+     "t": 2.52,
+     "e": 2.64
+    },
+    {
+     "w": "come",
+     "d": "come?",
+     "t": 2.64,
+     "e": 3.01
+    }
+   ],
+   "voiced": [
+    [
+     0.015,
+     0.385
+    ],
+    [
+     0.465,
+     0.77
+    ],
+    [
+     0.805,
+     1.18
+    ],
+    [
+     1.21,
+     1.68
+    ],
+    [
+     1.765,
+     1.895
+    ],
+    [
+     1.96,
+     3.01
+    ]
+   ]
+  },
+  {
+   "id": "l02",
+   "n": 2,
+   "file": "be-chad/02-barb.mp3",
+   "character": "BARB",
+   "voice": "Matilda",
+   "voiceId": "XrExE9yKIg1WjnnlVkGX",
+   "text": "Never been a problem for you.",
+   "say": "[dry] [unimpressed] Never been a problem for you.",
+   "source": "barb-1-matilda/L02-t2",
+   "tempo": 1.0,
+   "dur": 1.925,
+   "end": 1.675,
+   "words": [
+    {
+     "w": "never",
+     "d": "Never",
+     "t": 0.12,
+     "e": 0.54
+    },
+    {
+     "w": "been",
+     "d": "been",
+     "t": 0.54,
+     "e": 0.7
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 0.7,
+     "e": 0.78
+    },
+    {
+     "w": "problem",
+     "d": "problem",
+     "t": 0.78,
+     "e": 1.18
+    },
+    {
+     "w": "for",
+     "d": "for",
+     "t": 1.18,
+     "e": 1.42
+    },
+    {
+     "w": "you",
+     "d": "you.",
+     "t": 1.42,
+     "e": 1.675
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.675
+    ]
+   ]
+  },
+  {
+   "id": "l03",
+   "n": 3,
+   "file": "be-chad/03-dave.mp3",
+   "character": "DAVE",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "Picked up in one minute. Chad's my hero.",
+   "say": "[mocking] [sing-song] Picked up in one minute. Chad's my hero.",
+   "source": "dave-1-callum/L03-t1",
+   "tempo": 1.0,
+   "dur": 3.91,
+   "end": 3.66,
+   "words": [
+    {
+     "w": "picked",
+     "d": "Picked",
+     "t": 0.151,
+     "e": 0.34
+    },
+    {
+     "w": "up",
+     "d": "up",
+     "t": 0.48,
+     "e": 0.61
+    },
+    {
+     "w": "in",
+     "d": "in",
+     "t": 0.72,
+     "e": 1.04
+    },
+    {
+     "w": "one",
+     "d": "one",
+     "t": 1.04,
+     "e": 1.28
+    },
+    {
+     "w": "minute",
+     "d": "minute.",
+     "t": 1.28,
+     "e": 1.685
+    },
+    {
+     "w": "chad's",
+     "d": "Chad's",
+     "t": 2.16,
+     "e": 2.76
+    },
+    {
+     "w": "my",
+     "d": "my",
+     "t": 2.76,
+     "e": 3.04
+    },
+    {
+     "w": "hero",
+     "d": "hero.",
+     "t": 3.04,
+     "e": 3.66
+    }
+   ],
+   "voiced": [
+    [
+     0.05,
+     0.34
+    ],
+    [
+     0.39,
+     0.61
+    ],
+    [
+     0.665,
+     1.685
+    ],
+    [
+     1.755,
+     2.065
+    ],
+    [
+     2.105,
+     3.66
+    ]
+   ]
+  },
+  {
+   "id": "l04",
+   "n": 4,
+   "file": "be-chad/04-dave.mp3",
+   "character": "DAVE",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "Chad can go fuck himself.",
+   "say": "[annoyed] [under his breath] Chad can go fuck himself.",
+   "source": "dave-1-callum/L04-t2",
+   "tempo": 1.0,
+   "dur": 2.125,
+   "end": 1.89,
+   "words": [
+    {
+     "w": "chad",
+     "d": "Chad",
+     "t": 0.125,
+     "e": 0.445
+    },
+    {
+     "w": "can",
+     "d": "can",
+     "t": 0.445,
+     "e": 0.725
+    },
+    {
+     "w": "go",
+     "d": "go",
+     "t": 0.725,
+     "e": 1.005
+    },
+    {
+     "w": "fuck",
+     "d": "fuck",
+     "t": 1.005,
+     "e": 1.285,
+     "bleep": true
+    },
+    {
+     "w": "himself",
+     "d": "himself.",
+     "t": 1.285,
+     "e": 1.89
+    }
+   ],
+   "voiced": [
+    [
+     0.065,
+     1.89
+    ]
+   ]
+  },
+  {
+   "id": "l05",
+   "n": 5,
+   "file": "be-chad/05-dave.mp3",
+   "character": "DAVE",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "That's it. I pick up every call. First ring.",
+   "say": "[fired up] [loud] That's it. I pick up every call. First ring.",
+   "source": "dave-1-callum/L05-t2",
+   "tempo": 1.0,
+   "dur": 3.75,
+   "end": 3.505,
+   "words": [
+    {
+     "w": "that's",
+     "d": "That's",
+     "t": 0.224,
+     "e": 0.44
+    },
+    {
+     "w": "it",
+     "d": "it.",
+     "t": 0.44,
+     "e": 0.47
+    },
+    {
+     "w": "i",
+     "d": "I",
+     "t": 0.96,
+     "e": 1.12
+    },
+    {
+     "w": "pick",
+     "d": "pick",
+     "t": 1.12,
+     "e": 1.28
+    },
+    {
+     "w": "up",
+     "d": "up",
+     "t": 1.28,
+     "e": 1.49
+    },
+    {
+     "w": "every",
+     "d": "every",
+     "t": 1.6,
+     "e": 2.0
+    },
+    {
+     "w": "call",
+     "d": "call.",
+     "t": 2.0,
+     "e": 2.37
+    },
+    {
+     "w": "first",
+     "d": "First",
+     "t": 2.8,
+     "e": 3.04
+    },
+    {
+     "w": "ring",
+     "d": "ring.",
+     "t": 3.04,
+     "e": 3.505
+    }
+   ],
+   "voiced": [
+    [
+     0.005,
+     0.47
+    ],
+    [
+     0.515,
+     0.62
+    ],
+    [
+     0.79,
+     1.49
+    ],
+    [
+     1.585,
+     2.37
+    ],
+    [
+     2.66,
+     3.505
+    ]
+   ]
+  },
+  {
+   "id": "l06",
+   "n": 6,
+   "file": "be-chad/06-barb.mp3",
+   "character": "BARB",
+   "voice": "Matilda",
+   "voiceId": "XrExE9yKIg1WjnnlVkGX",
+   "text": "Mm-hm.",
+   "say": "[unimpressed] Mhm.",
+   "source": "barb-1-matilda/L06-t1",
+   "tempo": 1.0,
+   "dur": 1.005,
+   "end": 0.84,
+   "words": [
+    {
+     "w": "mhm",
+     "d": "Mhm.",
+     "t": 0.01,
+     "e": 0.84
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.84
+    ]
+   ]
+  },
+  {
+   "id": "l07",
+   "n": 7,
+   "file": "be-chad/07-dave.mp3",
+   "character": "DAVE",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "Aaah, fuck!",
+   "say": "[screaming in pain] Aaah, fuck!",
+   "source": "dave-1-callum/L07-t2",
+   "tempo": 1.0,
+   "dur": 1.76,
+   "end": 1.65,
+   "words": [
+    {
+     "w": "aaah",
+     "d": "Aaah,",
+     "t": 0.12,
+     "e": 1.04
+    },
+    {
+     "w": "fuck",
+     "d": "fuck!",
+     "t": 1.04,
+     "e": 1.37,
+     "bleep": true
+    }
+   ],
+   "voiced": [
+    [
+     0.035,
+     1.37
+    ],
+    [
+     1.425,
+     1.65
+    ]
+   ]
+  },
+  {
+   "id": "l08",
+   "n": 8,
+   "file": "be-chad/08-dave.mp3",
+   "character": "DAVE",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "Nobody waits on Dave.",
+   "say": "[proudly] [teary] Nobody waits on Dave.",
+   "source": "dave-1-callum/L08-t2",
+   "tempo": 1.0,
+   "dur": 2.185,
+   "end": 1.98,
+   "words": [
+    {
+     "w": "nobody",
+     "d": "Nobody",
+     "t": 0.02,
+     "e": 0.825
+    },
+    {
+     "w": "waits",
+     "d": "waits",
+     "t": 0.825,
+     "e": 1.265
+    },
+    {
+     "w": "on",
+     "d": "on",
+     "t": 1.265,
+     "e": 1.625
+    },
+    {
+     "w": "dave",
+     "d": "Dave.",
+     "t": 1.625,
+     "e": 1.98
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.98
+    ]
+   ]
+  },
+  {
+   "id": "l09",
+   "n": 9,
+   "file": "be-chad/09-dave.mp3",
+   "character": "DAVE",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "Dave's Plumbing!",
+   "say": "[cheerful] [shouting] Dave's Plumbing!",
+   "source": "dave-1-callum/L09-t1",
+   "tempo": 1.0,
+   "dur": 1.44,
+   "end": 1.24,
+   "words": [
+    {
+     "w": "dave's",
+     "d": "Dave's",
+     "t": 0.16,
+     "e": 0.535
+    },
+    {
+     "w": "plumbing",
+     "d": "Plumbing!",
+     "t": 0.6,
+     "e": 1.24
+    }
+   ],
+   "voiced": [
+    [
+     0.03,
+     0.535
+    ],
+    [
+     0.58,
+     1.24
+    ]
+   ]
+  },
+  {
+   "id": "l10",
+   "n": 10,
+   "file": "be-chad/10-dave.mp3",
+   "character": "DAVE",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "Ma'am. Stop flushing. STOP FLUSHING.",
+   "say": "[whispering] Ma'am. Stop flushing. [shouting] STOP FLUSHING!",
+   "source": "dave-1-callum/L10-t1",
+   "tempo": 1.0,
+   "dur": 4.05,
+   "end": 3.805,
+   "words": [
+    {
+     "w": "ma'am",
+     "d": "Ma'am.",
+     "t": 0.07,
+     "e": 0.53
+    },
+    {
+     "w": "stop",
+     "d": "Stop",
+     "t": 0.95,
+     "e": 1.43
+    },
+    {
+     "w": "flushing",
+     "d": "flushing.",
+     "t": 1.43,
+     "e": 2.05
+    },
+    {
+     "w": "stop",
+     "d": "STOP",
+     "t": 2.55,
+     "e": 2.905
+    },
+    {
+     "w": "flushing",
+     "d": "FLUSHING!",
+     "t": 3.11,
+     "e": 3.805
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.53
+    ],
+    [
+     0.915,
+     2.05
+    ],
+    [
+     2.425,
+     2.905
+    ],
+    [
+     2.945,
+     3.805
+    ]
+   ]
+  },
+  {
+   "id": "l11",
+   "n": 11,
+   "file": "be-chad/11-dave.mp3",
+   "character": "DAVE",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "Ave'f Unning!",
+   "say": "[with mouth open] Aaay's Uh-ing!",
+   "source": "dave-1-callum/L11-t2",
+   "tempo": 1.0,
+   "dur": 2.195,
+   "end": 1.945,
+   "words": [
+    {
+     "w": "aaay's",
+     "d": "Aaay's",
+     "t": 0.13,
+     "e": 0.895
+    },
+    {
+     "w": "uhing",
+     "d": "Uh-ing!",
+     "t": 1.09,
+     "e": 1.945
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.895
+    ],
+    [
+     0.945,
+     1.945
+    ]
+   ]
+  },
+  {
+   "id": "l12",
+   "n": 12,
+   "file": "be-chad/12-dave.mp3",
+   "character": "DAVE",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "Dave's Plumbing... twenty-four... hours...",
+   "say": "[sleepy] [slurred] Dave's Plumbing... twenty-four... hours...",
+   "source": "dave-1-callum/L12-t3",
+   "tempo": 1.0,
+   "dur": 4.065,
+   "end": 3.94,
+   "words": [
+    {
+     "w": "dave's",
+     "d": "Dave's",
+     "t": 0.17,
+     "e": 0.625
+    },
+    {
+     "w": "plumbing",
+     "d": "Plumbing...",
+     "t": 0.625,
+     "e": 1.7
+    },
+    {
+     "w": "twentyfour",
+     "d": "twenty-four...",
+     "t": 1.905,
+     "e": 3.505
+    },
+    {
+     "w": "hours",
+     "d": "hours...",
+     "t": 3.505,
+     "e": 3.94
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.7
+    ],
+    [
+     1.855,
+     3.94
+    ]
+   ]
+  },
+  {
+   "id": "l13",
+   "n": 13,
+   "file": "be-chad/13-linda.mp3",
+   "character": "LINDA",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Dave? You actually picked up!",
+   "say": "[shocked] [happy] Dave? You actually picked up!",
+   "source": "linda-1-bella/L13-t2",
+   "tempo": 1.0,
+   "dur": 2.545,
+   "end": 2.305,
+   "words": [
+    {
+     "w": "dave",
+     "d": "Dave?",
+     "t": 0.06,
+     "e": 0.58
+    },
+    {
+     "w": "you",
+     "d": "You",
+     "t": 0.945,
+     "e": 1.185
+    },
+    {
+     "w": "actually",
+     "d": "actually",
+     "t": 1.185,
+     "e": 1.665
+    },
+    {
+     "w": "picked",
+     "d": "picked",
+     "t": 1.665,
+     "e": 1.845
+    },
+    {
+     "w": "up",
+     "d": "up!",
+     "t": 1.985,
+     "e": 2.2
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.58
+    ],
+    [
+     0.93,
+     1.845
+    ],
+    [
+     1.88,
+     2.2
+    ],
+    [
+     2.235,
+     2.305
+    ]
+   ]
+  },
+  {
+   "id": "l14",
+   "n": 14,
+   "file": "be-chad/14-dave.mp3",
+   "character": "DAVE",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "First ring, baby.",
+   "say": "[smug] [cocky] First ring, baby.",
+   "source": "dave-1-callum/L14-t1",
+   "tempo": 1.0,
+   "dur": 1.97,
+   "end": 1.725,
+   "words": [
+    {
+     "w": "first",
+     "d": "First",
+     "t": 0.245,
+     "e": 0.725
+    },
+    {
+     "w": "ring",
+     "d": "ring,",
+     "t": 0.725,
+     "e": 1.125
+    },
+    {
+     "w": "baby",
+     "d": "baby.",
+     "t": 1.125,
+     "e": 1.725
+    }
+   ],
+   "voiced": [
+    [
+     0.065,
+     1.725
+    ]
+   ]
+  },
+  {
+   "id": "l15",
+   "n": 15,
+   "file": "be-chad/15-linda.mp3",
+   "character": "LINDA",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Dave?",
+   "say": "[worried] [quiet] ...Dave?",
+   "source": "linda-1-bella/L15-t1",
+   "tempo": 1.0,
+   "dur": 0.98,
+   "end": 0.81,
+   "words": [
+    {
+     "w": "dave",
+     "d": "...Dave?",
+     "t": 0.07,
+     "e": 0.81
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.81
+    ]
+   ]
+  },
+  {
+   "id": "l16",
+   "n": 16,
+   "file": "be-chad/16-barb.mp3",
+   "character": "BARB",
+   "voice": "Matilda",
+   "voiceId": "XrExE9yKIg1WjnnlVkGX",
+   "text": "At my sister's. Call me. Oh wait.",
+   "say": "[flat] [deadpan] At my sister's. Call me. Oh wait.",
+   "source": "barb-1-matilda/L16-t1",
+   "tempo": 1.0,
+   "dur": 3.645,
+   "end": 3.52,
+   "words": [
+    {
+     "w": "at",
+     "d": "At",
+     "t": 0.045,
+     "e": 0.285
+    },
+    {
+     "w": "my",
+     "d": "my",
+     "t": 0.285,
+     "e": 0.445
+    },
+    {
+     "w": "sister's",
+     "d": "sister's.",
+     "t": 0.445,
+     "e": 1.29
+    },
+    {
+     "w": "call",
+     "d": "Call",
+     "t": 1.645,
+     "e": 1.885
+    },
+    {
+     "w": "me",
+     "d": "me.",
+     "t": 1.885,
+     "e": 2.18
+    },
+    {
+     "w": "oh",
+     "d": "Oh",
+     "t": 2.765,
+     "e": 3.02
+    },
+    {
+     "w": "wait",
+     "d": "wait.",
+     "t": 3.165,
+     "e": 3.52
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.29
+    ],
+    [
+     1.59,
+     2.18
+    ],
+    [
+     2.77,
+     3.02
+    ],
+    [
+     3.13,
+     3.52
+    ]
+   ]
+  },
+  {
+   "id": "l17",
+   "n": 17,
+   "file": "be-chad/17-chad.mp3",
+   "character": "CHAD",
+   "voice": "Eric",
+   "voiceId": "cjVigY5qzO86Huf0OWal",
+   "text": "Hey, it's Chad! I can be there in forty minutes!",
+   "say": "[cheerful] [smooth] Hey, it's Chad! I can be there in forty minutes!",
+   "source": "chad-3-eric/L17-t1",
+   "tempo": 1.0,
+   "dur": 2.925,
+   "end": 2.835,
+   "words": [
+    {
+     "w": "hey",
+     "d": "Hey,",
+     "t": 0.125,
+     "e": 0.445
+    },
+    {
+     "w": "it's",
+     "d": "it's",
+     "t": 0.445,
+     "e": 0.765
+    },
+    {
+     "w": "chad",
+     "d": "Chad!",
+     "t": 0.765,
+     "e": 1.22
+    },
+    {
+     "w": "i",
+     "d": "I",
+     "t": 1.445,
+     "e": 1.565
+    },
+    {
+     "w": "can",
+     "d": "can",
+     "t": 1.565,
+     "e": 1.685
+    },
+    {
+     "w": "be",
+     "d": "be",
+     "t": 1.685,
+     "e": 1.805
+    },
+    {
+     "w": "there",
+     "d": "there",
+     "t": 1.805,
+     "e": 1.965
+    },
+    {
+     "w": "in",
+     "d": "in",
+     "t": 1.965,
+     "e": 2.205
+    },
+    {
+     "w": "forty",
+     "d": "forty",
+     "t": 2.205,
+     "e": 2.365
+    },
+    {
+     "w": "minutes",
+     "d": "minutes!",
+     "t": 2.365,
+     "e": 2.835
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.22
+    ],
+    [
+     1.44,
+     2.835
+    ]
+   ]
+  },
+  {
+   "id": "l18",
+   "n": 18,
+   "file": "be-chad/18-dave.mp3",
+   "character": "DAVE",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "My hero.",
+   "say": "[defeated] [quietly] ...My hero.",
+   "source": "dave-1-callum/L18-t1",
+   "tempo": 1.0,
+   "dur": 1.405,
+   "end": 1.21,
+   "words": [
+    {
+     "w": "my",
+     "d": "...My",
+     "t": 0.2,
+     "e": 0.525
+    },
+    {
+     "w": "hero",
+     "d": "hero.",
+     "t": 0.525,
+     "e": 1.21
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.21
+    ]
+   ]
+  }
+ ],
+ "tableRead": {
+  "file": "out/be-chad-table-read.mp3",
+  "dur": 69.92,
+  "lufs": -15.9,
+  "gaps": {
+   "1": 0.35,
+   "2": 1.2,
+   "3": 0.35,
+   "4": 0.7,
+   "5": 0.5,
+   "6": 1.6,
+   "7": 0.5,
+   "8": 1.5,
+   "9": 1.8,
+   "10": 2.0,
+   "11": 2.4,
+   "12": 1.2,
+   "13": 0.3,
+   "14": 3.2,
+   "15": 1.8,
+   "16": 7.5,
+   "17": 0.9
+  },
+  "cues": [
+   {
+    "n": 1,
+    "at": 1.185,
+    "speech": [
+     1.2,
+     4.195
+    ]
+   },
+   {
+    "n": 2,
+    "at": 4.485,
+    "speech": [
+     4.545,
+     6.16
+    ]
+   },
+   {
+    "n": 3,
+    "at": 7.31,
+    "speech": [
+     7.36,
+     10.97
+    ]
+   },
+   {
+    "n": 4,
+    "at": 11.255,
+    "speech": [
+     11.32,
+     13.145
+    ]
+   },
+   {
+    "n": 5,
+    "at": 13.84,
+    "speech": [
+     13.845,
+     17.345
+    ]
+   },
+   {
+    "n": 6,
+    "at": 17.785,
+    "speech": [
+     17.845,
+     18.625
+    ]
+   },
+   {
+    "n": 7,
+    "at": 20.19,
+    "speech": [
+     20.225,
+     21.84
+    ]
+   },
+   {
+    "n": 8,
+    "at": 22.28,
+    "speech": [
+     22.34,
+     24.26
+    ]
+   },
+   {
+    "n": 9,
+    "at": 25.73,
+    "speech": [
+     25.76,
+     26.97
+    ]
+   },
+   {
+    "n": 10,
+    "at": 28.71,
+    "speech": [
+     28.77,
+     32.515
+    ]
+   },
+   {
+    "n": 11,
+    "at": 34.455,
+    "speech": [
+     34.515,
+     36.4
+    ]
+   },
+   {
+    "n": 12,
+    "at": 38.74,
+    "speech": [
+     38.8,
+     42.68
+    ]
+   },
+   {
+    "n": 13,
+    "at": 43.82,
+    "speech": [
+     43.88,
+     46.125
+    ]
+   },
+   {
+    "n": 14,
+    "at": 46.36,
+    "speech": [
+     46.425,
+     48.085
+    ]
+   },
+   {
+    "n": 15,
+    "at": 51.225,
+    "speech": [
+     51.285,
+     52.035
+    ]
+   },
+   {
+    "n": 16,
+    "at": 53.775,
+    "speech": [
+     53.835,
+     57.295
+    ]
+   },
+   {
+    "n": 17,
+    "at": 64.735,
+    "speech": [
+     64.795,
+     67.57
+    ]
+   },
+   {
+    "n": 18,
+    "at": 68.41,
+    "speech": [
+     68.47,
+     69.62
+    ]
+   }
+  ],
+  "sfx": [
+   {
+    "sfx": "ring",
+    "at": 0.2
+   },
+   {
+    "sfx": "tape",
+    "at": 19.025
+   },
+   {
+    "sfx": "rip",
+    "at": 19.875
+   },
+   {
+    "sfx": "shower",
+    "at": 24.46
+   },
+   {
+    "sfx": "ring",
+    "at": 24.81
+   },
+   {
+    "sfx": "zap",
+    "at": 26.97
+   },
+   {
+    "sfx": "school",
+    "at": 27.97
+   },
+   {
+    "sfx": "drill",
+    "at": 33.265
+   },
+   {
+    "sfx": "snore",
+    "at": 36.5
+   },
+   {
+    "sfx": "flip",
+    "at": 42.88
+   },
+   {
+    "sfx": "flip",
+    "at": 43.08
+   },
+   {
+    "sfx": "flip",
+    "at": 43.28
+   },
+   {
+    "sfx": "snore",
+    "at": 48.285
+   },
+   {
+    "sfx": "burst",
+    "at": 49.385
+   },
+   {
+    "sfx": "blub",
+    "at": 52.335
+   },
+   {
+    "sfx": "ring",
+    "at": 57.895
+   },
+   {
+    "sfx": "rip",
+    "at": 58.795
+   },
+   {
+    "sfx": "splash",
+    "at": 59.295
+   },
+   {
+    "sfx": "flush",
+    "at": 59.795
+   },
+   {
+    "sfx": "gurgle",
+    "at": 61.195
+   },
+   {
+    "sfx": "squelch",
+    "at": 62.295
+   },
+   {
+    "sfx": "pickup",
+    "at": 63.195
+   },
+   {
+    "sfx": "ringback",
+    "at": 63.495
+   }
+  ]
+ }
+}

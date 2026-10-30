@@ -1,0 +1,42 @@
+{
+  "name": "ai-cartoon-reels",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-three/drei": "10.7.9",
+    "@react-three/fiber": "9.8.1",
+    "@remotion/animated-emoji": "4.0.526",
+    "@remotion/animation-utils": "4.0.526",
+    "@remotion/bundler": "4.0.526",
+    "@remotion/cli": "4.0.526",
+    "@remotion/fonts": "4.0.526",
+    "@remotion/gif": "4.0.526",
+    "@remotion/google-fonts": "4.0.526",
+    "@remotion/layout-utils": "4.0.526",
+    "@remotion/light-leaks": "4.0.526",
+    "@remotion/lottie": "4.0.526",
+    "@remotion/motion-blur": "4.0.526",
+    "@remotion/noise": "4.0.526",
+    "@remotion/paths": "4.0.526",
+    "@remotion/preload": "4.0.526",
+    "@remotion/renderer": "4.0.526",
+    "@remotion/rounded-text-box": "4.0.526",
+    "@remotion/shapes": "4.0.526",
+    "@remotion/starburst": "4.0.526",
+    "@remotion/three": "4.0.526",
+    "@remotion/transitions": "4.0.526",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.526",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/three": "^0.186.0",
+    "typescript": "^5.8.0"
+  }
+}

@@ -1,0 +1,32 @@
+# secrets: keys live in .env, which is never committed
+.env
+.env.*
+!.env.example
+
+# installs and build output
+node_modules/
+out/
+scratch/
+build/
+*.log
+__pycache__/
+*.pyc
+.venv/
+.pylibs/
+
+# generated media in public/ (voices, sounds, music, art, sprites, video).
+# Only the small JSON files there are kept: the schedules in src/ import public/<episode>/timings.json.
+public/**
+!public/**/
+!public/**/*.json
+
+# model weights and checkpoints
+*.safetensors
+*.ckpt
+*.pth
+*.pt
+*.gguf
+
+# OS files
+.DS_Store
+Thumbs.db

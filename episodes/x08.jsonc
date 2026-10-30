@@ -1,0 +1,70 @@
+// x08 "Just Let Me Pay" (script v4, 2026-10-24, docs/x08-just-let-me-pay.md). v1 had two lines; Ross on v1: "too few words - I think the first shot should be me trying to click checkout on a website and then all of this
+// and at the end I try to click again - everything else is good - otherwise it's fucking unclear what this is even about". So v4 opens and ends on his thumb over CHECKOUT, and he talks through the beats. Ross plays himself; the ghost never speaks.
+// Format: see scripts/voice-gen.mjs (lines, directions) and scripts/voice-build.py (cast, plan, gaps, lead, tableSfx). Take k of a line uses direction k.
+// Lines 4 and 6 are v1's lines 1 and 2 (their raw takes were renamed L01 -> L04, L02 -> L06).
+{
+ "title": "Just Let Me Pay",
+ "cast": {"ross": 1},
+ "runnerUp": {},
+ "lines": [
+// the opening: his cart on the phone, the thumb over CHECKOUT; pleased with himself, the tap lands on "checkout"
+  {"n": 1, "char": "ross", "text": "Aaand... checkout.", "dirs": [
+   {"t": "[pleased with himself] [relaxed]", "st": 0.45, "sy": 0.5},
+   {"t": "[satisfied] [casual]", "st": 0.5, "sy": 0.4},
+   {"t": "[cheerful] [smug]", "st": 0.4, "sy": 0.55}
+  ]},
+// he rips the stack of pop-ups off his face
+  {"n": 2, "char": "ross", "text": "Just let me pay!", "dirs": [
+   {"t": "[exasperated] [shouting]", "st": 0.3, "sy": 0.7},
+   {"t": "[frustrated] [yelling]", "st": 0.25, "sy": 0.75},
+   {"t": "[desperate] [loud]", "st": 0.3, "sy": 0.7}
+  ]},
+// the password rules: he reads the last one out
+  {"n": 3, "char": "ross", "text": "My grandma's blood type?!", "dirs": [
+   {"t": "[incredulous] [baffled]", "st": 0.4, "sy": 0.6},
+   {"t": "[confused] [rising disbelief]", "st": 0.35, "sy": 0.65},
+   {"t": "[outraged] [disbelief]", "st": 0.3, "sy": 0.7}
+  ]},
+// after "Too weak 😔": through his teeth. Takes t1-t3 said "It's socks.", which Whisper heard as "It sucks"; t4-t6 say "It's just socks."
+  {"n": 4, "char": "ross", "text": "It's just socks.", "dirs": [
+   {"t": "[through gritted teeth] [seething]", "st": 0.4, "sy": 0.5},
+   {"t": "[quietly furious] [deadpan]", "st": 0.45, "sy": 0.45},
+   {"t": "[restrained rage] [slow]", "st": 0.35, "sy": 0.55}
+  ]},
+// the captcha: every square is his own face
+  {"n": 5, "char": "ross", "text": "They're all me.", "dirs": [
+   {"t": "[confused] [slowly]", "st": 0.45, "sy": 0.5},
+   {"t": "[baffled] [quiet]", "st": 0.5, "sy": 0.45},
+   {"t": "[unsettled] [deadpan]", "st": 0.45, "sy": 0.5}
+  ]},
+// at "Prove you're human.": the scream, steam pouring out of his ears; "fucking" is bleeped in the edit
+  {"n": 6, "char": "ross", "text": "Aaah! I'm human! I'm a fucking human!", "dirs": [
+   {"t": "[screaming] [furious] [voice cracking]", "st": 0.2, "sy": 0.8, "text": "AAAAH! I'M HUMAN! I'M A FUCKING HUMAN!"},
+   {"t": "[enraged] [shouting] [desperate]", "st": 0.2, "sy": 0.75, "text": "AAAAH! I'M HUMAN! I'M A FUCKING HUMAN!"},
+   {"t": "[hysterical] [screaming]", "st": 0.15, "sy": 0.85, "text": "AAAAH! I'M HUMAN! I'M A FUCKING HUMAN!"}
+  ]},
+// the ghost ticks "I'm not a robot" and passes; Ross stares at it
+  {"n": 7, "char": "ross", "text": "He's not even alive!", "dirs": [
+   {"t": "[outraged] [incredulous]", "st": 0.3, "sy": 0.7},
+   {"t": "[indignant] [shouting]", "st": 0.25, "sy": 0.75},
+   {"t": "[betrayed] [exasperated]", "st": 0.3, "sy": 0.7}
+  ]},
+// "Sorry! Out of stock 😔": dead calm, then his face goes red from the chin up and he blasts off
+  {"n": 8, "char": "ross", "text": "Of course it is.", "dirs": [
+   {"t": "[deadpan] [dead calm]", "st": 0.55, "sy": 0.35},
+   {"t": "[flat] [resigned]", "st": 0.5, "sy": 0.4},
+   {"t": "[quietly seething] [deadpan]", "st": 0.45, "sy": 0.45}
+  ]},
+// the morning, sooty: "Taco socks are back in stock!"; line 1 again, a broken whisper, his eye twitching, and the thumb goes for CHECKOUT
+  {"n": 9, "char": "ross", "text": "Aaand... checkout.", "dirs": [
+   {"t": "[whispering] [twitchy]", "st": 0.4, "sy": 0.55},
+   {"t": "[whispering] [obsessed]", "st": 0.35, "sy": 0.6},
+   {"t": "[trembling] [whispering]", "st": 0.4, "sy": 0.5}
+  ]}
+ ],
+ "plan": {"1": {"t": 3, "rate": 1.15}, "2": {"t": 3}, "3": {"t": 3}, "4": {"t": 5}, "5": {"t": 2}, "6": {"t": 2, "bleep": [5]}, "7": {"t": 2}, "8": {"t": 1}, "9": {"t": 2}},
+// lead and gaps place the speech on the reel's clock (docs/x08-just-let-me-pay.md, "Build spec v2"); everything else is silent action placed by src/x08-sched.ts
+ "lead": 0.1,
+ "gaps": {"1": 1.6, "2": 1.105, "3": 0.43, "4": 0.475, "5": 2.91, "6": 2.445, "7": 1.445, "8": 3.78},
+ "tableSfx": []
+}

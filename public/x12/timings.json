@@ -1,0 +1,573 @@
+{
+ "model": "eleven_v4",
+ "target_lufs": -19.0,
+ "cast": {
+  "CHUCK": {
+   "cast": {
+    "voice": "jack-chris-boston",
+    "voiceId": "2vubyVoGjNJ5HPga4SkV",
+    "account_name": "jack-chris-boston"
+   }
+  },
+  "ROSS": {
+   "cast": {
+    "voice": "jack-tyler",
+    "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+    "account_name": "jack-tyler"
+   }
+  }
+ },
+ "takes": [
+  {
+   "id": "l01",
+   "n": 1,
+   "file": "x12/01-chuck.mp3",
+   "character": "CHUCK",
+   "voice": "jack-chris-boston",
+   "voiceId": "2vubyVoGjNJ5HPga4SkV",
+   "text": "I want to speak to the MANAGER!",
+   "say": "[furious] [shouting] I want to speak to the MANAGER!",
+   "source": "chuck-1-jack-chris-boston/L01-t1",
+   "tempo": 1.1,
+   "dur": 1.895,
+   "end": 1.695,
+   "words": [
+    {
+     "w": "i",
+     "d": "I",
+     "t": 0.13,
+     "e": 0.292
+    },
+    {
+     "w": "want",
+     "d": "want",
+     "t": 0.292,
+     "e": 0.437
+    },
+    {
+     "w": "to",
+     "d": "to",
+     "t": 0.437,
+     "e": 0.583
+    },
+    {
+     "w": "speak",
+     "d": "speak",
+     "t": 0.583,
+     "e": 0.64
+    },
+    {
+     "w": "to",
+     "d": "to",
+     "t": 0.875,
+     "e": 1.02
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 1.02,
+     "e": 1.203
+    },
+    {
+     "w": "manager",
+     "d": "MANAGER!",
+     "t": 1.203,
+     "e": 1.695
+    }
+   ],
+   "voiced": [
+    [
+     0.03,
+     0.64
+    ],
+    [
+     0.68,
+     1.695
+    ]
+   ]
+  },
+  {
+   "id": "l02",
+   "n": 2,
+   "file": "x12/02-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "...Manager.",
+   "say": "[deadpan] [flat] ...Manager.",
+   "source": "ross-1-jack-tyler/L02-t1",
+   "tempo": 1.0,
+   "dur": 1.28,
+   "end": 1.085,
+   "words": [
+    {
+     "w": "manager",
+     "d": "...Manager.",
+     "t": 0.224,
+     "e": 1.085
+    }
+   ],
+   "voiced": [
+    [
+     0.0,
+     0.11
+    ],
+    [
+     0.175,
+     1.085
+    ]
+   ]
+  },
+  {
+   "id": "l03",
+   "n": 3,
+   "file": "x12/03-chuck.mp3",
+   "character": "CHUCK",
+   "voice": "jack-chris-boston",
+   "voiceId": "2vubyVoGjNJ5HPga4SkV",
+   "text": "Then the OWNER!",
+   "say": "[demanding] [shouting] Then the OWNER!",
+   "source": "chuck-1-jack-chris-boston/L03-t1",
+   "tempo": 1.0,
+   "dur": 1.44,
+   "end": 1.255,
+   "words": [
+    {
+     "w": "then",
+     "d": "Then",
+     "t": 0.02,
+     "e": 0.4
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 0.4,
+     "e": 0.72
+    },
+    {
+     "w": "owner",
+     "d": "OWNER!",
+     "t": 0.72,
+     "e": 1.255
+    }
+   ],
+   "voiced": [
+    [
+     0.035,
+     1.255
+    ]
+   ]
+  },
+  {
+   "id": "l04",
+   "n": 4,
+   "file": "x12/04-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "...Owner.",
+   "say": "[deadpan] [dignified] ...Owner.",
+   "source": "ross-1-jack-tyler/L04-t1",
+   "tempo": 1.0,
+   "dur": 0.945,
+   "end": 0.745,
+   "words": [
+    {
+     "w": "owner",
+     "d": "...Owner.",
+     "t": 0.385,
+     "e": 0.745
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.745
+    ]
+   ]
+  },
+  {
+   "id": "l05",
+   "n": 5,
+   "file": "x12/05-chuck.mp3",
+   "character": "CHUCK",
+   "voice": "jack-chris-boston",
+   "voiceId": "2vubyVoGjNJ5HPga4SkV",
+   "text": "You're the SAME GUY!",
+   "say": "[accusing] [shouting] You're the SAME GUY!",
+   "source": "chuck-1-jack-chris-boston/L05-t1",
+   "tempo": 1.0,
+   "dur": 1.84,
+   "end": 1.605,
+   "words": [
+    {
+     "w": "you're",
+     "d": "You're",
+     "t": 0.06,
+     "e": 0.44
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 0.44,
+     "e": 0.64
+    },
+    {
+     "w": "same",
+     "d": "SAME",
+     "t": 0.64,
+     "e": 1.04
+    },
+    {
+     "w": "guy",
+     "d": "GUY!",
+     "t": 1.04,
+     "e": 1.605
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.605
+    ]
+   ]
+  },
+  {
+   "id": "l06",
+   "n": 6,
+   "file": "x12/06-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "...Small business.",
+   "say": "[deadpan] [tired] ...Small business.",
+   "source": "ross-1-jack-tyler/L06-t1",
+   "tempo": 1.0,
+   "dur": 1.71,
+   "end": 1.555,
+   "words": [
+    {
+     "w": "small",
+     "d": "...Small",
+     "t": 0.403,
+     "e": 0.59
+    },
+    {
+     "w": "business",
+     "d": "business.",
+     "t": 0.59,
+     "e": 1.555
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.555
+    ]
+   ]
+  },
+  {
+   "id": "l07",
+   "n": 7,
+   "file": "x12/07-chuck.mp3",
+   "character": "CHUCK",
+   "voice": "jack-chris-boston",
+   "voiceId": "2vubyVoGjNJ5HPga4SkV",
+   "text": "I want to speak to GOD!",
+   "say": "[enraged] [screaming] I want to speak to GOD!",
+   "source": "chuck-1-jack-chris-boston/L07-t2",
+   "tempo": 1.0,
+   "dur": 2.215,
+   "end": 1.965,
+   "words": [
+    {
+     "w": "i",
+     "d": "I",
+     "t": 0.16,
+     "e": 0.375
+    },
+    {
+     "w": "want",
+     "d": "want",
+     "t": 0.375,
+     "e": 0.615
+    },
+    {
+     "w": "to",
+     "d": "to",
+     "t": 0.615,
+     "e": 0.775
+    },
+    {
+     "w": "speak",
+     "d": "speak",
+     "t": 0.775,
+     "e": 0.805
+    },
+    {
+     "w": "to",
+     "d": "to",
+     "t": 1.215,
+     "e": 1.295
+    },
+    {
+     "w": "god",
+     "d": "GOD!",
+     "t": 1.415,
+     "e": 1.965
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.805
+    ],
+    [
+     0.865,
+     1.05
+    ],
+    [
+     1.1,
+     1.295
+    ],
+    [
+     1.38,
+     1.965
+    ]
+   ]
+  },
+  {
+   "id": "l08",
+   "n": 8,
+   "file": "x12/08-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "...Speaking.",
+   "say": "[booming] [solemn] ...Speaking.",
+   "source": "ross-1-jack-tyler/L08-t2",
+   "tempo": 1.0,
+   "dur": 1.31,
+   "end": 1.06,
+   "words": [
+    {
+     "w": "speaking",
+     "d": "...Speaking.",
+     "t": 0.3,
+     "e": 1.06
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.06
+    ]
+   ]
+  },
+  {
+   "id": "l09",
+   "n": 9,
+   "file": "x12/09-chuck.mp3",
+   "character": "CHUCK",
+   "voice": "jack-chris-boston",
+   "voiceId": "2vubyVoGjNJ5HPga4SkV",
+   "text": "...My latte's cold.",
+   "say": "[whiny] [matter-of-fact] ...My latte's cold.",
+   "source": "chuck-1-jack-chris-boston/L09-t2",
+   "tempo": 1.15,
+   "dur": 1.882,
+   "end": 1.67,
+   "words": [
+    {
+     "w": "my",
+     "d": "...My",
+     "t": 0.12,
+     "e": 0.418
+    },
+    {
+     "w": "latte's",
+     "d": "latte's",
+     "t": 0.418,
+     "e": 0.925
+    },
+    {
+     "w": "cold",
+     "d": "cold.",
+     "t": 1.046,
+     "e": 1.67
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.925
+    ],
+    [
+     0.955,
+     1.67
+    ]
+   ]
+  },
+  {
+   "id": "l10",
+   "n": 10,
+   "file": "x12/10-chuck.mp3",
+   "character": "CHUCK",
+   "voice": "jack-chris-boston",
+   "voiceId": "2vubyVoGjNJ5HPga4SkV",
+   "text": "...Can I speak to your manager?",
+   "say": "[polite] [unimpressed] ...Can I speak to your manager?",
+   "source": "chuck-1-jack-chris-boston/L10-t1",
+   "tempo": 1.0,
+   "dur": 1.75,
+   "end": 1.51,
+   "words": [
+    {
+     "w": "can",
+     "d": "...Can",
+     "t": 0.13,
+     "e": 0.31
+    },
+    {
+     "w": "i",
+     "d": "I",
+     "t": 0.31,
+     "e": 0.43
+    },
+    {
+     "w": "speak",
+     "d": "speak",
+     "t": 0.43,
+     "e": 0.505
+    },
+    {
+     "w": "to",
+     "d": "to",
+     "t": 0.71,
+     "e": 0.79
+    },
+    {
+     "w": "your",
+     "d": "your",
+     "t": 0.79,
+     "e": 1.19
+    },
+    {
+     "w": "manager",
+     "d": "manager?",
+     "t": 1.19,
+     "e": 1.51
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.505
+    ],
+    [
+     0.535,
+     1.51
+    ]
+   ]
+  }
+ ],
+ "tableRead": {
+  "file": "out/x12-table-read.mp3",
+  "dur": 19.91,
+  "lufs": -16.0,
+  "gaps": {
+   "1": 0.5,
+   "2": 0.15,
+   "3": 0.55,
+   "4": 0.3,
+   "5": 0.2,
+   "6": 0.35,
+   "7": 1.3,
+   "8": 0.25,
+   "9": 1.9
+  },
+  "cues": [
+   {
+    "n": 1,
+    "at": 0.42,
+    "speech": [
+     0.45,
+     2.115
+    ]
+   },
+   {
+    "n": 2,
+    "at": 2.615,
+    "speech": [
+     2.615,
+     3.7
+    ]
+   },
+   {
+    "n": 3,
+    "at": 3.815,
+    "speech": [
+     3.85,
+     5.07
+    ]
+   },
+   {
+    "n": 4,
+    "at": 5.56,
+    "speech": [
+     5.62,
+     6.305
+    ]
+   },
+   {
+    "n": 5,
+    "at": 6.545,
+    "speech": [
+     6.605,
+     8.15
+    ]
+   },
+   {
+    "n": 6,
+    "at": 8.29,
+    "speech": [
+     8.35,
+     9.845
+    ]
+   },
+   {
+    "n": 7,
+    "at": 10.135,
+    "speech": [
+     10.195,
+     12.1
+    ]
+   },
+   {
+    "n": 8,
+    "at": 13.34,
+    "speech": [
+     13.4,
+     14.4
+    ]
+   },
+   {
+    "n": 9,
+    "at": 14.59,
+    "speech": [
+     14.65,
+     16.26
+    ]
+   },
+   {
+    "n": 10,
+    "at": 18.1,
+    "speech": [
+     18.16,
+     19.61
+    ]
+   }
+  ],
+  "sfx": []
+ }
+}

@@ -1,0 +1,91 @@
+// "Cold Lips" (id "lips"; script v2, 2026-10-22, docs/x06-cold-lips.md): a customer finds fault with everything, the manager takes "kiss my ass" literally, she leaves one star, and is first in line the next morning.
+// Format: see scripts/voice-gen.mjs (lines, directions) and scripts/voice-build.py (cast, plan, gaps, lead, tableSfx). The order of "lines" is the story's order; the numbers are the story's order too.
+// Take k of a line uses direction k. All 13 lines are new (no reused takes). "ass" in line 11 is NOT bleeped.
+{
+ "title": "Cold Lips",
+ "cast": {"denise": 1, "customer": 2, "todd": 2},
+ "runnerUp": {},
+ "lines": [
+// the coffee shop, morning: the cup held away like a dead rat
+  {"n": 1, "char": "customer", "text": "This is hot.", "dirs": [
+   {"t": "[disgusted] [cold]", "st": 0.4, "sy": 0.4},
+   {"t": "[repulsed] [icy]", "st": 0.35, "sy": 0.45},
+   {"t": "[contemptuous] [haughty]", "st": 0.45, "sy": 0.35}
+  ]},
+  {"n": 2, "char": "denise", "text": "It's coffee.", "dirs": [
+   {"t": "[deadpan] [tired]", "st": 0.5, "sy": 0.2},
+   {"t": "[flat] [weary]", "st": 0.55, "sy": 0.15},
+   {"t": "[dry] [unimpressed]", "st": 0.5, "sy": 0.2}
+  ]},
+  {"n": 3, "char": "customer", "text": "I'm leaving a review.", "dirs": [
+   {"t": "[smug] [cold]", "st": 0.4, "sy": 0.4},
+   {"t": "[syrupy] [threatening]", "st": 0.35, "sy": 0.45},
+   {"t": "[condescending] [matter-of-fact]", "st": 0.45, "sy": 0.35}
+  ]},
+// Todd vaults the counter: the rungs go on, each one worse
+  {"n": 4, "char": "todd", "text": "On the house!", "dirs": [
+   {"t": "[panicked] [eager] [out of breath]", "st": 0.3, "sy": 0.5},
+   {"t": "[frantic] [breathless]", "st": 0.3, "sy": 0.5},
+   {"t": "[nervous] [bright] [overeager]", "st": 0.35, "sy": 0.45}
+  ]},
+  {"n": 5, "char": "customer", "text": "I didn't ask for free.", "dirs": [
+   {"t": "[offended] [cold]", "st": 0.4, "sy": 0.4},
+   {"t": "[indignant] [haughty]", "st": 0.4, "sy": 0.4},
+   {"t": "[insulted] [icy]", "st": 0.45, "sy": 0.35}
+  ]},
+  {"n": 6, "char": "todd", "text": "You're fired!", "dirs": [
+   {"t": "[panicked] [loud]", "st": 0.3, "sy": 0.5},
+   {"t": "[frantic] [eager to please]", "st": 0.3, "sy": 0.5},
+   {"t": "[desperate] [barking an order]", "st": 0.35, "sy": 0.45}
+  ]},
+  {"n": 7, "char": "customer", "text": "I liked her.", "dirs": [
+   {"t": "[flat] [disappointed]", "st": 0.5, "sy": 0.25},
+   {"t": "[deadpan] [let down]", "st": 0.5, "sy": 0.25},
+   {"t": "[bored] [petulant]", "st": 0.45, "sy": 0.3}
+  ]},
+  {"n": 8, "char": "todd", "text": "You're hired!", "dirs": [
+   {"t": "[panicked] [scrambling]", "st": 0.3, "sy": 0.5},
+   {"t": "[frantic] [backpedaling]", "st": 0.3, "sy": 0.5},
+   {"t": "[desperate] [bright]", "st": 0.35, "sy": 0.45}
+  ]},
+  {"n": 9, "char": "customer", "text": "Ugh.", "dirs": [
+   {"t": "[disgusted] [sighs]", "st": 0.4, "sy": 0.4},
+   {"t": "[exasperated] [sighing]", "st": 0.4, "sy": 0.4},
+   {"t": "[bored] [disgusted]", "st": 0.45, "sy": 0.35, "text": "Ughhh."},
+   {"t": "[disgusted]", "st": 0.5, "sy": 0.3},
+   {"t": "[groaning] [disgusted]", "st": 0.4, "sy": 0.4, "text": "Ugh!"},
+   {"t": "[annoyed] [flat]", "st": 0.5, "sy": 0.25}
+  ]},
+  {"n": 10, "char": "todd", "text": "Ma'am, anything!", "dirs": [
+   {"t": "[desperate] [pleading]", "st": 0.3, "sy": 0.5},
+   {"t": "[begging] [panicked]", "st": 0.3, "sy": 0.5},
+   {"t": "[frantic] [whimpering]", "st": 0.35, "sy": 0.45}
+  ]},
+// the kiss, and after it
+  {"n": 11, "char": "customer", "text": "Anything? What, you gonna kiss my ass?", "dirs": [
+   {"t": "[sarcastic] [mocking]", "st": 0.35, "sy": 0.45},
+   {"t": "[condescending] [sneering]", "st": 0.4, "sy": 0.4},
+   {"t": "[amused] [cold] [mocking]", "st": 0.4, "sy": 0.4}
+  ]},
+  {"n": 12, "char": "customer", "text": "Cold lips.", "dirs": [
+   {"t": "[flat] [unimpressed]", "st": 0.5, "sy": 0.25},
+   {"t": "[deadpan] [disappointed]", "st": 0.5, "sy": 0.25},
+   {"t": "[bored] [matter-of-fact]", "st": 0.45, "sy": 0.3}
+  ]},
+// next morning, 6:00 AM, first in line
+  {"n": 13, "char": "customer", "text": "The usual.", "dirs": [
+   {"t": "[curt] [brisk]", "st": 0.45, "sy": 0.3},
+   {"t": "[cold] [clipped]", "st": 0.45, "sy": 0.35},
+   {"t": "[imperious] [flat]", "st": 0.5, "sy": 0.25}
+  ]}
+ ],
+// the plan: take t per line (why each: docs/x06-cold-lips.md, Build notes). Line 7 cuts a mouth click in front of the "I" ("from" 0.2 s). Line 9 is take 4 (added after takes 1-3, which open with a 0.7-1.7 s sigh and a second ugh), from 0.12 s.
+// Line 11 opens a 0.2 s pause after "Anything?" (word 0): the echo gets its beat and the cut inside the 3.4 s line has a place to land.
+ "plan": {"1": {"t": 3}, "2": {"t": 3}, "3": {"t": 2}, "4": {"t": 2}, "5": {"t": 1}, "6": {"t": 2}, "7": {"t": 2, "from": 0.2}, "8": {"t": 1}, "9": {"t": 4, "from": 0.12}, "10": {"t": 2}, "11": {"t": 3, "pauses": [[0, 0.2]]}, "12": {"t": 1}, "13": {"t": 3}},
+// lead 0.3 s: the first line starts at once, the picture is the hook
+ "lead": 0.3,
+// the gaps (after the line named, s) carry the silent beats of the screenplay (docs/x06-cold-lips.md): 2: the phone comes up; 3: Todd vaults the counter; 7: his "You're hired!" is an instant reversal; 11: the knee drop, the smooch, the frozen shop and the dog's gasp;
+// 12: the one-star review typed on her phone and held readable (2.0 s), then the cut to the next morning and the door opening with its bell (1.2 s); 13: the turn and the close-up of Todd warming his lips with a hair dryer, under the share line. The rest are tight, 0.1-0.3 s.
+ "gaps": {"1": 0.25, "2": 0.3, "3": 0.5, "4": 0.15, "5": 0.1, "6": 0.2, "7": 0.1, "8": 0.15, "9": 0.1, "10": 0.15, "11": 1.8, "12": 3.2, "13": 2.5},
+ "tableSfx": []
+}

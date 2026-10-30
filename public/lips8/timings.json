@@ -1,0 +1,848 @@
+{
+ "model": "eleven_v4",
+ "target_lufs": -19.0,
+ "cast": {
+  "CUSTOMER": {
+   "cast": {
+    "voice": "Jessica",
+    "voiceId": "flHkNRp1BlvT73UL6gyz",
+    "account_name": "Jessica Anne Bogart - Character and Animation"
+   }
+  },
+  "TODD": {
+   "cast": {
+    "voice": "Odd",
+    "voiceId": "SDARFhQygpPvpLh7Ad1B",
+    "account_name": "Odd Todd - Nerdy, Rambling Professor"
+   }
+  },
+  "DENISE": {
+   "cast": {
+    "voice": "Bella",
+    "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+    "account_name": "Bella - Professional, Bright, Warm"
+   }
+  }
+ },
+ "takes": [
+  {
+   "id": "l01",
+   "n": 1,
+   "file": "lips8/01-customer.mp3",
+   "character": "CUSTOMER",
+   "voice": "Jessica",
+   "voiceId": "flHkNRp1BlvT73UL6gyz",
+   "text": "Too hot! I'm leaving a bad review!",
+   "say": "[shrieking] [enraged] Too hot! I'm leaving a bad review!",
+   "source": "customer-2-jessica/L01-t2",
+   "tempo": 1.2,
+   "dur": 2.534,
+   "end": 2.52,
+   "words": [
+    {
+     "w": "too",
+     "d": "Too",
+     "t": 0.14,
+     "e": 0.456
+    },
+    {
+     "w": "hot",
+     "d": "hot!",
+     "t": 0.456,
+     "e": 1.127
+    },
+    {
+     "w": "i'm",
+     "d": "I'm",
+     "t": 1.127,
+     "e": 1.328
+    },
+    {
+     "w": "leaving",
+     "d": "leaving",
+     "t": 1.328,
+     "e": 1.629
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 1.629,
+     "e": 1.7
+    },
+    {
+     "w": "bad",
+     "d": "bad",
+     "t": 1.83,
+     "e": 1.998
+    },
+    {
+     "w": "review",
+     "d": "review!",
+     "t": 1.998,
+     "e": 2.52
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.7
+    ],
+    [
+     1.73,
+     2.52
+    ]
+   ]
+  },
+  {
+   "id": "l02",
+   "n": 2,
+   "file": "lips8/02-todd.mp3",
+   "character": "TODD",
+   "voice": "Odd",
+   "voiceId": "SDARFhQygpPvpLh7Ad1B",
+   "text": "Ma'am! Did any get on you?",
+   "say": "[hysterical] [frantic] [high-pitched] MA'AM! Did any get on YOU?!",
+   "source": "todd-2-odd/L02-t6",
+   "tempo": 1.25,
+   "dur": 1.991,
+   "end": 1.835,
+   "words": [
+    {
+     "w": "ma'am",
+     "d": "MA'AM!",
+     "t": 0.18,
+     "e": 0.59
+    },
+    {
+     "w": "did",
+     "d": "Did",
+     "t": 0.835,
+     "e": 1.06
+    },
+    {
+     "w": "any",
+     "d": "any",
+     "t": 1.06,
+     "e": 1.22
+    },
+    {
+     "w": "get",
+     "d": "get",
+     "t": 1.22,
+     "e": 1.349
+    },
+    {
+     "w": "on",
+     "d": "on",
+     "t": 1.349,
+     "e": 1.541
+    },
+    {
+     "w": "you",
+     "d": "YOU?!",
+     "t": 1.541,
+     "e": 1.835
+    }
+   ],
+   "voiced": [
+    [
+     0.01,
+     0.1
+    ],
+    [
+     0.14,
+     0.59
+    ],
+    [
+     0.67,
+     1.835
+    ]
+   ]
+  },
+  {
+   "id": "l03",
+   "n": 3,
+   "file": "lips8/03-customer.mp3",
+   "character": "CUSTOMER",
+   "voice": "Jessica",
+   "voiceId": "flHkNRp1BlvT73UL6gyz",
+   "text": "I want my money back.",
+   "say": "[icy] [entitled] [slow] I want my money back.",
+   "source": "customer-2-jessica/L03-t2",
+   "tempo": 1.0,
+   "dur": 2.4,
+   "end": 2.355,
+   "words": [
+    {
+     "w": "i",
+     "d": "I",
+     "t": 0.15,
+     "e": 0.76
+    },
+    {
+     "w": "want",
+     "d": "want",
+     "t": 0.76,
+     "e": 1.04
+    },
+    {
+     "w": "my",
+     "d": "my",
+     "t": 1.04,
+     "e": 1.44
+    },
+    {
+     "w": "money",
+     "d": "money",
+     "t": 1.44,
+     "e": 2.0
+    },
+    {
+     "w": "back",
+     "d": "back.",
+     "t": 2.0,
+     "e": 2.07
+    }
+   ],
+   "voiced": [
+    [
+     0.0,
+     0.06
+    ],
+    [
+     0.17,
+     2.07
+    ],
+    [
+     2.12,
+     2.355
+    ]
+   ]
+  },
+  {
+   "id": "l04",
+   "n": 4,
+   "file": "lips8/04-customer.mp3",
+   "character": "CUSTOMER",
+   "voice": "Jessica",
+   "voiceId": "flHkNRp1BlvT73UL6gyz",
+   "text": "And my tip.",
+   "say": "[entitled] [icy] And my tip.",
+   "source": "customer-2-jessica/L04-t2",
+   "tempo": 1.0,
+   "dur": 1.425,
+   "end": 1.235,
+   "words": [
+    {
+     "w": "and",
+     "d": "And",
+     "t": 0.02,
+     "e": 0.385
+    },
+    {
+     "w": "my",
+     "d": "my",
+     "t": 0.385,
+     "e": 0.705
+    },
+    {
+     "w": "tip",
+     "d": "tip.",
+     "t": 0.705,
+     "e": 0.96
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.96
+    ],
+    [
+     1.05,
+     1.235
+    ]
+   ]
+  },
+  {
+   "id": "l05",
+   "n": 5,
+   "file": "lips8/05-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "You didn't tip.",
+   "say": "[flat] [restrained anger] You didn't tip.",
+   "source": "denise-1-bella/L05-t2",
+   "tempo": 1.0,
+   "dur": 1.44,
+   "end": 1.24,
+   "words": [
+    {
+     "w": "you",
+     "d": "You",
+     "t": 0.05,
+     "e": 0.285
+    },
+    {
+     "w": "didn't",
+     "d": "didn't",
+     "t": 0.4,
+     "e": 0.6
+    },
+    {
+     "w": "tip",
+     "d": "tip.",
+     "t": 0.92,
+     "e": 0.965
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.285
+    ],
+    [
+     0.33,
+     0.6
+    ],
+    [
+     0.7,
+     0.965
+    ],
+    [
+     1.065,
+     1.24
+    ]
+   ]
+  },
+  {
+   "id": "l06",
+   "n": 6,
+   "file": "lips8/06-customer.mp3",
+   "character": "CUSTOMER",
+   "voice": "Jessica",
+   "voiceId": "flHkNRp1BlvT73UL6gyz",
+   "text": "I tipped in my head.",
+   "say": "[whispering] [smug] [slow] I tipped... in my head.",
+   "source": "customer-2-jessica/L06-t4",
+   "tempo": 1.0,
+   "dur": 2.53,
+   "end": 2.335,
+   "words": [
+    {
+     "w": "i",
+     "d": "I",
+     "t": 0.13,
+     "e": 0.37
+    },
+    {
+     "w": "tipped",
+     "d": "tipped...",
+     "t": 0.37,
+     "e": 1.33
+    },
+    {
+     "w": "in",
+     "d": "in",
+     "t": 1.33,
+     "e": 1.61
+    },
+    {
+     "w": "my",
+     "d": "my",
+     "t": 1.61,
+     "e": 1.93
+    },
+    {
+     "w": "head",
+     "d": "head.",
+     "t": 1.93,
+     "e": 2.335
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     2.335
+    ]
+   ]
+  },
+  {
+   "id": "l07",
+   "n": 7,
+   "file": "lips8/07-todd.mp3",
+   "character": "TODD",
+   "voice": "Odd",
+   "voiceId": "SDARFhQygpPvpLh7Ad1B",
+   "text": "Take Denise's!",
+   "say": "[frantic] [eager] Take Denise's!",
+   "source": "todd-2-odd/L07-t1",
+   "tempo": 1.1,
+   "dur": 1.165,
+   "end": 0.915,
+   "words": [
+    {
+     "w": "take",
+     "d": "Take",
+     "t": 0.073,
+     "e": 0.21
+    },
+    {
+     "w": "denise's",
+     "d": "Denise's!",
+     "t": 0.329,
+     "e": 0.915
+    }
+   ],
+   "voiced": [
+    [
+     0.03,
+     0.21
+    ],
+    [
+     0.24,
+     0.915
+    ]
+   ]
+  },
+  {
+   "id": "l08",
+   "n": 8,
+   "file": "lips8/08-customer.mp3",
+   "character": "CUSTOMER",
+   "voice": "Jessica",
+   "voiceId": "flHkNRp1BlvT73UL6gyz",
+   "text": "I make better coffee at home.",
+   "say": "[bored] [superior] I make better coffee at home.",
+   "source": "customer-2-jessica/L08-t3",
+   "tempo": 1.1,
+   "dur": 2.111,
+   "end": 1.92,
+   "words": [
+    {
+     "w": "i",
+     "d": "I",
+     "t": 0.14,
+     "e": 0.4
+    },
+    {
+     "w": "make",
+     "d": "make",
+     "t": 0.4,
+     "e": 0.655
+    },
+    {
+     "w": "better",
+     "d": "better",
+     "t": 0.655,
+     "e": 0.983
+    },
+    {
+     "w": "coffee",
+     "d": "coffee",
+     "t": 0.983,
+     "e": 1.238
+    },
+    {
+     "w": "at",
+     "d": "at",
+     "t": 1.238,
+     "e": 1.383
+    },
+    {
+     "w": "home",
+     "d": "home.",
+     "t": 1.383,
+     "e": 1.92
+    }
+   ],
+   "voiced": [
+    [
+     0.055,
+     1.92
+    ]
+   ]
+  },
+  {
+   "id": "l09",
+   "n": 9,
+   "file": "lips8/09-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Then why are you here?",
+   "say": "[screaming] [losing it] THEN WHY ARE YOU HERE?!",
+   "source": "denise-1-bella/L09-t6",
+   "tempo": 1.1,
+   "dur": 2.01,
+   "end": 1.8,
+   "words": [
+    {
+     "w": "then",
+     "d": "THEN",
+     "t": 0.31,
+     "e": 0.626
+    },
+    {
+     "w": "why",
+     "d": "WHY",
+     "t": 0.626,
+     "e": 0.845
+    },
+    {
+     "w": "are",
+     "d": "ARE",
+     "t": 0.845,
+     "e": 1.063
+    },
+    {
+     "w": "you",
+     "d": "YOU",
+     "t": 1.063,
+     "e": 1.281
+    },
+    {
+     "w": "here",
+     "d": "HERE?!",
+     "t": 1.281,
+     "e": 1.8
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.8
+    ]
+   ]
+  },
+  {
+   "id": "l10",
+   "n": 10,
+   "file": "lips8/10-todd.mp3",
+   "character": "TODD",
+   "voice": "Odd",
+   "voiceId": "SDARFhQygpPvpLh7Ad1B",
+   "text": "Ma'am, anything!",
+   "say": "[falsetto] [shrieking] [panicked] MA'AM! ANYTHING!",
+   "source": "todd-2-odd/L10-t7",
+   "tempo": 1.2,
+   "dur": 2.073,
+   "end": 1.865,
+   "words": [
+    {
+     "w": "ma'am",
+     "d": "MA'AM!",
+     "t": 0.42,
+     "e": 0.98
+    },
+    {
+     "w": "anything",
+     "d": "ANYTHING!",
+     "t": 1.272,
+     "e": 1.865
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.38
+    ],
+    [
+     0.43,
+     0.98
+    ],
+    [
+     1.225,
+     1.865
+    ]
+   ]
+  },
+  {
+   "id": "l11",
+   "n": 11,
+   "file": "lips8/11-customer.mp3",
+   "character": "CUSTOMER",
+   "voice": "Jessica",
+   "voiceId": "flHkNRp1BlvT73UL6gyz",
+   "text": "Anything? Then rub my feet.",
+   "say": "[cold] [teasing] Anything? Then rub my feet.",
+   "source": "customer-2-jessica/L11-t3",
+   "tempo": 1.1,
+   "dur": 2.895,
+   "end": 2.67,
+   "words": [
+    {
+     "w": "anything",
+     "d": "Anything?",
+     "t": 0.199,
+     "e": 1.13
+    },
+    {
+     "w": "then",
+     "d": "Then",
+     "t": 1.365,
+     "e": 1.656
+    },
+    {
+     "w": "rub",
+     "d": "rub",
+     "t": 1.656,
+     "e": 1.875
+    },
+    {
+     "w": "my",
+     "d": "my",
+     "t": 1.875,
+     "e": 2.166
+    },
+    {
+     "w": "feet",
+     "d": "feet.",
+     "t": 2.166,
+     "e": 2.67
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.13
+    ],
+    [
+     1.355,
+     2.67
+    ]
+   ]
+  },
+  {
+   "id": "l12",
+   "n": 12,
+   "file": "lips8/12-customer.mp3",
+   "character": "CUSTOMER",
+   "voice": "Jessica",
+   "voiceId": "flHkNRp1BlvT73UL6gyz",
+   "text": "Ohhh.",
+   "say": "[long blissful groan] Ohhhhh...",
+   "source": "customer-2-jessica/L12-t1",
+   "tempo": 1.0,
+   "dur": 1.76,
+   "end": 1.51,
+   "words": [
+    {
+     "w": "ohhhhh",
+     "d": "Ohhhhh...",
+     "t": 0.14,
+     "e": 1.51
+    }
+   ],
+   "voiced": [
+    [
+     0.025,
+     1.51
+    ]
+   ]
+  },
+  {
+   "id": "l13",
+   "n": 13,
+   "file": "lips8/13-customer.mp3",
+   "character": "CUSTOMER",
+   "voice": "Jessica",
+   "voiceId": "flHkNRp1BlvT73UL6gyz",
+   "text": "Cold hands.",
+   "say": "[bored] [matter-of-fact] Cold hands.",
+   "source": "customer-2-jessica/L13-t3",
+   "tempo": 1.0,
+   "dur": 1.52,
+   "end": 1.415,
+   "words": [
+    {
+     "w": "cold",
+     "d": "Cold",
+     "t": 0.13,
+     "e": 0.56
+    },
+    {
+     "w": "hands",
+     "d": "hands.",
+     "t": 0.56,
+     "e": 1.415
+    }
+   ],
+   "voiced": [
+    [
+     0.04,
+     1.415
+    ]
+   ]
+  },
+  {
+   "id": "l14",
+   "n": 14,
+   "file": "lips8/14-customer.mp3",
+   "character": "CUSTOMER",
+   "voice": "Jessica",
+   "voiceId": "flHkNRp1BlvT73UL6gyz",
+   "text": "The usual.",
+   "say": "[imperious] [flat] The usual.",
+   "source": "customer-2-jessica/L14-t3",
+   "tempo": 1.0,
+   "dur": 1.32,
+   "end": 1.15,
+   "words": [
+    {
+     "w": "the",
+     "d": "The",
+     "t": 0.02,
+     "e": 0.36
+    },
+    {
+     "w": "usual",
+     "d": "usual.",
+     "t": 0.36,
+     "e": 1.15
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.15
+    ]
+   ]
+  }
+ ],
+ "tableRead": {
+  "file": "out/lips8-table-read.mp3",
+  "dur": 33.635,
+  "lufs": -16.0,
+  "gaps": {
+   "1": 1.0,
+   "2": 0.15,
+   "3": 0.5,
+   "4": 0.12,
+   "5": 0.25,
+   "6": 0.25,
+   "7": 0.12,
+   "8": 0.6,
+   "9": 0.8,
+   "10": 0.12,
+   "11": 1.1,
+   "12": 0.6,
+   "13": 2.6
+  },
+  "cues": [
+   {
+    "n": 1,
+    "at": 0.94,
+    "speech": [
+     1.0,
+     3.46
+    ]
+   },
+   {
+    "n": 2,
+    "at": 4.45,
+    "speech": [
+     4.46,
+     6.285
+    ]
+   },
+   {
+    "n": 3,
+    "at": 6.435,
+    "speech": [
+     6.435,
+     8.79
+    ]
+   },
+   {
+    "n": 4,
+    "at": 9.23,
+    "speech": [
+     9.29,
+     10.465
+    ]
+   },
+   {
+    "n": 5,
+    "at": 10.525,
+    "speech": [
+     10.585,
+     11.765
+    ]
+   },
+   {
+    "n": 6,
+    "at": 11.955,
+    "speech": [
+     12.015,
+     14.29
+    ]
+   },
+   {
+    "n": 7,
+    "at": 14.51,
+    "speech": [
+     14.54,
+     15.425
+    ]
+   },
+   {
+    "n": 8,
+    "at": 15.49,
+    "speech": [
+     15.545,
+     17.41
+    ]
+   },
+   {
+    "n": 9,
+    "at": 17.95,
+    "speech": [
+     18.01,
+     19.75
+    ]
+   },
+   {
+    "n": 10,
+    "at": 20.49,
+    "speech": [
+     20.55,
+     22.355
+    ]
+   },
+   {
+    "n": 11,
+    "at": 22.415,
+    "speech": [
+     22.475,
+     25.085
+    ]
+   },
+   {
+    "n": 12,
+    "at": 26.16,
+    "speech": [
+     26.185,
+     27.67
+    ]
+   },
+   {
+    "n": 13,
+    "at": 28.23,
+    "speech": [
+     28.27,
+     29.645
+    ]
+   },
+   {
+    "n": 14,
+    "at": 32.185,
+    "speech": [
+     32.245,
+     33.335
+    ]
+   }
+  ],
+  "sfx": []
+ }
+}

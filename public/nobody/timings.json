@@ -1,0 +1,981 @@
+{
+ "model": "eleven_v4",
+ "target_lufs": -19.0,
+ "cast": {
+  "DENISE": {
+   "cast": {
+    "voice": "Bella",
+    "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+    "account_name": "Bella - Professional, Bright, Warm"
+   }
+  },
+  "TONY": {
+   "cast": {
+    "voice": "Roger",
+    "voiceId": "CwhRBWXzGAHq8TQ4Fs17",
+    "account_name": "Roger - Laid-Back, Casual, Resonant"
+   }
+  },
+  "VOICEMAIL": {
+   "cast": {
+    "voice": "Laura",
+    "voiceId": "FGY2WhTYpPnrIDTdsKH5",
+    "account_name": "Laura - Enthusiast, Quirky Attitude"
+   }
+  },
+  "AGENCY GUY": {
+   "cast": {
+    "voice": "Liam",
+    "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+    "account_name": "Liam - Energetic, Social Media Creator"
+   }
+  },
+  "MARCO": {
+   "cast": {
+    "voice": "Eric",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "account_name": "Eric - Smooth, Trustworthy"
+   }
+  },
+  "RICK'S WIFE": {
+   "cast": {
+    "voice": "Matilda",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "account_name": "Matilda - Knowledgable, Professional"
+   }
+  },
+  "GARY": {
+   "cast": {
+    "voice": "jack-chris-boston",
+    "voiceId": "2vubyVoGjNJ5HPga4SkV",
+    "account_name": "jack-chris-boston"
+   }
+  }
+ },
+ "takes": [
+  {
+   "id": "l01",
+   "n": 1,
+   "file": "nobody/01-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Oh, you're fucking kidding me.",
+   "say": "[shocked] [yelling] Oh, you're fucking kidding me.",
+   "source": "denise-1-bella/L01-t3",
+   "tempo": 1.0,
+   "dur": 2.15,
+   "end": 1.99,
+   "words": [
+    {
+     "w": "oh",
+     "d": "Oh,",
+     "t": 0.05,
+     "e": 0.39
+    },
+    {
+     "w": "you're",
+     "d": "you're",
+     "t": 0.39,
+     "e": 0.58
+    },
+    {
+     "w": "fucking",
+     "d": "fucking",
+     "t": 0.79,
+     "e": 0.925,
+     "bleep": true
+    },
+    {
+     "w": "kidding",
+     "d": "kidding",
+     "t": 1.27,
+     "e": 1.67
+    },
+    {
+     "w": "me",
+     "d": "me.",
+     "t": 1.67,
+     "e": 1.99
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.58
+    ],
+    [
+     0.81,
+     0.925
+    ],
+    [
+     0.965,
+     1.15
+    ],
+    [
+     1.2,
+     1.99
+    ]
+   ]
+  },
+  {
+   "id": "l02",
+   "n": 2,
+   "file": "nobody/02-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Five stars. Come on.",
+   "say": "[cold] [urgent] Five stars. Come on.",
+   "source": "denise-1-bella/L02-t3",
+   "tempo": 1.0,
+   "dur": 2.245,
+   "end": 1.995,
+   "words": [
+    {
+     "w": "five",
+     "d": "Five",
+     "t": 0.19,
+     "e": 0.51
+    },
+    {
+     "w": "stars",
+     "d": "stars.",
+     "t": 0.51,
+     "e": 1.075
+    },
+    {
+     "w": "come",
+     "d": "Come",
+     "t": 1.31,
+     "e": 1.55
+    },
+    {
+     "w": "on",
+     "d": "on.",
+     "t": 1.55,
+     "e": 1.995
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.075
+    ],
+    [
+     1.275,
+     1.995
+    ]
+   ]
+  },
+  {
+   "id": "l03",
+   "n": 3,
+   "file": "nobody/03-tony.mp3",
+   "character": "TONY",
+   "voice": "Roger",
+   "voiceId": "CwhRBWXzGAHq8TQ4Fs17",
+   "text": "Not now.",
+   "say": "[strained] [muttering] Not now.",
+   "source": "tony-1-roger/L03-t3",
+   "tempo": 1.0,
+   "dur": 2.06,
+   "end": 1.81,
+   "words": [
+    {
+     "w": "not",
+     "d": "Not",
+     "t": 0.75,
+     "e": 1.05
+    },
+    {
+     "w": "now",
+     "d": "now.",
+     "t": 1.19,
+     "e": 1.81
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.05
+    ],
+    [
+     1.105,
+     1.81
+    ]
+   ]
+  },
+  {
+   "id": "l04",
+   "n": 4,
+   "file": "nobody/04-voicemail.mp3",
+   "character": "VOICEMAIL",
+   "voice": "Laura",
+   "voiceId": "FGY2WhTYpPnrIDTdsKH5",
+   "text": "Thanks for calling AquaPro, we'll get right back to",
+   "say": "[cheerful] [professional] Thanks for calling AquaPro, we'll get right back to...",
+   "source": "voicemail-1-laura/L04-t3",
+   "tempo": 1.0,
+   "dur": 3.135,
+   "end": 2.885,
+   "words": [
+    {
+     "w": "thanks",
+     "d": "Thanks",
+     "t": 0.07,
+     "e": 0.374
+    },
+    {
+     "w": "for",
+     "d": "for",
+     "t": 0.374,
+     "e": 0.614
+    },
+    {
+     "w": "calling",
+     "d": "calling",
+     "t": 0.614,
+     "e": 0.854
+    },
+    {
+     "w": "aquapro",
+     "d": "AquaPro,",
+     "t": 0.854,
+     "e": 1.5
+    },
+    {
+     "w": "we'll",
+     "d": "we'll",
+     "t": 1.694,
+     "e": 1.934
+    },
+    {
+     "w": "get",
+     "d": "get",
+     "t": 1.934,
+     "e": 2.134
+    },
+    {
+     "w": "right",
+     "d": "right",
+     "t": 2.134,
+     "e": 2.374
+    },
+    {
+     "w": "back",
+     "d": "back",
+     "t": 2.374,
+     "e": 2.53
+    },
+    {
+     "w": "to",
+     "d": "to...",
+     "t": 2.614,
+     "e": 2.885
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.5
+    ],
+    [
+     1.675,
+     2.53
+    ],
+    [
+     2.57,
+     2.885
+    ]
+   ]
+  },
+  {
+   "id": "l05",
+   "n": 5,
+   "file": "nobody/05-agency.mp3",
+   "character": "AGENCY GUY",
+   "voice": "Liam",
+   "voiceId": "TX3LPaxmHKxFdv7VOQHJ",
+   "text": "What you need is more leads.",
+   "say": "[enthusiastic] [pitching] What you need is more leads.",
+   "source": "agency-1-liam/L05-t3",
+   "tempo": 1.0,
+   "dur": 2.53,
+   "end": 2.3,
+   "words": [
+    {
+     "w": "what",
+     "d": "What",
+     "t": 0.02,
+     "e": 0.45
+    },
+    {
+     "w": "you",
+     "d": "you",
+     "t": 0.45,
+     "e": 0.69
+    },
+    {
+     "w": "need",
+     "d": "need",
+     "t": 0.69,
+     "e": 1.09
+    },
+    {
+     "w": "is",
+     "d": "is",
+     "t": 1.09,
+     "e": 1.33
+    },
+    {
+     "w": "more",
+     "d": "more",
+     "t": 1.33,
+     "e": 1.65
+    },
+    {
+     "w": "leads",
+     "d": "leads.",
+     "t": 1.65,
+     "e": 2.3
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     2.3
+    ]
+   ]
+  },
+  {
+   "id": "l06",
+   "n": 6,
+   "file": "nobody/06-marco.mp3",
+   "character": "MARCO",
+   "voice": "Eric",
+   "voiceId": "cjVigY5qzO86Huf0OWal",
+   "text": "Sorry. Go on.",
+   "say": "[friendly] [quick] Sorry. Go on.",
+   "source": "marco-1-eric/L06-t3",
+   "tempo": 1.0,
+   "dur": 1.53,
+   "end": 1.28,
+   "words": [
+    {
+     "w": "sorry",
+     "d": "Sorry.",
+     "t": 0.15,
+     "e": 0.61
+    },
+    {
+     "w": "go",
+     "d": "Go",
+     "t": 0.855,
+     "e": 1.015
+    },
+    {
+     "w": "on",
+     "d": "on.",
+     "t": 1.015,
+     "e": 1.28
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.61
+    ],
+    [
+     0.8,
+     1.28
+    ]
+   ]
+  },
+  {
+   "id": "l07",
+   "n": 7,
+   "file": "nobody/07-wife.mp3",
+   "character": "RICK'S WIFE",
+   "voice": "Matilda",
+   "voiceId": "XrExE9yKIg1WjnnlVkGX",
+   "text": "Rick.",
+   "say": "[whispering] [through gritted teeth] Rick.",
+   "source": "wife-1-matilda/L07-t3",
+   "tempo": 1.0,
+   "dur": 1.135,
+   "end": 0.88,
+   "words": [
+    {
+     "w": "rick",
+     "d": "Rick.",
+     "t": 0.17,
+     "e": 0.435
+    }
+   ],
+   "voiced": [
+    [
+     0.065,
+     0.435
+    ],
+    [
+     0.565,
+     0.88
+    ]
+   ]
+  },
+  {
+   "id": "l08",
+   "n": 8,
+   "file": "nobody/08-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Fine. Gary.",
+   "say": "[resigned] [flat] ...Fine. Gary.",
+   "source": "denise-1-bella/L08-t2",
+   "tempo": 1.0,
+   "dur": 2.56,
+   "end": 2.485,
+   "words": [
+    {
+     "w": "fine",
+     "d": "...Fine.",
+     "t": 0.71,
+     "e": 1.415
+    },
+    {
+     "w": "gary",
+     "d": "Gary.",
+     "t": 1.92,
+     "e": 2.485
+    }
+   ],
+   "voiced": [
+    [
+     0.04,
+     1.415
+    ],
+    [
+     1.9,
+     2.485
+    ]
+   ]
+  },
+  {
+   "id": "l09",
+   "n": 9,
+   "file": "nobody/09-gary.mp3",
+   "character": "GARY",
+   "voice": "jack-chris-boston",
+   "voiceId": "2vubyVoGjNJ5HPga4SkV",
+   "text": "Yeah.",
+   "say": "[mouth full] [chewing] Yeah.",
+   "source": "gary-1-jack-chris-boston/L09-t1",
+   "tempo": 1.0,
+   "dur": 1.755,
+   "end": 1.51,
+   "words": [
+    {
+     "w": "yeah",
+     "d": "Yeah.",
+     "t": 0.975,
+     "e": 1.51
+    }
+   ],
+   "voiced": [
+    [
+     0.065,
+     0.6
+    ],
+    [
+     0.895,
+     1.51
+    ]
+   ]
+  },
+  {
+   "id": "l10",
+   "n": 10,
+   "file": "nobody/10-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Hi, my water heater died, how soon can",
+   "say": "[eager] [fast] Hi, my water heater died, how soon can...",
+   "source": "denise-1-bella/L10-t2",
+   "tempo": 1.0,
+   "dur": 2.8,
+   "end": 2.63,
+   "words": [
+    {
+     "w": "hi",
+     "d": "Hi,",
+     "t": 0.16,
+     "e": 0.72
+    },
+    {
+     "w": "my",
+     "d": "my",
+     "t": 0.72,
+     "e": 1.0
+    },
+    {
+     "w": "water",
+     "d": "water",
+     "t": 1.0,
+     "e": 1.2
+    },
+    {
+     "w": "heater",
+     "d": "heater",
+     "t": 1.2,
+     "e": 1.48
+    },
+    {
+     "w": "died",
+     "d": "died,",
+     "t": 1.48,
+     "e": 1.92
+    },
+    {
+     "w": "how",
+     "d": "how",
+     "t": 1.92,
+     "e": 2.16
+    },
+    {
+     "w": "soon",
+     "d": "soon",
+     "t": 2.16,
+     "e": 2.44
+    },
+    {
+     "w": "can",
+     "d": "can...",
+     "t": 2.44,
+     "e": 2.63
+    }
+   ],
+   "voiced": [
+    [
+     0.04,
+     2.63
+    ]
+   ]
+  },
+  {
+   "id": "l11",
+   "n": 11,
+   "file": "nobody/11-gary.mp3",
+   "character": "GARY",
+   "voice": "jack-chris-boston",
+   "voiceId": "2vubyVoGjNJ5HPga4SkV",
+   "text": "Fifteen hundred.",
+   "say": "[blunt] [bored] Fifteen hundred.",
+   "source": "gary-1-jack-chris-boston/L11-t2",
+   "tempo": 1.0,
+   "dur": 1.57,
+   "end": 1.36,
+   "words": [
+    {
+     "w": "fifteen",
+     "d": "Fifteen",
+     "t": 0.21,
+     "e": 0.69
+    },
+    {
+     "w": "hundred",
+     "d": "hundred.",
+     "t": 0.69,
+     "e": 1.36
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.36
+    ]
+   ]
+  },
+  {
+   "id": "l12",
+   "n": 12,
+   "file": "nobody/12-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "For what?",
+   "say": "[outraged] For what?",
+   "source": "denise-1-bella/L12-t2",
+   "tempo": 1.0,
+   "dur": 1.275,
+   "end": 1.045,
+   "words": [
+    {
+     "w": "for",
+     "d": "For",
+     "t": 0.16,
+     "e": 0.555
+    },
+    {
+     "w": "what",
+     "d": "what?",
+     "t": 0.555,
+     "e": 0.835
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.835
+    ],
+    [
+     0.89,
+     1.045
+    ]
+   ]
+  },
+  {
+   "id": "l13",
+   "n": 13,
+   "file": "nobody/13-gary.mp3",
+   "character": "GARY",
+   "voice": "jack-chris-boston",
+   "voiceId": "2vubyVoGjNJ5HPga4SkV",
+   "text": "I picked up.",
+   "say": "[deadpan] [chewing] I picked up.",
+   "source": "gary-1-jack-chris-boston/L13-t1",
+   "tempo": 1.0,
+   "dur": 1.935,
+   "end": 1.695,
+   "words": [
+    {
+     "w": "i",
+     "d": "I",
+     "t": 0.835,
+     "e": 0.995
+    },
+    {
+     "w": "picked",
+     "d": "picked",
+     "t": 0.995,
+     "e": 1.195
+    },
+    {
+     "w": "up",
+     "d": "up.",
+     "t": 1.315,
+     "e": 1.425
+    }
+   ],
+   "voiced": [
+    [
+     0.055,
+     1.195
+    ],
+    [
+     1.23,
+     1.425
+    ],
+    [
+     1.46,
+     1.695
+    ]
+   ]
+  },
+  {
+   "id": "l14",
+   "n": 14,
+   "file": "nobody/14-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Okay. Come.",
+   "say": "[defeated] [quietly] ...Okay. Come.",
+   "source": "denise-1-bella/L14-t1",
+   "tempo": 1.0,
+   "dur": 1.97,
+   "end": 1.745,
+   "words": [
+    {
+     "w": "okay",
+     "d": "...Okay.",
+     "t": 0.13,
+     "e": 0.86
+    },
+    {
+     "w": "come",
+     "d": "Come.",
+     "t": 1.33,
+     "e": 1.745
+    }
+   ],
+   "voiced": [
+    [
+     0.065,
+     0.86
+    ],
+    [
+     1.3,
+     1.745
+    ]
+   ]
+  },
+  {
+   "id": "l15",
+   "n": 15,
+   "file": "nobody/15-gary.mp3",
+   "character": "GARY",
+   "voice": "jack-chris-boston",
+   "voiceId": "2vubyVoGjNJ5HPga4SkV",
+   "text": "And leave me five stars, yeah?",
+   "say": "[smug] [lazy] And leave me five stars, yeah?",
+   "source": "gary-1-jack-chris-boston/L15-t2",
+   "tempo": 1.0,
+   "dur": 2.285,
+   "end": 2.035,
+   "words": [
+    {
+     "w": "and",
+     "d": "And",
+     "t": 0.16,
+     "e": 0.29
+    },
+    {
+     "w": "leave",
+     "d": "leave",
+     "t": 0.29,
+     "e": 0.57
+    },
+    {
+     "w": "me",
+     "d": "me",
+     "t": 0.57,
+     "e": 0.81
+    },
+    {
+     "w": "five",
+     "d": "five",
+     "t": 0.81,
+     "e": 1.01
+    },
+    {
+     "w": "stars",
+     "d": "stars,",
+     "t": 1.01,
+     "e": 1.65
+    },
+    {
+     "w": "yeah",
+     "d": "yeah?",
+     "t": 1.65,
+     "e": 2.035
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     2.035
+    ]
+   ]
+  },
+  {
+   "id": "l16",
+   "n": 16,
+   "file": "nobody/16-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "He picked up.",
+   "say": "[flat] [tired] He picked up.",
+   "source": "denise-1-bella/L16-t1",
+   "tempo": 1.0,
+   "dur": 1.46,
+   "end": 1.215,
+   "words": [
+    {
+     "w": "he",
+     "d": "He",
+     "t": 0.26,
+     "e": 0.5
+    },
+    {
+     "w": "picked",
+     "d": "picked",
+     "t": 0.5,
+     "e": 0.82
+    },
+    {
+     "w": "up",
+     "d": "up.",
+     "t": 0.82,
+     "e": 0.93
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.93
+    ],
+    [
+     0.995,
+     1.215
+    ]
+   ]
+  }
+ ],
+ "tableRead": {
+  "file": "out/nobody-table-read.mp3",
+  "dur": 41.83,
+  "lufs": -15.9,
+  "gaps": {
+   "1": 0.3,
+   "2": 1.4,
+   "3": 0.6,
+   "4": 1.0,
+   "5": 0.5,
+   "6": 2.4,
+   "7": 1.8,
+   "8": 0.9,
+   "9": 0.3,
+   "10": 0.0,
+   "11": 0.3,
+   "12": 0.5,
+   "13": 1.0,
+   "14": 0.3,
+   "15": 2.0
+  },
+  "cues": [
+   {
+    "n": 1,
+    "at": 0.24,
+    "speech": [
+     0.3,
+     2.23
+    ]
+   },
+   {
+    "n": 2,
+    "at": 2.47,
+    "speech": [
+     2.53,
+     4.465
+    ]
+   },
+   {
+    "n": 3,
+    "at": 5.805,
+    "speech": [
+     5.865,
+     7.615
+    ]
+   },
+   {
+    "n": 4,
+    "at": 8.155,
+    "speech": [
+     8.215,
+     11.04
+    ]
+   },
+   {
+    "n": 5,
+    "at": 11.98,
+    "speech": [
+     12.04,
+     14.28
+    ]
+   },
+   {
+    "n": 6,
+    "at": 14.72,
+    "speech": [
+     14.78,
+     16.0
+    ]
+   },
+   {
+    "n": 7,
+    "at": 18.335,
+    "speech": [
+     18.4,
+     19.215
+    ]
+   },
+   {
+    "n": 8,
+    "at": 20.975,
+    "speech": [
+     21.015,
+     23.46
+    ]
+   },
+   {
+    "n": 9,
+    "at": 24.295,
+    "speech": [
+     24.36,
+     25.805
+    ]
+   },
+   {
+    "n": 10,
+    "at": 26.065,
+    "speech": [
+     26.105,
+     28.695
+    ]
+   },
+   {
+    "n": 11,
+    "at": 28.635,
+    "speech": [
+     28.695,
+     29.995
+    ]
+   },
+   {
+    "n": 12,
+    "at": 30.235,
+    "speech": [
+     30.295,
+     31.28
+    ]
+   },
+   {
+    "n": 13,
+    "at": 31.725,
+    "speech": [
+     31.78,
+     33.42
+    ]
+   },
+   {
+    "n": 14,
+    "at": 34.355,
+    "speech": [
+     34.42,
+     36.1
+    ]
+   },
+   {
+    "n": 15,
+    "at": 36.34,
+    "speech": [
+     36.4,
+     38.375
+    ]
+   },
+   {
+    "n": 16,
+    "at": 40.315,
+    "speech": [
+     40.375,
+     41.53
+    ]
+   }
+  ],
+  "sfx": []
+ }
+}

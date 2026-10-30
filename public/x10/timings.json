@@ -1,0 +1,836 @@
+{
+ "model": "eleven_v4",
+ "target_lufs": -19.0,
+ "cast": {
+  "ROSS": {
+   "cast": {
+    "voice": "jack-tyler",
+    "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+    "account_name": "jack-tyler"
+   }
+  },
+  "CHUCK": {
+   "cast": {
+    "voice": "jack-chris-boston",
+    "voiceId": "2vubyVoGjNJ5HPga4SkV",
+    "account_name": "jack-chris-boston"
+   }
+  },
+  "LANDLORD": {
+   "cast": {
+    "voice": "Callum",
+    "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+    "account_name": "Callum - Husky Trickster"
+   }
+  },
+  "SUPPLIER": {
+   "cast": {
+    "voice": "Roger",
+    "voiceId": "CwhRBWXzGAHq8TQ4Fs17",
+    "account_name": "Roger - Laid-Back, Casual, Resonant"
+   }
+  },
+  "ACCOUNTANT": {
+   "cast": {
+    "voice": "Matilda",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "account_name": "Matilda - Knowledgable, Professional"
+   }
+  },
+  "TYLER": {
+   "cast": {
+    "voice": "jack-james",
+    "voiceId": "Myb1gsDenT3mlMlj7vib",
+    "account_name": "jack-james"
+   }
+  },
+  "GUY": {
+   "cast": {
+    "voice": "Will",
+    "voiceId": "bIHbv24MWmeRgasZH58o",
+    "account_name": "Will - Relaxed Optimist"
+   }
+  }
+ },
+ "takes": [
+  {
+   "id": "l01",
+   "n": 1,
+   "file": "x10/01-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Finally!",
+   "say": "[ecstatic] [shouting] Finally!",
+   "source": "ross-1-jack-tyler/L01-t1",
+   "tempo": 1.0,
+   "dur": 1.215,
+   "end": 0.965,
+   "words": [
+    {
+     "w": "finally",
+     "d": "Finally!",
+     "t": 0.03,
+     "e": 0.965
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.965
+    ]
+   ]
+  },
+  {
+   "id": "l02",
+   "n": 2,
+   "file": "x10/02-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "My own business!",
+   "say": "[overjoyed] [shouting] My own business!",
+   "source": "ross-1-jack-tyler/L02-t2",
+   "tempo": 1.1,
+   "dur": 1.753,
+   "end": 1.625,
+   "words": [
+    {
+     "w": "my",
+     "d": "My",
+     "t": 0.12,
+     "e": 0.584
+    },
+    {
+     "w": "own",
+     "d": "own",
+     "t": 0.584,
+     "e": 0.8
+    },
+    {
+     "w": "business",
+     "d": "business!",
+     "t": 0.876,
+     "e": 1.625
+    }
+   ],
+   "voiced": [
+    [
+     0.04,
+     0.8
+    ],
+    [
+     0.865,
+     1.625
+    ]
+   ]
+  },
+  {
+   "id": "l03",
+   "n": 3,
+   "file": "x10/03-chuck.mp3",
+   "character": "CHUCK",
+   "voice": "jack-chris-boston",
+   "voiceId": "2vubyVoGjNJ5HPga4SkV",
+   "text": "Excuse me! I've been waiting!",
+   "say": "[rude] [loud] Excuse me! I've been waiting!",
+   "source": "chuck-1-jack-chris-boston/L03-t2",
+   "tempo": 1.2,
+   "dur": 1.939,
+   "end": 1.845,
+   "words": [
+    {
+     "w": "excuse",
+     "d": "Excuse",
+     "t": 0.067,
+     "e": 0.602
+    },
+    {
+     "w": "me",
+     "d": "me!",
+     "t": 0.602,
+     "e": 0.825
+    },
+    {
+     "w": "i've",
+     "d": "I've",
+     "t": 1.003,
+     "e": 1.204
+    },
+    {
+     "w": "been",
+     "d": "been",
+     "t": 1.204,
+     "e": 1.404
+    },
+    {
+     "w": "waiting",
+     "d": "waiting!",
+     "t": 1.404,
+     "e": 1.845
+    }
+   ],
+   "voiced": [
+    [
+     0.005,
+     0.825
+    ],
+    [
+     1.025,
+     1.845
+    ]
+   ]
+  },
+  {
+   "id": "l04",
+   "n": 4,
+   "file": "x10/04-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Coming!",
+   "say": "[squeezed] [cheerful] Coming!",
+   "source": "ross-1-jack-tyler/L04-t3",
+   "tempo": 1.0,
+   "dur": 1.265,
+   "end": 1.02,
+   "words": [
+    {
+     "w": "coming",
+     "d": "Coming!",
+     "t": 0.28,
+     "e": 1.02
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.24
+    ],
+    [
+     0.28,
+     1.02
+    ]
+   ]
+  },
+  {
+   "id": "l05",
+   "n": 5,
+   "file": "x10/05-landlord.mp3",
+   "character": "LANDLORD",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "Rent.",
+   "say": "[deadpan] [low] Rent.",
+   "source": "landlord-1-callum/L05-t2",
+   "tempo": 1.0,
+   "dur": 1.07,
+   "end": 0.825,
+   "words": [
+    {
+     "w": "rent",
+     "d": "Rent.",
+     "t": 0.494,
+     "e": 0.825
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.825
+    ]
+   ]
+  },
+  {
+   "id": "l06",
+   "n": 6,
+   "file": "x10/06-supplier.mp3",
+   "character": "SUPPLIER",
+   "voice": "Roger",
+   "voiceId": "CwhRBWXzGAHq8TQ4Fs17",
+   "text": "Milk went up.",
+   "say": "[casual] [matter-of-fact] Milk went up.",
+   "source": "supplier-1-roger/L06-t1",
+   "tempo": 1.0,
+   "dur": 1.28,
+   "end": 1.03,
+   "words": [
+    {
+     "w": "milk",
+     "d": "Milk",
+     "t": 0.16,
+     "e": 0.49
+    },
+    {
+     "w": "went",
+     "d": "went",
+     "t": 0.49,
+     "e": 0.81
+    },
+    {
+     "w": "up",
+     "d": "up.",
+     "t": 0.81,
+     "e": 1.03
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.03
+    ]
+   ]
+  },
+  {
+   "id": "l07",
+   "n": 7,
+   "file": "x10/07-accountant.mp3",
+   "character": "ACCOUNTANT",
+   "voice": "Matilda",
+   "voiceId": "XrExE9yKIg1WjnnlVkGX",
+   "text": "My fee.",
+   "say": "[dry] [prim] My fee.",
+   "source": "accountant-1-matilda/L07-t1",
+   "tempo": 1.0,
+   "dur": 1.06,
+   "end": 0.815,
+   "words": [
+    {
+     "w": "my",
+     "d": "My",
+     "t": 0.02,
+     "e": 0.43
+    },
+    {
+     "w": "fee",
+     "d": "fee.",
+     "t": 0.43,
+     "e": 0.815
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.815
+    ]
+   ]
+  },
+  {
+   "id": "l08",
+   "n": 8,
+   "file": "x10/08-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "You're hired!",
+   "say": "[overeager] [cheerful] You're hired!",
+   "source": "ross-1-jack-tyler/L08-t2",
+   "tempo": 1.0,
+   "dur": 1.27,
+   "end": 1.02,
+   "words": [
+    {
+     "w": "you're",
+     "d": "You're",
+     "t": 0.12,
+     "e": 0.44
+    },
+    {
+     "w": "hired",
+     "d": "hired!",
+     "t": 0.44,
+     "e": 1.02
+    }
+   ],
+   "voiced": [
+    [
+     0.02,
+     1.02
+    ]
+   ]
+  },
+  {
+   "id": "l09",
+   "n": 9,
+   "file": "x10/09-tyler.mp3",
+   "character": "TYLER",
+   "voice": "jack-james",
+   "voiceId": "Myb1gsDenT3mlMlj7vib",
+   "text": "Cool.",
+   "say": "[uninterested] [flat] Cool.",
+   "source": "tyler-1-jack-james/L09-t2",
+   "tempo": 1.0,
+   "dur": 0.975,
+   "end": 0.725,
+   "words": [
+    {
+     "w": "cool",
+     "d": "Cool.",
+     "t": 0.44,
+     "e": 0.725
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.725
+    ]
+   ]
+  },
+  {
+   "id": "l10",
+   "n": 10,
+   "file": "x10/10-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "You're FIRED!",
+   "say": "[furious] [shouting] You're FIRED!",
+   "source": "ross-1-jack-tyler/L10-t1",
+   "tempo": 1.0,
+   "dur": 1.165,
+   "end": 0.915,
+   "words": [
+    {
+     "w": "you're",
+     "d": "You're",
+     "t": 0.02,
+     "e": 0.285
+    },
+    {
+     "w": "fired",
+     "d": "FIRED!",
+     "t": 0.48,
+     "e": 0.915
+    }
+   ],
+   "voiced": [
+    [
+     0.01,
+     0.285
+    ],
+    [
+     0.49,
+     0.915
+    ]
+   ]
+  },
+  {
+   "id": "l11",
+   "n": 11,
+   "file": "x10/11-tyler.mp3",
+   "character": "TYLER",
+   "voice": "jack-james",
+   "voiceId": "Myb1gsDenT3mlMlj7vib",
+   "text": "Cool.",
+   "say": "[bored] [monotone] Cool.",
+   "source": "tyler-1-jack-james/L11-t1",
+   "tempo": 1.0,
+   "dur": 1.145,
+   "end": 0.895,
+   "words": [
+    {
+     "w": "cool",
+     "d": "Cool.",
+     "t": 0.17,
+     "e": 0.895
+    }
+   ],
+   "voiced": [
+    [
+     0.025,
+     0.895
+    ]
+   ]
+  },
+  {
+   "id": "l12",
+   "n": 12,
+   "file": "x10/12-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Ross's Coffee, how can I help?",
+   "say": "[chipper] [through gritted teeth] Ross's Coffee, how can I help?",
+   "source": "ross-1-jack-tyler/L12-t3",
+   "tempo": 1.2,
+   "dur": 2.322,
+   "end": 2.135,
+   "words": [
+    {
+     "w": "ross's",
+     "d": "Ross's",
+     "t": 0.111,
+     "e": 0.545
+    },
+    {
+     "w": "coffee",
+     "d": "Coffee,",
+     "t": 0.647,
+     "e": 1.25
+    },
+    {
+     "w": "how",
+     "d": "how",
+     "t": 1.25,
+     "e": 1.384
+    },
+    {
+     "w": "can",
+     "d": "can",
+     "t": 1.384,
+     "e": 1.585
+    },
+    {
+     "w": "i",
+     "d": "I",
+     "t": 1.585,
+     "e": 1.853
+    },
+    {
+     "w": "help",
+     "d": "help?",
+     "t": 1.853,
+     "e": 1.93
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.545
+    ],
+    [
+     0.595,
+     1.93
+    ],
+    [
+     1.965,
+     2.135
+    ]
+   ]
+  },
+  {
+   "id": "l13",
+   "n": 13,
+   "file": "x10/13-chuck.mp3",
+   "character": "CHUCK",
+   "voice": "jack-chris-boston",
+   "voiceId": "2vubyVoGjNJ5HPga4SkV",
+   "text": "One star.",
+   "say": "[petty] [satisfied] One star.",
+   "source": "chuck-1-jack-chris-boston/L13-t2",
+   "tempo": 1.0,
+   "dur": 1.35,
+   "end": 1.15,
+   "words": [
+    {
+     "w": "one",
+     "d": "One",
+     "t": 0.03,
+     "e": 0.55
+    },
+    {
+     "w": "star",
+     "d": "star.",
+     "t": 0.55,
+     "e": 1.15
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.15
+    ]
+   ]
+  },
+  {
+   "id": "l14",
+   "n": 14,
+   "file": "x10/14-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "...Profit.",
+   "say": "[flat] [defeated] ...Profit.",
+   "source": "ross-1-jack-tyler/L14-t3",
+   "tempo": 1.15,
+   "dur": 1.531,
+   "end": 1.36,
+   "words": [
+    {
+     "w": "profit",
+     "d": "...Profit.",
+     "t": 0.519,
+     "e": 1.36
+    }
+   ],
+   "voiced": [
+    [
+     0.055,
+     1.36
+    ]
+   ]
+  },
+  {
+   "id": "l15",
+   "n": 15,
+   "file": "x10/15-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "I owe YOU?!",
+   "say": "[outraged] [shouting] I owe YOU?!",
+   "source": "ross-1-jack-tyler/L15-t2",
+   "tempo": 1.0,
+   "dur": 1.6,
+   "end": 1.39,
+   "words": [
+    {
+     "w": "i",
+     "d": "I",
+     "t": 0.08,
+     "e": 0.48
+    },
+    {
+     "w": "owe",
+     "d": "owe",
+     "t": 0.48,
+     "e": 0.96
+    },
+    {
+     "w": "you",
+     "d": "YOU?!",
+     "t": 0.96,
+     "e": 1.39
+    }
+   ],
+   "voiced": [
+    [
+     0.025,
+     1.39
+    ]
+   ]
+  },
+  {
+   "id": "l16",
+   "n": 16,
+   "file": "x10/16-guy.mp3",
+   "character": "GUY",
+   "voice": "Will",
+   "voiceId": "bIHbv24MWmeRgasZH58o",
+   "text": "Must be nice! Setting your own hours!",
+   "say": "[upbeat] [calling out] Must be nice! Setting your own hours!",
+   "source": "guy-1-will/L16-t3",
+   "tempo": 1.1,
+   "dur": 2.675,
+   "end": 2.425,
+   "words": [
+    {
+     "w": "must",
+     "d": "Must",
+     "t": 0.131,
+     "e": 0.422
+    },
+    {
+     "w": "be",
+     "d": "be",
+     "t": 0.422,
+     "e": 0.568
+    },
+    {
+     "w": "nice",
+     "d": "nice!",
+     "t": 0.568,
+     "e": 1.12
+    },
+    {
+     "w": "setting",
+     "d": "Setting",
+     "t": 1.223,
+     "e": 1.588
+    },
+    {
+     "w": "your",
+     "d": "your",
+     "t": 1.588,
+     "e": 1.733
+    },
+    {
+     "w": "own",
+     "d": "own",
+     "t": 1.733,
+     "e": 1.879
+    },
+    {
+     "w": "hours",
+     "d": "hours!",
+     "t": 1.879,
+     "e": 2.425
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.12
+    ],
+    [
+     1.175,
+     2.425
+    ]
+   ]
+  }
+ ],
+ "tableRead": {
+  "file": "out/x10-table-read.mp3",
+  "dur": 28.37,
+  "lufs": -16.0,
+  "gaps": {
+   "1": 0.3,
+   "2": 0.8,
+   "3": 0.05,
+   "4": 0.35,
+   "5": 0.15,
+   "6": 0.1,
+   "7": 0.6,
+   "8": 0.1,
+   "9": 0.35,
+   "10": 0.1,
+   "11": 0.8,
+   "12": 0.15,
+   "13": 1.0,
+   "14": 0.9,
+   "15": 2.4
+  },
+  "cues": [
+   {
+    "n": 1,
+    "at": 0.44,
+    "speech": [
+     0.5,
+     1.405
+    ]
+   },
+   {
+    "n": 2,
+    "at": 1.665,
+    "speech": [
+     1.705,
+     3.29
+    ]
+   },
+   {
+    "n": 3,
+    "at": 4.085,
+    "speech": [
+     4.09,
+     5.93
+    ]
+   },
+   {
+    "n": 4,
+    "at": 5.92,
+    "speech": [
+     5.98,
+     6.94
+    ]
+   },
+   {
+    "n": 5,
+    "at": 7.23,
+    "speech": [
+     7.29,
+     8.055
+    ]
+   },
+   {
+    "n": 6,
+    "at": 8.145,
+    "speech": [
+     8.205,
+     9.175
+    ]
+   },
+   {
+    "n": 7,
+    "at": 9.215,
+    "speech": [
+     9.275,
+     10.03
+    ]
+   },
+   {
+    "n": 8,
+    "at": 10.61,
+    "speech": [
+     10.63,
+     11.63
+    ]
+   },
+   {
+    "n": 9,
+    "at": 11.67,
+    "speech": [
+     11.73,
+     12.395
+    ]
+   },
+   {
+    "n": 10,
+    "at": 12.735,
+    "speech": [
+     12.745,
+     13.65
+    ]
+   },
+   {
+    "n": 11,
+    "at": 13.725,
+    "speech": [
+     13.75,
+     14.62
+    ]
+   },
+   {
+    "n": 12,
+    "at": 15.36,
+    "speech": [
+     15.42,
+     17.495
+    ]
+   },
+   {
+    "n": 13,
+    "at": 17.585,
+    "speech": [
+     17.645,
+     18.735
+    ]
+   },
+   {
+    "n": 14,
+    "at": 19.68,
+    "speech": [
+     19.735,
+     21.04
+    ]
+   },
+   {
+    "n": 15,
+    "at": 21.915,
+    "speech": [
+     21.94,
+     23.305
+    ]
+   },
+   {
+    "n": 16,
+    "at": 25.645,
+    "speech": [
+     25.705,
+     28.07
+    ]
+   }
+  ],
+  "sfx": []
+ }
+}

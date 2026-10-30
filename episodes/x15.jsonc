@@ -1,0 +1,72 @@
+// x15 "Bleep Fee" (script v2, 2026-10-26, docs/x15-bleep-fee.md). Ross: "a Ross who talks to the viewers and fumes, swearing, about how hard it is to run a business and everyone around is trying to fuck you over, and do it with B-roll".
+// A robocall, fake invoices and a customer with his own hair on a licked plate; Ross rants to the camera, every swear is bleeped and each bleep costs double the last; the bleep guy next to him hands him the bill.
+// Ross is jack-tyler (as in x08-x14), Chuck jack-chris-boston (as in x10-x14), the robocall the "machine" voice (Laura, sunny). The swearing is real words in the takes, bleeped by voice-build.py ("bleep" in the plan).
+// Format: see scripts/voice-gen.mjs (lines, directions) and scripts/voice-build.py (cast, plan, gaps, lead, tableSfx). Take k of a line uses direction k.
+{
+ "title": "Bleep Fee",
+ "cast": {"ross": 1, "chuck": 1, "machine": 1},
+ "runnerUp": {},
+ "lines": [
+// through the phone: a sweet automated voice reading a threat
+  {"n": 1, "char": "machine", "text": "Your business listing will be suspended.", "dirs": [
+   {"t": "[cheerful] [automated]", "st": 0.6, "sy": 0.2},
+   {"t": "[sweet] [robotic]", "st": 0.65, "sy": 0.15},
+   {"t": "[bright] [customer service]", "st": 0.55, "sy": 0.25}
+  ]},
+// into the phone, his face just snapped purple
+  {"n": 2, "char": "ross", "text": "FUCK OFF!", "dirs": [
+   {"t": "[furious] [shouting]", "st": 0.25, "sy": 0.8},
+   {"t": "[enraged] [yelling]", "st": 0.25, "sy": 0.8},
+   {"t": "[explosive] [screaming]", "st": 0.2, "sy": 0.85}
+  ]},
+// he slams the phone down and leans over the counter at us: from here he talks to the camera
+  {"n": 3, "char": "ross", "text": "Everybody's trying to FUCK me!", "dirs": [
+   {"t": "[furious] [ranting]", "st": 0.25, "sy": 0.8},
+   {"t": "[outraged] [shouting]", "st": 0.25, "sy": 0.8},
+   {"t": "[exasperated] [yelling]", "st": 0.3, "sy": 0.75}
+  ]},
+// shaking a fistful of envelopes at us
+  {"n": 4, "char": "ross", "text": "I get invoices for SHIT I never ordered!", "dirs": [
+   {"t": "[ranting] [furious]", "st": 0.25, "sy": 0.8},
+   {"t": "[outraged] [incredulous]", "st": 0.25, "sy": 0.8},
+   {"t": "[exasperated] [shouting]", "st": 0.3, "sy": 0.75}
+  ]},
+// over the B-roll of the customer licking the plate: low, seething, it builds
+  {"n": 5, "char": "ross", "text": "This guy eats the whole thing...", "dirs": [
+   {"t": "[seething] [through gritted teeth]", "st": 0.35, "sy": 0.6},
+   {"t": "[bitter] [building anger]", "st": 0.35, "sy": 0.6},
+   {"t": "[tense] [sarcastic]", "st": 0.4, "sy": 0.55}
+  ]},
+// he slides the licked plate back with his own hair on it, palm up
+  {"n": 6, "char": "chuck", "text": "Found a hair. I want my money back.", "dirs": [
+   {"t": "[smug] [matter-of-fact]", "st": 0.5, "sy": 0.35},
+   {"t": "[deadpan] [entitled]", "st": 0.55, "sy": 0.3},
+   {"t": "[casual] [complaining]", "st": 0.5, "sy": 0.35}
+  ]},
+// eyes bulging, to the camera
+  {"n": 7, "char": "ross", "text": "His OWN fucking HAIR!", "dirs": [
+   {"t": "[incredulous] [screaming]", "st": 0.25, "sy": 0.8},
+   {"t": "[furious] [high-pitched]", "st": 0.25, "sy": 0.8},
+   {"t": "[outraged] [shrieking]", "st": 0.2, "sy": 0.85}
+  ]},
+// the explosion: the mosaic grows over his whole head
+  {"n": 8, "char": "ross", "text": "Fuck the robots, fuck the envelopes, and fuck that bald motherfucker!", "dirs": [
+   {"t": "[completely losing it] [screaming]", "st": 0.2, "sy": 0.85},
+   {"t": "[furious] [ranting]", "st": 0.25, "sy": 0.8},
+   {"t": "[hysterical] [yelling]", "st": 0.2, "sy": 0.85}
+  ]},
+// the receipt in his hand: indignant, his voice cracking
+  {"n": 9, "char": "ross", "text": "I never ORDERED any bleeps!", "dirs": [
+   {"t": "[indignant] [shouting]", "st": 0.3, "sy": 0.75},
+   {"t": "[outraged] [voice cracking]", "st": 0.25, "sy": 0.8},
+   {"t": "[incredulous] [loud]", "st": 0.3, "sy": 0.75}
+  ]}
+ ],
+// takes picked from voice-analyze and Whisper (all 18 checked takes heard right): the robot is cut on "sus-" (Ross yells over it), the 8 swears are bleeped
+ "plan": {"1": {"t": 1, "rate": 1.25, "to": 1.80}, "2": {"t": 2, "bleep": [0]}, "3": {"t": 1, "rate": 1.15, "bleep": [3]}, "4": {"t": 1, "rate": 1.15, "bleep": [4]}, "5": {"t": 3, "rate": 1.05}, "6": {"t": 1, "rate": 1.1}, "7": {"t": 3, "bleep": [2]}, "8": {"t": 1, "rate": 1.2, "bleep": [0, 3, 7, 10]}, "9": {"t": 2, "rate": 1.1}},
+// lead and gaps place the speech on the reel's clock: the ring and the pickup before line 1; Ross cuts the robot off (a negative gap);
+// the slam and the turn to us, the envelopes, the mail slot flood and the invoice, the pluck and the plate, the explosion's last bleep, the bleep guy and the receipt
+ "lead": 0.35,
+ "gaps": {"1": -0.15, "2": 0.55, "3": 0.35, "4": 1.8, "5": 0.9, "6": 0.4, "7": 0.35, "8": 1.6},
+ "tableSfx": []
+}

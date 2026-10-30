@@ -1,0 +1,846 @@
+{
+ "model": "eleven_v4",
+ "target_lufs": -19.0,
+ "cast": {
+  "CAMPER": {
+   "cast": {
+    "voice": "Adam",
+    "voiceId": "pNInz6obpgDQGcFmaJgB",
+    "account_name": "Adam - Dominant, Firm"
+   },
+   "runnerUp": {
+    "voice": "Will",
+    "voiceId": "bIHbv24MWmeRgasZH58o",
+    "account_name": "Will - Relaxed Optimist"
+   }
+  },
+  "ROSS": {
+   "cast": {
+    "voice": "jack-tyler",
+    "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+    "account_name": "jack-tyler"
+   }
+  },
+  "GUY 1": {
+   "cast": {
+    "voice": "Derek",
+    "voiceId": "Q0Et7LOU7VpeoeCRQAVS",
+    "account_name": "Derek - Fun & Energetic Capture Attention"
+   }
+  },
+  "GUY 2": {
+   "cast": {
+    "voice": "Chris",
+    "voiceId": "iP95p4xoKVk53GoZ742B",
+    "account_name": "Chris - Charming, Down-to-Earth"
+   }
+  },
+  "GUY 3": {
+   "cast": {
+    "voice": "jack-james",
+    "voiceId": "Myb1gsDenT3mlMlj7vib",
+    "account_name": "jack-james"
+   }
+  }
+ },
+ "takes": [
+  {
+   "id": "l01",
+   "n": 1,
+   "file": "x20/01-camper.mp3",
+   "character": "CAMPER",
+   "voice": "Adam",
+   "voiceId": "pNInz6obpgDQGcFmaJgB",
+   "text": "One small drip.",
+   "say": "[friendly] [quick] One small drip.",
+   "source": "camper-1-adam/L01-t3",
+   "tempo": 1.1,
+   "dur": 1.455,
+   "end": 1.265,
+   "words": [
+    {
+     "w": "one",
+     "d": "One",
+     "t": 0.11,
+     "e": 0.436
+    },
+    {
+     "w": "small",
+     "d": "small",
+     "t": 0.436,
+     "e": 0.873
+    },
+    {
+     "w": "drip",
+     "d": "drip.",
+     "t": 0.873,
+     "e": 1.08
+    }
+   ],
+   "voiced": [
+    [
+     0.05,
+     1.08
+    ],
+    [
+     1.125,
+     1.265
+    ]
+   ]
+  },
+  {
+   "id": "l02",
+   "n": 2,
+   "file": "x20/02-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Can I get you anything else?",
+   "say": "[polite] [hinting] Can I get you anything else?",
+   "source": "ross-1-jack-tyler/L02-t2",
+   "tempo": 1.1,
+   "dur": 1.592,
+   "end": 1.37,
+   "words": [
+    {
+     "w": "can",
+     "d": "Can",
+     "t": 0.065,
+     "e": 0.211
+    },
+    {
+     "w": "i",
+     "d": "I",
+     "t": 0.211,
+     "e": 0.429
+    },
+    {
+     "w": "get",
+     "d": "get",
+     "t": 0.429,
+     "e": 0.574
+    },
+    {
+     "w": "you",
+     "d": "you",
+     "t": 0.574,
+     "e": 0.792
+    },
+    {
+     "w": "anything",
+     "d": "anything",
+     "t": 0.792,
+     "e": 1.01
+    },
+    {
+     "w": "else",
+     "d": "else?",
+     "t": 1.01,
+     "e": 1.37
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.37
+    ]
+   ]
+  },
+  {
+   "id": "l03",
+   "n": 3,
+   "file": "x20/03-camper.mp3",
+   "character": "CAMPER",
+   "voice": "Adam",
+   "voiceId": "pNInz6obpgDQGcFmaJgB",
+   "text": "I bought a coffee.",
+   "say": "[matter-of-fact] [not looking up] I bought a coffee.",
+   "source": "camper-1-adam/L03-t2",
+   "tempo": 1.0,
+   "dur": 1.385,
+   "end": 1.135,
+   "words": [
+    {
+     "w": "i",
+     "d": "I",
+     "t": 0.15,
+     "e": 0.27
+    },
+    {
+     "w": "bought",
+     "d": "bought",
+     "t": 0.27,
+     "e": 0.47
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 0.47,
+     "e": 0.59
+    },
+    {
+     "w": "coffee",
+     "d": "coffee.",
+     "t": 0.59,
+     "e": 1.135
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.135
+    ]
+   ]
+  },
+  {
+   "id": "l04",
+   "n": 4,
+   "file": "x20/04-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "...At eight.",
+   "say": "[flat] [dry] ...At eight.",
+   "source": "ross-1-jack-tyler/L04-t1",
+   "tempo": 1.0,
+   "dur": 1.09,
+   "end": 0.975,
+   "words": [
+    {
+     "w": "at",
+     "d": "...At",
+     "t": 0.21,
+     "e": 0.37
+    },
+    {
+     "w": "eight",
+     "d": "eight.",
+     "t": 0.37,
+     "e": 0.975
+    }
+   ],
+   "voiced": [
+    [
+     0.045,
+     0.975
+    ]
+   ]
+  },
+  {
+   "id": "l05",
+   "n": 5,
+   "file": "x20/05-camper.mp3",
+   "character": "CAMPER",
+   "voice": "Adam",
+   "voiceId": "pNInz6obpgDQGcFmaJgB",
+   "text": "Still drinking it.",
+   "say": "[smug] [matter-of-fact] Still drinking it.",
+   "source": "camper-1-adam/L05-t3",
+   "tempo": 1.1,
+   "dur": 1.569,
+   "end": 1.355,
+   "words": [
+    {
+     "w": "still",
+     "d": "Still",
+     "t": 0.27,
+     "e": 0.548
+    },
+    {
+     "w": "drinking",
+     "d": "drinking",
+     "t": 0.548,
+     "e": 0.986
+    },
+    {
+     "w": "it",
+     "d": "it.",
+     "t": 0.986,
+     "e": 1.355
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.355
+    ]
+   ]
+  },
+  {
+   "id": "l06",
+   "n": 6,
+   "file": "x20/06-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Someone else might want that table.",
+   "say": "[polite] [hinting] Someone else might want that table.",
+   "source": "ross-1-jack-tyler/L06-t1",
+   "tempo": 1.1,
+   "dur": 2.078,
+   "end": 2.04,
+   "words": [
+    {
+     "w": "someone",
+     "d": "Someone",
+     "t": 0.24,
+     "e": 0.539
+    },
+    {
+     "w": "else",
+     "d": "else",
+     "t": 0.539,
+     "e": 0.832
+    },
+    {
+     "w": "might",
+     "d": "might",
+     "t": 0.832,
+     "e": 1.125
+    },
+    {
+     "w": "want",
+     "d": "want",
+     "t": 1.125,
+     "e": 1.382
+    },
+    {
+     "w": "that",
+     "d": "that",
+     "t": 1.382,
+     "e": 1.711
+    },
+    {
+     "w": "table",
+     "d": "table.",
+     "t": 1.711,
+     "e": 2.04
+    }
+   ],
+   "voiced": [
+    [
+     0.065,
+     2.04
+    ]
+   ]
+  },
+  {
+   "id": "l07",
+   "n": 7,
+   "file": "x20/07-camper.mp3",
+   "character": "CAMPER",
+   "voice": "Adam",
+   "voiceId": "pNInz6obpgDQGcFmaJgB",
+   "text": "Who?",
+   "say": "[dry] [smug] Who?",
+   "source": "camper-1-adam/L07-t3",
+   "tempo": 1.0,
+   "dur": 0.86,
+   "end": 0.61,
+   "words": [
+    {
+     "w": "who",
+     "d": "Who?",
+     "t": 0.105,
+     "e": 0.61
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.61
+    ]
+   ]
+  },
+  {
+   "id": "l08",
+   "n": 8,
+   "file": "x20/08-dev1.mp3",
+   "character": "GUY 1",
+   "voice": "Derek",
+   "voiceId": "Q0Et7LOU7VpeoeCRQAVS",
+   "text": "One small drip.",
+   "say": "[breezy] One small drip.",
+   "source": "dev1-1-derek/L08-t2",
+   "tempo": 1.0,
+   "dur": 1.55,
+   "end": 1.39,
+   "words": [
+    {
+     "w": "one",
+     "d": "One",
+     "t": 0.02,
+     "e": 0.43
+    },
+    {
+     "w": "small",
+     "d": "small",
+     "t": 0.43,
+     "e": 0.83
+    },
+    {
+     "w": "drip",
+     "d": "drip.",
+     "t": 0.83,
+     "e": 1.08
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.08
+    ],
+    [
+     1.15,
+     1.39
+    ]
+   ]
+  },
+  {
+   "id": "l09",
+   "n": 9,
+   "file": "x20/09-dev2.mp3",
+   "character": "GUY 2",
+   "voice": "Chris",
+   "voiceId": "iP95p4xoKVk53GoZ742B",
+   "text": "Small drip.",
+   "say": "[quick] [casual] Small drip.",
+   "source": "dev2-1-chris/L09-t2",
+   "tempo": 1.0,
+   "dur": 1.09,
+   "end": 0.84,
+   "words": [
+    {
+     "w": "small",
+     "d": "Small",
+     "t": 0.17,
+     "e": 0.435
+    },
+    {
+     "w": "drip",
+     "d": "drip.",
+     "t": 0.435,
+     "e": 0.615
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.615
+    ],
+    [
+     0.675,
+     0.84
+    ]
+   ]
+  },
+  {
+   "id": "l10",
+   "n": 10,
+   "file": "x20/10-dev3.mp3",
+   "character": "GUY 3",
+   "voice": "jack-james",
+   "voiceId": "Myb1gsDenT3mlMlj7vib",
+   "text": "...Just water.",
+   "say": "[shy] [quiet] ...Just water.",
+   "source": "dev3-1-jack-james/L10-t1",
+   "tempo": 1.0,
+   "dur": 1.6,
+   "end": 1.405,
+   "words": [
+    {
+     "w": "just",
+     "d": "...Just",
+     "t": 0.304,
+     "e": 0.625
+    },
+    {
+     "w": "water",
+     "d": "water.",
+     "t": 0.8,
+     "e": 1.405
+    }
+   ],
+   "voiced": [
+    [
+     0.025,
+     0.06
+    ],
+    [
+     0.2,
+     0.625
+    ],
+    [
+     0.695,
+     1.405
+    ]
+   ]
+  },
+  {
+   "id": "l11",
+   "n": 11,
+   "file": "x20/11-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "...When are you leaving?",
+   "say": "[calm] [flat] ...When are you leaving?",
+   "source": "ross-1-jack-tyler/L11-t1",
+   "tempo": 1.0,
+   "dur": 1.44,
+   "end": 1.21,
+   "words": [
+    {
+     "w": "when",
+     "d": "...When",
+     "t": 0.19,
+     "e": 0.36
+    },
+    {
+     "w": "are",
+     "d": "are",
+     "t": 0.36,
+     "e": 0.48
+    },
+    {
+     "w": "you",
+     "d": "you",
+     "t": 0.48,
+     "e": 0.64
+    },
+    {
+     "w": "leaving",
+     "d": "leaving?",
+     "t": 0.64,
+     "e": 1.21
+    }
+   ],
+   "voiced": [
+    [
+     0.0,
+     1.21
+    ]
+   ]
+  },
+  {
+   "id": "l12",
+   "n": 12,
+   "file": "x20/12-camper.mp3",
+   "character": "CAMPER",
+   "voice": "Adam",
+   "voiceId": "pNInz6obpgDQGcFmaJgB",
+   "text": "When we sell the company.",
+   "say": "[casual] [distracted] When we sell the company.",
+   "source": "camper-1-adam/L12-t1",
+   "tempo": 1.1,
+   "dur": 1.587,
+   "end": 1.39,
+   "words": [
+    {
+     "w": "when",
+     "d": "When",
+     "t": 0.13,
+     "e": 0.348
+    },
+    {
+     "w": "we",
+     "d": "we",
+     "t": 0.348,
+     "e": 0.566
+    },
+    {
+     "w": "sell",
+     "d": "sell",
+     "t": 0.566,
+     "e": 0.749
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 0.749,
+     "e": 0.858
+    },
+    {
+     "w": "company",
+     "d": "company.",
+     "t": 0.858,
+     "e": 1.39
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.39
+    ]
+   ]
+  },
+  {
+   "id": "l13",
+   "n": 13,
+   "file": "x20/13-camper.mp3",
+   "character": "CAMPER",
+   "voice": "Adam",
+   "voiceId": "pNInz6obpgDQGcFmaJgB",
+   "text": "SOLD! FORTY MILLION!",
+   "say": "[triumphant] [yelling] SOLD! FORTY MILLION!",
+   "source": "camper-1-adam/L13-t2",
+   "tempo": 1.0,
+   "dur": 2.4,
+   "end": 2.315,
+   "words": [
+    {
+     "w": "sold",
+     "d": "SOLD!",
+     "t": 0.24,
+     "e": 0.885
+    },
+    {
+     "w": "forty",
+     "d": "FORTY",
+     "t": 1.2,
+     "e": 1.68
+    },
+    {
+     "w": "million",
+     "d": "MILLION!",
+     "t": 1.68,
+     "e": 2.315
+    }
+   ],
+   "voiced": [
+    [
+     0.03,
+     0.885
+    ],
+    [
+     1.075,
+     2.315
+    ]
+   ]
+  },
+  {
+   "id": "l14",
+   "n": 14,
+   "file": "x20/14-camper.mp3",
+   "character": "CAMPER",
+   "voice": "Adam",
+   "voiceId": "pNInz6obpgDQGcFmaJgB",
+   "text": "Refills are free, right?",
+   "say": "[cheerful] [casual] Refills are free, right?",
+   "source": "camper-1-adam/L14-t1",
+   "tempo": 1.1,
+   "dur": 1.64,
+   "end": 1.475,
+   "words": [
+    {
+     "w": "refills",
+     "d": "Refills",
+     "t": 0.1,
+     "e": 0.548
+    },
+    {
+     "w": "are",
+     "d": "are",
+     "t": 0.548,
+     "e": 0.766
+    },
+    {
+     "w": "free",
+     "d": "free,",
+     "t": 0.766,
+     "e": 1.203
+    },
+    {
+     "w": "right",
+     "d": "right?",
+     "t": 1.203,
+     "e": 1.475
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.475
+    ]
+   ]
+  },
+  {
+   "id": "l15",
+   "n": 15,
+   "file": "x20/15-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "...Forty million.",
+   "say": "[flat] [dry] ...Forty million.",
+   "source": "ross-1-jack-tyler/L15-t1",
+   "tempo": 1.0,
+   "dur": 1.285,
+   "end": 1.08,
+   "words": [
+    {
+     "w": "forty",
+     "d": "...Forty",
+     "t": 0.16,
+     "e": 0.485
+    },
+    {
+     "w": "million",
+     "d": "million.",
+     "t": 0.485,
+     "e": 1.08
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.08
+    ]
+   ]
+  }
+ ],
+ "tableRead": {
+  "file": "out/x20-table-read.mp3",
+  "dur": 28.4,
+  "lufs": -15.9,
+  "gaps": {
+   "1": 0.5,
+   "2": 0.15,
+   "3": 0.25,
+   "4": 0.4,
+   "5": 0.3,
+   "6": 0.25,
+   "7": 1.5,
+   "8": 0.1,
+   "9": 0.15,
+   "10": 2.1,
+   "11": 0.2,
+   "12": 1.3,
+   "13": 1.3,
+   "14": 0.35
+  },
+  "cues": [
+   {
+    "n": 1,
+    "at": 0.1,
+    "speech": [
+     0.15,
+     1.365
+    ]
+   },
+   {
+    "n": 2,
+    "at": 1.805,
+    "speech": [
+     1.865,
+     3.175
+    ]
+   },
+   {
+    "n": 3,
+    "at": 3.265,
+    "speech": [
+     3.325,
+     4.4
+    ]
+   },
+   {
+    "n": 4,
+    "at": 4.605,
+    "speech": [
+     4.65,
+     5.58
+    ]
+   },
+   {
+    "n": 5,
+    "at": 5.92,
+    "speech": [
+     5.98,
+     7.275
+    ]
+   },
+   {
+    "n": 6,
+    "at": 7.51,
+    "speech": [
+     7.575,
+     9.55
+    ]
+   },
+   {
+    "n": 7,
+    "at": 9.74,
+    "speech": [
+     9.8,
+     10.35
+    ]
+   },
+   {
+    "n": 8,
+    "at": 11.79,
+    "speech": [
+     11.85,
+     13.18
+    ]
+   },
+   {
+    "n": 9,
+    "at": 13.22,
+    "speech": [
+     13.28,
+     14.06
+    ]
+   },
+   {
+    "n": 10,
+    "at": 14.185,
+    "speech": [
+     14.21,
+     15.59
+    ]
+   },
+   {
+    "n": 11,
+    "at": 17.69,
+    "speech": [
+     17.69,
+     18.9
+    ]
+   },
+   {
+    "n": 12,
+    "at": 19.04,
+    "speech": [
+     19.1,
+     20.43
+    ]
+   },
+   {
+    "n": 13,
+    "at": 21.7,
+    "speech": [
+     21.73,
+     24.015
+    ]
+   },
+   {
+    "n": 14,
+    "at": 25.255,
+    "speech": [
+     25.315,
+     26.73
+    ]
+   },
+   {
+    "n": 15,
+    "at": 27.02,
+    "speech": [
+     27.08,
+     28.1
+    ]
+   }
+  ],
+  "sfx": []
+ }
+}

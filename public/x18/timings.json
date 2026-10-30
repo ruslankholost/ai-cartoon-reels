@@ -1,0 +1,803 @@
+{
+ "model": "eleven_v4",
+ "target_lufs": -19.0,
+ "cast": {
+  "MOM": {
+   "cast": {
+    "voice": "Sarah",
+    "voiceId": "EXAVITQu4vr4xnSDxMaL",
+    "account_name": "Sarah - Mature, Reassuring, Confident"
+   }
+  },
+  "ROSS": {
+   "cast": {
+    "voice": "jack-tyler",
+    "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+    "account_name": "jack-tyler"
+   }
+  },
+  "GRANDPA": {
+   "cast": {
+    "voice": "Bill",
+    "voiceId": "pqHfZKP75CvOlQylNhV4",
+    "account_name": "Bill - Wise, Mature, Balanced"
+   }
+  },
+  "TODDLER": {
+   "cast": {
+    "voice": "Jessica",
+    "voiceId": "cgSgspJ2msm6clMCkdW9",
+    "account_name": "Jessica - Playful, Bright, Warm"
+   }
+  },
+  "KID": {
+   "cast": {
+    "voice": "jack-james",
+    "voiceId": "Myb1gsDenT3mlMlj7vib",
+    "account_name": "jack-james"
+   }
+  }
+ },
+ "takes": [
+  {
+   "id": "l01",
+   "n": 1,
+   "file": "x18/01-mom.mp3",
+   "character": "MOM",
+   "voice": "Sarah",
+   "voiceId": "EXAVITQu4vr4xnSDxMaL",
+   "text": "He's just exploring!",
+   "say": "[cheerful] [distracted] He's just exploring!",
+   "source": "mom-3-sarah/L01-t2",
+   "tempo": 1.1,
+   "dur": 1.607,
+   "end": 1.505,
+   "words": [
+    {
+     "w": "he's",
+     "d": "He's",
+     "t": 0.146,
+     "e": 0.438
+    },
+    {
+     "w": "just",
+     "d": "just",
+     "t": 0.438,
+     "e": 0.657
+    },
+    {
+     "w": "exploring",
+     "d": "exploring!",
+     "t": 0.657,
+     "e": 0.835
+    }
+   ],
+   "voiced": [
+    [
+     0.055,
+     0.835
+    ],
+    [
+     0.87,
+     1.505
+    ]
+   ]
+  },
+  {
+   "id": "l02",
+   "n": 2,
+   "file": "x18/02-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "...That's the register.",
+   "say": "[polite] [strained] ...That's the register.",
+   "source": "ross-1-jack-tyler/L02-t1",
+   "tempo": 1.1,
+   "dur": 1.637,
+   "end": 1.47,
+   "words": [
+    {
+     "w": "that's",
+     "d": "...That's",
+     "t": 0.108,
+     "e": 0.545
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 0.545,
+     "e": 0.909
+    },
+    {
+     "w": "register",
+     "d": "register.",
+     "t": 0.909,
+     "e": 1.47
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.47
+    ]
+   ]
+  },
+  {
+   "id": "l03",
+   "n": 3,
+   "file": "x18/03-mom.mp3",
+   "character": "MOM",
+   "voice": "Sarah",
+   "voiceId": "EXAVITQu4vr4xnSDxMaL",
+   "text": "Do you have kids?",
+   "say": "[condescending] [distracted] Do you have kids?",
+   "source": "mom-3-sarah/L03-t1",
+   "tempo": 1.1,
+   "dur": 1.447,
+   "end": 1.37,
+   "words": [
+    {
+     "w": "do",
+     "d": "Do",
+     "t": 0.01,
+     "e": 0.35
+    },
+    {
+     "w": "you",
+     "d": "you",
+     "t": 0.35,
+     "e": 0.497
+    },
+    {
+     "w": "have",
+     "d": "have",
+     "t": 0.497,
+     "e": 0.716
+    },
+    {
+     "w": "kids",
+     "d": "kids?",
+     "t": 0.716,
+     "e": 1.37
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.37
+    ]
+   ]
+  },
+  {
+   "id": "l04",
+   "n": 4,
+   "file": "x18/04-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "...No.",
+   "say": "[flat] ...No.",
+   "source": "ross-1-jack-tyler/L04-t1",
+   "tempo": 1.0,
+   "dur": 0.865,
+   "end": 0.66,
+   "words": [
+    {
+     "w": "no",
+     "d": "...No.",
+     "t": 0.02,
+     "e": 0.66
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.66
+    ]
+   ]
+  },
+  {
+   "id": "l05",
+   "n": 5,
+   "file": "x18/05-mom.mp3",
+   "character": "MOM",
+   "voice": "Sarah",
+   "voiceId": "EXAVITQu4vr4xnSDxMaL",
+   "text": "Then you wouldn't understand.",
+   "say": "[dismissive] [knowing] Then you wouldn't understand.",
+   "source": "mom-3-sarah/L05-t3",
+   "tempo": 1.1,
+   "dur": 1.823,
+   "end": 1.595,
+   "words": [
+    {
+     "w": "then",
+     "d": "Then",
+     "t": 0.01,
+     "e": 0.357
+    },
+    {
+     "w": "you",
+     "d": "you",
+     "t": 0.357,
+     "e": 0.576
+    },
+    {
+     "w": "wouldn't",
+     "d": "wouldn't",
+     "t": 0.576,
+     "e": 0.796
+    },
+    {
+     "w": "understand",
+     "d": "understand.",
+     "t": 0.796,
+     "e": 1.595
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.595
+    ]
+   ]
+  },
+  {
+   "id": "l06",
+   "n": 6,
+   "file": "x18/06-mom.mp3",
+   "character": "MOM",
+   "voice": "Sarah",
+   "voiceId": "EXAVITQu4vr4xnSDxMaL",
+   "text": "...Free puppy?",
+   "say": "[curious] [scheming] ...Free puppy?",
+   "source": "mom-3-sarah/L06-t2",
+   "tempo": 1.0,
+   "dur": 1.575,
+   "end": 1.39,
+   "words": [
+    {
+     "w": "free",
+     "d": "...Free",
+     "t": 0.26,
+     "e": 0.55
+    },
+    {
+     "w": "puppy",
+     "d": "puppy?",
+     "t": 0.695,
+     "e": 0.895
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.55
+    ],
+    [
+     0.64,
+     0.895
+    ],
+    [
+     0.935,
+     1.39
+    ]
+   ]
+  },
+  {
+   "id": "l07",
+   "n": 7,
+   "file": "x18/07-mom.mp3",
+   "character": "MOM",
+   "voice": "Sarah",
+   "voiceId": "EXAVITQu4vr4xnSDxMaL",
+   "text": "Ladies, bring the kids!",
+   "say": "[excited] [fast] Ladies, bring the kids!",
+   "source": "mom-3-sarah/L07-t1",
+   "tempo": 1.15,
+   "dur": 1.744,
+   "end": 1.605,
+   "words": [
+    {
+     "w": "ladies",
+     "d": "Ladies,",
+     "t": 0.0,
+     "e": 0.767
+    },
+    {
+     "w": "bring",
+     "d": "bring",
+     "t": 0.767,
+     "e": 0.977
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 0.977,
+     "e": 1.116
+    },
+    {
+     "w": "kids",
+     "d": "kids!",
+     "t": 1.116,
+     "e": 1.605
+    }
+   ],
+   "voiced": [
+    [
+     0.005,
+     1.605
+    ]
+   ]
+  },
+  {
+   "id": "l08",
+   "n": 8,
+   "file": "x18/08-grandpa.mp3",
+   "character": "GRANDPA",
+   "voice": "Bill",
+   "voiceId": "pqHfZKP75CvOlQylNhV4",
+   "text": "See you Tuesday!",
+   "say": "[cheerful] [breezy] See you Tuesday!",
+   "source": "grandpa-1-bill/L08-t1",
+   "tempo": 1.0,
+   "dur": 1.265,
+   "end": 1.05,
+   "words": [
+    {
+     "w": "see",
+     "d": "See",
+     "t": 0.17,
+     "e": 0.305
+    },
+    {
+     "w": "you",
+     "d": "you",
+     "t": 0.305,
+     "e": 0.465
+    },
+    {
+     "w": "tuesday",
+     "d": "Tuesday!",
+     "t": 0.465,
+     "e": 1.05
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.05
+    ]
+   ]
+  },
+  {
+   "id": "l09",
+   "n": 9,
+   "file": "x18/09-kid1.mp3",
+   "character": "TODDLER",
+   "voice": "Jessica",
+   "voiceId": "cgSgspJ2msm6clMCkdW9",
+   "text": "Puppy! Puppy!",
+   "say": "[shouting] [demanding] Puppy! Puppy!",
+   "source": "kid1-1-jessica/L09-t5",
+   "tempo": 1.15,
+   "dur": 1.73,
+   "end": 1.53,
+   "words": [
+    {
+     "w": "puppy",
+     "d": "Puppy!",
+     "t": 0.07,
+     "e": 0.495
+    },
+    {
+     "w": "puppy",
+     "d": "Puppy!",
+     "t": 0.906,
+     "e": 1.53
+    }
+   ],
+   "voiced": [
+    [
+     0.035,
+     0.495
+    ],
+    [
+     0.85,
+     1.53
+    ]
+   ]
+  },
+  {
+   "id": "l10",
+   "n": 10,
+   "file": "x18/10-kid2.mp3",
+   "character": "KID",
+   "voice": "Laura",
+   "voiceId": "FGY2WhTYpPnrIDTdsKH5",
+   "text": "Puppy! Puppy!",
+   "say": "[shouting] [demanding] Puppy! Puppy!",
+   "source": "kid2-1-laura/L10-t5",
+   "tempo": 1.15,
+   "dur": 1.754,
+   "end": 1.505,
+   "words": [
+    {
+     "w": "puppy",
+     "d": "Puppy!",
+     "t": 0.089,
+     "e": 0.54
+    },
+    {
+     "w": "puppy",
+     "d": "Puppy!",
+     "t": 0.926,
+     "e": 1.505
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.54
+    ],
+    [
+     0.885,
+     1.505
+    ]
+   ]
+  },
+  {
+   "id": "l11",
+   "n": 11,
+   "file": "x18/11-kid3.mp3",
+   "character": "KID",
+   "voice": "jack-james",
+   "voiceId": "Myb1gsDenT3mlMlj7vib",
+   "text": "Puppy! Puppy!",
+   "say": "[shouting] [demanding] Puppy! Puppy!",
+   "source": "kid3-1-jack-james/L11-t5",
+   "tempo": 1.15,
+   "dur": 1.66,
+   "end": 1.41,
+   "words": [
+    {
+     "w": "puppy",
+     "d": "Puppy!",
+     "t": 0.07,
+     "e": 0.44
+    },
+    {
+     "w": "puppy",
+     "d": "Puppy!",
+     "t": 0.905,
+     "e": 1.41
+    }
+   ],
+   "voiced": [
+    [
+     0.025,
+     0.44
+    ],
+    [
+     0.855,
+     1.41
+    ]
+   ]
+  },
+  {
+   "id": "l12",
+   "n": 12,
+   "file": "x18/12-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Espresso first.",
+   "say": "[matter-of-fact] [dry] Espresso first.",
+   "source": "ross-1-jack-tyler/L12-t2",
+   "tempo": 1.0,
+   "dur": 1.36,
+   "end": 1.155,
+   "words": [
+    {
+     "w": "espresso",
+     "d": "Espresso",
+     "t": 0.08,
+     "e": 0.205
+    },
+    {
+     "w": "first",
+     "d": "first.",
+     "t": 0.64,
+     "e": 1.155
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.205
+    ],
+    [
+     0.24,
+     1.155
+    ]
+   ]
+  },
+  {
+   "id": "l13",
+   "n": 13,
+   "file": "x18/13-kid1.mp3",
+   "character": "TODDLER",
+   "voice": "Jessica",
+   "voiceId": "cgSgspJ2msm6clMCkdW9",
+   "text": "Six fifty.",
+   "say": "[businesslike] [hyper] Six fifty.",
+   "source": "kid1-1-jessica/L13-t2",
+   "tempo": 1.0,
+   "dur": 1.15,
+   "end": 0.905,
+   "words": [
+    {
+     "w": "six",
+     "d": "Six",
+     "t": 0.293,
+     "e": 0.4
+    },
+    {
+     "w": "fifty",
+     "d": "fifty.",
+     "t": 0.4,
+     "e": 0.905
+    }
+   ],
+   "voiced": [
+    [
+     0.005,
+     0.905
+    ]
+   ]
+  },
+  {
+   "id": "l14",
+   "n": 14,
+   "file": "x18/14-mom.mp3",
+   "character": "MOM",
+   "voice": "Sarah",
+   "voiceId": "EXAVITQu4vr4xnSDxMaL",
+   "text": "WHO GAVE HIM ESPRESSO?!",
+   "say": "[screaming] [horrified] WHO GAVE HIM ESPRESSO?!",
+   "source": "mom-3-sarah/L14-t2",
+   "tempo": 1.0,
+   "dur": 2.07,
+   "end": 1.815,
+   "words": [
+    {
+     "w": "who",
+     "d": "WHO",
+     "t": 0.07,
+     "e": 0.39
+    },
+    {
+     "w": "gave",
+     "d": "GAVE",
+     "t": 0.39,
+     "e": 0.63
+    },
+    {
+     "w": "him",
+     "d": "HIM",
+     "t": 0.63,
+     "e": 0.79
+    },
+    {
+     "w": "espresso",
+     "d": "ESPRESSO?!",
+     "t": 0.79,
+     "e": 1.005
+    }
+   ],
+   "voiced": [
+    [
+     0.0,
+     0.035
+    ],
+    [
+     0.08,
+     1.005
+    ],
+    [
+     1.08,
+     1.815
+    ]
+   ]
+  },
+  {
+   "id": "l15",
+   "n": 15,
+   "file": "x18/15-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "He was exploring.",
+   "say": "[innocent] [calm] He was exploring.",
+   "source": "ross-1-jack-tyler/L15-t3",
+   "tempo": 1.0,
+   "dur": 1.46,
+   "end": 1.21,
+   "words": [
+    {
+     "w": "he",
+     "d": "He",
+     "t": 0.12,
+     "e": 0.36
+    },
+    {
+     "w": "was",
+     "d": "was",
+     "t": 0.36,
+     "e": 0.6
+    },
+    {
+     "w": "exploring",
+     "d": "exploring.",
+     "t": 0.6,
+     "e": 0.65
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.65
+    ],
+    [
+     0.69,
+     1.21
+    ]
+   ]
+  }
+ ],
+ "tableRead": {
+  "file": "out/x18-table-read.mp3",
+  "dur": 27.73,
+  "lufs": -16.0,
+  "gaps": {
+   "1": 0.25,
+   "2": 0.3,
+   "3": 0.25,
+   "4": 0.4,
+   "5": 1.6,
+   "6": 0.75,
+   "7": 0.9,
+   "8": 0.2,
+   "9": -1.4,
+   "10": -1.38,
+   "11": 0.3,
+   "12": 4.0,
+   "13": 0.25,
+   "14": 0.35
+  },
+  "cues": [
+   {
+    "n": 1,
+    "at": 1.095,
+    "speech": [
+     1.15,
+     2.6
+    ]
+   },
+   {
+    "n": 2,
+    "at": 2.79,
+    "speech": [
+     2.85,
+     4.26
+    ]
+   },
+   {
+    "n": 3,
+    "at": 4.5,
+    "speech": [
+     4.56,
+     5.87
+    ]
+   },
+   {
+    "n": 4,
+    "at": 6.06,
+    "speech": [
+     6.12,
+     6.72
+    ]
+   },
+   {
+    "n": 5,
+    "at": 7.06,
+    "speech": [
+     7.12,
+     8.655
+    ]
+   },
+   {
+    "n": 6,
+    "at": 10.195,
+    "speech": [
+     10.255,
+     11.585
+    ]
+   },
+   {
+    "n": 7,
+    "at": 12.33,
+    "speech": [
+     12.335,
+     13.935
+    ]
+   },
+   {
+    "n": 8,
+    "at": 14.775,
+    "speech": [
+     14.835,
+     15.825
+    ]
+   },
+   {
+    "n": 9,
+    "at": 15.99,
+    "speech": [
+     16.025,
+     17.52
+    ]
+   },
+   {
+    "n": 10,
+    "at": 16.06,
+    "speech": [
+     16.12,
+     17.565
+    ]
+   },
+   {
+    "n": 11,
+    "at": 16.16,
+    "speech": [
+     16.185,
+     17.57
+    ]
+   },
+   {
+    "n": 12,
+    "at": 17.81,
+    "speech": [
+     17.87,
+     18.965
+    ]
+   },
+   {
+    "n": 13,
+    "at": 22.96,
+    "speech": [
+     22.965,
+     23.865
+    ]
+   },
+   {
+    "n": 14,
+    "at": 24.115,
+    "speech": [
+     24.115,
+     25.93
+    ]
+   },
+   {
+    "n": 15,
+    "at": 26.22,
+    "speech": [
+     26.28,
+     27.43
+    ]
+   }
+  ],
+  "sfx": []
+ }
+}

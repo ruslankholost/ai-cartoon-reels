@@ -1,0 +1,208 @@
+// Season 1, episode 1 "Triple-A" (a reference account's beats in our world; script docs/s1e01-triple-a.md, Ross 2026-10-19: "come on, try making a reel").
+// Phantom narrates; his lines are thoughts (his mouth never moves). The swearing is bleeped in the line files.
+// Format: see scripts/voice-gen.mjs (lines, directions) and scripts/voice-build.py (cast, plan, gaps, lead, tableSfx); the picture: scripts/shots.py.
+{
+ "title": "Triple-A",
+ "cast": {"phantom": 1, "dave": 1, "sarah": 1, "chuck": 1},
+ "lines": [
+// the belief
+  {"n": 1, "char": "dave", "text": "Triple-A Garage Doors, baby.", "dirs": [
+   {"t": "[proud] [satisfied]", "st": 0.4, "sy": 0.45},
+   {"t": "[excited] [pleased with himself]", "st": 0.35, "sy": 0.5},
+   {"t": "[smug] [loud]", "st": 0.4, "sy": 0.45}
+  ]},
+  {"n": 2, "char": "sarah", "text": "Sounds like a battery.", "dirs": [
+   {"t": "[flat] [unimpressed]", "st": 0.5, "sy": 0.25},
+   {"t": "[dry] [tired]", "st": 0.5, "sy": 0.25},
+   {"t": "[sarcastic] [deadpan]", "st": 0.45, "sy": 0.35}
+  ]},
+  {"n": 3, "char": "dave", "text": "Triple-A means top quality.", "dirs": [
+   {"t": "[confident] [lecturing]", "st": 0.4, "sy": 0.45},
+   {"t": "[defensive] [firm]", "st": 0.4, "sy": 0.4},
+   {"t": "[know-it-all]", "st": 0.4, "sy": 0.45}
+  ]},
+  {"n": 4, "char": "dave", "text": "Everybody knows that.", "dirs": [
+   {"t": "[confident] [dismissive]", "st": 0.45, "sy": 0.35},
+   {"t": "[know-it-all] [smug]", "st": 0.4, "sy": 0.45},
+   {"t": "[annoyed] [obvious]", "st": 0.45, "sy": 0.35}
+  ]},
+  {"n": 5, "char": "phantom", "text": "Who told you Triple-A means quality?", "dirs": [
+   {"t": "[dry] [skeptical]", "st": 0.5, "sy": 0.25},
+   {"t": "[deadpan] [curious]", "st": 0.5, "sy": 0.25},
+   {"t": "[unimpressed] [slow]", "st": 0.55, "sy": 0.2}
+  ]},
+  {"n": 6, "char": "dave", "text": "Every locksmith in town's got it!", "dirs": [
+   {"t": "[defensive] [loud]", "st": 0.35, "sy": 0.5},
+   {"t": "[irritated] [arguing]", "st": 0.35, "sy": 0.5},
+   {"t": "[worked up]", "st": 0.4, "sy": 0.45}
+  ]},
+  {"n": 7, "char": "dave", "text": "Every fucking tow truck's got it!", "dirs": [
+   {"t": "[angry] [shouting]", "st": 0.35, "sy": 0.5},
+   {"t": "[irritated] [yelling]", "st": 0.35, "sy": 0.5},
+   {"t": "[worked up] [loud]", "st": 0.4, "sy": 0.45}
+  ]},
+  {"n": 8, "char": "phantom", "text": "Every tow truck. Sure.", "dirs": [
+   {"t": "[deadpan] [dry]", "st": 0.5, "sy": 0.25},
+   {"t": "[sarcastic]", "st": 0.45, "sy": 0.35},
+   {"t": "[unimpressed] [flat]", "st": 0.55, "sy": 0.2}
+  ]},
+  {"n": 9, "char": "phantom", "text": "Sit down. This one starts in the phone book.", "dirs": [
+   {"t": "[dry] [storytelling]", "st": 0.5, "sy": 0.3},
+   {"t": "[matter-of-fact] [knowing]", "st": 0.5, "sy": 0.25},
+   {"t": "[sly] [low]", "st": 0.45, "sy": 0.35}
+  ]},
+// the story
+  {"n": 10, "char": "phantom", "text": "Your door breaks, you grab the yellow book.", "dirs": [
+   {"t": "[storytelling] [dry]", "st": 0.5, "sy": 0.3},
+   {"t": "[matter-of-fact]", "st": 0.5, "sy": 0.25},
+   {"t": "[knowing] [calm]", "st": 0.5, "sy": 0.3}
+  ]},
+  {"n": 11, "char": "phantom", "text": "Find Garage Doors. Call the first name.", "dirs": [
+   {"t": "[storytelling] [dry]", "st": 0.5, "sy": 0.3},
+   {"t": "[matter-of-fact]", "st": 0.5, "sy": 0.25},
+   {"t": "[knowing] [calm]", "st": 0.5, "sy": 0.3}
+  ]},
+  {"n": 12, "char": "phantom", "text": "So everybody wants to be the first name.", "dirs": [
+   {"t": "[storytelling] [dry]", "st": 0.5, "sy": 0.3},
+   {"t": "[knowing] [sly]", "st": 0.45, "sy": 0.35},
+   {"t": "[matter-of-fact]", "st": 0.5, "sy": 0.25}
+  ]},
+  {"n": 13, "char": "phantom", "text": "A-One. Double-A. Triple-A.", "dirs": [
+   {"t": "[counting] [dry]", "st": 0.5, "sy": 0.3},
+   {"t": "[deadpan] [building]", "st": 0.45, "sy": 0.35},
+   {"t": "[matter-of-fact]", "st": 0.5, "sy": 0.25}
+  ]},
+  {"n": 14, "char": "phantom", "text": "Tulsa, nineteen sixty-two.", "dirs": [
+   {"t": "[storytelling] [low]", "st": 0.5, "sy": 0.3},
+   {"t": "[matter-of-fact]", "st": 0.5, "sy": 0.25},
+   {"t": "[documentary narrator]", "st": 0.5, "sy": 0.3}
+  ]},
+  {"n": 15, "char": "phantom", "text": "A company asks the phone company for twenty-three A's.", "dirs": [
+   {"t": "[storytelling] [dry]", "st": 0.5, "sy": 0.3},
+   {"t": "[deadpan] [amused]", "st": 0.45, "sy": 0.35},
+   {"t": "[matter-of-fact]", "st": 0.5, "sy": 0.25}
+  ]},
+  {"n": 16, "char": "phantom", "text": "Phone company says no.", "dirs": [
+   {"t": "[deadpan] [dry]", "st": 0.5, "sy": 0.25},
+   {"t": "[matter-of-fact]", "st": 0.5, "sy": 0.25},
+   {"t": "[flat]", "st": 0.55, "sy": 0.2}
+  ]},
+  {"n": 17, "char": "phantom", "text": "They sue, and they lose.", "dirs": [
+   {"t": "[deadpan] [dry]", "st": 0.5, "sy": 0.25},
+   {"t": "[amused] [dry]", "st": 0.45, "sy": 0.35},
+   {"t": "[matter-of-fact]", "st": 0.5, "sy": 0.25}
+  ]},
+  {"n": 18, "char": "phantom", "text": "Kansas City, seventy-three.", "dirs": [
+   {"t": "[storytelling] [low]", "st": 0.5, "sy": 0.3},
+   {"t": "[matter-of-fact]", "st": 0.5, "sy": 0.25},
+   {"t": "[documentary narrator]", "st": 0.5, "sy": 0.3}
+  ]},
+  {"n": 19, "char": "phantom", "text": "The phone company starts crossing out extra A's.", "dirs": [
+   {"t": "[storytelling] [dry]", "st": 0.5, "sy": 0.3},
+   {"t": "[matter-of-fact]", "st": 0.5, "sy": 0.25},
+   {"t": "[knowing] [calm]", "st": 0.5, "sy": 0.3}
+  ]},
+  {"n": 20, "char": "phantom", "text": "Plumbers first.", "dirs": [
+   {"t": "[deadpan] [dry]", "st": 0.5, "sy": 0.25},
+   {"t": "[amused] [dry]", "st": 0.45, "sy": 0.35},
+   {"t": "[flat]", "st": 0.55, "sy": 0.2}
+  ]},
+  {"n": 21, "char": "phantom", "text": "Ninety-five. A dentist names his office...", "dirs": [
+   {"t": "[storytelling] [dry]", "st": 0.5, "sy": 0.3},
+   {"t": "[matter-of-fact]", "st": 0.5, "sy": 0.25},
+   {"t": "[amused] [building]", "st": 0.45, "sy": 0.35}
+  ]},
+  {"n": 22, "char": "phantom", "text": "A-Double-A Amazing Dental Laser.", "dirs": [
+   {"t": "[deadpan] [slow]", "st": 0.5, "sy": 0.25},
+   {"t": "[dry] [amused]", "st": 0.45, "sy": 0.35},
+   {"t": "[flat] [unimpressed]", "st": 0.55, "sy": 0.2}
+  ]},
+  {"n": 23, "char": "phantom", "text": "Even the dentists.", "dirs": [
+   {"t": "[deadpan] [dry]", "st": 0.5, "sy": 0.25},
+   {"t": "[sighs] [unimpressed]", "st": 0.5, "sy": 0.25},
+   {"t": "[sarcastic]", "st": 0.45, "sy": 0.35}
+  ]},
+  {"n": 24, "char": "phantom", "text": "Then an economist counts Chicago plumbers.", "dirs": [
+   {"t": "[storytelling] [dry]", "st": 0.5, "sy": 0.3},
+   {"t": "[matter-of-fact]", "st": 0.5, "sy": 0.25},
+   {"t": "[knowing] [building]", "st": 0.45, "sy": 0.35}
+  ]},
+  {"n": 25, "char": "phantom", "text": "One in five starts with an A or a number.", "dirs": [
+   {"t": "[matter-of-fact] [dry]", "st": 0.5, "sy": 0.25},
+   {"t": "[storytelling]", "st": 0.5, "sy": 0.3},
+   {"t": "[knowing] [calm]", "st": 0.5, "sy": 0.3}
+  ]},
+  {"n": 26, "char": "phantom", "text": "Those get five times the complaints.", "dirs": [
+   {"t": "[deadpan] [punchline]", "st": 0.5, "sy": 0.3},
+   {"t": "[dry] [knowing]", "st": 0.5, "sy": 0.3},
+   {"t": "[matter-of-fact] [slow]", "st": 0.55, "sy": 0.2}
+  ]},
+  {"n": 27, "char": "phantom", "text": "Triple-A was about being first in the book.", "dirs": [
+   {"t": "[dry] [matter-of-fact]", "st": 0.5, "sy": 0.25},
+   {"t": "[knowing] [calm]", "st": 0.5, "sy": 0.3},
+   {"t": "[deadpan]", "st": 0.5, "sy": 0.25}
+  ]},
+  {"n": 28, "char": "phantom", "text": "Nobody ever checked if the guy was any good.", "dirs": [
+   {"t": "[dry] [sarcastic]", "st": 0.45, "sy": 0.35},
+   {"t": "[deadpan]", "st": 0.5, "sy": 0.25},
+   {"t": "[unimpressed]", "st": 0.5, "sy": 0.25}
+  ]},
+  {"n": 29, "char": "phantom", "text": "And your phone doesn't sort anybody by A.", "dirs": [
+   {"t": "[dry] [matter-of-fact]", "st": 0.5, "sy": 0.25},
+   {"t": "[knowing] [sly]", "st": 0.45, "sy": 0.35},
+   {"t": "[deadpan]", "st": 0.5, "sy": 0.25}
+  ]},
+  {"n": 30, "char": "phantom", "text": "It looks at who's close and who people know.", "dirs": [
+   {"t": "[dry] [matter-of-fact]", "st": 0.5, "sy": 0.25},
+   {"t": "[knowing] [calm]", "st": 0.5, "sy": 0.3},
+   {"t": "[deadpan]", "st": 0.5, "sy": 0.25}
+  ]},
+// back to the driveway
+  {"n": 31, "char": "dave", "text": "Now they'll find me first.", "dirs": [
+   {"t": "[proud] [satisfied]", "st": 0.4, "sy": 0.45},
+   {"t": "[smug] [pleased with himself]", "st": 0.4, "sy": 0.45},
+   {"t": "[confident] [grinning]", "st": 0.4, "sy": 0.4}
+  ]},
+  {"n": 32, "char": "chuck", "text": "Triple-A? You the cheap guy?", "dirs": [
+   {"t": "[blunt] [haggling]", "st": 0.4, "sy": 0.45},
+   {"t": "[suspicious] [cheap]", "st": 0.4, "sy": 0.45},
+   {"t": "[impatient] [rude]", "st": 0.4, "sy": 0.4}
+  ]},
+  {"n": 33, "char": "dave", "text": "Yeah. Yeah, that's me.", "dirs": [
+   {"t": "[hesitant] [defeated]", "st": 0.45, "sy": 0.35, "text": "...Yeah. Yeah, that's me."},
+   {"t": "[sighs] [resigned]", "st": 0.45, "sy": 0.3, "text": "[sighs] Yeah. Yeah, that's me."},
+   {"t": "[deflated] [quiet]", "st": 0.5, "sy": 0.3, "text": "...Yeah. Yeah, that's me."}
+  ]},
+  {"n": 34, "char": "phantom", "text": "Five times the complaints. Starting now.", "dirs": [
+   {"t": "[deadpan] [dry]", "st": 0.5, "sy": 0.25},
+   {"t": "[sarcastic] [knowing]", "st": 0.45, "sy": 0.35},
+   {"t": "[unimpressed] [flat]", "st": 0.55, "sy": 0.2}
+  ]},
+// to the viewer
+  {"n": 35, "char": "phantom", "text": "Dad copied a trick from a book nobody opens.", "dirs": [
+   {"t": "[dry] [matter-of-fact]", "st": 0.5, "sy": 0.25},
+   {"t": "[resigned] [dry]", "st": 0.5, "sy": 0.25},
+   {"t": "[deadpan]", "st": 0.5, "sy": 0.25}
+  ]},
+  {"n": 36, "char": "phantom", "text": "What are you still doing because a phone book said so?", "dirs": [
+   {"t": "[direct] [dry]", "st": 0.5, "sy": 0.3},
+   {"t": "[knowing] [calm] [slow]", "st": 0.5, "sy": 0.3},
+   {"t": "[sly] [low]", "st": 0.45, "sy": 0.35}
+  ]},
+  {"n": 37, "char": "phantom", "text": "Daves do what everybody does.", "dirs": [
+   {"t": "[dry] [matter-of-fact]", "st": 0.5, "sy": 0.25},
+   {"t": "[deadpan] [knowing]", "st": 0.5, "sy": 0.25},
+   {"t": "[unimpressed]", "st": 0.5, "sy": 0.25}
+  ]},
+  {"n": 38, "char": "phantom", "text": "Phantoms ask who started it.", "dirs": [
+   {"t": "[sly] [confident]", "st": 0.45, "sy": 0.35},
+   {"t": "[dry] [knowing]", "st": 0.5, "sy": 0.3},
+   {"t": "[smug] [low]", "st": 0.45, "sy": 0.35}
+  ]},
+  {"n": 39, "char": "phantom", "text": "Follow, so you don't miss the next episode.", "dirs": [
+   {"t": "[dry] [deadpan]", "st": 0.5, "sy": 0.25, "text": "Follow... so you don't miss the next episode."},
+   {"t": "[sly] [confident]", "st": 0.45, "sy": 0.35, "text": "Follow... so you don't miss the next episode."},
+   {"t": "[matter-of-fact]", "st": 0.5, "sy": 0.2, "text": "Follow... so you don't miss the next episode."}
+  ]}
+ ]
+}

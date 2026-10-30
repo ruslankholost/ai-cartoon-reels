@@ -1,0 +1,600 @@
+{
+ "model": "eleven_v4",
+ "target_lufs": -19.0,
+ "cast": {
+  "ROSS": {
+   "cast": {
+    "voice": "jack-tyler",
+    "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+    "account_name": "jack-tyler"
+   }
+  },
+  "CHUCK": {
+   "cast": {
+    "voice": "jack-chris-boston",
+    "voiceId": "2vubyVoGjNJ5HPga4SkV",
+    "account_name": "jack-chris-boston"
+   }
+  }
+ },
+ "takes": [
+  {
+   "id": "l01",
+   "n": 1,
+   "file": "x14/01-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "FOUR STARS?!",
+   "say": "[appalled] [yelling] FOUR STARS?!",
+   "source": "ross-1-jack-tyler/L01-t2",
+   "tempo": 1.0,
+   "dur": 1.535,
+   "end": 1.285,
+   "words": [
+    {
+     "w": "four",
+     "d": "FOUR",
+     "t": 0.02,
+     "e": 0.53
+    },
+    {
+     "w": "stars",
+     "d": "STARS?!",
+     "t": 0.53,
+     "e": 0.6
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.6
+    ],
+    [
+     0.645,
+     1.285
+    ]
+   ]
+  },
+  {
+   "id": "l02",
+   "n": 2,
+   "file": "x14/02-chuck.mp3",
+   "character": "CHUCK",
+   "voice": "jack-chris-boston",
+   "voiceId": "2vubyVoGjNJ5HPga4SkV",
+   "text": "Four stars is GOOD!",
+   "say": "[cheerful] [proud] Four stars is GOOD!",
+   "source": "chuck-1-jack-chris-boston/L02-t1",
+   "tempo": 1.1,
+   "dur": 1.888,
+   "end": 1.67,
+   "words": [
+    {
+     "w": "four",
+     "d": "Four",
+     "t": 0.15,
+     "e": 0.428
+    },
+    {
+     "w": "stars",
+     "d": "stars",
+     "t": 0.428,
+     "e": 0.866
+    },
+    {
+     "w": "is",
+     "d": "is",
+     "t": 0.866,
+     "e": 1.158
+    },
+    {
+     "w": "good",
+     "d": "GOOD!",
+     "t": 1.158,
+     "e": 1.67
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.67
+    ]
+   ]
+  },
+  {
+   "id": "l03",
+   "n": 3,
+   "file": "x14/03-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "Four stars is ONE star with MANNERS!",
+   "say": "[enraged] [lecturing] Four stars is ONE star with MANNERS!",
+   "source": "ross-1-jack-tyler/L03-t3",
+   "tempo": 1.1,
+   "dur": 2.739,
+   "end": 2.525,
+   "words": [
+    {
+     "w": "four",
+     "d": "Four",
+     "t": 0.01,
+     "e": 0.333
+    },
+    {
+     "w": "stars",
+     "d": "stars",
+     "t": 0.333,
+     "e": 0.77
+    },
+    {
+     "w": "is",
+     "d": "is",
+     "t": 0.77,
+     "e": 1.062
+    },
+    {
+     "w": "one",
+     "d": "ONE",
+     "t": 1.062,
+     "e": 1.353
+    },
+    {
+     "w": "star",
+     "d": "star",
+     "t": 1.353,
+     "e": 1.645
+    },
+    {
+     "w": "with",
+     "d": "with",
+     "t": 1.645,
+     "e": 2.034
+    },
+    {
+     "w": "manners",
+     "d": "MANNERS!",
+     "t": 2.034,
+     "e": 2.34
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     2.34
+    ],
+    [
+     2.375,
+     2.525
+    ]
+   ]
+  },
+  {
+   "id": "l04",
+   "n": 4,
+   "file": "x14/04-chuck.mp3",
+   "character": "CHUCK",
+   "voice": "jack-chris-boston",
+   "voiceId": "2vubyVoGjNJ5HPga4SkV",
+   "text": "Nobody's perfect.",
+   "say": "[friendly] [matter-of-fact] Nobody's perfect.",
+   "source": "chuck-1-jack-chris-boston/L04-t3",
+   "tempo": 1.0,
+   "dur": 1.585,
+   "end": 1.34,
+   "words": [
+    {
+     "w": "nobody's",
+     "d": "Nobody's",
+     "t": 0.145,
+     "e": 0.68
+    },
+    {
+     "w": "perfect",
+     "d": "perfect.",
+     "t": 0.705,
+     "e": 1.17
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.68
+    ],
+    [
+     0.72,
+     1.17
+    ],
+    [
+     1.205,
+     1.34
+    ]
+   ]
+  },
+  {
+   "id": "l05",
+   "n": 5,
+   "file": "x14/05-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "On the house.",
+   "say": "[overly friendly] On the house.",
+   "source": "ross-1-jack-tyler/L05-t3",
+   "tempo": 1.0,
+   "dur": 1.21,
+   "end": 1.11,
+   "words": [
+    {
+     "w": "on",
+     "d": "On",
+     "t": 0.1,
+     "e": 0.33
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 0.33,
+     "e": 0.49
+    },
+    {
+     "w": "house",
+     "d": "house.",
+     "t": 0.49,
+     "e": 1.11
+    }
+   ],
+   "voiced": [
+    [
+     0.055,
+     1.11
+    ]
+   ]
+  },
+  {
+   "id": "l06",
+   "n": 6,
+   "file": "x14/06-chuck.mp3",
+   "character": "CHUCK",
+   "voice": "jack-chris-boston",
+   "voiceId": "2vubyVoGjNJ5HPga4SkV",
+   "text": "...Four.",
+   "say": "[thoughtful] [flat] ...Four.",
+   "source": "chuck-1-jack-chris-boston/L06-t1",
+   "tempo": 1.0,
+   "dur": 1.2,
+   "end": 1.0,
+   "words": [
+    {
+     "w": "four",
+     "d": "...Four.",
+     "t": 0.224,
+     "e": 1.0
+    }
+   ],
+   "voiced": [
+    [
+     0.0,
+     1.0
+    ]
+   ]
+  },
+  {
+   "id": "l07",
+   "n": 7,
+   "file": "x14/07-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "JUST PRESS FIVE!!",
+   "say": "[begging] [shouting] JUST PRESS FIVE!!",
+   "source": "ross-1-jack-tyler/L07-t2",
+   "tempo": 1.1,
+   "dur": 1.77,
+   "end": 1.52,
+   "words": [
+    {
+     "w": "just",
+     "d": "JUST",
+     "t": 0.1,
+     "e": 0.405
+    },
+    {
+     "w": "press",
+     "d": "PRESS",
+     "t": 0.486,
+     "e": 0.84
+    },
+    {
+     "w": "five",
+     "d": "FIVE!!",
+     "t": 0.923,
+     "e": 1.52
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.405
+    ],
+    [
+     0.46,
+     0.84
+    ],
+    [
+     0.95,
+     1.52
+    ]
+   ]
+  },
+  {
+   "id": "l08",
+   "n": 8,
+   "file": "x14/08-chuck.mp3",
+   "character": "CHUCK",
+   "voice": "jack-chris-boston",
+   "voiceId": "2vubyVoGjNJ5HPga4SkV",
+   "text": "...I'm good.",
+   "say": "[polite] [flat] ...I'm good.",
+   "source": "chuck-1-jack-chris-boston/L08-t1",
+   "tempo": 1.0,
+   "dur": 0.91,
+   "end": 0.71,
+   "words": [
+    {
+     "w": "i'm",
+     "d": "...I'm",
+     "t": 0.09,
+     "e": 0.27
+    },
+    {
+     "w": "good",
+     "d": "good.",
+     "t": 0.27,
+     "e": 0.71
+    }
+   ],
+   "voiced": [
+    [
+     0.065,
+     0.71
+    ]
+   ]
+  },
+  {
+   "id": "l09",
+   "n": 9,
+   "file": "x14/09-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "FIVE STARS!!",
+   "say": "[manic] [victorious] FIVE STARS!!",
+   "source": "ross-1-jack-tyler/L09-t2",
+   "tempo": 1.0,
+   "dur": 1.56,
+   "end": 1.325,
+   "words": [
+    {
+     "w": "five",
+     "d": "FIVE",
+     "t": 0.11,
+     "e": 0.52
+    },
+    {
+     "w": "stars",
+     "d": "STARS!!",
+     "t": 0.52,
+     "e": 1.325
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.325
+    ]
+   ]
+  },
+  {
+   "id": "l10",
+   "n": 10,
+   "file": "x14/10-chuck.mp3",
+   "character": "CHUCK",
+   "voice": "jack-chris-boston",
+   "voiceId": "2vubyVoGjNJ5HPga4SkV",
+   "text": "Great coffee... owner tackled me.",
+   "say": "[deadpan] [dry] Great coffee... owner tackled me.",
+   "source": "chuck-1-jack-chris-boston/L10-t2",
+   "tempo": 1.1,
+   "dur": 2.456,
+   "end": 2.37,
+   "words": [
+    {
+     "w": "great",
+     "d": "Great",
+     "t": 0.055,
+     "e": 0.255
+    },
+    {
+     "w": "coffee",
+     "d": "coffee...",
+     "t": 0.346,
+     "e": 1.09
+    },
+    {
+     "w": "owner",
+     "d": "owner",
+     "t": 1.365,
+     "e": 1.6
+    },
+    {
+     "w": "tackled",
+     "d": "tackled",
+     "t": 1.656,
+     "e": 2.092
+    },
+    {
+     "w": "me",
+     "d": "me.",
+     "t": 2.092,
+     "e": 2.37
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.255
+    ],
+    [
+     0.285,
+     1.09
+    ],
+    [
+     1.36,
+     1.6
+    ],
+    [
+     1.63,
+     2.37
+    ]
+   ]
+  },
+  {
+   "id": "l11",
+   "n": 11,
+   "file": "x14/11-ross.mp3",
+   "character": "ROSS",
+   "voice": "jack-tyler",
+   "voiceId": "rPMkKgdwgIwqv4fXgR6N",
+   "text": "...THREE?!",
+   "say": "[stunned] [high-pitched] ...THREE?!",
+   "source": "ross-1-jack-tyler/L11-t3",
+   "tempo": 1.0,
+   "dur": 1.095,
+   "end": 0.895,
+   "words": [
+    {
+     "w": "three",
+     "d": "...THREE?!",
+     "t": 0.204,
+     "e": 0.895
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.895
+    ]
+   ]
+  }
+ ],
+ "tableRead": {
+  "file": "out/x14-table-read.mp3",
+  "dur": 25.65,
+  "lufs": -16.0,
+  "gaps": {
+   "1": 0.4,
+   "2": 0.3,
+   "3": 0.4,
+   "4": 1.0,
+   "5": 1.1,
+   "6": 1.0,
+   "7": 0.5,
+   "8": 2.3,
+   "9": 0.6,
+   "10": 1.1
+  },
+  "cues": [
+   {
+    "n": 1,
+    "at": 1.44,
+    "speech": [
+     1.5,
+     2.725
+    ]
+   },
+   {
+    "n": 2,
+    "at": 3.065,
+    "speech": [
+     3.125,
+     4.735
+    ]
+   },
+   {
+    "n": 3,
+    "at": 4.975,
+    "speech": [
+     5.035,
+     7.5
+    ]
+   },
+   {
+    "n": 4,
+    "at": 7.84,
+    "speech": [
+     7.9,
+     9.18
+    ]
+   },
+   {
+    "n": 5,
+    "at": 10.125,
+    "speech": [
+     10.18,
+     11.235
+    ]
+   },
+   {
+    "n": 6,
+    "at": 12.335,
+    "speech": [
+     12.335,
+     13.335
+    ]
+   },
+   {
+    "n": 7,
+    "at": 14.275,
+    "speech": [
+     14.335,
+     15.795
+    ]
+   },
+   {
+    "n": 8,
+    "at": 16.23,
+    "speech": [
+     16.295,
+     16.94
+    ]
+   },
+   {
+    "n": 9,
+    "at": 19.18,
+    "speech": [
+     19.24,
+     20.505
+    ]
+   },
+   {
+    "n": 10,
+    "at": 21.045,
+    "speech": [
+     21.105,
+     23.415
+    ]
+   },
+   {
+    "n": 11,
+    "at": 24.455,
+    "speech": [
+     24.515,
+     25.35
+    ]
+   }
+  ],
+  "sfx": []
+ }
+}

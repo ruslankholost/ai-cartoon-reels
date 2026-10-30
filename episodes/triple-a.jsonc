@@ -1,0 +1,457 @@
+// Season 1, episode 1 "Triple-A", the ~45 s cut (Ross 2026-10-19 night, after the Insights of the two posted reels: the pilot that kept ~62% to the
+// end opened on a problem in the first second; "Meet the Family" lost half in 3 s). Script: docs/s1e01-triple-a.md. The 100 s version and its
+// takes: episodes/triple-a-long.jsonc, scratch/voice-raw/triple-a-long. Phantom narrates; his mouth never moves. Swearing is bleeped in the line files.
+{
+ "title": "Triple-A",
+ "cast": {
+  "phantom": 1,
+  "dave": 1,
+  "sarah": 1,
+  "chuck": 1
+ },
+ "lines": [
+  {
+   "n": 1,
+   "char": "sarah",
+   "text": "Dave. How many A's is that?",
+   "dirs": [
+    {
+     "t": "[flat] [unimpressed]",
+     "st": 0.5,
+     "sy": 0.25
+    },
+    {
+     "t": "[dry] [tired]",
+     "st": 0.5,
+     "sy": 0.25
+    },
+    {
+     "t": "[sarcastic] [deadpan]",
+     "st": 0.45,
+     "sy": 0.35
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "char": "dave",
+   "text": "Twenty-three. Triple-A was taken.",
+   "dirs": [
+    {
+     "t": "[proud] [matter-of-fact]",
+     "st": 0.4,
+     "sy": 0.45
+    },
+    {
+     "t": "[smug] [pleased with himself]",
+     "st": 0.4,
+     "sy": 0.45
+    },
+    {
+     "t": "[confident] [obvious]",
+     "st": 0.4,
+     "sy": 0.4
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "char": "phantom",
+   "text": "Who told you more A's means better?",
+   "dirs": [
+    {
+     "t": "[dry] [skeptical]",
+     "st": 0.5,
+     "sy": 0.25
+    },
+    {
+     "t": "[deadpan] [curious]",
+     "st": 0.5,
+     "sy": 0.25
+    },
+    {
+     "t": "[unimpressed] [slow]",
+     "st": 0.55,
+     "sy": 0.2
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "char": "dave",
+   "text": "Every fucking tow truck's got it!",
+   "dirs": [
+    {
+     "t": "[angry] [shouting]",
+     "st": 0.35,
+     "sy": 0.5
+    },
+    {
+     "t": "[irritated] [yelling]",
+     "st": 0.35,
+     "sy": 0.5
+    },
+    {
+     "t": "[worked up] [loud]",
+     "st": 0.4,
+     "sy": 0.45
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "char": "phantom",
+   "text": "Your door breaks, you grab the yellow book.",
+   "dirs": [
+    {
+     "t": "[storytelling] [dry]",
+     "st": 0.5,
+     "sy": 0.3
+    },
+    {
+     "t": "[matter-of-fact]",
+     "st": 0.5,
+     "sy": 0.25
+    },
+    {
+     "t": "[knowing] [calm]",
+     "st": 0.5,
+     "sy": 0.3
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "char": "phantom",
+   "text": "Find Garage Doors. Call the first name.",
+   "dirs": [
+    {
+     "t": "[storytelling] [dry]",
+     "st": 0.5,
+     "sy": 0.3
+    },
+    {
+     "t": "[matter-of-fact]",
+     "st": 0.5,
+     "sy": 0.25
+    },
+    {
+     "t": "[knowing] [calm]",
+     "st": 0.5,
+     "sy": 0.3
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "char": "phantom",
+   "text": "Tulsa, nineteen sixty-two.",
+   "dirs": [
+    {
+     "t": "[storytelling] [low]",
+     "st": 0.5,
+     "sy": 0.3
+    },
+    {
+     "t": "[matter-of-fact]",
+     "st": 0.5,
+     "sy": 0.25
+    },
+    {
+     "t": "[documentary narrator]",
+     "st": 0.5,
+     "sy": 0.3
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "char": "phantom",
+   "text": "A company asks the phone company for twenty-three A's.",
+   "dirs": [
+    {
+     "t": "[storytelling] [dry]",
+     "st": 0.5,
+     "sy": 0.3
+    },
+    {
+     "t": "[deadpan] [amused]",
+     "st": 0.45,
+     "sy": 0.35
+    },
+    {
+     "t": "[matter-of-fact]",
+     "st": 0.5,
+     "sy": 0.25
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "char": "phantom",
+   "text": "Phone company says no.",
+   "dirs": [
+    {
+     "t": "[deadpan] [dry]",
+     "st": 0.5,
+     "sy": 0.25
+    },
+    {
+     "t": "[matter-of-fact]",
+     "st": 0.5,
+     "sy": 0.25
+    },
+    {
+     "t": "[flat]",
+     "st": 0.55,
+     "sy": 0.2
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "char": "phantom",
+   "text": "They sue, and they lose.",
+   "dirs": [
+    {
+     "t": "[deadpan] [dry]",
+     "st": 0.5,
+     "sy": 0.25
+    },
+    {
+     "t": "[amused] [dry]",
+     "st": 0.45,
+     "sy": 0.35
+    },
+    {
+     "t": "[matter-of-fact]",
+     "st": 0.5,
+     "sy": 0.25
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "char": "phantom",
+   "text": "Then an economist counts Chicago plumbers.",
+   "dirs": [
+    {
+     "t": "[storytelling] [dry]",
+     "st": 0.5,
+     "sy": 0.3
+    },
+    {
+     "t": "[matter-of-fact]",
+     "st": 0.5,
+     "sy": 0.25
+    },
+    {
+     "t": "[knowing] [building]",
+     "st": 0.45,
+     "sy": 0.35
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "char": "phantom",
+   "text": "One in five starts with an A or a number.",
+   "dirs": [
+    {
+     "t": "[matter-of-fact] [dry]",
+     "st": 0.5,
+     "sy": 0.25
+    },
+    {
+     "t": "[storytelling]",
+     "st": 0.5,
+     "sy": 0.3
+    },
+    {
+     "t": "[knowing] [calm]",
+     "st": 0.5,
+     "sy": 0.3
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "char": "phantom",
+   "text": "Those get five times the complaints.",
+   "dirs": [
+    {
+     "t": "[deadpan] [punchline]",
+     "st": 0.5,
+     "sy": 0.3
+    },
+    {
+     "t": "[dry] [knowing]",
+     "st": 0.5,
+     "sy": 0.3
+    },
+    {
+     "t": "[matter-of-fact] [slow]",
+     "st": 0.55,
+     "sy": 0.2
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "char": "chuck",
+   "text": "Saw your truck. You the cheap guy?",
+   "dirs": [
+    {
+     "t": "[blunt] [haggling]",
+     "st": 0.4,
+     "sy": 0.45
+    },
+    {
+     "t": "[suspicious] [cheap]",
+     "st": 0.4,
+     "sy": 0.45
+    },
+    {
+     "t": "[impatient] [rude]",
+     "st": 0.4,
+     "sy": 0.4
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "char": "dave",
+   "text": "Yeah. Yeah, that's me.",
+   "dirs": [
+    {
+     "t": "[hesitant] [defeated]",
+     "st": 0.45,
+     "sy": 0.35,
+     "text": "...Yeah. Yeah, that's me."
+    },
+    {
+     "t": "[sighs] [resigned]",
+     "st": 0.45,
+     "sy": 0.3,
+     "text": "[sighs] Yeah. Yeah, that's me."
+    },
+    {
+     "t": "[deflated] [quiet]",
+     "st": 0.5,
+     "sy": 0.3,
+     "text": "...Yeah. Yeah, that's me."
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "char": "phantom",
+   "text": "Five times the complaints. Starting now.",
+   "dirs": [
+    {
+     "t": "[deadpan] [dry]",
+     "st": 0.5,
+     "sy": 0.25
+    },
+    {
+     "t": "[sarcastic] [knowing]",
+     "st": 0.45,
+     "sy": 0.35
+    },
+    {
+     "t": "[unimpressed] [flat]",
+     "st": 0.55,
+     "sy": 0.2
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "char": "phantom",
+   "text": "Follow, so you don't miss the next episode.",
+   "dirs": [
+    {
+     "t": "[dry] [deadpan]",
+     "st": 0.5,
+     "sy": 0.25,
+     "text": "Follow... so you don't miss the next episode."
+    },
+    {
+     "t": "[sly] [confident]",
+     "st": 0.45,
+     "sy": 0.35,
+     "text": "Follow... so you don't miss the next episode."
+    },
+    {
+     "t": "[matter-of-fact]",
+     "st": 0.5,
+     "sy": 0.2,
+     "text": "Follow... so you don't miss the next episode."
+    }
+   ]
+  }
+ ],
+// takes picked 2026-10-20 by voice-analyze (Phantom: the low, flat, dry reads) + Whisper (all heard); Chuck = jack-chris-boston (Boston, blunt)
+ "plan": {"1": {"t": 1}, "2": {"t": 1}, "3": {"t": 2}, "4": {"t": 1, "bleep": [1]}, "5": {"t": 1}, "6": {"t": 1}, "7": {"t": 1}, "8": {"t": 1},
+          "9": {"t": 1}, "10": {"t": 1}, "11": {"t": 1}, "12": {"t": 1}, "13": {"t": 1}, "14": {"t": 1}, "15": {"t": 1}, "16": {"t": 1}, "17": {"t": 1}},
+ "lead": 0.45,
+// the gaps carry the silent shots: 4 -> 5 the whoosh into the phone-book past, 6 -> 7 the TULSA card, 10 -> 11 the CHICAGO card,
+// 13 -> 14 back to the driveway and the phone ringing
+ "gaps": {"1": 0.15, "2": 0.35, "3": 0.15, "4": 0.75, "5": 0.15, "6": 0.55, "7": 0.1, "8": 0.25, "9": 0.2, "10": 0.55, "11": 0.15, "12": 0.25,
+          "13": 1.4, "14": 0.3, "15": 0.35, "16": 0.4},
+ "tableSfx": [
+  {"line": 1, "from": "start", "off": -0.42, "sfx": "spray"},
+  {"line": 4, "from": "end", "off": 0.1, "sfx": "whoosh"},
+  {"line": 5, "from": "start", "off": -0.05, "sfx": "thud"},
+  {"line": 5, "from": "start", "off": 1.1, "sfx": "flip"},
+  {"line": 7, "from": "start", "off": -0.4, "sfx": "typewriter"},
+  {"line": 9, "from": "start", "off": 0.0, "sfx": "stamp"},
+  {"line": 10, "from": "end", "off": -0.25, "sfx": "gavel"},
+  {"line": 11, "from": "start", "off": -0.4, "sfx": "typewriter"},
+  {"line": 13, "from": "start", "off": 0.3, "sfx": "paperpile"},
+  {"line": 13, "from": "end", "off": 0.1, "sfx": "whoosh"},
+  {"line": 13, "from": "end", "off": 0.45, "sfx": "ring"},
+  {"line": 14, "from": "start", "off": -1.0, "sfx": "birds"},
+  {"line": 14, "from": "start", "off": -0.2, "sfx": "pickup"}
+ ],
+// the picture (scripts/shots.py, docs/production.md): talk = InfiniteTalk on the speaker's lines; hold = InfiniteTalk on silence (Phantom and
+// every silent face); move = moveModel i2v (objects, no faces close up); still = the keyframe with a push-in. The end card is laid over the last
+// shot (overlay): viewers left on the black card of "Meet the Family" (Insights 10-19).
+ "style": "Keep each character's exact face, hair, body shape and clothes from the reference images, in the same flat 2D adult animated sitcom style as the references: bold clean black outlines, flat bright colors, simple shading, simple cartoon backgrounds. Vertical frame.",
+ "style0": "A frame from a 2D adult animated sitcom: bold clean black outlines, flat bright colors, simple shading, simple cartoon backgrounds. Vertical frame.",
+ "moveModel": "i2v_2_2_Enhanced_Lightning_v2",
+ "refs": {"phantom": "cast/s1/phantom.png", "dave": "cast/s1/dave.png", "sarah": "cast/s1/sarah.png", "chuck": "cast/s1/chuck.png"},
+ "end": 45.95,
+ "endcard": {"dur": 3.9, "size": 84, "overlay": true, "lines": ["Next: who said 'half my ads are wasted'?", "Follow.", "Send it to your Dave."]},
+ "stamps": [{"text": "TULSA, 1962", "t0": 17.05, "t1": 18.9}, {"text": "CHICAGO, 2014", "t0": 27.0, "t1": 28.6}],
+ "shots": [
+  {"id": "a01", "at": 0.0, "kind": "still", "key": "Close-up of the door of an old rusty pickup truck whose door has a long row of freshly spray-painted black capital letters AAAAAAAAAAAA running across it, the faded words & SON below, in a sunny suburban driveway in the morning, a shabby house with peeling paint and a dented garage door behind. A can of black spray paint lies on the ground below the door. The row of A's is so long it runs off the edge of the door."},
+  {"id": "a02", "at": 1.45, "kind": "talk", "who": "sarah", "refs": ["sarah"], "key": "Medium shot on the shabby front porch of a house in the morning: the tired woman with a messy brown bun and dark circles under her eyes, in light blue nurse scrubs, holding a coffee mug, stares flatly off to the side at something in the driveway, unimpressed.", "move": "she asks a flat, unimpressed question"},
+  {"id": "a03", "at": 3.0, "kind": "talk", "who": "dave", "refs": ["dave"], "key": "Medium close-up in a sunny suburban driveway in the morning, a shabby house with peeling paint and a dented garage door behind: the fat bald man with a brown mustache, in an old olive bomber jacket, a white t-shirt and ripped jeans, holding a can of black spray paint in his right hand, proud and pleased with himself, black paint on his fingers, next to the door of an old rusty pickup truck.", "move": "he answers proudly"},
+  {"id": "a04", "at": 4.35, "kind": "still", "refs": ["dave"], "key": "Wide shot of a sunny suburban driveway in the morning, a shabby house with peeling paint and a dented garage door behind: an old rusty pickup truck whose door has a long row of freshly spray-painted black capital letters AAAAAAAAAAAA running across it, the faded words & SON below. the fat bald man with a brown mustache, in an old olive bomber jacket, a white t-shirt and ripped jeans stands next to it posing proudly like in an advertisement, one arm presenting the door, a can of black spray paint raised in his other hand."},
+  {"id": "a05", "at": 6.15, "kind": "hold", "refs": ["phantom"], "key": "Close-up: the slim ginger tabby cartoon cat with a big round head, in a black t-shirt sits on the hood of an old rusty pickup truck in a sunny suburban driveway in the morning, a shabby house with peeling paint and a dented garage door behind. He looks straight into the camera with half-closed green eyes and a skeptical, unimpressed face, mouth closed.", "move": "he looks into the camera skeptically and blinks slowly, his ear twitches, his mouth stays closed"},
+  {"id": "a06", "at": 8.55, "kind": "talk", "who": "dave", "refs": ["dave"], "key": "Close-up in a sunny suburban driveway in the morning, a shabby house with peeling paint and a dented garage door behind: the fat bald man with a brown mustache, in an old olive bomber jacket, a white t-shirt and ripped jeans, red in the face, shouting angrily off to the side toward the porch, waving a can of black spray paint in his right hand.", "move": "he shouts angrily, waving the spray can"},
+  {"id": "a07", "at": 10.85, "kind": "move", "key": "Close-up of a 1970s kitchen table with an orange checkered tablecloth: a fat telephone directory book with a plain yellow cover and no words on it lands on the table. Warm faded 1970s colors like an old printed photo.", "move": "the fat yellow book drops onto the table and bounces once, nothing else moves"},
+  {"id": "a08", "at": 12.72, "kind": "move", "key": "Close-up of a fat telephone directory book with plain yellow pages and no words on the cover lying open on a 1970s kitchen table with an orange checkered tablecloth, its thin yellow pages fanning. Warm faded 1970s colors like an old printed photo.", "move": "the thin yellow pages flip fast by themselves, no hands"},
+  {"id": "a09", "at": 13.98, "kind": "still", "key": "Extreme close-up of a yellow telephone directory page with the heading GARAGE DOORS in big bold letters at the top and a column of business listings below; a man's finger points at the very first listing. Warm faded 1970s colors like an old printed photo."},
+  {"id": "a10", "at": 15.6, "kind": "still", "key": "Close-up of a man's hand dialing an old orange rotary telephone on a 1970s kitchen counter, the yellow directory open beside it. Warm faded 1970s colors like an old printed photo."},
+  {"id": "a11", "at": 17.05, "kind": "still", "seed": 11, "key": "Medium shot inside a 1960s telephone company office: a heavyset middle-aged businessman with dark hair and a big chin, in a grey 1960s suit, a white shirt, a black tie and a grey fedora hat, stands at a wooden counter and slides a paper form across it toward a clerk in glasses standing behind it. Warm faded 1960s colors like an old printed photo."},
+  {"id": "a12", "at": 19.33, "kind": "hold", "key": "Medium close-up in a 1960s telephone company office: a heavyset middle-aged businessman with dark hair and a big chin, in a grey 1960s suit, a white shirt, a black tie and a grey fedora hat, grins proudly and smugly, leaning on a wooden counter, mouth closed. Warm faded 1960s colors like an old printed photo.", "move": "he grins smugly and raises his eyebrows, his mouth stays closed"},
+  {"id": "a13", "at": 21.15, "kind": "still", "key": "Extreme close-up of a typed paper form on a wooden counter: one long line of capital letters AAAAAAAAAAAAAAAAAAAAAAA runs right off the edge of the paper. Warm faded 1960s colors like an old printed photo."},
+  {"id": "a14", "at": 22.8, "kind": "still", "key": "Close-up: a clerk in glasses and a white shirt in a 1960s telephone company office slams a rubber stamp onto a paper form; the big red stamped word DENIED. Warm faded 1960s colors like an old printed photo."},
+  {"id": "a15", "at": 24.45, "kind": "move", "key": "Wide shot of a wood-paneled 1960s courtroom: an old judge in a black robe at a high bench, a businessman in a grey suit standing at a table below. Warm faded 1960s colors like an old printed photo.", "move": "the judge raises the gavel and brings it down once, the businessman stays still"},
+  {"id": "a16", "at": 25.65, "kind": "hold", "seed": 11, "key": "Medium close-up in a 1960s courtroom: a heavyset middle-aged businessman with dark hair and a big chin, in a grey 1960s suit, a white shirt, a black tie and a grey fedora hat, sits slumped at a wooden table in a courtroom, defeated, his face falling, a judge's bench behind him. Warm faded 1960s colors like an old printed photo.", "move": "he slumps in defeat and lowers his head, his mouth stays closed"},
+  {"id": "a17", "at": 27.0, "kind": "hold", "key": "Medium shot in a cluttered university office: a nerdy economist with glasses and a sweater vest sits at a desk buried in tall stacks of yellow phone books, an open laptop in front of him, a window behind him showing tall Chicago buildings.", "move": "he looks at the laptop and pushes up his glasses, his mouth stays closed"},
+  {"id": "a18", "at": 29.1, "kind": "still", "key": "Wide shot of a city street with tall buildings: a long row of plumbers' work vans parked along the curb, each van a different color."},
+  {"id": "a19", "at": 30.25, "kind": "still", "key": "Five plumbers' work vans parked side by side in a city parking lot, seen from the side; the first van in the row is bright red and has the big letters A-1 on its side; the other four vans are plain white."},
+  {"id": "a20", "at": 31.85, "kind": "still", "key": "Close-up of the side of a bright red plumber's work van with the big letters A-1 PLUMBING painted on it."},
+  {"id": "a21", "at": 33.45, "kind": "move", "key": "A messy office desk: next to a small toy model of a bright red van with A-1 on its side stands a tall wobbling tower of paper complaint folders, while beside four small white toy vans lies one thin folder each.", "move": "the tall tower of folders topples over onto the desk, nothing else moves"},
+  {"id": "a22", "at": 35.6, "kind": "still", "refs": ["dave"], "key": "Wide shot of a sunny suburban driveway in the morning, a shabby house with peeling paint and a dented garage door behind: an old rusty pickup truck whose door has a long row of freshly spray-painted black capital letters AAAAAAAAAAAA running across it, the faded words & SON below; the fat bald man with a brown mustache, in an old olive bomber jacket, a white t-shirt and ripped jeans stands next to it looking down at a black smartphone in his right hand, its screen lit with an incoming call."},
+  {"id": "a23", "at": 36.9, "kind": "talk", "who": "chuck", "refs": ["chuck"], "key": "Medium close-up in a cluttered back yard: the balding middle-aged man with grey curly hair on the sides, sunglasses pushed up on his bald head, in a white t-shirt and cargo shorts, white socks with sandals, sits in a cheap plastic lawn chair holding a smartphone to his ear, suspicious and blunt.", "move": "he talks on the phone, blunt and suspicious"},
+  {"id": "a24", "at": 39.15, "kind": "talk", "who": "dave", "refs": ["dave"], "key": "Close-up in a sunny suburban driveway in the morning, a shabby house with peeling paint and a dented garage door behind: the fat bald man with a brown mustache, in an old olive bomber jacket, a white t-shirt and ripped jeans, holding a black smartphone to his ear with his right hand, his proud face deflating, hesitant.", "move": "he hesitates and answers quietly on the phone"},
+  {"id": "a25", "at": 40.6, "kind": "still", "refs": ["dave"], "key": "Wide shot over a chest-high wooden fence between two driveways in the morning. On the LEFT of the fence: the fat bald man with a brown mustache, in an old olive bomber jacket, a white t-shirt and ripped jeans on the phone next to an old rusty pickup truck whose door has a long row of freshly spray-painted black capital letters AAAAAAAAAAAA running across it, the faded words & SON below, in front of a shabby house. On the RIGHT of the fence: a spotless shiny new red pickup truck gleaming in front of a perfect house with a perfect green lawn."},
+  {"id": "a26", "at": 42.2, "kind": "hold", "refs": ["phantom"], "key": "Close-up: the slim ginger tabby cartoon cat with a big round head, in a black t-shirt lies on the hood of an old rusty pickup truck in a sunny suburban driveway in the morning, a shabby house with peeling paint and a dented garage door behind, chin on his paws, looking into the camera with a deadpan, half-closed green eyes, mouth closed.", "move": "he stares into the camera deadpan, one slow blink, his tail flicks, his mouth stays closed"},
+  {"id": "a27", "at": 44.35, "kind": "hold", "refs": ["phantom"], "key": "Extreme close-up of the face of the slim ginger tabby cartoon cat with a big round head, in a black t-shirt, filling the frame, in a sunny suburban driveway in the morning, a shabby house with peeling paint and a dented garage door behind: a smug, knowing look straight into the camera, half-closed green eyes, mouth closed.", "move": "he holds a smug look into the camera, his mouth stays closed"},
+  {"id": "a28", "at": 45.45, "kind": "hold", "refs": ["phantom"], "key": "Medium shot: the slim ginger tabby cartoon cat with a big round head, in a black t-shirt sits on the roof of an old rusty pickup truck in a sunny suburban driveway in the morning, a shabby house with peeling paint and a dented garage door behind, looking straight into the camera with a smug little smile and half-closed green eyes, mouth closed, plenty of sky above him.", "move": "he looks into the camera, blinks slowly, his tail sways, his mouth stays closed"}
+ ]
+}

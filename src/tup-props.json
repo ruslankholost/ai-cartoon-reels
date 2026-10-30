@@ -1,0 +1,145 @@
+{
+ "doc": "Pieces of \"I'm Just Supporting a Friend\" (scripts/tup-prep.py). Every number is in px of the piece's own png (x right, y down); ox, oy = where the piece's top left was in its 1344x768 picture. bowl: rim = [cx, cy, rx, ry] of the ellipse of its far rim (the lip), rimFront = the y of that ellipse's lowest point, pivot = the middle of the foot, width = the lip's widest. lid: already resampled to sit on the bowl at scale 1 (resampled = the factors); centre, rx, ry = its top ellipse, bottom = its lowest edge, seat = where the lid png's top left goes in the bowl png's px so that the lid sits on the bowl (the two top ellipses coincide; the lid's skirt then covers the lip), pressEdge = where the shopper's fingertip lands (on the lid, near its right edge), pressMiddle = where the hostess's does (on the dimple). handShopper, handHostess: tip = the fingertip, fingerW = the finger's width 35 px above it (the two hands are drawn at one scale), side = where the sleeve comes in from, cut = [x, y0, y1] the edge it is cut off by (keep it off screen). handMan: box = the box's bounding box, boxBottom = the middle of its bottom edge, grip = where the skin touches it, cut as above. giftBox: pivot = the middle of its bottom edge, box = its bounding box, scaleInHand = the scale that makes it the box in the man's hand (put its pivot on handMan.boxBottom).",
+ "src": [
+  1344,
+  768
+ ],
+ "picks": {
+  "bowl": "bowl-74",
+  "lid": "lid-71",
+  "handShopper": "hand-shopper-73",
+  "handHostess": "hand-hostess-71",
+  "handMan": "hand-man-74",
+  "giftBox": "giftbox-74"
+ },
+ "props": {
+  "bowl": {
+   "file": "sp/tup-bowl.png",
+   "w": 975,
+   "h": 589,
+   "ox": 184,
+   "oy": 99,
+   "rim": [
+    492.4,
+    114.7,
+    460.8,
+    110.1
+   ],
+   "rimFront": 224.8,
+   "pivot": [
+    489.1,
+    584.0
+   ],
+   "width": 966
+  },
+  "lid": {
+   "file": "sp/tup-lid.png",
+   "w": 974,
+   "h": 276,
+   "centre": [
+    482.3,
+    116.9
+   ],
+   "rx": 475.0,
+   "ry": 113.4,
+   "bottom": 273.0,
+   "seat": [
+    10.1,
+    -2.2
+   ],
+   "resampled": [
+    0.808,
+    0.766
+   ],
+   "pressEdge": [
+    886.0,
+    151.0
+   ],
+   "pressMiddle": [
+    482.3,
+    116.9
+   ]
+  },
+  "handShopper": {
+   "file": "sp/tup-handShopper.png",
+   "w": 894,
+   "h": 593,
+   "ox": 450,
+   "oy": 105,
+   "side": "right",
+   "cut": [
+    894,
+    84,
+    450
+   ],
+   "tip": [
+    125.7,
+    588.0
+   ],
+   "fingerW": 60
+  },
+  "handHostess": {
+   "file": "sp/tup-handHostess.png",
+   "w": 682,
+   "h": 645,
+   "ox": 0,
+   "oy": 27,
+   "side": "left",
+   "cut": [
+    0,
+    5,
+    359
+   ],
+   "tip": [
+    585.6,
+    640.0
+   ],
+   "fingerW": 63
+  },
+  "handMan": {
+   "file": "sp/tup-handMan.png",
+   "w": 1147,
+   "h": 511,
+   "ox": 0,
+   "oy": 96,
+   "side": "left",
+   "cut": [
+    0,
+    226,
+    458
+   ],
+   "box": [
+    722,
+    6,
+    1127,
+    434
+   ],
+   "boxBottom": [
+    924.5,
+    427.0
+   ],
+   "grip": [
+    851.9,
+    340.6
+   ]
+  },
+  "giftBox": {
+   "file": "sp/tup-giftBox.png",
+   "w": 562,
+   "h": 627,
+   "ox": 375,
+   "oy": 66,
+   "pivot": [
+    280.5,
+    605.0
+   ],
+   "box": [
+    4,
+    5,
+    557,
+    622
+   ],
+   "scaleInHand": 0.7128
+  }
+ }
+}

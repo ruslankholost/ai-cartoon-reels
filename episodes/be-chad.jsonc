@@ -1,0 +1,205 @@
+// Episode 2 "Be Chad" (script approved by Ross 2026-10-19, docs/ep2-be-chad.md). Adult tone: the swearing is bleeped in the line files.
+// Format: see scripts/voice-gen.mjs (lines, directions) and scripts/voice-build.py (cast, plan, gaps, lead, tableSfx).
+{
+ "title": "Be Chad",
+ "cast": {"dave": 1, "barb": 1, "linda": 1, "chad": 3},
+ "lines": [
+// hook: the bedroom in the dark, the blanket moves, the phone rings
+  {"n": 1, "char": "dave", "text": "Dave's Plumbing, how fast can I come?", "dirs": [
+   {"t": "[breathless] [eager]", "st": 0.35, "sy": 0.45},
+   {"t": "[out of breath] [professional]", "st": 0.4, "sy": 0.4},
+   {"t": "[panting] [cheerful]", "st": 0.35, "sy": 0.5, "text": "Dave's Plumbing... how fast can I come?"}
+  ]},
+  {"n": 2, "char": "barb", "text": "Never been a problem for you.", "dirs": [
+   {"t": "[flat] [deadpan]", "st": 0.5, "sy": 0.15},
+   {"t": "[dry] [unimpressed]", "st": 0.45, "sy": 0.25},
+   {"t": "[deadpan] [muttering]", "st": 0.5, "sy": 0.15}
+  ]},
+// 1 You: the kitchen, Monday morning, Dave reads Chad's reviews out loud
+  {"n": 3, "char": "dave", "text": "Picked up in one minute. Chad's my hero.", "dirs": [
+   {"t": "[mocking] [sing-song]", "st": 0.3, "sy": 0.5},
+   {"t": "[sarcastic] [whiny]", "st": 0.35, "sy": 0.5},
+   {"t": "[reading aloud] [mocking]", "st": 0.35, "sy": 0.45}
+  ]},
+  {"n": 4, "char": "dave", "text": "Chad can go fuck himself.", "dirs": [
+   {"t": "[bitter] [muttering]", "st": 0.45, "sy": 0.3},
+   {"t": "[annoyed] [under his breath]", "st": 0.45, "sy": 0.3},
+   {"t": "[grumbling]", "st": 0.45, "sy": 0.25}
+  ]},
+// 2 Need
+  {"n": 5, "char": "dave", "text": "That's it. I pick up every call. First ring.", "dirs": [
+   {"t": "[determined]", "st": 0.4, "sy": 0.4},
+   {"t": "[fired up] [loud]", "st": 0.35, "sy": 0.5},
+   {"t": "[resolute] [proud]", "st": 0.4, "sy": 0.45, "text": "That's it. I pick up every call... First ring."}
+  ]},
+// Barb does not look up from the bills (the pilot's "Mm-hm" was "[unimpressed] Mhm.")
+  {"n": 6, "char": "barb", "text": "Mm-hm.", "dirs": [
+   {"t": "[unimpressed]", "st": 0.5, "sy": 0.15, "text": "Mhm."},
+   {"t": "[flat] [deadpan]", "st": 0.5, "sy": 0.15},
+   {"t": "[bored]", "st": 0.5, "sy": 0.15, "text": "Mhm."}
+  ]},
+// 3 Go: the phone taped to his palm, the tape rips the hair off his arm
+  {"n": 7, "char": "dave", "text": "Aaah, fuck!", "dirs": [
+   {"t": "[yelps in pain]", "st": 0.3, "sy": 0.5},
+   {"t": "[screaming in pain]", "st": 0.3, "sy": 0.6},
+   {"t": "[pained]", "st": 0.35, "sy": 0.5, "text": "Aaaah! Fuck!"}
+  ]},
+  {"n": 8, "char": "dave", "text": "Nobody waits on Dave.", "dirs": [
+   {"t": "[proud] [smug]", "st": 0.4, "sy": 0.45},
+   {"t": "[proudly] [teary]", "st": 0.35, "sy": 0.45},
+   {"t": "[proud] [through gritted teeth]", "st": 0.4, "sy": 0.4}
+  ]},
+// 4 Search: the shower (sparks, he gets a shock), the school play, the dentist, 3 AM
+  {"n": 9, "char": "dave", "text": "Dave's Plumbing!", "dirs": [
+   {"t": "[cheerful] [shouting]", "st": 0.35, "sy": 0.5},
+   {"t": "[eager] [loud]", "st": 0.35, "sy": 0.5},
+   {"t": "[cheerful]", "st": 0.4, "sy": 0.45}
+  ]},
+  {"n": 10, "char": "dave", "text": "Ma'am. Stop flushing. STOP FLUSHING.", "dirs": [
+   {"t": "[whispering]", "st": 0.35, "sy": 0.5, "text": "Ma'am. Stop flushing. [shouting] STOP FLUSHING!"},
+   {"t": "[urgent whisper]", "st": 0.35, "sy": 0.5, "text": "Ma'am... stop flushing. [yelling] STOP! FLUSHING!"},
+   {"t": "[hushed]", "st": 0.35, "sy": 0.5, "text": "Ma'am. Stop flushing. [panicked] [shouting] STOP FLUSHING!"}
+  ]},
+// the dentist: "Dave's Plumbing" with the mouth wide open, so no lip sounds
+  {"n": 11, "char": "dave", "text": "Ave'f Unning!", "dirs": [
+   {"t": "[mouth wide open] [garbled]", "st": 0.35, "sy": 0.5},
+   {"t": "[with mouth open]", "st": 0.35, "sy": 0.5, "text": "Aaay's Uh-ing!"},
+   {"t": "[garbled]", "st": 0.35, "sy": 0.5, "text": "Aaehs Uhhing!"}
+  ]},
+  {"n": 12, "char": "dave", "text": "Dave's Plumbing... twenty-four... hours...", "dirs": [
+   {"t": "[sleep-talking] [mumbling]", "st": 0.45, "sy": 0.25},
+   {"t": "[mumbling in sleep]", "st": 0.5, "sy": 0.2},
+   {"t": "[sleepy] [slurred]", "st": 0.5, "sy": 0.2}
+  ]},
+// 5 Find: the calendar is full till Christmas
+  {"n": 13, "char": "linda", "text": "Dave? You actually picked up!", "dirs": [
+   {"t": "[surprised] [delighted]", "st": 0.35, "sy": 0.5},
+   {"t": "[shocked] [happy]", "st": 0.35, "sy": 0.5},
+   {"t": "[amazed]", "st": 0.35, "sy": 0.45}
+  ]},
+  {"n": 14, "char": "dave", "text": "First ring, baby.", "dirs": [
+   {"t": "[smug] [cocky]", "st": 0.4, "sy": 0.45},
+   {"t": "[proud] [smooth]", "st": 0.4, "sy": 0.45},
+   {"t": "[cocky] [winking]", "st": 0.4, "sy": 0.5}
+  ]},
+// 6 Take: day six with no sleep, he dozes off under Linda's sink, the pipe bursts, Linda is on the flamingo again
+  {"n": 15, "char": "linda", "text": "Dave?", "dirs": [
+   {"t": "[worried] [quiet]", "st": 0.4, "sy": 0.35, "text": "...Dave?"},
+   {"t": "[nervous] [softly]", "st": 0.4, "sy": 0.35},
+   {"t": "[concerned]", "st": 0.4, "sy": 0.3}
+  ]},
+// Barb's note on the fridge, read in her voice
+  {"n": 16, "char": "barb", "text": "At my sister's. Call me. Oh wait.", "dirs": [
+   {"t": "[flat] [deadpan]", "st": 0.5, "sy": 0.15},
+   {"t": "[dry] [unimpressed]", "st": 0.45, "sy": 0.25, "text": "At my sister's. Call me... Oh, wait."},
+   {"t": "[deadpan]", "st": 0.5, "sy": 0.1, "text": "At my sister's. Call me. ... Oh wait."}
+  ]},
+// 7 Return and 8 Change: the phone goes down the toilet, the toilet overflows, the plunger is at Linda's, the old landline, one ring
+  {"n": 17, "char": "chad", "text": "Hey, it's Chad! I can be there in forty minutes!", "dirs": [
+   {"t": "[cheerful] [smooth]", "st": 0.4, "sy": 0.45},
+   {"t": "[upbeat] [confident]", "st": 0.4, "sy": 0.45},
+   {"t": "[friendly] [bright]", "st": 0.4, "sy": 0.4}
+  ]},
+  {"n": 18, "char": "dave", "text": "My hero.", "dirs": [
+   {"t": "[defeated] [quietly]", "st": 0.45, "sy": 0.3, "text": "...My hero."},
+   {"t": "[whispering] [defeated]", "st": 0.45, "sy": 0.3},
+   {"t": "[tearful] [quietly]", "st": 0.4, "sy": 0.35}
+  ]}
+ ],
+// takes picked by the numbers (scripts/voice-analyze.py) and Whisper (scripts/voice-check.py), not by ear yet: the flattest Barb,
+// the widest-range mocking, the take whose loudness climbs into "STOP FLUSHING", the rising "...Dave?", the 0.6 s beat before "Oh wait"
+ "plan": {
+  "1": {"t": 2}, "2": {"t": 2}, "3": {"t": 1}, "4": {"t": 2, "bleep": [3]}, "5": {"t": 2}, "6": {"t": 1}, "7": {"t": 2, "bleep": [1]}, "8": {"t": 2},
+  "9": {"t": 1}, "10": {"t": 1}, "11": {"t": 2}, "12": {"t": 3}, "13": {"t": 2}, "14": {"t": 1}, "15": {"t": 1}, "16": {"t": 1}, "17": {"t": 1}, "18": {"t": 1}
+ },
+ "lead": 1.2,
+// the long gaps carry the visual gags and their sounds: 6 -> 7 the tape, 8 -> 9 the shower, 9 -> 10 the zap and the school play,
+// 10 -> 11 the hall turns round in silence, then the drill, 11 -> 12 3 AM, 14 -> 15 the pipe bursts, 16 -> 17 the phone goes down the toilet and the landline
+ "gaps": {"1": 0.35, "2": 1.2, "3": 0.35, "4": 0.7, "5": 0.5, "6": 1.6, "7": 0.5, "8": 1.5, "9": 1.8, "10": 2.0, "11": 2.4, "12": 1.2, "13": 0.3,
+          "14": 3.2, "15": 1.8, "16": 7.5, "17": 0.9},
+// the table read's sounds, in s off the start or end of a line's speech; the school singing is cut off by "STOP FLUSHING" (about 2.5 s into line 10)
+ "tableSfx": [
+  {"line": 1, "from": "start", "off": -1.0, "sfx": "ring"},
+  {"line": 7, "from": "start", "off": -1.2, "sfx": "tape"},
+  {"line": 7, "from": "start", "off": -0.35, "sfx": "rip", "gain": 3},
+  {"line": 9, "from": "start", "off": -1.3, "sfx": "shower"},
+  {"line": 9, "from": "start", "off": -0.95, "sfx": "ring"},
+  {"line": 9, "from": "end", "off": 0.0, "sfx": "zap", "gain": -3},
+  {"line": 10, "from": "start", "off": -0.8, "sfx": "school"},
+  {"line": 11, "from": "start", "off": -1.25, "sfx": "drill"},
+  {"line": 12, "from": "start", "off": -2.3, "sfx": "snore"},
+  {"line": 13, "from": "start", "off": -1.0, "sfx": "flip"},
+  {"line": 13, "from": "start", "off": -0.8, "sfx": "flip"},
+  {"line": 13, "from": "start", "off": -0.6, "sfx": "flip"},
+  {"line": 15, "from": "start", "off": -3.0, "sfx": "snore"},
+  {"line": 15, "from": "start", "off": -1.9, "sfx": "burst", "gain": -3},
+  {"line": 15, "from": "end", "off": 0.3, "sfx": "blub"},
+  {"line": 16, "from": "end", "off": 0.6, "sfx": "ring"},
+  {"line": 16, "from": "end", "off": 1.5, "sfx": "rip", "gain": 3},
+  {"line": 16, "from": "end", "off": 2.0, "sfx": "splash"},
+  {"line": 16, "from": "end", "off": 2.5, "sfx": "flush"},
+  {"line": 16, "from": "end", "off": 3.9, "sfx": "gurgle"},
+  {"line": 16, "from": "end", "off": 5.0, "sfx": "squelch", "gain": -4},
+  {"line": 16, "from": "end", "off": 5.9, "sfx": "pickup"},
+  {"line": 16, "from": "end", "off": 6.2, "sfx": "ringback"}
+ ],
+// the picture (scripts/shots.py): every shot starts at "at" s on the table read's clock and runs to the next one; the last runs to "end",
+// then the end card. kind "talk" = InfiniteTalk, lips driven by "who"'s own lines in that window; "move" = Wan 2.1 i2v; "still" = the keyframe
+// with a slow push-in. "key" is the keyframe prompt (Qwen Image 2.1 Turbo with the "refs" cast pictures), "move" the motion prompt.
+// Name the wardrobe and the props in every shot: Qwen keeps the face from the reference, not the clothes or the scene.
+ "refs": {"dave": "cast/dave.png", "barb": "cast/barb.png", "linda": "cast/linda.png", "chad": "cast/chad.png"},
+ "end": 70.5,
+ "endcard": {"dur": 2.0, "lines": ["Be Chad.", "Send it to your Dave."]},
+ "stamps": [{"text": "MONDAY", "t0": 6.8, "t1": 8.6}, {"text": "3:00 AM", "t0": 36.55, "t1": 38.2}, {"text": "DAY 6", "t0": 48.2, "t1": 49.6}, {"text": "FRIDAY", "t0": 57.75, "t1": 59.0}],
+ "shots": [
+// hook
+  {"id": "s01", "at": 0.0, "kind": "move", "refs": ["dave"], "key": "Night, a dark bedroom lit only by moonlight from a window, a double bed with a wooden headboard. A big mound moves under the quilt; the bald plumber with the thick brown mustache, shirtless, no overalls, peeks out from under the quilt, sweaty, reaching toward a smartphone that glows and rings on the nightstand. Only his head, a bare shoulder and his bare arm show.", "move": "the quilt bumps and shifts, he slowly reaches out and picks up the phone from the nightstand, no sparks, no electricity", "seed": 8},
+  {"id": "s02", "at": 1.9, "kind": "talk", "who": "dave", "refs": ["dave"], "key": "Night, a dark bedroom lit by the blue glow of a smartphone. Close-up: the bald plumber with the thick brown mustache lies in bed under a quilt pulled up to his chest, bare shoulders, sweaty forehead, out of breath, holding a smartphone to his ear with an eager professional grin.", "move": "he talks into the phone out of breath, with an eager grin"},
+  {"id": "s03", "at": 4.45, "kind": "talk", "who": "barb", "refs": ["barb"], "key": "Night, a dark bedroom lit by moonlight. The woman with brown hair in a bun and gold wire glasses lies in bed on her back, the quilt pulled up to her chin, a light blue nightgown, staring at the ceiling with a flat, unimpressed face.", "move": "she says something dry without moving her head, eyes on the ceiling"},
+// 1 You: the kitchen, Monday morning
+  {"id": "s04", "at": 6.75, "kind": "talk", "who": "dave", "refs": ["dave"], "key": "Morning, a small suburban kitchen with yellow walls, white cabinets and plaid curtains. The bald plumber with the thick brown mustache, in blue overalls over a white t-shirt, sits at the kitchen table with a coffee mug, reading his smartphone aloud with a mocking face, eyebrows raised.", "move": "he reads from the phone in a mocking voice and rolls his eyes"},
+  {"id": "s05", "at": 9.0, "kind": "talk", "who": "dave", "refs": ["dave"], "key": "Close-up in a kitchen with yellow walls: the bald plumber with the thick brown mustache, in blue overalls over a white t-shirt, holds his smartphone and makes a sour, sarcastic face.", "move": "he mocks, sneering"},
+  {"id": "s06", "at": 11.2, "kind": "talk", "who": "dave", "refs": ["dave"], "key": "Close-up in a morning kitchen with yellow walls: the bald plumber with the thick brown mustache, in blue overalls over a white t-shirt, glares bitterly at his smartphone, eyes narrowed, muttering under his breath.", "move": "he mutters bitterly"},
+// 2 Need
+  {"id": "s07", "at": 13.75, "kind": "talk", "who": "dave", "refs": ["dave"], "key": "Morning, a small kitchen with yellow walls, white cabinets and plaid curtains. The bald plumber with the thick brown mustache, in blue overalls over a white t-shirt, stands up from the kitchen table, slaps his palm on it and points a finger up, fired up and determined.", "move": "he talks loudly, determined, and slaps the table"},
+  {"id": "s08", "at": 15.6, "kind": "talk", "who": "dave", "refs": ["dave"], "key": "Low-angle heroic shot in a kitchen with yellow walls: the bald plumber with the thick brown mustache, in blue overalls over a white t-shirt, chest out, fist raised, proud and determined, morning sunlight behind him.", "move": "he declares proudly"},
+  {"id": "s09", "at": 17.7, "kind": "talk", "who": "barb", "refs": ["barb"], "key": "Morning, a kitchen with yellow walls and plaid curtains. The woman with brown hair in a bun and gold wire glasses, in a light blue turtleneck and a beige cardigan, sits at the table doing the bills with a calculator and a pile of envelopes, not looking up, bored.", "move": "she murmurs without looking up and keeps tapping the calculator"},
+// 3 Go: the tape
+  {"id": "s10", "at": 19.0, "kind": "move", "refs": ["dave"], "key": "Extreme close-up of a hairy forearm and hand: the plumber wraps a roll of silver duct tape around a black smartphone, strapping it tightly to his palm. The sleeve of blue overalls, a kitchen table with yellow walls behind.", "move": "he wraps the duct tape around the phone and his hand and pulls it tight, his mouth stays shut, lips pressed together", "seed": 8},
+  {"id": "s11", "at": 19.85, "kind": "talk", "who": "dave", "refs": ["dave"], "key": "Close-up in a kitchen with yellow walls: the bald plumber with the thick brown mustache, in blue overalls over a white t-shirt, screams in pain, eyes squeezed shut, mouth wide open, holding up a ripped strip of silver duct tape covered in arm hair; a bald red stripe on his forearm.", "move": "he screams in pain and shakes his hand"},
+  {"id": "s12", "at": 22.15, "kind": "talk", "who": "dave", "refs": ["dave"], "key": "In a kitchen with yellow walls, the bald plumber with the thick brown mustache, in blue overalls over a white t-shirt, holds up his hand with a black smartphone strapped to the palm with wraps of silver duct tape. Proud, teary eyes, chin up, red skin on his forearm.", "move": "he says it proudly through tears"},
+// 4 Search: the shower, the school play, the dentist (a "move": InfiniteTalk shut his mouth around the mouth prop), 3 AM
+  {"id": "s13", "at": 24.45, "kind": "move", "refs": ["dave"], "key": "The bald plumber with the thick brown mustache takes a shower. The shower curtain hangs from a rod high above his head and hides his body from the chest down; only his bare shoulders and head show. Water runs down his bald head. A black smartphone strapped to his palm with silver duct tape lights up and rings.", "move": "water pours, steam rises, the strapped phone rings and lights up, he looks at it, his mouth stays closed", "seed": 8},
+  {"id": "s14", "at": 25.7, "kind": "talk", "who": "dave", "refs": ["dave"], "key": "The bald plumber with the thick brown mustache in the shower, the shower curtain hides him from the chest down, only bare shoulders and head show, water running down his head. He holds a black smartphone strapped to his palm with silver duct tape to his ear and answers it with a cheerful shout.", "move": "he answers the phone cheerfully, shouting over the water"},
+  {"id": "s15", "at": 27.0, "kind": "move", "refs": ["dave"], "key": "The bald plumber with the thick brown mustache, shirtless and wet, no overalls, is electrocuted in the shower under running water: bright blue electric sparks burst from the wet smartphone strapped to his hand, his little tuft of hair stands straight up, eyes bulging, teeth clenched. The shower curtain hides him from the chest down.", "move": "he shakes violently from the electric shock, sparks fly, the light flashes"},
+  {"id": "s16", "at": 28.0, "kind": "move", "key": "A school auditorium with a red curtain stage. On the stage a small boy in a brown tree costume with green felt leaves sings, arms out like branches. Rows of parents watch from the dark seats in the foreground.", "move": "the boy sways and sings, the parents watch"},
+  {"id": "s17", "at": 28.75, "kind": "talk", "who": "dave", "refs": ["dave"], "key": "A dark school auditorium. The bald plumber with the thick brown mustache, in blue overalls over a white t-shirt, sits hunched in a row of parents, whispering into a black smartphone strapped to his palm with silver duct tape, his other hand cupped around his mouth. Stage light glows behind.", "move": "he whispers urgently into the phone"},
+  {"id": "s18", "at": 30.95, "kind": "talk", "who": "dave", "refs": ["dave"], "key": "A dark school auditorium. The bald plumber with the thick brown mustache, in blue overalls over a white t-shirt, jumps up from his seat in a row of parents, panicking, red-faced, shouting into the black smartphone strapped to his palm with silver duct tape. The parents next to him lean away.", "move": "he shouts into the phone in a panic"},
+  {"id": "s19", "at": 32.55, "kind": "move", "key": "View from the stage of a school auditorium: rows of parents in their seats, every one of them turned around, staring with shocked, angry faces toward the viewer.", "move": "the parents stare in silence, a few slowly turn their heads"},
+  {"id": "s20", "at": 33.25, "kind": "move", "refs": ["dave"], "key": "A dentist's office. The bald plumber with the thick brown mustache, in blue overalls, lies in a dentist's chair under a bright lamp with his mouth stretched wide open; a dentist in a white coat and a surgical mask leans in with a drill. The black smartphone strapped to the plumber's palm with silver duct tape lights up and rings.", "move": "the dentist's drill spins, the phone lights up and rings, the plumber's eyes dart to it"},
+  {"id": "s21", "at": 34.45, "kind": "move", "refs": ["dave"], "key": "Close-up: the bald plumber with the thick brown mustache in a dentist's chair, a metal mouth prop holding his mouth wide open; with his own bare hand he holds the black smartphone strapped to his palm with silver duct tape to his ear, eyebrows raised. From the right edge of the frame, the dentist's hand in a blue latex glove holds a dental drill.", "move": "his mouth stays stretched wide open in the metal mouth prop the whole time, he cannot close it; his eyebrows jump and his eyes roll as he tries to talk into the phone"},
+  {"id": "s22", "at": 36.5, "kind": "move", "refs": ["dave", "barb"], "key": "Night, a dark bedroom lit by moonlight. The bald plumber with the thick brown mustache sleeps on his back in bed, mouth open, snoring, a black smartphone strapped to his palm with silver duct tape glowing on his chest. Next to him the woman with brown hair in a bun and gold wire glasses, in a light blue nightgown, lies wide awake, eyes open, furious. A digital clock on the nightstand shows 3:00.", "move": "he keeps sleeping with his eyes closed the whole time, snoring, his chest rises and falls; she stares at the ceiling and blinks", "seed": 8},
+  {"id": "s23", "at": 38.75, "kind": "talk", "who": "dave", "refs": ["dave"], "key": "Night, close-up: the bald plumber with the thick brown mustache asleep on his pillow, eyes closed, mumbling in his sleep, the black smartphone strapped to his palm with silver duct tape held against his cheek, glowing. Moonlight.", "move": "he mumbles in his sleep with his eyes closed"},
+  {"id": "s24", "at": 40.9, "kind": "move", "refs": ["barb"], "key": "Night, a dark bedroom lit by moonlight. The woman with brown hair in a bun, in a light blue nightgown, lies in bed and angrily presses a pillow down over her own head with both hands.", "move": "she presses the pillow down over her head with both hands, her mouth stays shut, lips pressed together", "seed": 8},
+// 5 Find
+  {"id": "s25", "at": 42.8, "kind": "still", "key": "A paper wall calendar hangs in a kitchen with yellow walls. Every day square from October to December is crammed with handwritten jobs in red marker, and December 25 is circled."},
+  {"id": "s26", "at": 43.8, "kind": "talk", "who": "linda", "refs": ["linda"], "key": "A cozy living room. The woman with blonde shoulder-length hair and blue eyes, in a pink fluffy bathrobe, holds a smartphone to her ear with her right hand, her left arm hanging down at her side, delighted and surprised, eyebrows up, mouth open. A pink inflatable flamingo pool float leans against the wall behind her.", "move": "she talks on the phone, surprised and delighted"},
+  {"id": "s27", "at": 46.3, "kind": "talk", "who": "dave", "refs": ["dave"], "key": "Inside a work van: the bald plumber with the thick brown mustache, in blue overalls over a white t-shirt, drives with one hand on the wheel and holds the black smartphone strapped to his other palm with silver duct tape to his ear. Cocky grin, one eye winking. Dashboard and windshield, daylight.", "move": "he talks smugly into the phone and winks"},
+// 6 Take: day six, Linda's basement
+  {"id": "s28", "at": 48.15, "kind": "move", "refs": ["dave"], "key": "An unfinished basement. The bald plumber with the thick brown mustache, in blue overalls over a white t-shirt, lies on his back under a utility sink among the pipes, fast asleep and snoring, mouth open, dark bags under his eyes, a wrench in his hand, a smartphone strapped to his palm with silver duct tape.", "move": "he stays fast asleep with his eyes closed the whole time, snoring, the wrench slowly slips from his hand", "seed": 8},
+  {"id": "s29", "at": 49.3, "kind": "move", "key": "Close-up in an unfinished basement: a pipe under a utility sink bursts and a powerful jet of water blasts out sideways, spraying everywhere. A pair of work boots on the floor nearby.", "move": "water blasts out of the burst pipe and sprays everywhere"},
+  {"id": "s30", "at": 50.5, "kind": "talk", "who": "linda", "refs": ["linda"], "key": "A flooded basement, the water up to the stairs. The woman with blonde shoulder-length hair and blue eyes, in a pink fluffy bathrobe, floats on a big pink inflatable flamingo pool float, holding her smartphone, worried, looking around.", "move": "she floats, worried, and says one quiet word"},
+  {"id": "s31", "at": 52.2, "kind": "move", "refs": ["dave"], "key": "Underwater in a flooded basement, murky green water. The bald plumber with the thick brown mustache, in blue overalls, sleeps peacefully on the floor at the bottom, bubbles rising from his snoring mouth; a wrench and a red rubber plunger float next to him.", "move": "he stays asleep with his eyes closed the whole time, a few small round bubbles rise from his mouth, the plunger and the wrench drift slowly", "seed": 8},
+  {"id": "s32", "at": 53.6, "kind": "still", "key": "A white refrigerator door with fruit magnets. A yellow paper note is stuck under a magnet, handwritten in blue pen: \"At my sister's. Call me. Oh wait.\" A kitchen with yellow walls in the evening."},
+  {"id": "s33", "at": 56.4, "kind": "move", "refs": ["dave"], "key": "Evening, a kitchen with yellow walls. The bald plumber with the thick brown mustache, in blue overalls over a white t-shirt, stands at the fridge reading a yellow note, deadpan, exhausted, dark bags under his eyes, a smartphone strapped to his palm with silver duct tape.", "move": "he blinks slowly, his mustache droops, his mouth stays closed the whole time, he does not talk", "seed": 8},
+// 7 Return and 8 Change: Friday, the toilet, the landline, Chad
+  {"id": "s34", "at": 57.7, "kind": "move", "refs": ["dave"], "key": "Night, a living room lit by a lamp. The bald plumber with the thick brown mustache, in blue overalls over a white t-shirt, slumps alone on a couch, exhausted, dark bags under bloodshot eyes. The black smartphone strapped to the palm of his right hand with silver duct tape rings and lights up.", "move": "the black phone strapped to his hand lights up white and rings, he stares at it, his eye twitches, his mouth stays closed", "seed": 8},
+  {"id": "s35", "at": 58.75, "kind": "move", "refs": ["dave"], "key": "A small bathroom with blue tiles. The bald plumber with the thick brown mustache, in blue overalls over a white t-shirt, furious, tears the black smartphone off his palm together with the silver duct tape and hurls it into an open white toilet.", "move": "he rips the phone off his hand and throws it into the toilet"},
+  {"id": "s36", "at": 59.75, "kind": "move", "key": "Close-up of a white toilet in a bathroom with blue tiles: a hand presses the chrome flush lever; a black smartphone wrapped in silver duct tape lies at the bottom of the bowl under the water.", "move": "the hand pushes the flush lever down once, then the water already in the bowl swirls around and drains away, nothing is poured in", "seed": 8},
+  {"id": "s37", "at": 61.15, "kind": "move", "key": "A white toilet in a bathroom with blue tiles gurgles and overflows, brown sewage water spilling over the rim onto the tile floor.", "move": "brown water bubbles up and spills over the rim of the toilet onto the floor"},
+  {"id": "s38", "at": 62.25, "kind": "move", "refs": ["dave"], "key": "A bathroom with blue tiles. The bald plumber with the thick brown mustache, in blue overalls over a white t-shirt, stands ankle-deep in brown sewage water, disgusted, his hand reaching toward a small empty metal hook on the tiled wall. Nothing hangs on the hook, his hand is empty.", "move": "he reaches for the empty hook and freezes, his mouth stays shut the whole time, he does not talk", "seed": 8},
+  {"id": "s39", "at": 63.15, "kind": "move", "refs": ["dave"], "key": "A hallway. The bald plumber with the thick brown mustache, in blue overalls over a white t-shirt, the legs soaked brown at the ankles, lifts the handset of an old beige wall-mounted landline phone with a curly cord to his ear, defeated.", "move": "he holds the handset to his ear and waits silently, his mouth stays closed the whole time, he blinks", "seed": 8},
+  {"id": "s40", "at": 64.7, "kind": "talk", "who": "chad", "refs": ["chad"], "key": "A sunny day inside a spotless white work van. The tanned muscular man with swept blond hair, in a cream polo shirt with a navy collar, answers his smartphone with a big bright smile and perfect teeth.", "move": "he talks cheerfully into the phone with a big smile"},
+  {"id": "s41", "at": 67.65, "kind": "talk", "who": "dave", "refs": ["dave"], "key": "Close-up in a hallway: the bald plumber with the thick brown mustache, in blue overalls over a white t-shirt, holds the handset of an old beige wall-mounted landline phone to his ear, defeated, sad tired eyes, his mustache drooping.", "move": "he whispers sadly into the phone"}
+ ]
+}

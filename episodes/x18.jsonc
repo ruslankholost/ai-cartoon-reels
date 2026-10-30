@@ -1,0 +1,108 @@
+// x18 "Unattended" (script v3, 2026-10-27, docs/x18-unattended.md). Ross 10-27 picked the kids-in-the-café fight: "2, go, only make it dynamic and without me fuming super hard - that's old already".
+// A mom scrolls while her kids wreck Ross's café; he tapes up the famous sign (espresso and a free puppy), she takes it as free daycare and tells the other moms;
+// the kids chant for the puppy, Ross serves the espresso first and the wired kids clean the café; her toddler charges her "Six fifty." and Ross gives her excuse back.
+// Ross is jack-tyler (as in x08-x17) and never shouts here. The mom is Sarah, the grandpa Bill; the kids are adult takes pitched up in voice-build (plan "pitch").
+// The kids' chant is three lines said together (9, 10, 11): negative gaps lay them over each other.
+// Format: see scripts/voice-gen.mjs (lines, directions) and scripts/voice-build.py (cast, plan, gaps, lead, tableSfx). Take k of a line uses direction k.
+{
+ "title": "Unattended",
+ "cast": {"ross": 1, "mom": 3, "grandpa": 1, "kid1": 1, "kid2": 1, "kid3": 1},
+ "runnerUp": {},
+ "lines": [
+// at her table, phone up to her face, not looking; the toddler pours oat milk into the till
+  {"n": 1, "char": "mom", "text": "He's just exploring!", "dirs": [
+   {"t": "[sing-song] [dismissive]", "st": 0.4, "sy": 0.55},
+   {"t": "[cheerful] [distracted]", "st": 0.45, "sy": 0.5},
+   {"t": "[breezy] [not paying attention]", "st": 0.45, "sy": 0.5}
+  ]},
+// a polite frozen smile, milk dripping off the drawer
+  {"n": 2, "char": "ross", "text": "...That's the register.", "dirs": [
+   {"t": "[polite] [strained]", "st": 0.55, "sy": 0.3},
+   {"t": "[deadpan] [quiet]", "st": 0.6, "sy": 0.25},
+   {"t": "[calm] [flat]", "st": 0.55, "sy": 0.3}
+  ]},
+  {"n": 3, "char": "mom", "text": "Do you have kids?", "dirs": [
+   {"t": "[condescending] [distracted]", "st": 0.45, "sy": 0.5},
+   {"t": "[smug] [casual]", "st": 0.45, "sy": 0.5},
+   {"t": "[patronizing]", "st": 0.5, "sy": 0.45}
+  ]},
+  {"n": 4, "char": "ross", "text": "...No.", "dirs": [
+   {"t": "[flat]", "st": 0.6, "sy": 0.25},
+   {"t": "[deadpan] [quiet]", "st": 0.6, "sy": 0.25},
+   {"t": "[dry]", "st": 0.55, "sy": 0.3}
+  ]},
+// her daughter licks the pastry case
+  {"n": 5, "char": "mom", "text": "Then you wouldn't understand.", "dirs": [
+   {"t": "[smug] [sing-song]", "st": 0.4, "sy": 0.55},
+   {"t": "[condescending] [sweet]", "st": 0.45, "sy": 0.5},
+   {"t": "[dismissive] [knowing]", "st": 0.45, "sy": 0.5}
+  ]},
+// she lowers her sunglasses and reads the sign
+  {"n": 6, "char": "mom", "text": "...Free puppy?", "dirs": [
+   {"t": "[intrigued] [slowly]", "st": 0.45, "sy": 0.5},
+   {"t": "[curious] [scheming]", "st": 0.45, "sy": 0.5},
+   {"t": "[interested] [quiet]", "st": 0.5, "sy": 0.45}
+  ]},
+// out the door, a voice note to the group chat
+  {"n": 7, "char": "mom", "text": "Ladies, bring the kids!", "dirs": [
+   {"t": "[excited] [fast]", "st": 0.35, "sy": 0.65},
+   {"t": "[thrilled] [conspiratorial]", "st": 0.35, "sy": 0.6},
+   {"t": "[giddy] [urgent]", "st": 0.4, "sy": 0.6}
+  ]},
+// he lets go of the triplets' stroller and walks out
+  {"n": 8, "char": "grandpa", "text": "See you Tuesday!", "dirs": [
+   {"t": "[cheerful] [breezy]", "st": 0.45, "sy": 0.5},
+   {"t": "[happy] [carefree]", "st": 0.45, "sy": 0.5},
+   {"t": "[jolly] [waving goodbye]", "st": 0.4, "sy": 0.55}
+  ]},
+// eight kids at the counter point at the puppy on the sign
+  {"n": 9, "char": "kid1", "text": "Puppy! Puppy!", "dirs": [
+   {"t": "[chanting] [excited]", "st": 0.35, "sy": 0.6},
+   {"t": "[shouting] [demanding]", "st": 0.35, "sy": 0.6},
+   {"t": "[chanting] [loud]", "st": 0.4, "sy": 0.55}
+  ]},
+  {"n": 10, "char": "kid2", "text": "Puppy! Puppy!", "dirs": [
+   {"t": "[chanting] [excited]", "st": 0.35, "sy": 0.6},
+   {"t": "[shouting] [demanding]", "st": 0.35, "sy": 0.6},
+   {"t": "[chanting] [loud]", "st": 0.4, "sy": 0.55}
+  ]},
+  {"n": 11, "char": "kid3", "text": "Puppy! Puppy!", "dirs": [
+   {"t": "[chanting] [excited]", "st": 0.35, "sy": 0.6},
+   {"t": "[shouting] [demanding]", "st": 0.35, "sy": 0.6},
+   {"t": "[chanting] [loud]", "st": 0.4, "sy": 0.55}
+  ]},
+// calm, a waiter taking an order
+  {"n": 12, "char": "ross", "text": "Espresso first.", "dirs": [
+   {"t": "[calm] [polite]", "st": 0.55, "sy": 0.3},
+   {"t": "[matter-of-fact] [dry]", "st": 0.6, "sy": 0.25},
+   {"t": "[relaxed] [businesslike]", "st": 0.55, "sy": 0.3}
+  ]},
+// the toddler, wired, at the till, slams a coffee down in front of his mom
+  {"n": 13, "char": "kid1", "text": "Six fifty.", "dirs": [
+   {"t": "[flat] [fast]", "st": 0.5, "sy": 0.4},
+   {"t": "[businesslike] [hyper]", "st": 0.45, "sy": 0.45},
+   {"t": "[deadpan] [quick]", "st": 0.55, "sy": 0.35}
+  ]},
+  {"n": 14, "char": "mom", "text": "WHO GAVE HIM ESPRESSO?!", "dirs": [
+   {"t": "[shouting] [outraged]", "st": 0.3, "sy": 0.75},
+   {"t": "[screaming] [horrified]", "st": 0.3, "sy": 0.75},
+   {"t": "[furious] [yelling]", "st": 0.3, "sy": 0.7}
+  ]},
+// calm, wiping a cup
+  {"n": 15, "char": "ross", "text": "He was exploring.", "dirs": [
+   {"t": "[calm] [dry]", "st": 0.6, "sy": 0.25},
+   {"t": "[deadpan] [matter-of-fact]", "st": 0.6, "sy": 0.25},
+   {"t": "[innocent] [calm]", "st": 0.55, "sy": 0.3}
+  ]}
+ ],
+// takes picked from voice-analyze and Whisper (all 45 heard; L14 t1 and t3 were heard as "expresso", so t2 without the scream in front of it):
+// her widest sing-song "exploring", Ross's strained polite "register", the condescending rising "kids?", the quick knowing "understand", the scheming "Free puppy?",
+// the fastest "Ladies", the breezy grandpa, the three shouted two-word chants (takes 4-5 made after the cut to two words; pitched up, sped up), Ross's dry "Espresso first.", the toddler's hyper "Six fifty." (pitched), the innocent "exploring"
+ "plan": {"1": {"t": 2, "rate": 1.1}, "2": {"t": 1, "rate": 1.1}, "3": {"t": 1, "rate": 1.1}, "4": {"t": 1}, "5": {"t": 3, "rate": 1.1}, "6": {"t": 2}, "7": {"t": 1, "rate": 1.15}, "8": {"t": 1},
+  "9": {"t": 5, "rate": 1.15, "pitch": 1.35}, "10": {"t": 5, "rate": 1.15, "pitch": 1.3}, "11": {"t": 5, "rate": 1.15, "pitch": 1.2}, "12": {"t": 2}, "13": {"t": 2, "pitch": 1.4}, "14": {"t": 2, "from": 1.03}, "15": {"t": 3}},
+// lead and gaps place the speech on the reel's clock: the till, the milk and the toddler before line 1; the lick after 4; the tape, the sign and the sunglasses after 5;
+// kids, sign, door after 6; two drop-offs after 7; the chant in three voices together (negative gaps); the cups, the zap, the flip, the cleaning, the clock and her return after 12
+ "lead": 1.15,
+ "gaps": {"1": 0.25, "2": 0.3, "3": 0.25, "4": 0.4, "5": 1.6, "6": 0.75, "7": 0.9, "8": 0.2, "9": -1.4, "10": -1.38, "11": 0.3, "12": 4.0, "13": 0.25, "14": 0.35},
+ "tableSfx": []
+}

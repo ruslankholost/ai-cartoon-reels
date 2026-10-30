@@ -1,0 +1,948 @@
+{
+ "model": "eleven_v4",
+ "target_lufs": -19.0,
+ "cast": {
+  "DAVE": {
+   "cast": {
+    "voice": "Callum",
+    "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+    "account_name": "Callum - Husky Trickster"
+   },
+   "runnerUp": {
+    "voice": "Roger",
+    "voiceId": "CwhRBWXzGAHq8TQ4Fs17",
+    "account_name": "Roger - Laid-Back, Casual, Resonant"
+   }
+  },
+  "BARB": {
+   "cast": {
+    "voice": "Matilda",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "account_name": "Matilda - Knowledgable, Professional"
+   },
+   "runnerUp": {
+    "voice": "River",
+    "voiceId": "SAz9YHcvj6GT2YYXdXww",
+    "account_name": "River - Relaxed, Neutral, Informative"
+   }
+  },
+  "LINDA": {
+   "cast": {
+    "voice": "Bella",
+    "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+    "account_name": "Bella - Professional, Bright, Warm"
+   },
+   "runnerUp": {
+    "voice": "Sarah",
+    "voiceId": "EXAVITQu4vr4xnSDxMaL",
+    "account_name": "Sarah - Mature, Reassuring, Confident"
+   }
+  },
+  "CHAD": {
+   "cast": {
+    "voice": "Eric",
+    "voiceId": "cjVigY5qzO86Huf0OWal",
+    "account_name": "Eric - Smooth, Trustworthy"
+   },
+   "runnerUp": {
+    "voice": "jack-ed",
+    "voiceId": "3IwIPyXc0WRkgKBE8KXP",
+    "account_name": "jack-ed"
+   }
+  },
+  "CHAD'S PHONE": {
+   "cast": {
+    "voice": "Jessica",
+    "voiceId": "cgSgspJ2msm6clMCkdW9",
+    "account_name": "Jessica - Playful, Bright, Warm"
+   },
+   "runnerUp": {
+    "voice": "Laura",
+    "voiceId": "FGY2WhTYpPnrIDTdsKH5",
+    "account_name": "Laura - Enthusiast, Quirky Attitude"
+   }
+  }
+ },
+ "takes": [
+  {
+   "id": "l01",
+   "n": 1,
+   "file": "friday/01-linda.mp3",
+   "character": "LINDA",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Plumber... plumber near me... Dave's Plumbing!",
+   "say": "[frantic] [breathless] Plumber... plumber near me... Dave's Plumbing!",
+   "source": "linda-1-bella/L01-t2",
+   "tempo": 1.0,
+   "dur": 3.015,
+   "end": 2.765,
+   "words": [
+    {
+     "w": "plumber",
+     "d": "Plumber...",
+     "t": 0.08,
+     "e": 0.49
+    },
+    {
+     "w": "plumber",
+     "d": "plumber",
+     "t": 0.88,
+     "e": 1.2
+    },
+    {
+     "w": "near",
+     "d": "near",
+     "t": 1.2,
+     "e": 1.36
+    },
+    {
+     "w": "me",
+     "d": "me...",
+     "t": 1.36,
+     "e": 1.565
+    },
+    {
+     "w": "dave's",
+     "d": "Dave's",
+     "t": 1.92,
+     "e": 2.21
+    },
+    {
+     "w": "plumbing",
+     "d": "Plumbing!",
+     "t": 2.24,
+     "e": 2.765
+    }
+   ],
+   "voiced": [
+    [
+     0.035,
+     0.49
+    ],
+    [
+     0.57,
+     0.635
+    ],
+    [
+     0.865,
+     1.565
+    ],
+    [
+     1.635,
+     1.675
+    ],
+    [
+     1.775,
+     2.21
+    ],
+    [
+     2.25,
+     2.765
+    ]
+   ]
+  },
+  {
+   "id": "l02",
+   "n": 2,
+   "file": "friday/02-linda.mp3",
+   "character": "LINDA",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "My basement is flooding! How soon can you come?",
+   "say": "[frantic] [breathless] My basement is flooding! How soon can you come?",
+   "source": "linda-1-bella/L02-t2",
+   "tempo": 1.0,
+   "dur": 3.04,
+   "end": 2.825,
+   "words": [
+    {
+     "w": "my",
+     "d": "My",
+     "t": 0.0,
+     "e": 0.36
+    },
+    {
+     "w": "basement",
+     "d": "basement",
+     "t": 0.36,
+     "e": 0.72
+    },
+    {
+     "w": "is",
+     "d": "is",
+     "t": 0.72,
+     "e": 0.88
+    },
+    {
+     "w": "flooding",
+     "d": "flooding!",
+     "t": 0.88,
+     "e": 1.395
+    },
+    {
+     "w": "how",
+     "d": "How",
+     "t": 1.68,
+     "e": 1.92
+    },
+    {
+     "w": "soon",
+     "d": "soon",
+     "t": 1.92,
+     "e": 2.16
+    },
+    {
+     "w": "can",
+     "d": "can",
+     "t": 2.16,
+     "e": 2.28
+    },
+    {
+     "w": "you",
+     "d": "you",
+     "t": 2.28,
+     "e": 2.4
+    },
+    {
+     "w": "come",
+     "d": "come?",
+     "t": 2.4,
+     "e": 2.825
+    }
+   ],
+   "voiced": [
+    [
+     0.015,
+     1.395
+    ],
+    [
+     1.425,
+     1.55
+    ],
+    [
+     1.69,
+     2.825
+    ]
+   ]
+  },
+  {
+   "id": "l03",
+   "n": 3,
+   "file": "friday/03-barb.mp3",
+   "character": "BARB",
+   "voice": "Matilda",
+   "voiceId": "XrExE9yKIg1WjnnlVkGX",
+   "text": "Dave. Your phone.",
+   "say": "[dry] [unimpressed] Dave. Your phone.",
+   "source": "barb-1-matilda/L03-t2",
+   "tempo": 1.0,
+   "dur": 1.97,
+   "end": 1.745,
+   "words": [
+    {
+     "w": "dave",
+     "d": "Dave.",
+     "t": 0.02,
+     "e": 0.82
+    },
+    {
+     "w": "your",
+     "d": "Your",
+     "t": 1.01,
+     "e": 1.25
+    },
+    {
+     "w": "phone",
+     "d": "phone.",
+     "t": 1.25,
+     "e": 1.745
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.82
+    ],
+    [
+     1.01,
+     1.745
+    ]
+   ]
+  },
+  {
+   "id": "l04",
+   "n": 4,
+   "file": "friday/04-dave.mp3",
+   "character": "DAVE",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "It's Friday, Barb.",
+   "say": "[exhausted] [mumbling] It's Friday, Barb.",
+   "source": "dave-1-callum/L04-t3",
+   "tempo": 1.0,
+   "dur": 2.0,
+   "end": 1.77,
+   "words": [
+    {
+     "w": "it's",
+     "d": "It's",
+     "t": 0.16,
+     "e": 0.56
+    },
+    {
+     "w": "friday",
+     "d": "Friday,",
+     "t": 0.56,
+     "e": 1.12
+    },
+    {
+     "w": "barb",
+     "d": "Barb.",
+     "t": 1.12,
+     "e": 1.77
+    }
+   ],
+   "voiced": [
+    [
+     0.04,
+     1.77
+    ]
+   ]
+  },
+  {
+   "id": "l05",
+   "n": 5,
+   "file": "friday/05-barb.mp3",
+   "character": "BARB",
+   "voice": "Matilda",
+   "voiceId": "XrExE9yKIg1WjnnlVkGX",
+   "text": "It says 'flooding'.",
+   "say": "[deadpan] It says 'flooding'.",
+   "source": "barb-1-matilda/L05-t4",
+   "tempo": 1.0,
+   "dur": 2.13,
+   "end": 1.89,
+   "words": [
+    {
+     "w": "it",
+     "d": "It",
+     "t": 0.13,
+     "e": 0.29
+    },
+    {
+     "w": "says",
+     "d": "says",
+     "t": 0.29,
+     "e": 1.09
+    },
+    {
+     "w": "'flooding'",
+     "d": "'flooding'.",
+     "t": 1.09,
+     "e": 1.89
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.89
+    ]
+   ]
+  },
+  {
+   "id": "l06",
+   "n": 6,
+   "file": "friday/06-dave.mp3",
+   "character": "DAVE",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "Everything's flooding on a Friday.",
+   "say": "[tired] [deadpan] Everything's flooding on a Friday.",
+   "source": "dave-1-callum/L06-t5",
+   "tempo": 1.0,
+   "dur": 2.91,
+   "end": 2.66,
+   "words": [
+    {
+     "w": "everything's",
+     "d": "Everything's",
+     "t": 0.26,
+     "e": 1.08
+    },
+    {
+     "w": "flooding",
+     "d": "flooding",
+     "t": 1.08,
+     "e": 1.48
+    },
+    {
+     "w": "on",
+     "d": "on",
+     "t": 1.72,
+     "e": 1.88
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 1.88,
+     "e": 2.24
+    },
+    {
+     "w": "friday",
+     "d": "Friday.",
+     "t": 2.24,
+     "e": 2.66
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.48
+    ],
+    [
+     1.665,
+     2.66
+    ]
+   ]
+  },
+  {
+   "id": "l07",
+   "n": 7,
+   "file": "friday/07-phone.mp3",
+   "character": "CHAD'S PHONE",
+   "voice": "Jessica",
+   "voiceId": "cgSgspJ2msm6clMCkdW9",
+   "text": "Hi Linda! We can be there in forty minutes. Want to book?",
+   "say": "[cheerful] [precise] Hi Linda! We can be there in forty minutes. Want to book?",
+   "source": "phone-2-jessica/L07-t15",
+   "tempo": 1.0,
+   "dur": 3.6,
+   "end": 3.375,
+   "words": [
+    {
+     "w": "hi",
+     "d": "Hi",
+     "t": 0.06,
+     "e": 0.28
+    },
+    {
+     "w": "linda",
+     "d": "Linda!",
+     "t": 0.28,
+     "e": 0.725
+    },
+    {
+     "w": "we",
+     "d": "We",
+     "t": 0.96,
+     "e": 1.12
+    },
+    {
+     "w": "can",
+     "d": "can",
+     "t": 1.12,
+     "e": 1.28
+    },
+    {
+     "w": "be",
+     "d": "be",
+     "t": 1.28,
+     "e": 1.44
+    },
+    {
+     "w": "there",
+     "d": "there",
+     "t": 1.44,
+     "e": 1.64
+    },
+    {
+     "w": "in",
+     "d": "in",
+     "t": 1.64,
+     "e": 1.88
+    },
+    {
+     "w": "forty",
+     "d": "forty",
+     "t": 1.88,
+     "e": 2.08
+    },
+    {
+     "w": "minutes",
+     "d": "minutes.",
+     "t": 2.08,
+     "e": 2.605
+    },
+    {
+     "w": "want",
+     "d": "Want",
+     "t": 2.72,
+     "e": 2.92
+    },
+    {
+     "w": "to",
+     "d": "to",
+     "t": 2.92,
+     "e": 3.04
+    },
+    {
+     "w": "book",
+     "d": "book?",
+     "t": 3.04,
+     "e": 3.23
+    }
+   ],
+   "voiced": [
+    [
+     0.025,
+     0.725
+    ],
+    [
+     0.875,
+     2.605
+    ],
+    [
+     2.74,
+     3.23
+    ],
+    [
+     3.285,
+     3.375
+    ]
+   ]
+  },
+  {
+   "id": "l08",
+   "n": 8,
+   "file": "friday/08-chad.mp3",
+   "character": "CHAD",
+   "voice": "Eric",
+   "voiceId": "cjVigY5qzO86Huf0OWal",
+   "text": "Book it, buddy.",
+   "say": "[smooth] Book it, buddy...",
+   "source": "chad-3-eric/L08-t15",
+   "tempo": 0.9,
+   "dur": 1.555,
+   "end": 1.305,
+   "words": [
+    {
+     "w": "book",
+     "d": "Book",
+     "t": 0.16,
+     "e": 0.601
+    },
+    {
+     "w": "it",
+     "d": "it,",
+     "t": 0.601,
+     "e": 0.745
+    },
+    {
+     "w": "buddy",
+     "d": "buddy...",
+     "t": 0.776,
+     "e": 1.305
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.745
+    ],
+    [
+     0.78,
+     1.305
+    ]
+   ]
+  },
+  {
+   "id": "l09",
+   "n": 9,
+   "file": "friday/09-linda.mp3",
+   "character": "LINDA",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Oh, thank God.",
+   "say": "[relieved] Oh, thank God.",
+   "source": "linda-1-bella/L09-t3",
+   "tempo": 1.0,
+   "dur": 1.76,
+   "end": 1.625,
+   "words": [
+    {
+     "w": "oh",
+     "d": "Oh,",
+     "t": 0.24,
+     "e": 0.64
+    },
+    {
+     "w": "thank",
+     "d": "thank",
+     "t": 0.64,
+     "e": 0.87
+    },
+    {
+     "w": "god",
+     "d": "God.",
+     "t": 1.04,
+     "e": 1.625
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.87
+    ],
+    [
+     1.025,
+     1.625
+    ]
+   ]
+  },
+  {
+   "id": "l10",
+   "n": 10,
+   "file": "friday/10-linda.mp3",
+   "character": "LINDA",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "My hero.",
+   "say": "[dreamy] [softly] My hero.",
+   "source": "linda-1-bella/L10-t1",
+   "tempo": 1.0,
+   "dur": 1.425,
+   "end": 1.22,
+   "words": [
+    {
+     "w": "my",
+     "d": "My",
+     "t": 0.08,
+     "e": 0.465
+    },
+    {
+     "w": "hero",
+     "d": "hero.",
+     "t": 0.465,
+     "e": 1.22
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.22
+    ]
+   ]
+  },
+  {
+   "id": "l11",
+   "n": 11,
+   "file": "friday/11-dave.mp3",
+   "character": "DAVE",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "Hi Linda! Still need help?",
+   "say": "[forced cheerful] Hi Linda! Still need help?",
+   "source": "dave-1-callum/L11-t1",
+   "tempo": 1.0,
+   "dur": 2.24,
+   "end": 2.01,
+   "words": [
+    {
+     "w": "hi",
+     "d": "Hi",
+     "t": 0.08,
+     "e": 0.32
+    },
+    {
+     "w": "linda",
+     "d": "Linda!",
+     "t": 0.32,
+     "e": 0.885
+    },
+    {
+     "w": "still",
+     "d": "Still",
+     "t": 1.12,
+     "e": 1.44
+    },
+    {
+     "w": "need",
+     "d": "need",
+     "t": 1.44,
+     "e": 1.68
+    },
+    {
+     "w": "help",
+     "d": "help?",
+     "t": 1.68,
+     "e": 1.895
+    }
+   ],
+   "voiced": [
+    [
+     0.02,
+     0.885
+    ],
+    [
+     1.1,
+     1.895
+    ],
+    [
+     1.945,
+     2.01
+    ]
+   ]
+  },
+  {
+   "id": "l12",
+   "n": 12,
+   "file": "friday/12-linda.mp3",
+   "character": "LINDA",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Who is this?",
+   "say": "[confused] [deadpan] Who is this?",
+   "source": "linda-1-bella/L12-t2",
+   "tempo": 1.0,
+   "dur": 1.355,
+   "end": 1.215,
+   "words": [
+    {
+     "w": "who",
+     "d": "Who",
+     "t": 0.22,
+     "e": 0.475
+    },
+    {
+     "w": "is",
+     "d": "is",
+     "t": 0.475,
+     "e": 0.715
+    },
+    {
+     "w": "this",
+     "d": "this?",
+     "t": 0.715,
+     "e": 1.215
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.215
+    ]
+   ]
+  },
+  {
+   "id": "l13",
+   "n": 13,
+   "file": "friday/13-dave.mp3",
+   "character": "DAVE",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "Marketing doesn't work.",
+   "say": "[dead serious] [slowly] Marketing doesn't work.",
+   "source": "dave-1-callum/L13-t7",
+   "tempo": 1.0,
+   "dur": 2.56,
+   "end": 2.31,
+   "words": [
+    {
+     "w": "marketing",
+     "d": "Marketing",
+     "t": 0.03,
+     "e": 1.075
+    },
+    {
+     "w": "doesn't",
+     "d": "doesn't",
+     "t": 1.21,
+     "e": 1.77
+    },
+    {
+     "w": "work",
+     "d": "work.",
+     "t": 1.77,
+     "e": 2.02
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.075
+    ],
+    [
+     1.195,
+     2.02
+    ],
+    [
+     2.075,
+     2.31
+    ]
+   ]
+  },
+  {
+   "id": "l14",
+   "n": 14,
+   "file": "friday/14-barb.mp3",
+   "character": "BARB",
+   "voice": "Matilda",
+   "voiceId": "XrExE9yKIg1WjnnlVkGX",
+   "text": "Mm-hm.",
+   "say": "[unimpressed] Mhm.",
+   "source": "barb-1-matilda/L14-t6",
+   "tempo": 1.0,
+   "dur": 1.09,
+   "end": 0.915,
+   "words": [
+    {
+     "w": "mhm",
+     "d": "Mhm.",
+     "t": 0.03,
+     "e": 0.915
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.915
+    ]
+   ]
+  }
+ ],
+ "tableRead": {
+  "file": "out/friday-table-read.mp3",
+  "dur": 35.255,
+  "lufs": -16.0,
+  "gaps": {
+   "1": 0.25,
+   "2": 0.45,
+   "3": 0.65,
+   "4": 0.25,
+   "5": 0.6,
+   "6": 1.0,
+   "7": 0.35,
+   "8": 0.95,
+   "9": 1.15,
+   "10": 0.45,
+   "11": 0.35,
+   "12": 0.9,
+   "13": 0.55
+  },
+  "cues": [
+   {
+    "n": 1,
+    "at": 0.065,
+    "speech": [
+     0.1,
+     2.83
+    ]
+   },
+   {
+    "n": 2,
+    "at": 3.065,
+    "speech": [
+     3.08,
+     5.89
+    ]
+   },
+   {
+    "n": 3,
+    "at": 6.28,
+    "speech": [
+     6.34,
+     8.025
+    ]
+   },
+   {
+    "n": 4,
+    "at": 8.635,
+    "speech": [
+     8.675,
+     10.405
+    ]
+   },
+   {
+    "n": 5,
+    "at": 10.595,
+    "speech": [
+     10.655,
+     12.485
+    ]
+   },
+   {
+    "n": 6,
+    "at": 13.025,
+    "speech": [
+     13.085,
+     15.685
+    ]
+   },
+   {
+    "n": 7,
+    "at": 16.66,
+    "speech": [
+     16.685,
+     20.035
+    ]
+   },
+   {
+    "n": 8,
+    "at": 20.325,
+    "speech": [
+     20.385,
+     21.63
+    ]
+   },
+   {
+    "n": 9,
+    "at": 22.52,
+    "speech": [
+     22.58,
+     24.145
+    ]
+   },
+   {
+    "n": 10,
+    "at": 25.235,
+    "speech": [
+     25.295,
+     26.455
+    ]
+   },
+   {
+    "n": 11,
+    "at": 26.885,
+    "speech": [
+     26.905,
+     28.895
+    ]
+   },
+   {
+    "n": 12,
+    "at": 29.185,
+    "speech": [
+     29.245,
+     30.4
+    ]
+   },
+   {
+    "n": 13,
+    "at": 31.24,
+    "speech": [
+     31.3,
+     33.55
+    ]
+   },
+   {
+    "n": 14,
+    "at": 34.04,
+    "speech": [
+     34.1,
+     34.955
+    ]
+   }
+  ]
+ }
+}

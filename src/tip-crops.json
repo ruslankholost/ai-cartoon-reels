@@ -1,0 +1,22 @@
+{
+ "terminal": {
+  "file": "sp/tip-terminal-r4.png",
+  "box": [
+   0,
+   0,
+   337,
+   820
+  ],
+  "k": 4
+ },
+ "kiosk": {
+  "file": "sp/tip-kiosk-r4.png",
+  "box": [
+   0,
+   200,
+   382,
+   980
+  ],
+  "k": 4
+ }
+}

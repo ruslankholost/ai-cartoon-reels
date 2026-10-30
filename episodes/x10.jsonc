@@ -1,0 +1,114 @@
+// x10 "My Own Business" (script v2, 2026-10-25, docs/x10-my-own-business.md). Ross's idea: he opens his own business, then every shot somebody needs
+// something (bring, serve, buy, pay, hire, fire, fix), he counts what is left and still owes the tax office, and at 5 pm a guy walks home whistling.
+// Ross: "if it's funny, do it". Ross plays himself (jack-tyler, as in x08 and x09). The whistles, the kettle and the corks are sounds, not voice lines.
+// Format: see scripts/voice-gen.mjs (lines, directions) and scripts/voice-build.py (cast, plan, gaps, lead, tableSfx). Take k of a line uses direction k.
+{
+ "title": "My Own Business",
+ "cast": {"ross": 1, "chuck": 1, "tyler": 1, "landlord": 1, "supplier": 1, "accountant": 1, "guy": 1},
+ "runnerUp": {},
+ "lines": [
+// the shutter flies up, arms wide
+  {"n": 1, "char": "ross", "text": "Finally!", "dirs": [
+   {"t": "[ecstatic] [shouting]", "st": 0.3, "sy": 0.7},
+   {"t": "[overjoyed] [triumphant]", "st": 0.3, "sy": 0.75},
+   {"t": "[thrilled] [yelling]", "st": 0.25, "sy": 0.8}
+  ]},
+// dollar signs in his eyes
+  {"n": 2, "char": "ross", "text": "My own business!", "dirs": [
+   {"t": "[ecstatic] [proud]", "st": 0.3, "sy": 0.7},
+   {"t": "[overjoyed] [shouting]", "st": 0.3, "sy": 0.75},
+   {"t": "[dreamy] [triumphant]", "st": 0.35, "sy": 0.65}
+  ]},
+// he slaps the counter bell while Ross is under the boxes
+  {"n": 3, "char": "chuck", "text": "Excuse me! I've been waiting!", "dirs": [
+   {"t": "[annoyed] [impatient]", "st": 0.35, "sy": 0.6},
+   {"t": "[rude] [loud]", "st": 0.3, "sy": 0.65},
+   {"t": "[whiny] [entitled]", "st": 0.35, "sy": 0.6}
+  ]},
+// from inside the pile of boxes (muffled in the build)
+  {"n": 4, "char": "ross", "text": "Coming!", "dirs": [
+   {"t": "[strained] [eager to please]", "st": 0.35, "sy": 0.6},
+   {"t": "[out of breath] [panicked]", "st": 0.3, "sy": 0.65},
+   {"t": "[squeezed] [cheerful]", "st": 0.35, "sy": 0.6}
+  ]},
+// a hand through the door, palm up
+  {"n": 5, "char": "landlord", "text": "Rent.", "dirs": [
+   {"t": "[flat] [bored]", "st": 0.5, "sy": 0.3},
+   {"t": "[deadpan] [low]", "st": 0.5, "sy": 0.3},
+   {"t": "[cold] [matter-of-fact]", "st": 0.5, "sy": 0.35}
+  ]},
+// a hand through the window
+  {"n": 6, "char": "supplier", "text": "Milk went up.", "dirs": [
+   {"t": "[casual] [matter-of-fact]", "st": 0.45, "sy": 0.4},
+   {"t": "[shrugging] [unbothered]", "st": 0.45, "sy": 0.4},
+   {"t": "[cheerful] [casual]", "st": 0.4, "sy": 0.45}
+  ]},
+// a tiny hand out of the tip jar
+  {"n": 7, "char": "accountant", "text": "My fee.", "dirs": [
+   {"t": "[dry] [prim]", "st": 0.5, "sy": 0.35},
+   {"t": "[polite] [cold]", "st": 0.5, "sy": 0.35},
+   {"t": "[crisp] [businesslike]", "st": 0.5, "sy": 0.3}
+  ]},
+// HELP WANTED in the window, the apron on Tyler
+  {"n": 8, "char": "ross", "text": "You're hired!", "dirs": [
+   {"t": "[desperate] [relieved]", "st": 0.35, "sy": 0.6},
+   {"t": "[overeager] [cheerful]", "st": 0.3, "sy": 0.65},
+   {"t": "[exhausted] [grateful]", "st": 0.4, "sy": 0.55}
+  ]},
+// eyes on his phone
+  {"n": 9, "char": "tyler", "text": "Cool.", "dirs": [
+   {"t": "[bored] [monotone]", "st": 0.55, "sy": 0.2},
+   {"t": "[uninterested] [flat]", "st": 0.55, "sy": 0.2},
+   {"t": "[mumbling] [teenage]", "st": 0.5, "sy": 0.25}
+  ]},
+// the panini press on fire behind Tyler, who films himself
+  {"n": 10, "char": "ross", "text": "You're FIRED!", "dirs": [
+   {"t": "[furious] [shouting]", "st": 0.25, "sy": 0.8},
+   {"t": "[screaming] [enraged]", "st": 0.2, "sy": 0.85},
+   {"t": "[yelling] [outraged]", "st": 0.25, "sy": 0.8}
+  ]},
+// the same "Cool." as he walks out
+  {"n": 11, "char": "tyler", "text": "Cool.", "dirs": [
+   {"t": "[bored] [monotone]", "st": 0.55, "sy": 0.2},
+   {"t": "[uninterested] [flat]", "st": 0.55, "sy": 0.2},
+   {"t": "[mumbling] [teenage]", "st": 0.5, "sy": 0.25}
+  ]},
+// in the sprinkler rain with an extinguisher and a plunger, the phone at his ear: sweet as pie
+  {"n": 12, "char": "ross", "text": "Ross's Coffee, how can I help?", "dirs": [
+   {"t": "[sweet] [customer service voice] [forced cheer]", "st": 0.4, "sy": 0.55},
+   {"t": "[sing-song] [polite]", "st": 0.4, "sy": 0.55},
+   {"t": "[chipper] [through gritted teeth]", "st": 0.35, "sy": 0.6}
+  ]},
+// dripping, his phone up: a one-star review
+  {"n": 13, "char": "chuck", "text": "One star.", "dirs": [
+   {"t": "[smug] [cold]", "st": 0.45, "sy": 0.5},
+   {"t": "[petty] [satisfied]", "st": 0.45, "sy": 0.5},
+   {"t": "[snide] [flat]", "st": 0.5, "sy": 0.45}
+  ]},
+// night: one quarter left in the till
+  {"n": 14, "char": "ross", "text": "...Profit.", "dirs": [
+   {"t": "[deadpan] [exhausted]", "st": 0.5, "sy": 0.35},
+   {"t": "[hollow] [quiet]", "st": 0.5, "sy": 0.3},
+   {"t": "[flat] [defeated]", "st": 0.5, "sy": 0.35}
+  ]},
+// the tax letter: YOU OWE $7,412.18
+  {"n": 15, "char": "ross", "text": "I owe YOU?!", "dirs": [
+   {"t": "[shocked] [incredulous]", "st": 0.3, "sy": 0.7},
+   {"t": "[outraged] [shouting]", "st": 0.25, "sy": 0.8},
+   {"t": "[disbelieving] [high-pitched]", "st": 0.3, "sy": 0.7}
+  ]},
+// 5 pm: through the window, waving, on his way home
+  {"n": 16, "char": "guy", "text": "Must be nice! Setting your own hours!", "dirs": [
+   {"t": "[cheerful] [friendly] [a little envious]", "st": 0.35, "sy": 0.6},
+   {"t": "[happy] [carefree]", "st": 0.35, "sy": 0.6},
+   {"t": "[upbeat] [calling out]", "st": 0.3, "sy": 0.65}
+  ]}
+ ],
+ "plan": {"1": {"t": 1}, "2": {"t": 2, "rate": 1.1}, "3": {"t": 2, "rate": 1.2}, "4": {"t": 3}, "5": {"t": 2}, "6": {"t": 1}, "7": {"t": 1}, "8": {"t": 2}, "9": {"t": 2},
+          "10": {"t": 1}, "11": {"t": 1}, "12": {"t": 3, "rate": 1.2}, "13": {"t": 2}, "14": {"t": 3, "rate": 1.15}, "15": {"t": 2}, "16": {"t": 3, "rate": 1.1}},
+// lead and gaps place the speech on the reel's clock (docs/x10-my-own-business.md, shot list); the silent beats are the click, the bang, the
+// cha-ching, the boxes, the empty till, the sprinklers, the moth, the envelope, the hand at the mail slot, the clock and the whistling
+ "lead": 0.5,
+ "gaps": {"1": 0.3, "2": 0.8, "3": 0.05, "4": 0.35, "5": 0.15, "6": 0.1, "7": 0.6, "8": 0.1, "9": 0.35, "10": 0.1, "11": 0.8, "12": 0.15, "13": 1.0, "14": 0.9, "15": 2.4},
+ "tableSfx": []
+}

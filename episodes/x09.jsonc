@@ -1,0 +1,95 @@
+// x09 "Habits of the Rich" (script v5, 2026-10-24, docs/x09-habits-of-the-rich.md). Ross's idea: a get-rich seminar, the guru's nonsense, then
+// "here are the real habits of rich people". Ross said "go ahead" to v5. Ross plays himself (jack-tyler, as in x08); no ghost from this episode on.
+// The crowd's "WOOO!" is a sound, not a voice line.
+// Format: see scripts/voice-gen.mjs (lines, directions) and scripts/voice-build.py (cast, plan, gaps, lead, tableSfx). Take k of a line uses direction k.
+{
+ "title": "Habits of the Rich",
+ "cast": {"ross": 1, "denise": 1, "guru": 3},
+ "runnerUp": {},
+ "lines": [
+// the cannonball into the ice, pyro: the opening shout
+  {"n": 1, "char": "guru", "text": "ICE BATH!", "dirs": [
+   {"t": "[shouting] [hyped] [motivational speaker]", "st": 0.25, "sy": 0.8},
+   {"t": "[ecstatic] [yelling]", "st": 0.2, "sy": 0.85},
+   {"t": "[roaring] [pumped up]", "st": 0.2, "sy": 0.8}
+  ]},
+// he smashes the alarm clock
+  {"n": 2, "char": "guru", "text": "WAKE UP AT FOUR!", "dirs": [
+   {"t": "[shouting] [hyped] [motivational speaker]", "st": 0.25, "sy": 0.8},
+   {"t": "[yelling] [intense]", "st": 0.2, "sy": 0.85},
+   {"t": "[roaring] [pumped up]", "st": 0.2, "sy": 0.8}
+  ]},
+// he slaps tape over his own mouth on "MOUTH"
+  {"n": 3, "char": "guru", "text": "TAPE YOUR MOUTH!", "dirs": [
+   {"t": "[shouting] [hyped] [motivational speaker]", "st": 0.25, "sy": 0.8},
+   {"t": "[yelling] [intense]", "st": 0.2, "sy": 0.85},
+   {"t": "[roaring] [pumped up]", "st": 0.2, "sy": 0.8}
+  ]},
+// through the tape; if no take sounds muffled, a low-pass in the build
+  {"n": 4, "char": "guru", "text": "Mmf! Mmf mmf!", "dirs": [
+   {"t": "[muffled, mouth taped shut] [still shouting]", "st": 0.3, "sy": 0.7, "text": "Mmmf! Mmf mmmf!"},
+   {"t": "[humming through closed lips] [excited]", "st": 0.3, "sy": 0.7, "text": "Mmmmf! Mmf! Mmmf!"},
+   {"t": "[muffled] [enthusiastic]", "st": 0.3, "sy": 0.7, "text": "Mmf mmf mmmf!"}
+  ]},
+// he raises the glass of yellow: one word per beat
+  {"n": 5, "char": "guru", "text": "DRINK! YOUR OWN! PEE!", "dirs": [
+   {"t": "[shouting] [triumphant] [one word at a time]", "st": 0.25, "sy": 0.8},
+   {"t": "[yelling] [preaching]", "st": 0.2, "sy": 0.85},
+   {"t": "[roaring] [ecstatic]", "st": 0.2, "sy": 0.85}
+  ]},
+// at the clean whiteboard, the steam still going: through the teeth, then an order
+  {"n": 6, "char": "ross", "text": "Real habits of rich people. Write this down.", "dirs": [
+   {"t": "[furious] [clipped]", "st": 0.35, "sy": 0.6},
+   {"t": "[seething] [loud]", "st": 0.3, "sy": 0.65},
+   {"t": "[angry] [commanding]", "st": 0.3, "sy": 0.6}
+  ]},
+// he writes it huge
+  {"n": 7, "char": "ross", "text": "One. Tax evasion.", "dirs": [
+   {"t": "[angry] [punchy]", "st": 0.35, "sy": 0.6},
+   {"t": "[sarcastic] [loud]", "st": 0.3, "sy": 0.65},
+   {"t": "[fed up] [fast]", "st": 0.35, "sy": 0.6}
+  ]},
+// over the washing machine full of cash; faster than line 7
+  {"n": 8, "char": "ross", "text": "Two. Money laundering.", "dirs": [
+   {"t": "[angry] [punchy] [faster]", "st": 0.35, "sy": 0.6},
+   {"t": "[sarcastic] [loud]", "st": 0.3, "sy": 0.65},
+   {"t": "[fed up] [fast]", "st": 0.35, "sy": 0.6}
+  ]},
+// over the handshake with the hitman; the biggest of the three
+  {"n": 9, "char": "ross", "text": "Three. Hire a hitman.", "dirs": [
+   {"t": "[angry] [punchy] [faster]", "st": 0.35, "sy": 0.6},
+   {"t": "[shouting] [sarcastic]", "st": 0.3, "sy": 0.7},
+   {"t": "[fed up] [fast]", "st": 0.35, "sy": 0.6}
+  ]},
+// he slams the marker on line eleven and turns to the room
+  {"n": 10, "char": "ross", "text": "And eleven. Sell courses to broke people.", "dirs": [
+   {"t": "[shouting] [triumphant]", "st": 0.3, "sy": 0.7},
+   {"t": "[slamming it home] [loud]", "st": 0.3, "sy": 0.7},
+   {"t": "[furious] [pointed]", "st": 0.3, "sy": 0.65}
+  ]},
+// she looks up from her notebook at Ross, starstruck
+  {"n": 11, "char": "denise", "text": "How much is YOUR course?", "dirs": [
+   {"t": "[eager] [starstruck]", "st": 0.4, "sy": 0.6},
+   {"t": "[excited] [breathless]", "st": 0.35, "sy": 0.65},
+   {"t": "[hopeful] [wide-eyed]", "st": 0.4, "sy": 0.6}
+  ]},
+// he puts on the guru's headset and tries it out, small
+  {"n": 12, "char": "ross", "text": "...Ice bath?", "dirs": [
+   {"t": "[quiet] [unsure] [trying it out]", "st": 0.45, "sy": 0.45},
+   {"t": "[small voice] [tentative]", "st": 0.5, "sy": 0.4},
+   {"t": "[hesitant] [testing]", "st": 0.45, "sy": 0.45}
+  ]},
+// in the gold suit, mid-cannonball: the guru's opening shout, his now
+  {"n": 13, "char": "ross", "text": "ICE BATH!", "dirs": [
+   {"t": "[shouting] [hyped] [motivational speaker]", "st": 0.25, "sy": 0.8},
+   {"t": "[ecstatic] [yelling]", "st": 0.2, "sy": 0.85},
+   {"t": "[roaring] [pumped up]", "st": 0.2, "sy": 0.8}
+  ]}
+ ],
+ "plan": {"1": {"t": 1}, "2": {"t": 2, "rate": 1.1}, "3": {"t": 2, "rate": 1.1}, "4": {"t": 3}, "5": {"t": 1, "rate": 1.1}, "6": {"t": 1}, "7": {"t": 1}, "8": {"t": 1}, "9": {"t": 1},
+          "10": {"t": 3, "rate": 1.1}, "11": {"t": 1}, "12": {"t": 1}, "13": {"t": 2}},
+// lead and gaps place the speech on the reel's clock (docs/x09-habits-of-the-rich.md, "Build spec"); the silent beats between are the crowd, the tunnels, the inserts
+ "lead": 0.08,
+ "gaps": {"1": 0.35, "2": 0.18, "3": 0.10, "4": 0.38, "5": 1.60, "6": 0.48, "7": 0.99, "8": 0.12, "9": 1.25, "10": 1.70, "11": 1.60, "12": 0.27},
+ "tableSfx": []
+}

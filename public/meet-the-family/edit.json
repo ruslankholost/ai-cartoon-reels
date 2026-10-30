@@ -1,0 +1,293 @@
+{
+ "shots": [
+  {
+   "id": "s01",
+   "kind": "hold",
+   "at": 0.0,
+   "end": 1.12,
+   "src": "meet-the-family/shots/s01.mp4"
+  },
+  {
+   "id": "s02",
+   "kind": "still",
+   "at": 1.12,
+   "end": 4.07,
+   "src": "meet-the-family/shots/s02.png"
+  },
+  {
+   "id": "s03",
+   "kind": "still",
+   "at": 4.07,
+   "end": 5.21,
+   "src": "meet-the-family/shots/s03.png"
+  },
+  {
+   "id": "s04",
+   "kind": "hold",
+   "at": 5.21,
+   "end": 6.14,
+   "src": "meet-the-family/shots/s04.mp4"
+  },
+  {
+   "id": "s05",
+   "kind": "hold",
+   "at": 6.14,
+   "end": 7.2,
+   "src": "meet-the-family/shots/s05.mp4"
+  },
+  {
+   "id": "s06",
+   "kind": "still",
+   "at": 7.2,
+   "end": 8.92,
+   "src": "meet-the-family/shots/s06.png"
+  },
+  {
+   "id": "s07",
+   "kind": "still",
+   "at": 8.92,
+   "end": 10.92,
+   "src": "meet-the-family/shots/s07.png"
+  },
+  {
+   "id": "s08",
+   "kind": "talk",
+   "at": 10.92,
+   "end": 13.55,
+   "src": "meet-the-family/shots/s08.mp4"
+  },
+  {
+   "id": "s09",
+   "kind": "still",
+   "at": 13.55,
+   "end": 15.28,
+   "src": "meet-the-family/shots/s09.png"
+  },
+  {
+   "id": "s10",
+   "kind": "talk",
+   "at": 15.28,
+   "end": 17.15,
+   "src": "meet-the-family/shots/s10.mp4"
+  },
+  {
+   "id": "s11",
+   "kind": "still",
+   "at": 17.15,
+   "end": 18.26,
+   "src": "meet-the-family/shots/s11.png",
+   "fx": "buzz"
+  },
+  {
+   "id": "s12",
+   "kind": "talk",
+   "at": 18.26,
+   "end": 19.94,
+   "src": "meet-the-family/shots/s12.mp4"
+  },
+  {
+   "id": "s13",
+   "kind": "hold",
+   "at": 19.94,
+   "end": 21.96,
+   "src": "meet-the-family/shots/s13.mp4"
+  },
+  {
+   "id": "s14",
+   "kind": "hold",
+   "at": 21.96,
+   "end": 23.94,
+   "src": "meet-the-family/shots/s14.mp4"
+  },
+  {
+   "id": "s15",
+   "kind": "talk",
+   "at": 23.94,
+   "end": 26.75,
+   "src": "meet-the-family/shots/s15.mp4"
+  },
+  {
+   "id": "s16",
+   "kind": "move",
+   "at": 26.75,
+   "end": 28.79,
+   "src": "meet-the-family/shots/s16.mp4"
+  },
+  {
+   "id": "s17",
+   "kind": "hold",
+   "at": 28.79,
+   "end": 30.44,
+   "src": "meet-the-family/shots/s17.mp4"
+  },
+  {
+   "id": "s18",
+   "kind": "hold",
+   "at": 30.44,
+   "end": 32.52,
+   "src": "meet-the-family/shots/s18.mp4"
+  },
+  {
+   "id": "s19",
+   "kind": "still",
+   "at": 32.52,
+   "end": 33.92,
+   "src": "meet-the-family/shots/s19.png"
+  },
+  {
+   "id": "s20",
+   "kind": "still",
+   "at": 33.92,
+   "end": 36.0,
+   "src": "meet-the-family/shots/s20.png"
+  },
+  {
+   "id": "s21",
+   "kind": "move",
+   "at": 36.0,
+   "end": 38.65,
+   "src": "meet-the-family/shots/s21.mp4"
+  },
+  {
+   "id": "s22",
+   "kind": "hold",
+   "at": 38.65,
+   "end": 40.95,
+   "src": "meet-the-family/shots/s22.mp4"
+  },
+  {
+   "id": "s23",
+   "kind": "hold",
+   "at": 40.95,
+   "end": 42.9,
+   "src": "meet-the-family/shots/s23.mp4"
+  },
+  {
+   "id": "s24",
+   "kind": "move",
+   "at": 42.9,
+   "end": 44.51,
+   "src": "meet-the-family/shots/s24.mp4"
+  },
+  {
+   "id": "s25",
+   "kind": "talk",
+   "at": 44.51,
+   "end": 46.15,
+   "src": "meet-the-family/shots/s25.mp4"
+  },
+  {
+   "id": "s26",
+   "kind": "hold",
+   "at": 46.15,
+   "end": 47.0,
+   "src": "meet-the-family/shots/s26.mp4"
+  },
+  {
+   "id": "s27",
+   "kind": "hold",
+   "at": 47.0,
+   "end": 47.88,
+   "src": "meet-the-family/shots/s27.mp4"
+  },
+  {
+   "id": "s28",
+   "kind": "talk",
+   "at": 47.88,
+   "end": 50.3,
+   "src": "meet-the-family/shots/s28.mp4"
+  },
+  {
+   "id": "s29",
+   "kind": "still",
+   "at": 50.3,
+   "end": 51.3,
+   "src": "meet-the-family/shots/s29.png"
+  },
+  {
+   "id": "s30",
+   "kind": "move",
+   "at": 51.3,
+   "end": 52.34,
+   "src": "meet-the-family/shots/s30.mp4"
+  },
+  {
+   "id": "s31",
+   "kind": "talk",
+   "at": 52.34,
+   "end": 53.32,
+   "src": "meet-the-family/shots/s31.mp4"
+  },
+  {
+   "id": "s32",
+   "kind": "talk",
+   "at": 53.32,
+   "end": 55.22,
+   "src": "meet-the-family/shots/s32.mp4"
+  },
+  {
+   "id": "s33",
+   "kind": "still",
+   "at": 55.22,
+   "end": 57.25,
+   "src": "meet-the-family/shots/s33.png"
+  },
+  {
+   "id": "s34",
+   "kind": "move",
+   "at": 57.25,
+   "end": 58.7,
+   "src": "meet-the-family/shots/s34.mp4"
+  },
+  {
+   "id": "s35",
+   "kind": "still",
+   "at": 58.7,
+   "end": 60.27,
+   "src": "meet-the-family/shots/s35.png"
+  },
+  {
+   "id": "s36",
+   "kind": "hold",
+   "at": 60.27,
+   "end": 61.95,
+   "src": "meet-the-family/shots/s36.mp4"
+  },
+  {
+   "id": "s37",
+   "kind": "hold",
+   "at": 61.95,
+   "end": 63.34,
+   "src": "meet-the-family/shots/s37.mp4"
+  },
+  {
+   "id": "s38",
+   "kind": "still",
+   "at": 63.34,
+   "end": 65.4,
+   "src": "meet-the-family/shots/s38.png"
+  }
+ ],
+ "stamps": [
+  {
+   "text": "NIGHT",
+   "t0": 26.85,
+   "t1": 28.4
+  },
+  {
+   "text": "NEXT MORNING",
+   "t0": 42.95,
+   "t1": 44.4
+  }
+ ],
+ "endcard": {
+  "dur": 2.5,
+  "size": 96,
+  "lines": [
+   "Next: the cat starts texting.",
+   "Follow.",
+   "Send it to your Dave."
+  ]
+ },
+ "end": 65.4
+}

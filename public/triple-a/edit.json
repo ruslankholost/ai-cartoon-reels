@@ -1,0 +1,223 @@
+{
+ "shots": [
+  {
+   "id": "a01",
+   "kind": "still",
+   "at": 0.0,
+   "end": 1.45,
+   "src": "triple-a/shots/a01.png"
+  },
+  {
+   "id": "a02",
+   "kind": "talk",
+   "at": 1.45,
+   "end": 3.0,
+   "src": "triple-a/shots/a02.mp4"
+  },
+  {
+   "id": "a03",
+   "kind": "talk",
+   "at": 3.0,
+   "end": 4.35,
+   "src": "triple-a/shots/a03.mp4"
+  },
+  {
+   "id": "a04",
+   "kind": "still",
+   "at": 4.35,
+   "end": 6.15,
+   "src": "triple-a/shots/a04.png"
+  },
+  {
+   "id": "a05",
+   "kind": "hold",
+   "at": 6.15,
+   "end": 8.55,
+   "src": "triple-a/shots/a05.mp4"
+  },
+  {
+   "id": "a06",
+   "kind": "talk",
+   "at": 8.55,
+   "end": 10.85,
+   "src": "triple-a/shots/a06.mp4"
+  },
+  {
+   "id": "a07",
+   "kind": "move",
+   "at": 10.85,
+   "end": 12.72,
+   "src": "triple-a/shots/a07.mp4"
+  },
+  {
+   "id": "a08",
+   "kind": "still",
+   "at": 12.72,
+   "end": 13.98,
+   "src": "triple-a/shots/a08.png"
+  },
+  {
+   "id": "a09",
+   "kind": "still",
+   "at": 13.98,
+   "end": 15.6,
+   "src": "triple-a/shots/a09.png"
+  },
+  {
+   "id": "a10",
+   "kind": "still",
+   "at": 15.6,
+   "end": 17.05,
+   "src": "triple-a/shots/a10.png"
+  },
+  {
+   "id": "a11",
+   "kind": "still",
+   "at": 17.05,
+   "end": 19.33,
+   "src": "triple-a/shots/a11.png"
+  },
+  {
+   "id": "a12",
+   "kind": "hold",
+   "at": 19.33,
+   "end": 21.15,
+   "src": "triple-a/shots/a12.mp4"
+  },
+  {
+   "id": "a13",
+   "kind": "still",
+   "at": 21.15,
+   "end": 22.8,
+   "src": "triple-a/shots/a13.png"
+  },
+  {
+   "id": "a14",
+   "kind": "still",
+   "at": 22.8,
+   "end": 24.45,
+   "src": "triple-a/shots/a14.png"
+  },
+  {
+   "id": "a15",
+   "kind": "move",
+   "at": 24.45,
+   "end": 25.65,
+   "src": "triple-a/shots/a15.mp4"
+  },
+  {
+   "id": "a16",
+   "kind": "hold",
+   "at": 25.65,
+   "end": 27.0,
+   "src": "triple-a/shots/a16.mp4"
+  },
+  {
+   "id": "a17",
+   "kind": "still",
+   "at": 27.0,
+   "end": 29.1,
+   "src": "triple-a/shots/a17.png"
+  },
+  {
+   "id": "a18",
+   "kind": "still",
+   "at": 29.1,
+   "end": 30.25,
+   "src": "triple-a/shots/a18.png"
+  },
+  {
+   "id": "a19",
+   "kind": "still",
+   "at": 30.25,
+   "end": 31.85,
+   "src": "triple-a/shots/a19.png"
+  },
+  {
+   "id": "a20",
+   "kind": "still",
+   "at": 31.85,
+   "end": 33.45,
+   "src": "triple-a/shots/a20.png"
+  },
+  {
+   "id": "a21",
+   "kind": "move",
+   "at": 33.45,
+   "end": 35.6,
+   "src": "triple-a/shots/a21.mp4"
+  },
+  {
+   "id": "a22",
+   "kind": "still",
+   "at": 35.6,
+   "end": 36.9,
+   "src": "triple-a/shots/a22.png"
+  },
+  {
+   "id": "a23",
+   "kind": "talk",
+   "at": 36.9,
+   "end": 39.15,
+   "src": "triple-a/shots/a23.mp4"
+  },
+  {
+   "id": "a24",
+   "kind": "talk",
+   "at": 39.15,
+   "end": 40.6,
+   "src": "triple-a/shots/a24.mp4"
+  },
+  {
+   "id": "a25",
+   "kind": "still",
+   "at": 40.6,
+   "end": 42.2,
+   "src": "triple-a/shots/a25.png"
+  },
+  {
+   "id": "a26",
+   "kind": "hold",
+   "at": 42.2,
+   "end": 44.35,
+   "src": "triple-a/shots/a26.mp4"
+  },
+  {
+   "id": "a27",
+   "kind": "hold",
+   "at": 44.35,
+   "end": 45.45,
+   "src": "triple-a/shots/a27.mp4"
+  },
+  {
+   "id": "a28",
+   "kind": "hold",
+   "at": 45.45,
+   "end": 49.85,
+   "src": "triple-a/shots/a28.mp4"
+  }
+ ],
+ "stamps": [
+  {
+   "text": "TULSA, 1962",
+   "t0": 17.05,
+   "t1": 18.9
+  },
+  {
+   "text": "CHICAGO, 2014",
+   "t0": 27.0,
+   "t1": 28.6
+  }
+ ],
+ "endcard": {
+  "dur": 3.9,
+  "size": 84,
+  "overlay": true,
+  "lines": [
+   "Next: who said 'half my ads are wasted'?",
+   "Follow.",
+   "Send it to your Dave."
+  ]
+ },
+ "end": 45.95
+}

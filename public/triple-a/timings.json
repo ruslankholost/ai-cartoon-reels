@@ -1,0 +1,1326 @@
+{
+ "model": "eleven_v4",
+ "target_lufs": -19.0,
+ "cast": {
+  "SARAH": {
+   "cast": {
+    "voice": "Matilda",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "account_name": "Matilda - Knowledgable, Professional"
+   }
+  },
+  "DAVE": {
+   "cast": {
+    "voice": "Callum",
+    "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+    "account_name": "Callum - Husky Trickster"
+   }
+  },
+  "PHANTOM": {
+   "cast": {
+    "voice": "Brian",
+    "voiceId": "nPczCjzI2devNBz1zQrb",
+    "account_name": "Brian - Deep, Resonant and Comforting"
+   }
+  },
+  "CHUCK": {
+   "cast": {
+    "voice": "jack-chris-boston",
+    "voiceId": "2vubyVoGjNJ5HPga4SkV",
+    "account_name": "jack-chris-boston"
+   }
+  }
+ },
+ "takes": [
+  {
+   "id": "l01",
+   "n": 1,
+   "file": "triple-a/01-sarah.mp3",
+   "character": "SARAH",
+   "voice": "Matilda",
+   "voiceId": "XrExE9yKIg1WjnnlVkGX",
+   "text": "Dave. How many A's is that?",
+   "say": "[flat] [unimpressed] Dave. How many A's is that?",
+   "source": "sarah-1-matilda/L01-t1",
+   "tempo": 1.0,
+   "dur": 2.675,
+   "end": 2.56,
+   "words": [
+    {
+     "w": "dave",
+     "d": "Dave.",
+     "t": 0.03,
+     "e": 0.88
+    },
+    {
+     "w": "how",
+     "d": "How",
+     "t": 1.155,
+     "e": 1.315
+    },
+    {
+     "w": "many",
+     "d": "many",
+     "t": 1.315,
+     "e": 1.595
+    },
+    {
+     "w": "a's",
+     "d": "A's",
+     "t": 1.635,
+     "e": 1.955
+    },
+    {
+     "w": "is",
+     "d": "is",
+     "t": 1.955,
+     "e": 2.115
+    },
+    {
+     "w": "that",
+     "d": "that?",
+     "t": 2.115,
+     "e": 2.56
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.88
+    ],
+    [
+     1.105,
+     1.595
+    ],
+    [
+     1.635,
+     2.56
+    ]
+   ]
+  },
+  {
+   "id": "l02",
+   "n": 2,
+   "file": "triple-a/02-dave.mp3",
+   "character": "DAVE",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "Twenty-three. Triple-A was taken.",
+   "say": "[proud] [matter-of-fact] Twenty-three. Triple-A was taken.",
+   "source": "dave-1-callum/L02-t1",
+   "tempo": 1.0,
+   "dur": 3.09,
+   "end": 2.84,
+   "words": [
+    {
+     "w": "twentythree",
+     "d": "Twenty-three.",
+     "t": 0.07,
+     "e": 0.96
+    },
+    {
+     "w": "triplea",
+     "d": "Triple-A",
+     "t": 1.36,
+     "e": 2.12
+    },
+    {
+     "w": "was",
+     "d": "was",
+     "t": 2.12,
+     "e": 2.32
+    },
+    {
+     "w": "taken",
+     "d": "taken.",
+     "t": 2.32,
+     "e": 2.84
+    }
+   ],
+   "voiced": [
+    [
+     0.045,
+     0.96
+    ],
+    [
+     1.35,
+     2.84
+    ]
+   ]
+  },
+  {
+   "id": "l03",
+   "n": 3,
+   "file": "triple-a/03-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "Who told you more A's means better?",
+   "say": "[deadpan] [curious] Who told you more A's means better?",
+   "source": "phantom-1-brian/L03-t2",
+   "tempo": 1.0,
+   "dur": 2.365,
+   "end": 2.265,
+   "words": [
+    {
+     "w": "who",
+     "d": "Who",
+     "t": 0.125,
+     "e": 0.325
+    },
+    {
+     "w": "told",
+     "d": "told",
+     "t": 0.325,
+     "e": 0.605
+    },
+    {
+     "w": "you",
+     "d": "you",
+     "t": 0.605,
+     "e": 0.925
+    },
+    {
+     "w": "more",
+     "d": "more",
+     "t": 0.925,
+     "e": 1.08
+    },
+    {
+     "w": "a's",
+     "d": "A's",
+     "t": 1.165,
+     "e": 1.565
+    },
+    {
+     "w": "means",
+     "d": "means",
+     "t": 1.565,
+     "e": 1.885
+    },
+    {
+     "w": "better",
+     "d": "better?",
+     "t": 1.885,
+     "e": 2.265
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.08
+    ],
+    [
+     1.115,
+     2.265
+    ]
+   ]
+  },
+  {
+   "id": "l04",
+   "n": 4,
+   "file": "triple-a/04-dave.mp3",
+   "character": "DAVE",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "Every fucking tow truck's got it!",
+   "say": "[angry] [shouting] Every fucking tow truck's got it!",
+   "source": "dave-1-callum/L04-t1",
+   "tempo": 1.0,
+   "dur": 2.445,
+   "end": 2.195,
+   "words": [
+    {
+     "w": "every",
+     "d": "Every",
+     "t": 0.15,
+     "e": 0.47
+    },
+    {
+     "w": "fucking",
+     "d": "fucking",
+     "t": 0.7,
+     "e": 1.1,
+     "bleep": true
+    },
+    {
+     "w": "tow",
+     "d": "tow",
+     "t": 1.1,
+     "e": 1.34
+    },
+    {
+     "w": "truck's",
+     "d": "truck's",
+     "t": 1.34,
+     "e": 1.71
+    },
+    {
+     "w": "got",
+     "d": "got",
+     "t": 1.86,
+     "e": 2.06
+    },
+    {
+     "w": "it",
+     "d": "it!",
+     "t": 2.06,
+     "e": 2.195
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.47
+    ],
+    [
+     0.59,
+     1.71
+    ],
+    [
+     1.74,
+     2.195
+    ]
+   ]
+  },
+  {
+   "id": "l05",
+   "n": 5,
+   "file": "triple-a/05-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "Your door breaks, you grab the yellow book.",
+   "say": "[storytelling] [dry] Your door breaks, you grab the yellow book.",
+   "source": "phantom-1-brian/L05-t1",
+   "tempo": 1.0,
+   "dur": 2.64,
+   "end": 2.4,
+   "words": [
+    {
+     "w": "your",
+     "d": "Your",
+     "t": 0.08,
+     "e": 0.32
+    },
+    {
+     "w": "door",
+     "d": "door",
+     "t": 0.32,
+     "e": 0.48
+    },
+    {
+     "w": "breaks",
+     "d": "breaks,",
+     "t": 0.48,
+     "e": 1.1
+    },
+    {
+     "w": "you",
+     "d": "you",
+     "t": 1.36,
+     "e": 1.56
+    },
+    {
+     "w": "grab",
+     "d": "grab",
+     "t": 1.56,
+     "e": 1.72
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 1.72,
+     "e": 1.84
+    },
+    {
+     "w": "yellow",
+     "d": "yellow",
+     "t": 1.84,
+     "e": 2.08
+    },
+    {
+     "w": "book",
+     "d": "book.",
+     "t": 2.08,
+     "e": 2.4
+    }
+   ],
+   "voiced": [
+    [
+     0.055,
+     1.1
+    ],
+    [
+     1.325,
+     2.4
+    ]
+   ]
+  },
+  {
+   "id": "l06",
+   "n": 6,
+   "file": "triple-a/06-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "Find Garage Doors. Call the first name.",
+   "say": "[storytelling] [dry] Find Garage Doors. Call the first name.",
+   "source": "phantom-1-brian/L06-t1",
+   "tempo": 1.0,
+   "dur": 2.8,
+   "end": 2.67,
+   "words": [
+    {
+     "w": "find",
+     "d": "Find",
+     "t": 0.15,
+     "e": 0.48
+    },
+    {
+     "w": "garage",
+     "d": "Garage",
+     "t": 0.48,
+     "e": 0.88
+    },
+    {
+     "w": "doors",
+     "d": "Doors.",
+     "t": 0.88,
+     "e": 1.32
+    },
+    {
+     "w": "call",
+     "d": "Call",
+     "t": 1.76,
+     "e": 1.96
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 1.96,
+     "e": 2.08
+    },
+    {
+     "w": "first",
+     "d": "first",
+     "t": 2.08,
+     "e": 2.48
+    },
+    {
+     "w": "name",
+     "d": "name.",
+     "t": 2.48,
+     "e": 2.67
+    }
+   ],
+   "voiced": [
+    [
+     0.065,
+     1.32
+    ],
+    [
+     1.78,
+     2.67
+    ]
+   ]
+  },
+  {
+   "id": "l07",
+   "n": 7,
+   "file": "triple-a/07-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "Tulsa, nineteen sixty-two.",
+   "say": "[storytelling] [low] Tulsa, nineteen sixty-two.",
+   "source": "phantom-1-brian/L07-t1",
+   "tempo": 1.0,
+   "dur": 2.485,
+   "end": 2.235,
+   "words": [
+    {
+     "w": "tulsa",
+     "d": "Tulsa,",
+     "t": 0.065,
+     "e": 0.64
+    },
+    {
+     "w": "nineteen",
+     "d": "nineteen",
+     "t": 1.105,
+     "e": 1.585
+    },
+    {
+     "w": "sixtytwo",
+     "d": "sixty-two.",
+     "t": 1.585,
+     "e": 2.235
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.64
+    ],
+    [
+     1.045,
+     2.235
+    ]
+   ]
+  },
+  {
+   "id": "l08",
+   "n": 8,
+   "file": "triple-a/08-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "A company asks the phone company for twenty-three A's.",
+   "say": "[storytelling] [dry] A company asks the phone company for twenty-three A's.",
+   "source": "phantom-1-brian/L08-t1",
+   "tempo": 1.0,
+   "dur": 3.46,
+   "end": 3.215,
+   "words": [
+    {
+     "w": "a",
+     "d": "A",
+     "t": 0.04,
+     "e": 0.4
+    },
+    {
+     "w": "company",
+     "d": "company",
+     "t": 0.4,
+     "e": 0.68
+    },
+    {
+     "w": "asks",
+     "d": "asks",
+     "t": 0.68,
+     "e": 1.0
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 1.0,
+     "e": 1.2
+    },
+    {
+     "w": "phone",
+     "d": "phone",
+     "t": 1.2,
+     "e": 1.4
+    },
+    {
+     "w": "company",
+     "d": "company",
+     "t": 1.4,
+     "e": 1.88
+    },
+    {
+     "w": "for",
+     "d": "for",
+     "t": 1.88,
+     "e": 2.2
+    },
+    {
+     "w": "twentythree",
+     "d": "twenty-three",
+     "t": 2.2,
+     "e": 2.76
+    },
+    {
+     "w": "a's",
+     "d": "A's.",
+     "t": 2.76,
+     "e": 3.215
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     3.215
+    ]
+   ]
+  },
+  {
+   "id": "l09",
+   "n": 9,
+   "file": "triple-a/09-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "Phone company says no.",
+   "say": "[deadpan] [dry] Phone company says no.",
+   "source": "phantom-1-brian/L09-t1",
+   "tempo": 1.0,
+   "dur": 1.77,
+   "end": 1.52,
+   "words": [
+    {
+     "w": "phone",
+     "d": "Phone",
+     "t": 0.13,
+     "e": 0.42
+    },
+    {
+     "w": "company",
+     "d": "company",
+     "t": 0.42,
+     "e": 0.82
+    },
+    {
+     "w": "says",
+     "d": "says",
+     "t": 0.82,
+     "e": 1.14
+    },
+    {
+     "w": "no",
+     "d": "no.",
+     "t": 1.14,
+     "e": 1.52
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.52
+    ]
+   ]
+  },
+  {
+   "id": "l10",
+   "n": 10,
+   "file": "triple-a/10-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "They sue, and they lose.",
+   "say": "[deadpan] [dry] They sue, and they lose.",
+   "source": "phantom-1-brian/L10-t1",
+   "tempo": 1.0,
+   "dur": 2.275,
+   "end": 2.135,
+   "words": [
+    {
+     "w": "they",
+     "d": "They",
+     "t": 0.115,
+     "e": 0.395
+    },
+    {
+     "w": "sue",
+     "d": "sue,",
+     "t": 0.395,
+     "e": 0.855
+    },
+    {
+     "w": "and",
+     "d": "and",
+     "t": 1.315,
+     "e": 1.475
+    },
+    {
+     "w": "they",
+     "d": "they",
+     "t": 1.475,
+     "e": 1.835
+    },
+    {
+     "w": "lose",
+     "d": "lose.",
+     "t": 1.835,
+     "e": 2.135
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.855
+    ],
+    [
+     1.31,
+     2.135
+    ]
+   ]
+  },
+  {
+   "id": "l11",
+   "n": 11,
+   "file": "triple-a/11-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "Then an economist counts Chicago plumbers.",
+   "say": "[storytelling] [dry] Then an economist counts Chicago plumbers.",
+   "source": "phantom-1-brian/L11-t1",
+   "tempo": 1.0,
+   "dur": 3.235,
+   "end": 2.99,
+   "words": [
+    {
+     "w": "then",
+     "d": "Then",
+     "t": 0.12,
+     "e": 0.76
+    },
+    {
+     "w": "an",
+     "d": "an",
+     "t": 0.76,
+     "e": 0.92
+    },
+    {
+     "w": "economist",
+     "d": "economist",
+     "t": 0.92,
+     "e": 1.64
+    },
+    {
+     "w": "counts",
+     "d": "counts",
+     "t": 1.64,
+     "e": 2.12
+    },
+    {
+     "w": "chicago",
+     "d": "Chicago",
+     "t": 2.12,
+     "e": 2.44
+    },
+    {
+     "w": "plumbers",
+     "d": "plumbers.",
+     "t": 2.44,
+     "e": 2.99
+    }
+   ],
+   "voiced": [
+    [
+     0.065,
+     2.99
+    ]
+   ]
+  },
+  {
+   "id": "l12",
+   "n": 12,
+   "file": "triple-a/12-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "One in five starts with an A or a number.",
+   "say": "[matter-of-fact] [dry] One in five starts with an A or a number.",
+   "source": "phantom-1-brian/L12-t1",
+   "tempo": 1.0,
+   "dur": 3.045,
+   "end": 2.795,
+   "words": [
+    {
+     "w": "one",
+     "d": "One",
+     "t": 0.18,
+     "e": 0.27
+    },
+    {
+     "w": "in",
+     "d": "in",
+     "t": 0.27,
+     "e": 0.75
+    },
+    {
+     "w": "five",
+     "d": "five",
+     "t": 0.75,
+     "e": 1.15
+    },
+    {
+     "w": "starts",
+     "d": "starts",
+     "t": 1.15,
+     "e": 1.39
+    },
+    {
+     "w": "with",
+     "d": "with",
+     "t": 1.39,
+     "e": 1.55
+    },
+    {
+     "w": "an",
+     "d": "an",
+     "t": 1.55,
+     "e": 1.79
+    },
+    {
+     "w": "a",
+     "d": "A",
+     "t": 1.79,
+     "e": 2.19
+    },
+    {
+     "w": "or",
+     "d": "or",
+     "t": 2.19,
+     "e": 2.31
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 2.31,
+     "e": 2.43
+    },
+    {
+     "w": "number",
+     "d": "number.",
+     "t": 2.43,
+     "e": 2.795
+    }
+   ],
+   "voiced": [
+    [
+     0.055,
+     2.795
+    ]
+   ]
+  },
+  {
+   "id": "l13",
+   "n": 13,
+   "file": "triple-a/13-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "Those get five times the complaints.",
+   "say": "[deadpan] [punchline] Those get five times the complaints.",
+   "source": "phantom-1-brian/L13-t1",
+   "tempo": 1.0,
+   "dur": 2.645,
+   "end": 2.395,
+   "words": [
+    {
+     "w": "those",
+     "d": "Those",
+     "t": 0.405,
+     "e": 0.765
+    },
+    {
+     "w": "get",
+     "d": "get",
+     "t": 0.765,
+     "e": 0.965
+    },
+    {
+     "w": "five",
+     "d": "five",
+     "t": 0.965,
+     "e": 1.285
+    },
+    {
+     "w": "times",
+     "d": "times",
+     "t": 1.285,
+     "e": 1.645
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 1.645,
+     "e": 1.765
+    },
+    {
+     "w": "complaints",
+     "d": "complaints.",
+     "t": 1.765,
+     "e": 2.395
+    }
+   ],
+   "voiced": [
+    [
+     0.065,
+     2.395
+    ]
+   ]
+  },
+  {
+   "id": "l14",
+   "n": 14,
+   "file": "triple-a/14-chuck.mp3",
+   "character": "CHUCK",
+   "voice": "jack-chris-boston",
+   "voiceId": "2vubyVoGjNJ5HPga4SkV",
+   "text": "Saw your truck. You the cheap guy?",
+   "say": "[blunt] [haggling] Saw your truck. You the cheap guy?",
+   "source": "chuck-1-jack-chris-boston/L14-t1",
+   "tempo": 1.0,
+   "dur": 2.345,
+   "end": 2.095,
+   "words": [
+    {
+     "w": "saw",
+     "d": "Saw",
+     "t": 0.17,
+     "e": 0.375
+    },
+    {
+     "w": "your",
+     "d": "your",
+     "t": 0.375,
+     "e": 0.655
+    },
+    {
+     "w": "truck",
+     "d": "truck.",
+     "t": 0.655,
+     "e": 1.055
+    },
+    {
+     "w": "you",
+     "d": "You",
+     "t": 1.335,
+     "e": 1.415
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 1.415,
+     "e": 1.575
+    },
+    {
+     "w": "cheap",
+     "d": "cheap",
+     "t": 1.575,
+     "e": 1.73
+    },
+    {
+     "w": "guy",
+     "d": "guy?",
+     "t": 1.815,
+     "e": 2.095
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.055
+    ],
+    [
+     1.285,
+     1.73
+    ],
+    [
+     1.765,
+     2.095
+    ]
+   ]
+  },
+  {
+   "id": "l15",
+   "n": 15,
+   "file": "triple-a/15-dave.mp3",
+   "character": "DAVE",
+   "voice": "Callum",
+   "voiceId": "N2lVS1w4EtoT3dr4eOWO",
+   "text": "Yeah. Yeah, that's me.",
+   "say": "[hesitant] [defeated] ...Yeah. Yeah, that's me.",
+   "source": "dave-1-callum/L15-t1",
+   "tempo": 1.0,
+   "dur": 2.935,
+   "end": 2.815,
+   "words": [
+    {
+     "w": "yeah",
+     "d": "...Yeah.",
+     "t": 0.1,
+     "e": 1.16
+    },
+    {
+     "w": "yeah",
+     "d": "Yeah,",
+     "t": 1.495,
+     "e": 2.055
+    },
+    {
+     "w": "that's",
+     "d": "that's",
+     "t": 2.055,
+     "e": 2.535
+    },
+    {
+     "w": "me",
+     "d": "me.",
+     "t": 2.535,
+     "e": 2.815
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.16
+    ],
+    [
+     1.195,
+     1.3
+    ],
+    [
+     1.33,
+     2.815
+    ]
+   ]
+  },
+  {
+   "id": "l16",
+   "n": 16,
+   "file": "triple-a/16-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "Five times the complaints. Starting now.",
+   "say": "[deadpan] [dry] Five times the complaints. Starting now.",
+   "source": "phantom-1-brian/L16-t1",
+   "tempo": 1.0,
+   "dur": 3.035,
+   "end": 2.865,
+   "words": [
+    {
+     "w": "five",
+     "d": "Five",
+     "t": 0.19,
+     "e": 0.475
+    },
+    {
+     "w": "times",
+     "d": "times",
+     "t": 0.475,
+     "e": 0.835
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 0.835,
+     "e": 0.955
+    },
+    {
+     "w": "complaints",
+     "d": "complaints.",
+     "t": 0.955,
+     "e": 1.72
+    },
+    {
+     "w": "starting",
+     "d": "Starting",
+     "t": 2.155,
+     "e": 2.555
+    },
+    {
+     "w": "now",
+     "d": "now.",
+     "t": 2.555,
+     "e": 2.865
+    }
+   ],
+   "voiced": [
+    [
+     0.065,
+     1.72
+    ],
+    [
+     2.12,
+     2.865
+    ]
+   ]
+  },
+  {
+   "id": "l17",
+   "n": 17,
+   "file": "triple-a/17-phantom.mp3",
+   "character": "PHANTOM",
+   "voice": "Brian",
+   "voiceId": "nPczCjzI2devNBz1zQrb",
+   "text": "Follow, so you don't miss the next episode.",
+   "say": "[dry] [deadpan] Follow... so you don't miss the next episode.",
+   "source": "phantom-1-brian/L17-t1",
+   "tempo": 1.0,
+   "dur": 3.015,
+   "end": 2.895,
+   "words": [
+    {
+     "w": "follow",
+     "d": "Follow...",
+     "t": 0.535,
+     "e": 0.78
+    },
+    {
+     "w": "so",
+     "d": "so",
+     "t": 1.255,
+     "e": 1.415
+    },
+    {
+     "w": "you",
+     "d": "you",
+     "t": 1.415,
+     "e": 1.535
+    },
+    {
+     "w": "don't",
+     "d": "don't",
+     "t": 1.535,
+     "e": 1.815
+    },
+    {
+     "w": "miss",
+     "d": "miss",
+     "t": 1.815,
+     "e": 1.975
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 1.975,
+     "e": 2.135
+    },
+    {
+     "w": "next",
+     "d": "next",
+     "t": 2.135,
+     "e": 2.375
+    },
+    {
+     "w": "episode",
+     "d": "episode.",
+     "t": 2.375,
+     "e": 2.895
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.78
+    ],
+    [
+     1.18,
+     2.895
+    ]
+   ]
+  }
+ ],
+ "tableRead": {
+  "file": "out/triple-a-table-read.mp3",
+  "dur": 48.67,
+  "lufs": -16.0,
+  "gaps": {
+   "1": 0.15,
+   "2": 0.35,
+   "3": 0.15,
+   "4": 0.75,
+   "5": 0.15,
+   "6": 0.55,
+   "7": 0.1,
+   "8": 0.25,
+   "9": 0.2,
+   "10": 0.55,
+   "11": 0.15,
+   "12": 0.25,
+   "13": 1.4,
+   "14": 0.3,
+   "15": 0.35,
+   "16": 0.4
+  },
+  "cues": [
+   {
+    "n": 1,
+    "at": 0.39,
+    "speech": [
+     0.45,
+     2.95
+    ]
+   },
+   {
+    "n": 2,
+    "at": 3.055,
+    "speech": [
+     3.1,
+     5.895
+    ]
+   },
+   {
+    "n": 3,
+    "at": 6.185,
+    "speech": [
+     6.245,
+     8.45
+    ]
+   },
+   {
+    "n": 4,
+    "at": 8.54,
+    "speech": [
+     8.6,
+     10.735
+    ]
+   },
+   {
+    "n": 5,
+    "at": 11.43,
+    "speech": [
+     11.485,
+     13.83
+    ]
+   },
+   {
+    "n": 6,
+    "at": 13.915,
+    "speech": [
+     13.98,
+     16.585
+    ]
+   },
+   {
+    "n": 7,
+    "at": 17.075,
+    "speech": [
+     17.135,
+     19.31
+    ]
+   },
+   {
+    "n": 8,
+    "at": 19.35,
+    "speech": [
+     19.41,
+     22.565
+    ]
+   },
+   {
+    "n": 9,
+    "at": 22.755,
+    "speech": [
+     22.815,
+     24.275
+    ]
+   },
+   {
+    "n": 10,
+    "at": 24.415,
+    "speech": [
+     24.475,
+     26.55
+    ]
+   },
+   {
+    "n": 11,
+    "at": 27.035,
+    "speech": [
+     27.1,
+     30.025
+    ]
+   },
+   {
+    "n": 12,
+    "at": 30.12,
+    "speech": [
+     30.175,
+     32.915
+    ]
+   },
+   {
+    "n": 13,
+    "at": 33.1,
+    "speech": [
+     33.165,
+     35.495
+    ]
+   },
+   {
+    "n": 14,
+    "at": 36.835,
+    "speech": [
+     36.895,
+     38.93
+    ]
+   },
+   {
+    "n": 15,
+    "at": 39.17,
+    "speech": [
+     39.23,
+     41.985
+    ]
+   },
+   {
+    "n": 16,
+    "at": 42.27,
+    "speech": [
+     42.335,
+     45.135
+    ]
+   },
+   {
+    "n": 17,
+    "at": 45.475,
+    "speech": [
+     45.535,
+     48.37
+    ]
+   }
+  ],
+  "sfx": [
+   {
+    "sfx": "spray",
+    "at": 0.03
+   },
+   {
+    "sfx": "whoosh",
+    "at": 10.835
+   },
+   {
+    "sfx": "thud",
+    "at": 11.435
+   },
+   {
+    "sfx": "flip",
+    "at": 12.585
+   },
+   {
+    "sfx": "typewriter",
+    "at": 16.735
+   },
+   {
+    "sfx": "stamp",
+    "at": 22.815
+   },
+   {
+    "sfx": "gavel",
+    "at": 26.3
+   },
+   {
+    "sfx": "typewriter",
+    "at": 26.7
+   },
+   {
+    "sfx": "paperpile",
+    "at": 33.465
+   },
+   {
+    "sfx": "whoosh",
+    "at": 35.595
+   },
+   {
+    "sfx": "ring",
+    "at": 35.945
+   },
+   {
+    "sfx": "birds",
+    "at": 35.895
+   },
+   {
+    "sfx": "pickup",
+    "at": 36.695
+   }
+  ]
+ }
+}

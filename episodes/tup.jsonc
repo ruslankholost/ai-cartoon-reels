@@ -1,0 +1,165 @@
+// "I'm Just Supporting a Friend" (id "tup"; script v4, 2026-10-22, docs/x05-supporting-a-friend.md): Denise says yes to a friend's party, Rhonda says the party is a store and tells how Tupperware went from the shelves to home parties (Detroit 1949, sold in 1958), then the 2018 survey of people who sell this stuff.
+// Format: see scripts/voice-gen.mjs (lines, directions) and scripts/voice-build.py (cast, plan, gaps, lead, tableSfx). The order of "lines" is the story's order; the numbers are the story's order too.
+// Reused from "I'm Just Not a Sales Person" v1 (episodes/pen.jsonc at commit 381cfe8): lines 4, 5, 6, 9, 12-17, 19, 20, 22 and 23. Their raw takes are copies in scratch/voice-raw/tup (tup line <- pen line: 4<-4, 5<-5, 6<-6, 9<-8, 12<-9, 13<-10, 14<-11, 15<-12, 16<-13, 17<-14, 19<-16, 20<-17, 22<-32, 23<-33),
+// with pen's directions, takes and rates in "plan". New takes: 1, 2, 3, 7, 8, 10, 11, 18 and 21, five directions each. Rhonda's new story lines (7, 8, 10, 11, 18) use the same narration directions as pen's (dry storyteller over a beer, unhurried, not an announcer), so they sit beside the reused ones.
+// Line 22 is bleeped (word 0), as in pen.
+{
+ "title": "I'm Just Supporting a Friend",
+ "cast": {"denise": 1, "rhonda": 1, "guest1": 1, "guest2": 1, "guest3": 1},
+ "runnerUp": {},
+ "lines": [
+// the garage: she said yes, Rhonda says what it is
+  {"n": 1, "char": "denise", "text": "I'm just supporting a friend.", "dirs": [
+   {"t": "[defensive] [matter-of-fact]", "st": 0.45, "sy": 0.25},
+   {"t": "[weary] [defensive] [flat]", "st": 0.45, "sy": 0.25},
+   {"t": "[sighing] [defensive]", "st": 0.5, "sy": 0.25},
+   {"t": "[defensive] [casual] [dismissive]", "st": 0.45, "sy": 0.3},
+   {"t": "[tired] [defensive] [matter-of-fact]", "st": 0.5, "sy": 0.2}
+  ]},
+  {"n": 2, "char": "rhonda", "text": "That party's a store.", "dirs": [
+   {"t": "[dry] [flat]", "st": 0.5, "sy": 0.2},
+   {"t": "[deadpan] [matter-of-fact]", "st": 0.5, "sy": 0.2},
+   {"t": "[flat] [dry] [unimpressed]", "st": 0.45, "sy": 0.25},
+   {"t": "[dry] [knowing]", "st": 0.5, "sy": 0.2},
+   {"t": "[wry] [flat]", "st": 0.5, "sy": 0.25}
+  ]},
+  {"n": 3, "char": "denise", "text": "It's a party.", "dirs": [
+   {"t": "[small] [unsure]", "st": 0.45, "sy": 0.3, "text": "...It's a party."},
+   {"t": "[quiet] [hesitant]", "st": 0.45, "sy": 0.3, "text": "...It's a party."},
+   {"t": "[sheepish] [uncertain]", "st": 0.45, "sy": 0.3, "text": "...It's a party."},
+   {"t": "[defensive] [quiet] [unsure]", "st": 0.4, "sy": 0.35, "text": "...It's a party."},
+   {"t": "[tentative] [small]", "st": 0.4, "sy": 0.35, "text": "...It's a party."}
+  ]},
+  {"n": 4, "char": "rhonda", "text": "Shut up and look.", "dirs": [
+   {"t": "[dry] [deadpan] [amused]", "st": 0.5, "sy": 0.2},
+   {"t": "[flat] [mildly amused]", "st": 0.5, "sy": 0.2},
+   {"t": "[dry] [smirking]", "st": 0.45, "sy": 0.25}
+  ]},
+// the story (sepia): Rhonda over the pictures
+  {"n": 5, "char": "rhonda", "text": "Detroit, 1949. Plastic bowls.", "dirs": [
+   {"t": "[dry] [casual] [storytelling]", "st": 0.45, "sy": 0.25},
+   {"t": "[wry] [conversational] [unhurried]", "st": 0.5, "sy": 0.25},
+   {"t": "[matter-of-fact] [amused]", "st": 0.45, "sy": 0.3}
+  ]},
+  {"n": 6, "char": "rhonda", "text": "Nobody buys 'em in stores.", "dirs": [
+   {"t": "[dry] [casual] [storytelling]", "st": 0.45, "sy": 0.25},
+   {"t": "[wry] [conversational] [unhurried]", "st": 0.5, "sy": 0.25},
+   {"t": "[matter-of-fact] [amused]", "st": 0.45, "sy": 0.3}
+  ]},
+  {"n": 7, "char": "rhonda", "text": "Nobody gets the lid. You have to burp it.", "dirs": [
+   {"t": "[dry] [casual] [storytelling]", "st": 0.45, "sy": 0.25},
+   {"t": "[wry] [conversational] [unhurried]", "st": 0.5, "sy": 0.25},
+   {"t": "[matter-of-fact] [amused]", "st": 0.45, "sy": 0.3},
+   {"t": "[dry] [matter-of-fact] [storytelling]", "st": 0.5, "sy": 0.2},
+   {"t": "[casual] [wry] [storytelling]", "st": 0.45, "sy": 0.3}
+  ]},
+  {"n": 8, "char": "rhonda", "text": "So a divorced mom named Brownie Wise shows 'em at parties.", "dirs": [
+   {"t": "[dry] [casual] [storytelling]", "st": 0.45, "sy": 0.25},
+   {"t": "[wry] [conversational] [unhurried]", "st": 0.5, "sy": 0.25},
+   {"t": "[matter-of-fact] [amused]", "st": 0.45, "sy": 0.3},
+   {"t": "[dry] [matter-of-fact] [storytelling]", "st": 0.5, "sy": 0.2},
+   {"t": "[casual] [wry] [storytelling]", "st": 0.45, "sy": 0.3},
+   {"t": "[wry] [conversational] [unhurried]", "st": 0.45, "sy": 0.3},
+   {"t": "[wry] [conversational] [unhurried]", "st": 0.55, "sy": 0.2}
+  ]},
+  {"n": 9, "char": "rhonda", "text": "To her friends.", "dirs": [
+   {"t": "[dry] [casual] [storytelling]", "st": 0.45, "sy": 0.25},
+   {"t": "[wry] [conversational] [unhurried]", "st": 0.5, "sy": 0.25},
+   {"t": "[matter-of-fact] [amused]", "st": 0.45, "sy": 0.3}
+  ]},
+  {"n": 10, "char": "rhonda", "text": "In '51 they pulled 'em off the shelves. Parties only.", "dirs": [
+   {"t": "[dry] [casual] [storytelling]", "st": 0.45, "sy": 0.25},
+   {"t": "[wry] [conversational] [unhurried]", "st": 0.5, "sy": 0.25},
+   {"t": "[matter-of-fact] [amused]", "st": 0.45, "sy": 0.3},
+   {"t": "[dry] [matter-of-fact] [storytelling]", "st": 0.5, "sy": 0.2},
+   {"t": "[casual] [wry] [storytelling]", "st": 0.45, "sy": 0.3},
+   {"t": "[wry] [conversational] [unhurried]", "st": 0.45, "sy": 0.3},
+   {"t": "[wry] [conversational] [unhurried]", "st": 0.55, "sy": 0.2}
+  ]},
+  {"n": 11, "char": "rhonda", "text": "And the friend throwing the party? She got a gift for inviting you.", "dirs": [
+   {"t": "[dry] [casual] [storytelling]", "st": 0.45, "sy": 0.25},
+   {"t": "[wry] [conversational] [unhurried]", "st": 0.5, "sy": 0.25},
+   {"t": "[matter-of-fact] [amused]", "st": 0.45, "sy": 0.3},
+   {"t": "[dry] [matter-of-fact] [storytelling]", "st": 0.5, "sy": 0.2},
+   {"t": "[casual] [wry] [storytelling]", "st": 0.45, "sy": 0.3}
+  ]},
+// the three guests on the couch: the same word in three voices
+  {"n": 12, "char": "guest1", "text": "Sure.", "dirs": [
+   {"t": "[dreamy] [glazed] [polite]", "st": 0.45, "sy": 0.3},
+   {"t": "[dazed] [pleasant] [soft]", "st": 0.45, "sy": 0.3},
+   {"t": "[vacant] [sweet] [agreeable]", "st": 0.5, "sy": 0.25}
+  ]},
+  {"n": 13, "char": "guest2", "text": "Sure.", "dirs": [
+   {"t": "[dreamy] [glazed] [polite]", "st": 0.45, "sy": 0.3},
+   {"t": "[dazed] [pleasant] [soft]", "st": 0.45, "sy": 0.3},
+   {"t": "[vacant] [sweet] [agreeable]", "st": 0.5, "sy": 0.25}
+  ]},
+  {"n": 14, "char": "guest3", "text": "Sure.", "dirs": [
+   {"t": "[dreamy] [glazed] [polite]", "st": 0.45, "sy": 0.3},
+   {"t": "[dazed] [pleasant] [soft]", "st": 0.45, "sy": 0.3},
+   {"t": "[vacant] [sweet] [agreeable]", "st": 0.5, "sy": 0.25}
+  ]},
+  {"n": 15, "char": "rhonda", "text": "One woman's selling.", "dirs": [
+   {"t": "[dry] [pointed] [storytelling]", "st": 0.45, "sy": 0.25},
+   {"t": "[wry] [conversational] [unhurried]", "st": 0.5, "sy": 0.25},
+   {"t": "[matter-of-fact] [knowing]", "st": 0.45, "sy": 0.3}
+  ]},
+  {"n": 16, "char": "rhonda", "text": "Everybody else thinks it's a party.", "dirs": [
+   {"t": "[dry] [amused] [storytelling]", "st": 0.45, "sy": 0.25},
+   {"t": "[wry] [conversational] [unhurried]", "st": 0.5, "sy": 0.25},
+   {"t": "[deadpan] [knowing]", "st": 0.45, "sy": 0.3}
+  ]},
+  {"n": 17, "char": "rhonda", "text": "Tupperware.", "dirs": [
+   {"t": "[dry] [satisfied]", "st": 0.5, "sy": 0.25},
+   {"t": "[deadpan] [smug]", "st": 0.5, "sy": 0.25},
+   {"t": "[matter-of-fact] [pleased]", "st": 0.45, "sy": 0.3}
+  ]},
+  {"n": 18, "char": "rhonda", "text": "In '58 the owner sold the company.", "dirs": [
+   {"t": "[dry] [casual] [storytelling]", "st": 0.45, "sy": 0.25},
+   {"t": "[wry] [conversational] [unhurried]", "st": 0.5, "sy": 0.25},
+   {"t": "[matter-of-fact] [amused]", "st": 0.45, "sy": 0.3},
+   {"t": "[dry] [matter-of-fact] [storytelling]", "st": 0.5, "sy": 0.2},
+   {"t": "[casual] [wry] [storytelling]", "st": 0.45, "sy": 0.3}
+  ]},
+  {"n": 19, "char": "rhonda", "text": "Sixteen million.", "dirs": [
+   {"t": "[dry] [deadpan]", "st": 0.5, "sy": 0.2},
+   {"t": "[flat] [pointed]", "st": 0.5, "sy": 0.25},
+   {"t": "[matter-of-fact] [wry]", "st": 0.45, "sy": 0.3}
+  ]},
+// back in the garage: the group chat, the survey, the realization, the outro
+  {"n": 20, "char": "rhonda", "text": "Now it's the group chat.", "dirs": [
+   {"t": "[dry] [deadpan]", "st": 0.5, "sy": 0.2},
+   {"t": "[flat] [wry]", "st": 0.5, "sy": 0.2},
+   {"t": "[matter-of-fact] [amused]", "st": 0.45, "sy": 0.25}
+  ]},
+  {"n": 21, "char": "rhonda", "text": "A 2018 survey asked people who sell this stuff. Almost half lost money.", "dirs": [
+   {"t": "[dry] [matter-of-fact]", "st": 0.5, "sy": 0.2},
+   {"t": "[deadpan] [pointed]", "st": 0.5, "sy": 0.2},
+   {"t": "[dry] [casual] [storytelling]", "st": 0.45, "sy": 0.25},
+   {"t": "[flat] [knowing]", "st": 0.5, "sy": 0.2},
+   {"t": "[wry] [matter-of-fact]", "st": 0.45, "sy": 0.25}
+  ]},
+  {"n": 22, "char": "denise", "text": "Fucking marketing.", "dirs": [
+   {"t": "[realization] [flat] [low]", "st": 0.5, "sy": 0.25},
+   {"t": "[muttering] [low] [deadpan]", "st": 0.45, "sy": 0.3},
+   {"t": "[quietly] [flat] [disgusted]", "st": 0.5, "sy": 0.25}
+  ]},
+  {"n": 23, "char": "rhonda", "text": "Either you're selling, or you're buying.", "dirs": [
+   {"t": "[dry] [deadpan]", "st": 0.5, "sy": 0.2},
+   {"t": "[flat] [matter-of-fact] [knowing]", "st": 0.5, "sy": 0.2},
+   {"t": "[dry] [wry] [unhurried]", "st": 0.45, "sy": 0.25}
+  ]}
+ ],
+// the plan: take t and tempo rate per line. Lines 4, 5, 6, 9, 12-17, 19, 20, 22 and 23 carry pen's take and rate (commit 381cfe8: pen 4, 5, 6, 8, 9, 10, 11, 12, 13, 14, 16, 17, 32, 33); 22 keeps its "from" and "bleep".
+// New lines: 1 (t2, her usual register and "defensive"), 2 (t1, the flattest), 3 (t4, the quiet one: the others open with a sigh or a mumble), 7 and 18 (t1, the narration voice of lines 5 and 6), 8 (t8, the quickest of the three of nine takes where Whisper hears "shows them", not "shows him"),
+// 10 (t6, one of the four of nine where Whisper hears "pulled them", not "pulled him"; the register of the reused lines), 11 (t5), 21 (t2: the last sentence drops 5 semitones and stays down, "Almost half lost money" lands)
+ "plan": {"1": {"t": 2, "rate": 1.1}, "2": {"t": 1, "rate": 1.05}, "3": {"t": 4}, "4": {"t": 1, "rate": 1.2}, "5": {"t": 1, "rate": 1.1}, "6": {"t": 1}, "7": {"t": 1}, "8": {"t": 8}, "9": {"t": 1}, "10": {"t": 6}, "11": {"t": 5}, "12": {"t": 1, "rate": 1.25}, "13": {"t": 1, "rate": 1.2}, "14": {"t": 1, "rate": 1.25}, "15": {"t": 2, "rate": 1.05}, "16": {"t": 2}, "17": {"t": 1}, "18": {"t": 1}, "19": {"t": 2, "rate": 1.05}, "20": {"t": 1}, "21": {"t": 2}, "22": {"t": 2, "rate": 1.15, "from": 0.95, "bleep": [0]}, "23": {"t": 1}},
+// lead 2.2: the hook (the phone with the invite and her typing, 1.6 s), Rhonda's brow (0.5 s), then Denise at about 2.1 s (Ross 10-22: the satire's first frame was a dark wide and people skip)
+ "lead": 2.2,
+// (10-22 build: the lead and the gaps after 6, 7, 9, 11, 20 and 21 were widened for the beats that needed room: 6 the lid pops (1.3 s), 7 the burp, the ding and the gasp (0.9), 9 Denise bites a chip (1.1), 11 three order forms slide in (1.0), 20 the text on her phone is read for 1.7 s (2.3), 21 the stamp holds (1.1); no take changed)
+// the gaps (after the line named, s) carry the silent beats of the shot list: 4: the camera dives into Denise's bowl and comes out in 1949; 6: a shopper presses a lid and it pops off; 7: the hostess presses the middle, a puff, "burp", the guests gasp; 9: the store shelf is emptied;
+// 10: a hand in a suit sleeve gives her a gift box, ding; 11: order forms slide in; 12-13: the "Sure."s, quick; 16: Denise stops chewing and looks at her bowl; 17: the newspaper spins in; 20: the phone buzzes, "Bring a friend!! I get a free candle" readable;
+// 21: "47% LOST MONEY" pops and holds; 22: Rhonda cracks another beer; 23: the share line over the last shot (the table read stops at the end of line 23, it does not carry this one)
+ "gaps": {"1": 0.2, "2": 0.2, "3": 0.15, "4": 1.1, "5": 0.15, "6": 1.3, "7": 0.9, "8": 0.15, "9": 1.1, "10": 0.6, "11": 1.0, "12": 0.15, "13": 0.15, "14": 0.2, "15": 0.15, "16": 0.5, "17": 0.6, "18": 0.2, "19": 0.25, "20": 2.3, "21": 1.1, "22": 0.4, "23": 2.5},
+ "tableSfx": []
+}

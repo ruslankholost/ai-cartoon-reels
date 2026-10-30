@@ -1,0 +1,990 @@
+{
+ "model": "eleven_v4",
+ "target_lufs": -19.0,
+ "cast": {
+  "DENISE": {
+   "cast": {
+    "voice": "Bella",
+    "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+    "account_name": "Bella - Professional, Bright, Warm"
+   }
+  },
+  "BRANDON": {
+   "cast": {
+    "voice": "jack-ed",
+    "voiceId": "3IwIPyXc0WRkgKBE8KXP",
+    "account_name": "jack-ed"
+   }
+  },
+  "RHONDA": {
+   "cast": {
+    "voice": "Matilda",
+    "voiceId": "XrExE9yKIg1WjnnlVkGX",
+    "account_name": "Matilda - Knowledgable, Professional"
+   }
+  }
+ },
+ "takes": [
+  {
+   "id": "l01",
+   "n": 1,
+   "file": "pen/01-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "I'm just not a sales person.",
+   "say": "[weary] [defensive] [flat] I'm just not a sales person.",
+   "source": "denise-1-bella/L01-t2",
+   "tempo": 1.1,
+   "dur": 2.102,
+   "end": 1.94,
+   "words": [
+    {
+     "w": "i'm",
+     "d": "I'm",
+     "t": 0.136,
+     "e": 0.5
+    },
+    {
+     "w": "just",
+     "d": "just",
+     "t": 0.5,
+     "e": 0.718
+    },
+    {
+     "w": "not",
+     "d": "not",
+     "t": 0.718,
+     "e": 0.864
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 0.864,
+     "e": 1.119
+    },
+    {
+     "w": "sales",
+     "d": "sales",
+     "t": 1.119,
+     "e": 1.556
+    },
+    {
+     "w": "person",
+     "d": "person.",
+     "t": 1.556,
+     "e": 1.94
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.94
+    ]
+   ]
+  },
+  {
+   "id": "l18",
+   "n": 18,
+   "file": "pen/18-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "I could be my own boss.",
+   "say": "[hopeful] [dreamy] ...I could be my own boss.",
+   "source": "denise-1-bella/L18-t1",
+   "tempo": 1.1,
+   "dur": 2.043,
+   "end": 1.815,
+   "words": [
+    {
+     "w": "i",
+     "d": "...I",
+     "t": 0.204,
+     "e": 0.365
+    },
+    {
+     "w": "could",
+     "d": "could",
+     "t": 0.365,
+     "e": 0.435
+    },
+    {
+     "w": "be",
+     "d": "be",
+     "t": 0.511,
+     "e": 0.657
+    },
+    {
+     "w": "my",
+     "d": "my",
+     "t": 0.657,
+     "e": 0.875
+    },
+    {
+     "w": "own",
+     "d": "own",
+     "t": 0.875,
+     "e": 1.167
+    },
+    {
+     "w": "boss",
+     "d": "boss.",
+     "t": 1.167,
+     "e": 1.815
+    }
+   ],
+   "voiced": [
+    [
+     0.03,
+     0.435
+    ],
+    [
+     0.47,
+     1.815
+    ]
+   ]
+  },
+  {
+   "id": "l19",
+   "n": 19,
+   "file": "pen/19-brandon.mp3",
+   "character": "BRANDON",
+   "voice": "jack-ed",
+   "voiceId": "3IwIPyXc0WRkgKBE8KXP",
+   "text": "Sell me this pen.",
+   "say": "[confident] [smug] [smooth] Sell me this pen.",
+   "source": "brandon-1-jack-ed/L19-t1",
+   "tempo": 1.0,
+   "dur": 1.655,
+   "end": 1.43,
+   "words": [
+    {
+     "w": "sell",
+     "d": "Sell",
+     "t": 0.25,
+     "e": 0.455
+    },
+    {
+     "w": "me",
+     "d": "me",
+     "t": 0.455,
+     "e": 0.615
+    },
+    {
+     "w": "this",
+     "d": "this",
+     "t": 0.615,
+     "e": 0.805
+    },
+    {
+     "w": "pen",
+     "d": "pen.",
+     "t": 0.855,
+     "e": 1.43
+    }
+   ],
+   "voiced": [
+    [
+     0.055,
+     0.805
+    ],
+    [
+     0.87,
+     1.43
+    ]
+   ]
+  },
+  {
+   "id": "l20",
+   "n": 20,
+   "file": "pen/20-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "It writes?",
+   "say": "[uncertain] [tentative] [quiet] ...It writes?",
+   "source": "denise-1-bella/L20-t2",
+   "tempo": 1.1,
+   "dur": 1.363,
+   "end": 1.28,
+   "words": [
+    {
+     "w": "it",
+     "d": "...It",
+     "t": 0.1,
+     "e": 0.305
+    },
+    {
+     "w": "writes",
+     "d": "writes?",
+     "t": 0.887,
+     "e": 0.915
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.305
+    ],
+    [
+     0.555,
+     0.915
+    ],
+    [
+     0.95,
+     1.28
+    ]
+   ]
+  },
+  {
+   "id": "l21",
+   "n": 21,
+   "file": "pen/21-brandon.mp3",
+   "character": "BRANDON",
+   "voice": "jack-ed",
+   "voiceId": "3IwIPyXc0WRkgKBE8KXP",
+   "text": "Sign here.",
+   "say": "[smooth] [quick] [casual] Sign here.",
+   "source": "brandon-1-jack-ed/L21-t1",
+   "tempo": 1.0,
+   "dur": 0.95,
+   "end": 0.7,
+   "words": [
+    {
+     "w": "sign",
+     "d": "Sign",
+     "t": 0.27,
+     "e": 0.415
+    },
+    {
+     "w": "here",
+     "d": "here.",
+     "t": 0.415,
+     "e": 0.7
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.7
+    ]
+   ]
+  },
+  {
+   "id": "l22",
+   "n": 22,
+   "file": "pen/22-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "You got a pen?",
+   "say": "[sheepish] [quiet] ...You got a pen?",
+   "source": "denise-1-bella/L22-t1",
+   "tempo": 1.0,
+   "dur": 1.41,
+   "end": 1.25,
+   "words": [
+    {
+     "w": "you",
+     "d": "...You",
+     "t": 0.37,
+     "e": 0.45
+    },
+    {
+     "w": "got",
+     "d": "got",
+     "t": 0.45,
+     "e": 0.57
+    },
+    {
+     "w": "a",
+     "d": "a",
+     "t": 0.57,
+     "e": 0.69
+    },
+    {
+     "w": "pen",
+     "d": "pen?",
+     "t": 0.69,
+     "e": 1.25
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.25
+    ]
+   ]
+  },
+  {
+   "id": "l23",
+   "n": 23,
+   "file": "pen/23-brandon.mp3",
+   "character": "BRANDON",
+   "voice": "jack-ed",
+   "voiceId": "3IwIPyXc0WRkgKBE8KXP",
+   "text": "Twenty bucks.",
+   "say": "[cheerful] [bright] Twenty bucks.",
+   "source": "brandon-1-jack-ed/L23-t1",
+   "tempo": 1.0,
+   "dur": 1.27,
+   "end": 1.02,
+   "words": [
+    {
+     "w": "twenty",
+     "d": "Twenty",
+     "t": 0.08,
+     "e": 0.48
+    },
+    {
+     "w": "bucks",
+     "d": "bucks.",
+     "t": 0.48,
+     "e": 0.705
+    }
+   ],
+   "voiced": [
+    [
+     0.04,
+     0.705
+    ],
+    [
+     0.76,
+     1.02
+    ]
+   ]
+  },
+  {
+   "id": "l24",
+   "n": 24,
+   "file": "pen/24-brandon.mp3",
+   "character": "BRANDON",
+   "voice": "jack-ed",
+   "voiceId": "3IwIPyXc0WRkgKBE8KXP",
+   "text": "Starter kit's three hundred.",
+   "say": "[fast] [upbeat] Starter kit's three hundred.",
+   "source": "brandon-1-jack-ed/L24-t1",
+   "tempo": 1.0,
+   "dur": 1.695,
+   "end": 1.435,
+   "words": [
+    {
+     "w": "starter",
+     "d": "Starter",
+     "t": 0.15,
+     "e": 0.43
+    },
+    {
+     "w": "kit's",
+     "d": "kit's",
+     "t": 0.43,
+     "e": 0.75
+    },
+    {
+     "w": "three",
+     "d": "three",
+     "t": 0.75,
+     "e": 0.99
+    },
+    {
+     "w": "hundred",
+     "d": "hundred.",
+     "t": 0.99,
+     "e": 1.435
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.435
+    ]
+   ]
+  },
+  {
+   "id": "l25",
+   "n": 25,
+   "file": "pen/25-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Sure.",
+   "say": "[deadpan] [clipped] Sure.",
+   "source": "denise-1-bella/L25-t3",
+   "tempo": 1.0,
+   "dur": 1.005,
+   "end": 0.755,
+   "words": [
+    {
+     "w": "sure",
+     "d": "Sure.",
+     "t": 0.23,
+     "e": 0.755
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.755
+    ]
+   ]
+  },
+  {
+   "id": "l26",
+   "n": 26,
+   "file": "pen/26-brandon.mp3",
+   "character": "BRANDON",
+   "voice": "jack-ed",
+   "voiceId": "3IwIPyXc0WRkgKBE8KXP",
+   "text": "Diamond's twenty grand.",
+   "say": "[proud] [booming] Diamond's twenty grand.",
+   "source": "brandon-1-jack-ed/L26-t1",
+   "tempo": 1.0,
+   "dur": 2.24,
+   "end": 2.06,
+   "words": [
+    {
+     "w": "diamond's",
+     "d": "Diamond's",
+     "t": 0.26,
+     "e": 0.79
+    },
+    {
+     "w": "twenty",
+     "d": "twenty",
+     "t": 0.96,
+     "e": 1.36
+    },
+    {
+     "w": "grand",
+     "d": "grand.",
+     "t": 1.36,
+     "e": 2.06
+    }
+   ],
+   "voiced": [
+    [
+     0.025,
+     0.79
+    ],
+    [
+     0.85,
+     2.06
+    ]
+   ]
+  },
+  {
+   "id": "l27",
+   "n": 27,
+   "file": "pen/27-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Twenty gr",
+   "say": "[hesitant] [counting] ...Twenty gr—",
+   "source": "denise-1-bella/L27-t1",
+   "tempo": 1.0,
+   "dur": 1.06,
+   "end": 1.045,
+   "words": [
+    {
+     "w": "twenty",
+     "d": "...Twenty",
+     "t": 0.36,
+     "e": 0.8
+    },
+    {
+     "w": "gr",
+     "d": "gr—",
+     "t": 0.89,
+     "e": 1.045
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.8
+    ],
+    [
+     0.885,
+     1.045
+    ]
+   ]
+  },
+  {
+   "id": "l28",
+   "n": 28,
+   "file": "pen/28-brandon.mp3",
+   "character": "BRANDON",
+   "voice": "jack-ed",
+   "voiceId": "3IwIPyXc0WRkgKBE8KXP",
+   "text": "Don't do the math. Comes with the yacht.",
+   "say": "[smooth] [quick] [reassuring] Don't do the math. Comes with the yacht.",
+   "source": "brandon-1-jack-ed/L28-t1",
+   "tempo": 1.0,
+   "dur": 2.32,
+   "end": 2.215,
+   "words": [
+    {
+     "w": "don't",
+     "d": "Don't",
+     "t": 0.0,
+     "e": 0.4
+    },
+    {
+     "w": "do",
+     "d": "do",
+     "t": 0.4,
+     "e": 0.52
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 0.52,
+     "e": 0.64
+    },
+    {
+     "w": "math",
+     "d": "math.",
+     "t": 0.64,
+     "e": 1.085
+    },
+    {
+     "w": "comes",
+     "d": "Comes",
+     "t": 1.36,
+     "e": 1.6
+    },
+    {
+     "w": "with",
+     "d": "with",
+     "t": 1.6,
+     "e": 1.72
+    },
+    {
+     "w": "the",
+     "d": "the",
+     "t": 1.72,
+     "e": 1.84
+    },
+    {
+     "w": "yacht",
+     "d": "yacht.",
+     "t": 1.84,
+     "e": 2.215
+    }
+   ],
+   "voiced": [
+    [
+     0.02,
+     1.085
+    ],
+    [
+     1.345,
+     2.215
+    ]
+   ]
+  },
+  {
+   "id": "l29",
+   "n": 29,
+   "file": "pen/29-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Sure.",
+   "say": "[dazed] [flat] [quiet] ...Sure.",
+   "source": "denise-1-bella/L29-t2",
+   "tempo": 1.0,
+   "dur": 1.175,
+   "end": 0.925,
+   "words": [
+    {
+     "w": "sure",
+     "d": "...Sure.",
+     "t": 0.31,
+     "e": 0.925
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     0.925
+    ]
+   ]
+  },
+  {
+   "id": "l30",
+   "n": 30,
+   "file": "pen/30-rhonda.mp3",
+   "character": "RHONDA",
+   "voice": "Matilda",
+   "voiceId": "XrExE9yKIg1WjnnlVkGX",
+   "text": "Why do you have nine thousand pens?",
+   "say": "[dry] [deadpan] Why do you have nine thousand pens?",
+   "source": "rhonda-1-matilda/L30-t1",
+   "tempo": 1.1,
+   "dur": 2.532,
+   "end": 2.31,
+   "words": [
+    {
+     "w": "why",
+     "d": "Why",
+     "t": 0.06,
+     "e": 0.383
+    },
+    {
+     "w": "do",
+     "d": "do",
+     "t": 0.383,
+     "e": 0.493
+    },
+    {
+     "w": "you",
+     "d": "you",
+     "t": 0.493,
+     "e": 0.638
+    },
+    {
+     "w": "have",
+     "d": "have",
+     "t": 0.638,
+     "e": 0.93
+    },
+    {
+     "w": "nine",
+     "d": "nine",
+     "t": 0.93,
+     "e": 1.215
+    },
+    {
+     "w": "thousand",
+     "d": "thousand",
+     "t": 1.294,
+     "e": 1.731
+    },
+    {
+     "w": "pens",
+     "d": "pens?",
+     "t": 1.731,
+     "e": 2.31
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.215
+    ],
+    [
+     1.25,
+     2.31
+    ]
+   ]
+  },
+  {
+   "id": "l31",
+   "n": 31,
+   "file": "pen/31-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "I'm in sales now.",
+   "say": "[sincere] [quietly proud] ...I'm in sales now.",
+   "source": "denise-1-bella/L31-t1",
+   "tempo": 1.0,
+   "dur": 1.485,
+   "end": 1.29,
+   "words": [
+    {
+     "w": "i'm",
+     "d": "...I'm",
+     "t": 0.05,
+     "e": 0.285
+    },
+    {
+     "w": "in",
+     "d": "in",
+     "t": 0.285,
+     "e": 0.525
+    },
+    {
+     "w": "sales",
+     "d": "sales",
+     "t": 0.525,
+     "e": 0.925
+    },
+    {
+     "w": "now",
+     "d": "now.",
+     "t": 0.925,
+     "e": 1.29
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.29
+    ]
+   ]
+  },
+  {
+   "id": "l32",
+   "n": 32,
+   "file": "pen/32-denise.mp3",
+   "character": "DENISE",
+   "voice": "Bella",
+   "voiceId": "hpp4J3VqNfWAUOO0d1Us",
+   "text": "Fucking marketing.",
+   "say": "[muttering] [low] [deadpan] Fucking marketing.",
+   "source": "denise-1-bella/L32-t2",
+   "tempo": 1.15,
+   "dur": 1.464,
+   "end": 1.275,
+   "words": [
+    {
+     "w": "fucking",
+     "d": "Fucking",
+     "t": 0.208,
+     "e": 0.627,
+     "bleep": true
+    },
+    {
+     "w": "marketing",
+     "d": "marketing.",
+     "t": 0.627,
+     "e": 1.275
+    }
+   ],
+   "voiced": [
+    [
+     0.005,
+     1.275
+    ]
+   ]
+  },
+  {
+   "id": "l33",
+   "n": 33,
+   "file": "pen/33-rhonda.mp3",
+   "character": "RHONDA",
+   "voice": "Matilda",
+   "voiceId": "XrExE9yKIg1WjnnlVkGX",
+   "text": "Either you're selling, or you're buying.",
+   "say": "[dry] [deadpan] Either you're selling, or you're buying.",
+   "source": "rhonda-1-matilda/L33-t1",
+   "tempo": 1.0,
+   "dur": 2.61,
+   "end": 2.36,
+   "words": [
+    {
+     "w": "either",
+     "d": "Either",
+     "t": 0.02,
+     "e": 0.36
+    },
+    {
+     "w": "you're",
+     "d": "you're",
+     "t": 0.36,
+     "e": 0.8
+    },
+    {
+     "w": "selling",
+     "d": "selling,",
+     "t": 0.8,
+     "e": 1.36
+    },
+    {
+     "w": "or",
+     "d": "or",
+     "t": 1.44,
+     "e": 1.64
+    },
+    {
+     "w": "you're",
+     "d": "you're",
+     "t": 1.64,
+     "e": 1.84
+    },
+    {
+     "w": "buying",
+     "d": "buying.",
+     "t": 1.84,
+     "e": 2.36
+    }
+   ],
+   "voiced": [
+    [
+     0.06,
+     1.36
+    ],
+    [
+     1.44,
+     2.36
+    ]
+   ]
+  }
+ ],
+ "tableRead": {
+  "file": "out/pen-table-read.mp3",
+  "dur": 38.44,
+  "lufs": -16.0,
+  "gaps": {
+   "1": 3.35,
+   "18": 0.2,
+   "19": 0.15,
+   "20": 0.15,
+   "21": 0.15,
+   "22": 0.15,
+   "23": 1.2,
+   "24": 0.12,
+   "25": 0.35,
+   "26": 0.15,
+   "27": 0.1,
+   "28": 0.2,
+   "29": 3,
+   "30": 0.2,
+   "31": 3.85,
+   "32": 0.45
+  },
+  "cues": [
+   {
+    "n": 1,
+    "at": 0.04,
+    "speech": [
+     0.1,
+     1.98
+    ]
+   },
+   {
+    "n": 18,
+    "at": 5.3,
+    "speech": [
+     5.33,
+     7.115
+    ]
+   },
+   {
+    "n": 19,
+    "at": 7.26,
+    "speech": [
+     7.315,
+     8.69
+    ]
+   },
+   {
+    "n": 20,
+    "at": 8.78,
+    "speech": [
+     8.84,
+     10.06
+    ]
+   },
+   {
+    "n": 21,
+    "at": 10.15,
+    "speech": [
+     10.21,
+     10.85
+    ]
+   },
+   {
+    "n": 22,
+    "at": 10.94,
+    "speech": [
+     11.0,
+     12.19
+    ]
+   },
+   {
+    "n": 23,
+    "at": 12.3,
+    "speech": [
+     12.34,
+     13.32
+    ]
+   },
+   {
+    "n": 24,
+    "at": 14.46,
+    "speech": [
+     14.52,
+     15.895
+    ]
+   },
+   {
+    "n": 25,
+    "at": 15.955,
+    "speech": [
+     16.015,
+     16.71
+    ]
+   },
+   {
+    "n": 26,
+    "at": 17.035,
+    "speech": [
+     17.06,
+     19.095
+    ]
+   },
+   {
+    "n": 27,
+    "at": 19.185,
+    "speech": [
+     19.245,
+     20.23
+    ]
+   },
+   {
+    "n": 28,
+    "at": 20.31,
+    "speech": [
+     20.33,
+     22.525
+    ]
+   },
+   {
+    "n": 29,
+    "at": 22.665,
+    "speech": [
+     22.725,
+     23.59
+    ]
+   },
+   {
+    "n": 30,
+    "at": 26.53,
+    "speech": [
+     26.59,
+     28.84
+    ]
+   },
+   {
+    "n": 31,
+    "at": 28.98,
+    "speech": [
+     29.04,
+     30.27
+    ]
+   },
+   {
+    "n": 32,
+    "at": 34.115,
+    "speech": [
+     34.12,
+     35.39
+    ]
+   },
+   {
+    "n": 33,
+    "at": 35.78,
+    "speech": [
+     35.84,
+     38.14
+    ]
+   }
+  ],
+  "sfx": []
+ }
+}
