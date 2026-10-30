@@ -66,7 +66,7 @@ The working order Ross set on 2026-10-19, and the decisions behind each step. Ea
 - Follows: 0 on all six. The account has 11 followers.
 
 ## 1. Script (Ross approves)
-- Write it with the `screenwriting` skill (skills/screenwriting, 10-20: engine, structure, comedy mechanics, a test room of subagents, code-drawn shots by default). Write `docs/s1eNN-<slug>.md`: a shot table (# / s / Shot / Sound or line), the lines in English, the director's notes. Mark Claude's additions until Ross approves them.
+- Write it with the `screenwriting` skill (.claude/skills/screenwriting, 10-20: engine, structure, comedy mechanics, a test room of subagents, code-drawn shots by default). Write `docs/s1eNN-<slug>.md`: a shot table (# / s / Shot / Sound or line), the lines in English, the director's notes. Mark Claude's additions until Ross approves them.
 - Optional: `node scripts/writers-room.mjs <episode>` runs a premise through beats, critics and rewrites on API credits (`docs/pitches/<episode>.md` in).
 - Check before sending:
   - 40–50 s (see "What the numbers say");

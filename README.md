@@ -14,6 +14,8 @@ Short South Park-style cartoon reels, 20 to 30 seconds, 1080 x 1920, made on one
 
 *The finished reel as a contact sheet: 29 shots in 29.5 s, a still from each.*
 
+Open this folder in Claude Code: CLAUDE.md gives it the map and the first-run steps, and the two skills load from `.claude/skills/`.
+
 This is the working repo of a series of cartoons about running a small business, made for GetPhantom's Instagram and TikTok. The code of every episode, from the pilot to x20, is in `src/` and `scripts/`, and each one is a worked example. It is a record of how we made them and a base to copy from. It is not a packaged tool: a new episode means new files, written on the pattern of the last one. [docs/x20-one-coffee.md](docs/x20-one-coffee.md) follows one episode from the topic to the finished render, with the script, the test room, the shot list, the build notes and the checks.
 
 The characters are original. The look is a paper cut-out style close to South Park's, and nothing here uses the show's characters, logos or fonts. The project has no connection to South Park or its makers.
@@ -45,7 +47,7 @@ PY_WANGP=C:/path/to/Wan2GP/env_uv/Scripts/python.exe   # WanGP's own Python
 
 ### 1. Script and test room
 
-Write the screenplay with the screenwriting skill ([skills/screenwriting](skills/screenwriting/SKILL.md)). To use the skills in Claude Code, copy `skills/screenwriting` and `skills/humanizer` into `~/.claude/skills/`. Read [docs/format.md](docs/format.md) first, then [docs/bible.md](docs/bible.md) and [docs/reel-rules.md](docs/reel-rules.md). The result is `docs/<ep>-<slug>.md` with the screenplay, three hooks, the beats and a shot list on the voices' clock. We run the text we write through the humanizer skill to strip AI-sounding patterns. The rules for the cartoon lines themselves are in docs/bible.md.
+Write the screenplay with the screenwriting skill ([.claude/skills/screenwriting](.claude/skills/screenwriting/SKILL.md)). Claude Code loads both skills from `.claude/skills/` when you open this folder. Read [docs/format.md](docs/format.md) first, then [docs/bible.md](docs/bible.md) and [docs/reel-rules.md](docs/reel-rules.md). The result is `docs/<ep>-<slug>.md` with the screenplay, three hooks, the beats and a shot list on the voices' clock. We run the text we write through the humanizer skill to strip AI-sounding patterns. The rules for the cartoon lines themselves are in docs/bible.md.
 
 Then run the test room ([prompts/test-room.md](prompts/test-room.md)): five cheap readers get only the script and answer a few questions. At most two rounds. The readers show whether a beat reads. They do not pick the peak.
 
@@ -171,7 +173,7 @@ episodes/   one .jsonc per episode: lines, voice directions, picked takes, gaps
 docs/       the rules (format, bible, reel-rules, production) and two worked examples (x19, x20)
   img/      the pictures on this page
 prompts/    the three subagent briefs: test-room.md, art-agent.md, build-agent.md
-skills/     screenwriting (a Claude Code skill) and humanizer (MIT, Siqi Chen)
+.claude/skills/  screenwriting and humanizer (MIT, Siqi Chen), loaded by Claude Code in this folder
 public/     only the small timings.json and edit.json files that src/ imports
 ```
 
@@ -269,6 +271,6 @@ Our own code and docs are MIT, see [LICENSE](LICENSE). The pieces below keep the
 - [WanGP](https://github.com/deepbeepmeep/Wan2GP) is under the WanGP Community License 2.0. You may use it for free, including inside a company, and you may sell the outputs. You are asked to credit WanGP when you directly sell or license an output. You may not sell WanGP itself or offer hosted access to it. Models run by WanGP keep their own licenses.
 - Qwen Image 2.1 is published by the Qwen team under the Qwen Research License Agreement (dated 2026-09-20, the model card is tagged `qwen-research`). The license text grants rights for non-commercial purposes only, defined as research or evaluation, and requires a separate license from the Qwen team for any commercial purpose. It says little about the outputs. If you post the pictures for a business, read the license at https://huggingface.co/Qwen/Qwen-Image-2.1 and settle it before you post. Qwen-Image-2512 and the original Qwen-Image (both 20B) are under Apache 2.0, and WanGP runs both (`qwen_image_2512_20B`, `qwen_image_20B`); they are heavier on a 12 GB card than the 7B Turbo.
 - ElevenLabs: whether you may use voices, sound effects and music commercially depends on your plan. Check their terms.
-- [skills/humanizer](skills/humanizer/SKILL.md): MIT, copyright Siqi Chen, license file included. It is based on Wikipedia's "Signs of AI writing".
+- [.claude/skills/humanizer](.claude/skills/humanizer/SKILL.md): MIT, copyright Siqi Chen, license file included. It is based on Wikipedia's "Signs of AI writing".
 - [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills): MIT. The screenwriting skill points to it for three.js reference. Its files are not copied here.
 - The screenwriting skill was assembled from ideas in [jtydhr88/screenwriting-skills](https://github.com/jtydhr88/screenwriting-skills) (MIT), [talsraviv/comedy-writers-room](https://github.com/talsraviv/comedy-writers-room) (that repo has no license file: the test room uses its idea of writer and audience subagents, and you should ask its author before you reuse anything beyond the idea) and the "screenwriter" and "threejs-builder" skills from mcpmarket.com (their licenses were not checked).
